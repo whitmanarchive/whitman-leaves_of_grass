@@ -1,0 +1,12 @@
+default:
+  shortname: whitman-leavesofgrass
+  collection: whitman
+  site_url: https://whitmanarchive.org
+
+development:
+  es_path: https://whitman-dev.unl.edu/elastic
+  es_index: api_v1
+  site_url: https://whitman-dev.unl.edu
+
+production:
+  site_url: https://whitmanarchive.org
