@@ -90,7 +90,7 @@ class TeiToEs < XmlToEs
   end
 
   def source
-    s_title = get_text(@xpaths["source"]["title"]["main"])
+    s_title = get_text(@xpaths["source"]["title"])
     s_date = get_text(@xpaths["source"]["date"])
     "#{s_title} (#{s_date})"
   end

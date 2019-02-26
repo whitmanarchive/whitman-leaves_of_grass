@@ -17,9 +17,21 @@ class TeiToEsPoem < TeiToEs
   end
 
   def title
-    label = get_text(@xpaths["title"]["main"])
-    label = "#{label} (#{@year})" if @year
-    label
+    if @id == "ppp.00271"
+      # grab the first 7 words in the fisrt line of the poem, since there
+      # are no poem titles in this edition
+      line = @xml.at_xpath(".//l")
+      if line
+        opening = line.text.split(" ")[0..6].join(" ")
+        "Leaves of Grass, \"#{opening}\", #{@year}"
+      else
+        "Leaves of Grass, Untitled Poem, #{@year}"
+      end
+    else
+      # majority of editions simply grab identified poem title
+      label = get_text(@xpaths["title"]["main"])
+      "#{label} (#{@year})" if @year
+    end
   end
 
   def uri
