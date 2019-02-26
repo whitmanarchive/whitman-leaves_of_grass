@@ -8,10 +8,13 @@ class TeiToEsOther < TeiToEs
   def assemble_identifiers
     file_id = @id
     # TODO might need to check that this is the ONLY of its type in the document
-    @section_type = @xml["type"] || @xml.name
+    type = @xml["type"]
+    num = @xml["n"]
+    ele_name = @xml.name
+
+    @section_type = type || ele_name
+    @section_type << ".#{num}" if num
     @json["identifier"] = "#{file_id}.#{@section_type}"
-    # TODO maybe leave this in here, because it's nice to see
-    # that something is happening
   end
 
   def keywords
@@ -19,7 +22,9 @@ class TeiToEsOther < TeiToEs
   end
 
   def title
-    label = "#{@section_type.capitalize} (#{@year})"
+    authorial = get_text(@xpaths["title"]["other_content"], false, @xml)
+    section = @section_type.capitalize[/[A-Za-z ]+/]
+    CommonXml.normalize_space("#{section}, #{authorial} (#{@year})")
   end
 
   def uri

@@ -17,7 +17,7 @@ class TeiToEsPoem < TeiToEs
   end
 
   def title
-    label = get_text(@xpaths["title"])
+    label = get_text(@xpaths["title"]["main"])
     label = "#{label} (#{@year})" if @year
     label
   end

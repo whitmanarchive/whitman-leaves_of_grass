@@ -6,7 +6,8 @@ class FileTei < FileType
       "//epigraph" => TeiToEsOther,
       "//div1[@type='essay']" => TeiToEsOther,
       "//titlePart[@type='imprimatur']" => TeiToEsOther,
-      "//lg[@type='poem' and @id]" => TeiToEsPoem
+      "//div3[@type='letter' or @type='article']" => TeiToEsOther,
+      "//lg[@type='poem' and @id and contains(@id, 'ppp')]" => TeiToEsPoem
     }
   end
 

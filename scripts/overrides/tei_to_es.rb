@@ -29,7 +29,10 @@ class TeiToEs < XmlToEs
         "title" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/title",
         "date" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date"
       },
-      "title" => "head[@type='main-authorial']",
+      "title" => {
+        "main" => "head[@type='main-authorial']",
+        "other_content" => "head[@type='main-authorial']/bibl/publisher"
+      },
       "text" => "."
     }
   end
@@ -54,13 +57,12 @@ class TeiToEs < XmlToEs
   end
 
   def date_not_after
-    datestr = get_text(@xpaths["dates"]["not_after"])
-    CommonXml.date_standardize(datestr, false)
+    dates = @xml.xpath(@xpaths["dates"]["not_after"], @xpaths["dates"]["default"])
+    CommonXml.date_standardize(dates.first.text, false) if dates.first
   end
 
   def date_not_before
-    datestr = get_text(@xpaths["dates"]["not_before"])
-    CommonXml.date_standardize(datestr, true)
+    date
   end
 
   # TODO will language always be english?
@@ -75,11 +77,20 @@ class TeiToEs < XmlToEs
   def publisher
     pub = get_text(@xpaths["publisher"]["name"])
     loc = get_text(@xpaths["publisher"]["place"])
-    "#{pub}, #{loc}"
+    [pub, loc].reject(&:empty?).join(", ")
+  end
+
+  def rights
+  end
+
+  def rights_uri
+  end
+
+  def rights_holder
   end
 
   def source
-    s_title = get_text(@xpaths["source"]["title"])
+    s_title = get_text(@xpaths["source"]["title"]["main"])
     s_date = get_text(@xpaths["source"]["date"])
     "#{s_title} (#{s_date})"
   end
