@@ -99,4 +99,21 @@ class TeiToEs < XmlToEs
     "Leaves of Grass"
   end
 
+  def text
+    resulting_text = []
+    resulting_text += text_additional
+    # TODO this needs to use traverse to avoid abutting xml tags
+    # and insert spaces, but will need to work on the hi replacement
+    # below to make sure it isn't replacing the hi node with another
+    # type of child node instead
+
+    # create a duplicate version of the @xml to avoid altering it
+    section_xml = Nokogiri::XML.parse(@xml.at_xpath(".").to_xml)
+    # need to remove "<hi rend='smallcaps'>" type tags to put back together words
+    # like L<hi>EAVES OF</hi> G<hi>RASS</hi> => LEAVES OF GRASS
+    section_xml.xpath("//hi").each {|hi| hi.replace(hi.children)}
+    resulting_text << CommonXml.normalize_space(section_xml.text)
+    CommonXml.normalize_space(resulting_text.join(" "))
+  end
+
 end
