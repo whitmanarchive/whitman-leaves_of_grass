@@ -75,9 +75,13 @@ class TeiToEs < XmlToEs
   end
 
   def publisher
-    pub = get_text(@xpaths["publisher"]["name"])
-    loc = get_text(@xpaths["publisher"]["place"])
-    [pub, loc].reject(&:empty?).join(", ")
+    if @id == "ppp.00271"
+      "No Publisher"
+    else
+      pub = get_text(@xpaths["publisher"]["name"])
+      loc = get_text(@xpaths["publisher"]["place"])
+      [pub, loc].reject(&:empty?).join(", ")
+    end
   end
 
   def rights
