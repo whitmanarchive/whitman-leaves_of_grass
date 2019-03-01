@@ -61,7 +61,7 @@ class TeiToEsPoem < TeiToEs
 
     end
 
-    label = label.titleize
+    label = label.downcase.titleize
     @year ? "#{label} (#{@year})" : label
   end
 
