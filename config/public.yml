@@ -1,9 +1,10 @@
 default:
   shortname: whitman-leaves_of_grass
-  collection: whitman
+  collection: whitman-leaves_of_grass
   site_url: https://whitmanarchive.org
 
 development:
+  data_base: https://whitman-dev.unl.edu/media
   es_path: https://whitman-dev.unl.edu/elastic
   es_index: api_v1
   site_url: https://whitman-dev.unl.edu

@@ -25,6 +25,8 @@ class TeiToEs < XmlToEs
         "name" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/publisher",
         "place" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/pubPlace"
       },
+      "rights" => "//publicationStmt/availability",
+      "rights_uri" => "//publicationStmt/availability//ref/@target",
       "source" => {
         "title" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/title",
         "date" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date"
@@ -85,9 +87,11 @@ class TeiToEs < XmlToEs
   end
 
   def rights
+    get_text(@xpaths["rights"])
   end
 
   def rights_uri
+    get_text(@xpaths["rights_uri"])
   end
 
   def rights_holder
