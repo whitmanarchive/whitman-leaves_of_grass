@@ -51,7 +51,7 @@ class TeiToEs < XmlToEs
 
   def date
     dates = @xml.xpath(@xpaths["dates"]["not_before"], @xpaths["dates"]["default"])
-    CommonXml.date_standardize(dates.first.text, true) if dates.first
+    Datura::Helpers.date_standardize(dates.first.text, true) if dates.first
   end
 
   def date_display
@@ -60,7 +60,7 @@ class TeiToEs < XmlToEs
 
   def date_not_after
     dates = @xml.xpath(@xpaths["dates"]["not_after"], @xpaths["dates"]["default"])
-    CommonXml.date_standardize(dates.first.text, false) if dates.first
+    Datura::Helpers.date_standardize(dates.first.text, false) if dates.first
   end
 
   def date_not_before
@@ -120,8 +120,8 @@ class TeiToEs < XmlToEs
     # need to remove "<hi rend='smallcaps'>" type tags to put back together words
     # like L<hi>EAVES OF</hi> G<hi>RASS</hi> => LEAVES OF GRASS
     section_xml.xpath("//hi").each {|hi| hi.replace(hi.children)}
-    resulting_text << CommonXml.normalize_space(section_xml.text)
-    CommonXml.normalize_space(resulting_text.join(" "))
+    resulting_text << Datura::Helpers.normalize_space(section_xml.text)
+    Datura::Helpers.normalize_space(resulting_text.join(" "))
   end
 
 end

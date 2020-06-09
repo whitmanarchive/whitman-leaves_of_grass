@@ -24,7 +24,7 @@ class TeiToEsOther < TeiToEs
   def title
     authorial = get_text(@xpaths["title"]["other_content"], false, @xml)
     section = @section_type.capitalize[/[A-Za-z ]+/]
-    CommonXml.normalize_space("#{section}, #{authorial} (#{@year})")
+    Datura::Helpers.normalize_space("#{section}, #{authorial} (#{@year})")
   end
 
   def uri
