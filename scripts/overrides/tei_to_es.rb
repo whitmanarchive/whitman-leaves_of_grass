@@ -89,6 +89,7 @@ class TeiToEs < XmlToEs
   end
 
   def person
+    []
   end
 
   def places
