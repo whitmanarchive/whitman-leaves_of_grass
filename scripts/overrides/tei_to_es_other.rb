@@ -28,7 +28,7 @@ class TeiToEsOther < TeiToEs
     if @section_label == "Review"
       review_title = get_text(@xpaths["title"]["article"])
       newspaper = get_text(@xpaths["title"]["newspaper"])
-      "#{@sectino_label}. \"#{review_title},\" #{newspaper} (#{edition}, #{@year})"
+      "#{@section_label}: \"#{review_title},\" #{newspaper} (#{edition}, #{@year})"
     else
       "#{@section_label}. #{edition} (#{@year})"
     end
