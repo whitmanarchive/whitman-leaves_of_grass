@@ -20,11 +20,6 @@ class TeiToEsPoem < TeiToEs
     line.text.split(" ")[0..6].join(" ") if line
   end
 
-  def keywords
-    # TODO adding in order to have way to discern types of content for LoG
-    [ "poem" ]
-  end
-
   def title
 
     # majority of editions simply grab identified poem title
@@ -63,6 +58,10 @@ class TeiToEsPoem < TeiToEs
 
     label = label.downcase.titleize
     @year ? "#{label} (#{@year})" : label
+  end
+
+  def topics
+    [ "Poem" ]
   end
 
   def uri

@@ -14,17 +14,28 @@ class TeiToEsOther < TeiToEs
 
     @section_type = type || ele_name
     @section_type << ".#{num}" if num
+    @section_label = @section_type.capitalize[/[A-Za-z ]+/]
+    # articles are actually reviews, so just display them that way
+    if @section_label == "Article"
+      @section_label = "Review"
+    end
     @json["identifier"] = "#{file_id}.#{@section_type}"
   end
 
-  def keywords
-    [ "supporting_content" ]
+  def title
+    edition = get_text(@xpaths["title"]["edition"])
+
+    if @section_label == "Review"
+      review_title = get_text(@xpaths["title"]["article"])
+      newspaper = get_text(@xpaths["title"]["newspaper"])
+      "#{@sectino_label}. \"#{review_title},\" #{newspaper} (#{edition}, #{@year})"
+    else
+      "#{@section_label}. #{edition} (#{@year})"
+    end
   end
 
-  def title
-    authorial = get_text(@xpaths["title"]["other_content"], false, @xml)
-    section = @section_type.capitalize[/[A-Za-z ]+/]
-    Datura::Helpers.normalize_space("#{section}, #{authorial} (#{@year})")
+  def topics
+    [ @section ]
   end
 
   def uri

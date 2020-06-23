@@ -14,6 +14,7 @@ class TeiToEs < XmlToEs
         "/TEI/teiHeader/fileDesc/titleStmt/editor",
         "/TEI/teiHeader/fileDesc/titleStmt/respStmt/persName"
       ],
+      "creator" => "//sourceDesc/biblStruct/monogr/author",
       "dates" => {
         "not_before" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date/@from",
         "not_after" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date/@to",
@@ -21,22 +22,27 @@ class TeiToEs < XmlToEs
         "default" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date/@when"
       },
       "image_id" => ["./preceding-sibling::pb/@facs", "./parent::node()/preceding-sibling::pb/@facs"],
-      "publisher" => {
-        "name" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/publisher",
-        "place" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/pubPlace"
-      },
+      "publisher" => "//biblStruct/monogr/imprint/publisher",
       "rights" => "//publicationStmt/availability",
+      "rights_holder" => "//publicationStmt/distributor",
       "rights_uri" => "//publicationStmt/availability//ref/@target",
       "source" => {
-        "title" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/title",
-        "date" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date"
+        "date" => "//biblStruct/monogr/imprint/date",
+        "publisher" => "//biblStruct/monogr/imprint/publisher",
+        "pubplace" => "//biblStruct/monogr/imprint/pubPlace",
+        "title" => "//biblStruct/monogr/title",
       },
       "title" => {
         "main" => "head[@type='main-authorial']",
-        "other_content" => "head[@type='main-authorial']/bibl/publisher"
+        "edition" => "//sourceDesc/biblStruct/monogr/title",
+        "article" => "head/title",
+        "newspaper" => "head[@type='main-authorial']/bibl/publisher"
       },
       "text" => "."
     }
+  end
+
+  def annotations_text
   end
 
   def category
@@ -67,7 +73,13 @@ class TeiToEs < XmlToEs
     date
   end
 
-  # TODO will language always be english?
+  def format
+    # TODO
+  end
+
+  def keywords
+  end
+
   def language
     "en"
   end
@@ -76,14 +88,13 @@ class TeiToEs < XmlToEs
     ["en"]
   end
 
-  def publisher
-    if @id == "ppp.00271"
-      "No Publisher"
-    else
-      pub = get_text(@xpaths["publisher"]["name"])
-      loc = get_text(@xpaths["publisher"]["place"])
-      [pub, loc].reject(&:empty?).join(", ")
-    end
+  def person
+  end
+
+  def places
+  end
+
+  def recipient
   end
 
   def rights
@@ -95,12 +106,18 @@ class TeiToEs < XmlToEs
   end
 
   def rights_holder
+    get_text(@xpaths["rights_holder"])
   end
 
   def source
-    s_title = get_text(@xpaths["source"]["title"])
     s_date = get_text(@xpaths["source"]["date"])
-    "#{s_title} (#{s_date})"
+    s_publ = get_text(@xpaths["source"]["publisher"])
+    s_pubp = get_text(@xpaths["source"]["pubplace"])
+    s_title = get_text(@xpaths["source"]["title"])
+
+    s = "#{s_title}. #{s_pubp}"
+    s = "#{s}: #{s_publ}" if s_publ && !s_publ.empty?
+    s = "#{s}, #{s_date}" if s_date && !s_date.empty?
   end
 
   def subcategory
@@ -122,6 +139,9 @@ class TeiToEs < XmlToEs
     section_xml.xpath("//hi").each {|hi| hi.replace(hi.children)}
     resulting_text << Datura::Helpers.normalize_space(section_xml.text)
     Datura::Helpers.normalize_space(resulting_text.join(" "))
+  end
+
+  def works
   end
 
 end
