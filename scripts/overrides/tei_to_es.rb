@@ -23,9 +23,7 @@ class TeiToEs < XmlToEs
       },
       "image_id" => ["./preceding-sibling::pb/@facs", "./parent::node()/preceding-sibling::pb/@facs"],
       "publisher" => "//biblStruct/monogr/imprint/publisher",
-      "rights" => "//publicationStmt/availability",
       "rights_holder" => "//publicationStmt/distributor",
-      "rights_uri" => "//publicationStmt/availability//ref/@target",
       "source" => {
         "date" => "//biblStruct/monogr/imprint/date",
         "publisher" => "//biblStruct/monogr/imprint/publisher",
@@ -96,18 +94,6 @@ class TeiToEs < XmlToEs
   end
 
   def recipient
-  end
-
-  def rights
-    get_text(@xpaths["rights"])
-  end
-
-  def rights_uri
-    get_text(@xpaths["rights_uri"])
-  end
-
-  def rights_holder
-    get_text(@xpaths["rights_holder"])
   end
 
   def source
