@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.01500">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.01500">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="m" type="main">
-               <hi rend="italic">Leaves of Grass</hi> (1860&#8211;1861)</title>
+               <hi rend="italic">Leaves of Grass</hi> (1860–1861)</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author xml:id="ww">Walt Whitman, 1819-1892</author>
             <editor role="general">Ed Folsom</editor>
@@ -33,7 +30,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>ppp.01500</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,7 +42,7 @@
             <availability>
                <p>The text of the original item is in the public domain.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of this material should credit the <title level="m">Walt Whitman Archive</title>.</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>ppp.01500</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -54,7 +51,7 @@
                <imprint>
                   <pubPlace>Boston</pubPlace>
                   <publisher>Thayer and Eldridge</publisher>
-                  <date from="1860" to="1861">1860&#8211;1861</date>
+                  <date from="1860" to="1861">1860–1861</date>
                </imprint>
                </monogr>
             </biblStruct>
@@ -69,12 +66,12 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of Price's copy.</p>
       </encodingDesc>
       <revisionDesc>
-         <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1860&#8211;61" to "1860&#8211;1861"</change>
+         <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1860–61" to "1860–1861"</change>
          <change who="#nhg" when="2018-05-21">brought encoding of milestones, smallcaps, and fw into alignment with other LG editions</change>
          <change who="#bb" when="2018-01-22">corrected problem with line-end hyphenation in linegroup 9 of "Salut Au Monde!"</change>
          <change who="#el" when="2017-01-05">supplied missing ae ligature in "Kosmos"</change>
          <change who="#el" when="2015-07-02">updated funder and sponsor information in TEI header</change>
-         <change when="2015-05-07" who="#el">added &#8211;61 to date in sourceDesc and titleStmt, to reflect title page</change>
+         <change when="2015-05-07" who="#el">added –61 to date in sourceDesc and titleStmt, to reflect title page</change>
          <change when="2015-05-05" who="#el">updated TEI header</change>
          <change who="#el" when="2015-01-26">converted to P5</change>
          <change who="#el" when="2013-01-04">corrected type in line three of "With Antecedents" to read "would not now be here" instead of "would not now be hero"</change>
@@ -103,7 +100,7 @@
          <pb xml:id="leaf005r" type="recto" facs="ppp.01500.009.jpg"/>
          
          <titlePage>
-            <docTitle><titlePart type="main" rend="center">Leaves<lb />of<lb />Grass.</titlePart></docTitle>
+            <docTitle><titlePart type="main" rend="center">Leaves<lb/>of<lb/>Grass.</titlePart></docTitle>
             
             <docImprint>
                <milestone unit="undeclared" rend="horbar-short-center"/><!--Ornament-->
@@ -121,7 +118,7 @@
                
                <docImprint>ELECTROTYPED AT THE BOSTON STEREOTYPE FOUNDRY.</docImprint> 
                
-               <docImprint>PRINTED BY GEORGE C. RAND &#38; AVERY.</docImprint>
+               <docImprint>PRINTED BY GEORGE C. RAND &amp; AVERY.</docImprint>
          </titlePage>
          
          <pb xml:id="leaf006r" type="recto" n="iii" facs="ppp.01500.011.jpg"/>
@@ -131,7 +128,7 @@
             <milestone unit="undeclared" rend="horbar-short-center"/><!--Ornament-->
                <table>
                   <row>
-                     <cell></cell>
+                     <cell/>
                      <cell>PAGE</cell>
                   </row>
                <row>
@@ -141,7 +138,7 @@
                   <cell>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi> . . . . . . . . . . . . . . . . . . . . . . . . .</cell><cell>23 . . . . . 104</cell>
                </row>
                <row>
-                  <cell>CHANTS DEMOCRATIC</cell><cell></cell>
+                  <cell>CHANTS DEMOCRATIC</cell><cell/>
                </row>
                   <row>
                      <cell>and Native American <hi rend="italic">Numbers</hi> 1 . . <hi rend="italic">to</hi> . . 21 . . . .</cell><cell>105 . . . . . 194</cell>
@@ -188,9 +185,9 @@
                </table>
                <table>
                <row>
-                  <cell>MESSENGER LEAVES.</cell><cell></cell><cell></cell><cell></cell>
+                  <cell>MESSENGER LEAVES.</cell><cell/><cell/><cell/>
                </row>
-                  <row><cell></cell><cell>PAGE</cell><cell></cell><cell>PAGE</cell></row>
+                  <row><cell/><cell>PAGE</cell><cell/><cell>PAGE</cell></row>
                <row>
                   <cell>To You, Whoever You Are . . . . .</cell><cell>391</cell><cell>To a Cantatrice . . . . . . . . . . .</cell><cell> 401</cell>
                </row>
@@ -213,18 +210,18 @@
                   <cell>To a Pupil . . . . . . . . . . . . .</cell><cell>400</cell><cell>To You . . . . . . . . . . .</cell><cell>403</cell>
                </row>
                <row>
-                  <cell>To The States, to Identify the 16th, 17th, or 18th Presidentiad . . .</cell><cell>400</cell><cell></cell><cell></cell>
+                  <cell>To The States, to Identify the 16th, 17th, or 18th Presidentiad . . .</cell><cell>400</cell><cell/><cell/>
                </row>
             </table>
             
             
             
-            <pb xml:id="leaf006v" type="verso" n="iv" facs="ppp.01500.012.jpg" />
+            <pb xml:id="leaf006v" type="verso" n="iv" facs="ppp.01500.012.jpg"/>
             
             <p>
                <table>
                   <row>
-                     <cell></cell>
+                     <cell/>
                      <cell>PAGE</cell>
                   </row>
                   <row>
@@ -12330,7 +12327,7 @@ ceremonious?</l>
             <l>Who is the amplitude of the earth, and the coarseness <lb/>and sexuality of the earth, and the great charity <lb/>of the earth, and the equilibrium also,</l>
             <l>Who has not looked forth from the windows, the eyes, <lb/>for nothing, or whose brain held audience with <lb/>messengers for nothing;</l>
             <l>Who contains believers and disbelievers—Who is the <lb/>most majestic lover;</l>
-            <l>Who holds duly his or her triune proportion of realism, <lb/>spiritualism, and of the &#230;sthetic, or intellectual,</l>
+            <l>Who holds duly his or her triune proportion of realism, <lb/>spiritualism, and of the æsthetic, or intellectual,</l>
             <l>Who, having considered the body, finds all its organs <lb/>and parts good;</l>
             <l>Who, out of the theory of the earth, and of his or her <lb/>body, understands by subtle analogies, the theory <lb/>of a city, a poem, and of the large politics of <lb/>These States;</l>
 
