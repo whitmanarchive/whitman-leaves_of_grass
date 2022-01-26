@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00707">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00707">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="m" type="main">
-               <hi rend="italic">Leaves of Grass</hi> (1891&#8211;1892)</title>
+               <hi rend="italic">Leaves of Grass</hi> (1891–1892)</title>
             <title level="m" type="sub">a machine readable transcription</title>
-            <author>Whitman, Walt, 1819&#8211;1892</author>
+            <author>Whitman, Walt, 1819–1892</author>
             <editor role="general">Ed Folsom</editor>
             <editor role="general">Kenneth M. Price</editor>
             <respStmt>
@@ -36,7 +33,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>ppp.00707</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -48,7 +45,7 @@
             <availability>
                <p>The text of the original item is in the public domain.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of this material should credit the <title level="m">Walt Whitman Archive</title>.</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>ppp.00707</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -57,7 +54,7 @@
                   <imprint>
                      <pubPlace>Philadelphia</pubPlace>
                      <publisher>David McKay</publisher>
-                     <date from="1891" to="1892">1891&#8211;1892</date>
+                     <date from="1891" to="1892">1891–1892</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -73,7 +70,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
-         <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1891&#8211;92" to "1891&#8211;1892"</change>
+         <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1891–92" to "1891–1892"</change>
          <change who="#bb" when="2019-02-22">corrected several reg tags for "Kanada"</change>
          <change who="#bb" when="2019-01-30">corrected a typo on page 224</change>
          <change who="#bb" when="2018-07-27">corrected encoding of subhead on "An Old Man's Thought of School"; corrected smallcaps in the first word of "An Ended Day"; removed erroneous italicization in the title of "Mirages"</change>
@@ -140,7 +137,7 @@
                      <l>There to some group of mates the chants resuming,</l>
                      <l>(Tallying Earth's soil, trees, winds, tumultuous waves,)</l>
                      <l>Ever with pleas'd smile I may keep on,</l>
-                     <l>Ever and ever yet the verses owning&#8212;as, first, I here and now,</l>
+                     <l>Ever and ever yet the verses owning—as, first, I here and now,</l>
                      <l>Signing for Soul and Body, set to them my name,</l>
                      <signed>Walt Whitman</signed>
                   </lg>
@@ -157,17 +154,17 @@
                   <milestone unit="undeclared" rend="horbar-short-center"/>
                   
                   <list>
-                     <item>1st ed'n 1855, Brooklyn (N. Y., South District)&#8212;renew'd (1883) 14 yrs.</item>
-                     <item>2d ed'n 1856, Brooklyn&#8212;renew'd (1884) 14 yrs.</item>
+                     <item>1st ed'n 1855, Brooklyn (N. Y., South District)—renew'd (1883) 14 yrs.</item>
+                     <item>2d ed'n 1856, Brooklyn—renew'd (1884) 14 yrs.</item>
                      <item>3d ed'n 1860, Boston, Thayer &amp; Eldridge Pub'rs.</item>
                      <item>4th ed'n 1867, N.Y., So. Dist.: Pub'd New York.</item>
                      <item>5th ed'n 1871, Washington, D. C.</item>
-                     <item>6th ed'n 1876&#8212;Centennial issue&#8212;inc'd'g T<hi rend="smallcaps">WO</hi> R<hi rend="smallcaps">IVULETS</hi>: two vols.</item>
+                     <item>6th ed'n 1876—Centennial issue—inc'd'g T<hi rend="smallcaps">WO</hi> R<hi rend="smallcaps">IVULETS</hi>: two vols.</item>
                      <item>7th ed'n 1881, Boston, Mass.: Osgood Pub.: [This includes in the present vol. pages 1 to 382.]</item>
                      <item>8th ed'n 1882, Philadelphia: McKay Pub'r.</item>
-                     <item>Sands at Seventy: Annex, 1888&#8212;November Boughs&#8212;Philadelphia.</item>
-                     <item>A Backward Glance, &amp;c.: November Boughs, 1888&#8212;Philadelphia.</item>
-                     <item>Good-Bye my Fancy: 2d Annex, 1891&#8212;Philadelphia.</item>
+                     <item>Sands at Seventy: Annex, 1888—November Boughs—Philadelphia.</item>
+                     <item>A Backward Glance, &amp;c.: November Boughs, 1888—Philadelphia.</item>
+                     <item>Good-Bye my Fancy: 2d Annex, 1891—Philadelphia.</item>
                   </list>
                </titlePart>
                
@@ -197,13 +194,13 @@
                      </body>
                   </floatingText>
                   
-                  <note type="authorial" place="inline">[Which last-named copyright (holding good to 1919&#8212;then, on application, continued 14 years further) expires May 19, 1933.]</note>
+                  <note type="authorial" place="inline">[Which last-named copyright (holding good to 1919—then, on application, continued 14 years further) expires May 19, 1933.]</note>
                   
                   <milestone unit="undeclared" rend="horbar-short-center"/>
                   
                   <floatingText type="letter">
                      <body>
-                        <p>&#9758; As there are now several editions of L. of G., different texts and dates, I wish to say that I prefer and recommend this present one, complete, for future printing, if there should be any; a copy and fac-simile, indeed, of the text of these 438 pages. The subsequent adjusting interval which is so important to form'd and launch'd work, books especially, has pass'd; and waiting till fully after that, I have given (pages 423-438) my concluding words.</p>
+                        <p>☞ As there are now several editions of L. of G., different texts and dates, I wish to say that I prefer and recommend this present one, complete, for future printing, if there should be any; a copy and fac-simile, indeed, of the text of these 438 pages. The subsequent adjusting interval which is so important to form'd and launch'd work, books especially, has pass'd; and waiting till fully after that, I have given (pages 423-438) my concluding words.</p>
                         <closer><signed>W. W.</signed></closer>
                      </body>
                   </floatingText>
@@ -248,7 +245,7 @@
                         <cell>11</cell>
                      </row>
                      <row>
-                        <cell rend="indent">E<hi rend="smallcaps">ID&#211;LONS</hi> . . . . . . . . . . . </cell>
+                        <cell rend="indent">E<hi rend="smallcaps">IDÓLONS</hi> . . . . . . . . . . . </cell>
                         <cell>12</cell>
                      </row>
                      <row>
@@ -764,7 +761,7 @@
                         </cell>
                      </row>
                      <row>
-                        <cell rend="indent">A B<hi rend="smallcaps">OSTON</hi> B<hi rend="smallcaps">ALLAD</hi>&#8212;1854 . . . . . . . </cell>
+                        <cell rend="indent">A B<hi rend="smallcaps">OSTON</hi> B<hi rend="smallcaps">ALLAD</hi>—1854 . . . . . . . </cell>
                         <cell>209</cell>
                      </row>
                      <row>
@@ -928,7 +925,7 @@
                         <cell><hi rend="smallcaps">PAGE</hi></cell>
                      </row>
                      <row>
-                        <cell rend="indent">V<hi rend="smallcaps">IRGINIA</hi>&#8212;<hi rend="smallcaps">THE</hi> W<hi rend="smallcaps">EST</hi> . . . . . . . . </cell>
+                        <cell rend="indent">V<hi rend="smallcaps">IRGINIA</hi>—<hi rend="smallcaps">THE</hi> W<hi rend="smallcaps">EST</hi> . . . . . . . . </cell>
                         <cell>230</cell>
                      </row>
                      <row>
@@ -1501,7 +1498,7 @@
                         <cell>366</cell>
                      </row>
                      <row>
-                        <cell rend="indent">F<hi rend="smallcaps">ROM</hi> F<hi rend="smallcaps">AR</hi> D<hi rend="smallcaps">AKOTA'S</hi> C<hi rend="smallcaps">A&#209;ONS</hi> (J<hi rend="smallcaps">UNE</hi> 25, 1876) . . . </cell>
+                        <cell rend="indent">F<hi rend="smallcaps">ROM</hi> F<hi rend="smallcaps">AR</hi> D<hi rend="smallcaps">AKOTA'S</hi> C<hi rend="smallcaps">AÑONS</hi> (J<hi rend="smallcaps">UNE</hi> 25, 1876) . . . </cell>
                         <cell>366</cell>
                      </row>
                      <row>
@@ -1602,7 +1599,7 @@
                         <cell>379</cell>
                      </row>
                      <row>
-                        <cell rend="indent">N<hi rend="smallcaps">OW</hi> F<hi rend="smallcaps">INAL&#200; TO THE</hi> S<hi rend="smallcaps">HORE</hi> . . . . . . . </cell>
+                        <cell rend="indent">N<hi rend="smallcaps">OW</hi> F<hi rend="smallcaps">INALÈ TO THE</hi> S<hi rend="smallcaps">HORE</hi> . . . . . . . </cell>
                         <cell>380</cell>
                      </row>
                      <row>
@@ -19235,7 +19232,7 @@
                      </row>
                      <row>
                         <cell>
-                           <hi rend="italic">(The Pilot in the Mist&#8212;Had I the Choice&#8212;You Tides With Ceaseless Swell&#8212;Last of Ebb, and Daylight Waning&#8212;And Yet Not You Alone&#8212;Proudly the Flood Comes In&#8212;By That Long Scan of Waves&#8212;Then Last of All.)</hi>
+                           <hi rend="italic">(The Pilot in the Mist—Had I the Choice—You Tides With Ceaseless Swell—Last of Ebb, and Daylight Waning—And Yet Not You Alone—Proudly the Flood Comes In—By That Long Scan of Waves—Then Last of All.)</hi>
                         </cell>
                      </row>
                      <row>
@@ -19662,11 +19659,7 @@
                   <l>Holding the universe with all its parts as one—as sailing in a ship?</l>
                </lg>
                <milestone unit="undeclared" rend="horbar-full"/>
-               <note type="authorial"
-                  place="bottom"
-                  target="r1"
-                  xml:id="n1"
-                  anchored="true">
+               <note type="authorial" place="bottom" target="r1" xml:id="n1" anchored="true">
                   *Navesink—a sea-side mountain, lower entrance of New York Bay.
                </note>
                <pb facs="ppp.00707.398.jpg" xml:id="leaf200v" n="390" type="verso"/>
@@ -20330,11 +20323,7 @@
                <l>Three hours of peace and soothing rest of brain.<ref target="n2" xml:id="r2">*</ref> 
                </l>
                <milestone unit="undeclared" rend="horbar-full"/>
-               <note type="authorial"
-                  place="bottom"
-                  xml:id="n2"
-                  anchored="true"
-                  target="r2">
+               <note type="authorial" place="bottom" xml:id="n2" anchored="true" target="r2">
                   *The two songs on this page are eked out during an afternoon, June, 1888, in my seventieth year, at a critical spell of illness. Of course no reader and probably no human being at any time will ever have such phases of emotional and solemn action as these involve to me. I feel them an end and close of all.
                </note>
             </lg>
@@ -20394,7 +20383,7 @@
                         <cell>Preface Note to 2d Annex, 407.</cell>
                      </row>
                      <row>
-                        <cell>Sail Out for Good, Eid&#243;lon Yacht, 409.</cell>
+                        <cell>Sail Out for Good, Eidólon Yacht, 409.</cell>
                      </row>
                      <row>
                         <cell>Lingering Last Drops, 409.</cell>
@@ -20492,22 +20481,22 @@
             <pb facs="ppp.00707.415.jpg" xml:id="leaf209r" n="407" type="recto"/>
             <div1 type="preface">
                <head type="main-authorial">PREFACE NOTE TO 2d ANNEX,</head>
-               <head type="sub"><hi rend="smallcaps">CONCLUDING</hi> L. <hi rend="smallcaps">OF</hi> G.&#8212;1891.</head>
-               <p>H<hi rend="smallcaps">ad</hi> I not better withhold (in this old age and paralysis of me) such little tags and fringe-dots (maybe specks, stains,) as follow a long dusty journey, and witness it afterward? I have probably not been enough afraid of careless touches, from the first&#8212;and am not now&#8212;nor of parrot-like repetitions&#8212;nor platitudes and the commonplace. Perhaps I am too democratic for such avoidances. Besides, is not the verse-field, as originally plann'd by my theory, now sufficiently illustrated&#8212;and full time for me to silently retire?&#8212;(indeed amid no loud call or market for my sort of poetic utterance.) </p>
-               <p>In answer, or rather defiance, to that kind of well-put interrogation, here comes this little cluster, and conclusion of my preceding clusters. Though not at all clear that, as here collated, it is worth printing (certainly I have nothing fresh to write)&#8212;I while away the hours of my 72d year&#8212;hours of forced confinement in my den&#8212;by putting in shape this small old age collation:</p>
+               <head type="sub"><hi rend="smallcaps">CONCLUDING</hi> L. <hi rend="smallcaps">OF</hi> G.—1891.</head>
+               <p>H<hi rend="smallcaps">ad</hi> I not better withhold (in this old age and paralysis of me) such little tags and fringe-dots (maybe specks, stains,) as follow a long dusty journey, and witness it afterward? I have probably not been enough afraid of careless touches, from the first—and am not now—nor of parrot-like repetitions—nor platitudes and the commonplace. Perhaps I am too democratic for such avoidances. Besides, is not the verse-field, as originally plann'd by my theory, now sufficiently illustrated—and full time for me to silently retire?—(indeed amid no loud call or market for my sort of poetic utterance.) </p>
+               <p>In answer, or rather defiance, to that kind of well-put interrogation, here comes this little cluster, and conclusion of my preceding clusters. Though not at all clear that, as here collated, it is worth printing (certainly I have nothing fresh to write)—I while away the hours of my 72d year—hours of forced confinement in my den—by putting in shape this small old age collation:</p>
                <lg type="poem">
                   <l>Last droplets of and after spontaneous rain,</l>
                   <l>From many limpid distillations and past showers;</l>
-                  <l>(Will they germinate anything? mere exhalations as they all are&#8212;<lb/>
-                     the land's and sea's&#8212;America's;</l>
+                  <l>(Will they germinate anything? mere exhalations as they all are—<lb/>
+                     the land's and sea's—America's;</l>
                   <l>Will they filter to any deep emotion? any heart and brain?)</l>
                </lg>
-               <p>However that may be, I feel like improving to-day's opportunity and wind up. During the last two years I have sent out, in the lulls of illness and exhaustion, certain chirps&#8212;lingering-dying ones probably (undoubtedly)&#8212;which now I may as well gather and put in fair type while able to see correctly&#8212;(for my eyes plainly warn me they are dimming, and my brain more and more palpably neglects or refuses, month after month, even slight tasks or revisions.) </p>
+               <p>However that may be, I feel like improving to-day's opportunity and wind up. During the last two years I have sent out, in the lulls of illness and exhaustion, certain chirps—lingering-dying ones probably (undoubtedly)—which now I may as well gather and put in fair type while able to see correctly—(for my eyes plainly warn me they are dimming, and my brain more and more palpably neglects or refuses, month after month, even slight tasks or revisions.) </p>
                <p>In fact, here I am these current years 1890 and '91, (each successive fortnight getting stiffer and stuck deeper) much like some hard-cased dilapidated grim ancient shell-fish or time-bang'd conch (no legs, utterly non-locomotive) cast up high and
                   <pb facs="ppp.00707.416.jpg" xml:id="leaf209v" n="408" type="verso"/>
-                  dry on the shore-sands, helpless to move anywhere&#8212;nothing left but behave myself quiet, and while away the days yet assign'd, and discover if there is anything for the said grim and time-bang'd conch to be got at last out of inherited good spirits and primal buoyant centre-pulses down there deep somewhere within his gray-blurr'd old shell . . . . . . . . . . . . (Reader, you must allow a little fun here&#8212;for one reason there are too many of the following poemets about death, &amp;c., and for another the passing hours (July 5, 1890) are so sunny-fine. And old as I am I feel to-day almost a part of some frolicsome wave, or for sporting yet like a kid or kitten&#8212;probably a streak of physical adjustment and perfection here and now. I believe I have it in me perennially anyhow.) </p>
+                  dry on the shore-sands, helpless to move anywhere—nothing left but behave myself quiet, and while away the days yet assign'd, and discover if there is anything for the said grim and time-bang'd conch to be got at last out of inherited good spirits and primal buoyant centre-pulses down there deep somewhere within his gray-blurr'd old shell . . . . . . . . . . . . (Reader, you must allow a little fun here—for one reason there are too many of the following poemets about death, &amp;c., and for another the passing hours (July 5, 1890) are so sunny-fine. And old as I am I feel to-day almost a part of some frolicsome wave, or for sporting yet like a kid or kitten—probably a streak of physical adjustment and perfection here and now. I believe I have it in me perennially anyhow.) </p>
                <p>Then behind all, the deep-down consolation (it is a glum one, but I dare not be sorry for the fact of it in the past, nor refrain from dwelling, even vaunting here at the end) that this late-years palsied old shorn and shell-fish condition of me is the indubitable
-                  outcome and growth, now near for 20 years along, of too overzealous, over-continued bodily and emotional excitement and action through the times of 1862, '3, '4 and '5, visiting and waiting on wounded and sick army volunteers, both sides, in campaigns or contests, or after them, or in hospitals or fields south of Washington City, or in that place and elsewhere&#8212;those hot, sad, wrenching times&#8212;the army volunteers, all States,&#8212;or North or South&#8212;the wounded, suffering, dying&#8212;the exhausting, sweating summers, marches, battles, carnage&#8212;those trenches hurriedly heap'd by the corpse-thousands, mainly unknown&#8212;Will the America of the future&#8212;will this vast rich Union ever realize what itself cost, back there after all?&#8212;those hecatombs of battle-deaths&#8212;Those times of which, O far-off reader, this whole book is indeed finally but a reminiscent memorial from thence by me to you?</p>
+                  outcome and growth, now near for 20 years along, of too overzealous, over-continued bodily and emotional excitement and action through the times of 1862, '3, '4 and '5, visiting and waiting on wounded and sick army volunteers, both sides, in campaigns or contests, or after them, or in hospitals or fields south of Washington City, or in that place and elsewhere—those hot, sad, wrenching times—the army volunteers, all States,—or North or South—the wounded, suffering, dying—the exhausting, sweating summers, marches, battles, carnage—those trenches hurriedly heap'd by the corpse-thousands, mainly unknown—Will the America of the future—will this vast rich Union ever realize what itself cost, back there after all?—those hecatombs of battle-deaths—Those times of which, O far-off reader, this whole book is indeed finally but a reminiscent memorial from thence by me to you?</p>
             </div1>
          </front>
          <body>
@@ -20553,11 +20542,7 @@
                <l>But 'tis not quite the time—The best of any man's word or say,</l>
                <l>Is when its proper place arrives—and for its meaning,</l>
                <l>I keep mine till the last.)</l>
-               <note type="authorial"
-                  place="bottom"
-                  target="r3"
-                  xml:id="n3"
-                  anchored="true">
+               <note type="authorial" place="bottom" target="r3" xml:id="n3" anchored="true">
                   <p>*Behind a Good-bye there lurks much of the salutation of another beginning—to me, Development, Continuity, Immortality, Transformation, are the chiefest life-meanings of Nature and Humanity, and are the <hi rend="italic">sine qua non</hi> of all facts, and each fact. </p>
                   <p>Why do folks dwell so fondly on the last words, advice, appearance, of the departing? Those last words are not samples of the best, which involve vitality at its full, and balance, and perfect control and scope. But they are valuable beyond measure to confirm and endorse the varied train, facts, theories and faith of the whole preceding life.</p>
                </note>
@@ -20632,11 +20617,7 @@
                <l>The pomp and hurried contest-glare and rush are done;</l>
                <l>Now triumph! transformation! jubilate!<ref target="n4" xml:id="r4">*</ref> 
                </l>
-               <note type="authorial"
-                  place="bottom"
-                  target="r4"
-                  xml:id="n4"
-                  anchored="true">
+               <note type="authorial" place="bottom" target="r4" xml:id="n4" anchored="true">
                   <p>*N<hi rend="smallcaps">OTE</hi>.—<hi rend="italic">Summer country life.—Several years.</hi>—In my rambles and explorations I found a woody place near the creek, where for some reason the birds in happy mood seem'd to resort in unusual numbers. Especially at the beginning of the day, and again at the ending, I was sure to get there the most copious bird-concerts. I repair'd there frequently at sunrise—and also at sunset, or just before . . . Once the question arose in me: Which is the best singing, the first or the lattermost? The first always exhilerated, and perhaps seem'd more joyous and stronger; but I always felt the sunset or late afternoon sounds more penetrating and sweeter—seem'd to touch the soul—often the evening thrushes, two or three of them, responding and perhaps blending. Though I miss'd some of the mornings, I found myself getting to be quite strictly punctual at the evening utterances.</p>
                   
                   <p>A<hi rend="smallcaps">NOTHER</hi> N<hi rend="smallcaps">OTE</hi>.—"He went out with the tide and the sunset," was a phrase I heard from a surgeon describing an old sailor's death under peculiarly gentle conditions. </p>
@@ -21162,11 +21143,7 @@
                
                <p>P<hi rend="smallcaps">ERHAPS</hi> the best of songs heard, or of any and all true love, or life's fairest episodes, or sailors', soldiers' trying scenes on land or sea, is the <hi rend="italic">résumé</hi> of them, or any of them, long afterwards, looking at the actualities away back past, with all their practical excitations gone. How the soul loves to float amid such reminiscences!</p>
                <p>So here I sit gossiping in the early candle-light of old age—I and my book—casting backward glances over our travel'd road. After completing, as it were, the journey—(a varied jaunt of years, with many halts and gaps of intervals—or some lengthen'd ship-voyage, wherein more than once the last hour had apparently arrived, and we seem'd certainly going down—yet reaching port in a sufficient way through all discomfitures at last)—After completing my poems, I am curious to review them in the light of their own (at the time unconscious, or mostly unconscious) intentions, with certain unfoldings of the thirty years they seek to embody. These lines, therefore, will probably blend the weft of first purposes and speculations, with the warp of that experience afterwards,always bringing strange developments.</p>
-               <p>Result of seven or eight stages and struggles extending through nearly thirty years, (as I nigh my three-score-and-ten I live largely on memory,) I look upon "Leaves of Grass," now finish'd to the end of its opportunities and powers, as my definitive <hi rend="italic">carte visite</hi> to the coming generations of the New World,<ref target="n5" xml:id="r5">*</ref> if I may assume to say so. That I have not gain'd the acceptance of my own time, but have fallen back on fond dreams of the future—anticipations—("still lives the song, though Regnar dies")—That from a worldly and business point of view "Leaves of Grass" has been worse than a failure—that public criticism on the book and myself as author of it yet shows mark'd anger and contempt more than anything else—("I find a solid line of <choice><orig>ene-<lb/><note type="authorial"
-                  place="bottom"
-                  xml:id="n5"
-                  anchored="true"
-                  target="r5">
+               <p>Result of seven or eight stages and struggles extending through nearly thirty years, (as I nigh my three-score-and-ten I live largely on memory,) I look upon "Leaves of Grass," now finish'd to the end of its opportunities and powers, as my definitive <hi rend="italic">carte visite</hi> to the coming generations of the New World,<ref target="n5" xml:id="r5">*</ref> if I may assume to say so. That I have not gain'd the acceptance of my own time, but have fallen back on fond dreams of the future—anticipations—("still lives the song, though Regnar dies")—That from a worldly and business point of view "Leaves of Grass" has been worse than a failure—that public criticism on the book and myself as author of it yet shows mark'd anger and contempt more than anything else—("I find a solid line of <choice><orig>ene-<lb/><note type="authorial" place="bottom" xml:id="n5" anchored="true" target="r5">
                   *When Champollion, on his death-bed, handed to the printer the revised proof of his "Egyptian Grammar," he said gayly, "Be careful of this—it is my <hi rend="italic">carte de visite</hi> to posterity."
                </note><pb facs="ppp.00707.434.jpg" xml:id="leaf218v" n="426" type="verso"/>mies</orig><reg>enemies</reg></choice> to you everywhere,"—letter from W. S. K., Boston, May 28, 1884)—And that solely for publishing it I have been the object of two or three pretty serious special official buffetings—is all probably no more than I ought to have expected. I had my choice when I commenc'd. I bid neither for soft eulogies, big money returns, nor the approbation of existing schools and conventions. As fulfill'd, or partially fulfill'd, the best comfort of the whole business (after a small band of the dearest friends and upholders ever vouchsafed to man or cause—doubtless all the more faithful and uncompromising—this little phalanx!—for being so few) is that, unstopp'd and unwarp'd by any influence outside the soul within me, I have had my say entirely my own way, and put it unerringly on record—the value thereof to be decided by time.</p>
                <p>In calculating that decision, William O'Connor and Dr. Bucke are far more peremptory than I am. Behind all else that can be said, I consider "Leaves of Grass" and its theory experimental—as, in the deepest sense, I consider our American republic itself to be, with its theory. (I think I have at least enough philosophy not to be too absolutely certain of any thing, or any results.) In the second place, the volume is a <hi rend="italic">sortie</hi>—whether to prove triumphant, and conquer its field of aim and escape and construction, nothing less than a hundred years from now can fully answer. I consider the point that I have positively gain'd a hearing, to far more than make up for any and all other lacks and withholdings. Essentially, <hi rend="italic">that</hi> was from the first, and has remain'd throughout, the main object. Now it seems to be achiev'd, I am certainly contented to waive any otherwise momentous drawbacks, as of little account. Candidly and dispassionately reviewing all my intentions, I feel that they were creditable—and I accept the result, whatever it may be.</p>
@@ -21180,11 +21157,7 @@
                <p>My Book and I—what a period we have presumed to span! those thirty years from 1850 to '80—and America in them! Proud, proud indeed may we be, if we have cull'd enough of that period in its own spirit to worthily waft a few live breaths of it to the future!</p>
                <p>Let me not dare, here or anywhere, for my own purposes, or any purposes, to attempt the definition of Poetry, nor answer the question what it is. Like Religion, Love, Nature, while those terms are indispensable, and we all give a sufficiently accurate meaning to them, in my opinion no definition that has ever been made sufficiently encloses the name Poetry; nor can any rule or convention ever so absolutely obtain but some great exception may arise and disregard and overturn it.</p>
                <p>Also it must be carefully remember'd that first-class literature does not shine by any luminosity of its own; nor do its poems. They grow of circumstances, and arc evolutionary. The actual living light is always curiously from elsewhere—follows unaccountable sources, and is lunar and relative at the best. There are, I know, certain controling themes that seem endlessly appropriated to the poets—as war, in the past—in the Bible, religious rapture and adoration—always love, beauty, some fine plot,</p>
-               <note type="authorial"
-                  place="bottom"
-                  xml:id="n6"
-                  anchored="true"
-                  target="r6">
+               <note type="authorial" place="bottom" xml:id="n6" anchored="true" target="r6">
                   *The ferment and germination even of the United States to-day, dating back to, and in my opinion mainly founded on, the Elizabethan age in English history, the age of Francis Bacon and Shakspere. Indeed, when we pursue it, what growth or advent is there that does not date back, back, until lost—perhaps its most tantalizing clues lost—in the receded horizons of the past?
                </note>
                <pb facs="ppp.00707.437.jpg" xml:id="leaf220r" n="429" type="recto"/>
@@ -21196,11 +21169,7 @@
                   But it seem'd to me, as the objects in Nature, the themes of ӕstheticism, and all special exploitations of the mind and soul, involve not only their own inherent quality, but the quality, just as inherent and important, of <hi rend="italic">their point of view,</hi>
                   <ref target="n7" xml:id="r7">*</ref> the time had come to reflect all themes and things, old and new, in the lights thrown on them by the advent of America and democracy—to chant those themes through the utterance of one, not only the grateful and reverent legatee of the past, but the born child of the New World—to illustrate all through the genesis and ensemble of to-day; and that such illustration and ensemble are the chief demands of America's prospective imaginative literature. Not to carry out, in the approved style, some choice plot of fortune or misfortune, or fancy, or fine thoughts, or incidents, or courtesies—all of which has been done overwhelmingly and well, probably never to be excell'd—but that while in such ӕsthetic presentation of objects, passions, plots, thoughts, &amp;c., our lands and days do not want, and probably will never have, anything better than they already possess from the bequests of the past, it still remains to be said that there is even towards all those a subjective and contemporary point of view appropriate to ourselves alone, and to our new genius and environments, different from anything hitherto; and that such conception of current or gone-by life and art is for us the only means of their assimilation consistent with the Western world.</p>
                <p>Indeed, and anyhow, to put it specifically, has not the time arrived when, (if it must be plainly said, for democratic America's sake, if for no other) there must imperatively come a readjustment of the whole theory and nature of Poetry? The question is important, and I may turn the argument over and repeat it: Does not the best thought of our day and Republic conceive of a birth and spirit of song superior to anything past or present? To the effectual and moral consolidation of our lands (already, as materially establish'd, the greatest factors in known history, and far, far greater through what they prelude and necessitate, and are to be in future)—to conform with and build on the concrete realities and theories of the universe furnish'd by science, and henceforth the only irrefragable basis for anything, verse included—to root both influences in the emotional and imaginative action of the modern time, and dominate all that precedes or opposes them is not either a radical advance and step forward, or a new verteber of the best song indispensable?</p>
-               <note type="authorial"
-                  place="bottom"
-                  xml:id="n7"
-                  anchored="true"
-                  target="r7">
+               <note type="authorial" place="bottom" xml:id="n7" anchored="true" target="r7">
                   *According to Immanuel Kant, the last essential reality, giving shape and significance to all the rest.
                </note>
                <pb facs="ppp.00707.439.jpg" xml:id="leaf221r" n="431" type="recto"/>
@@ -21212,11 +21181,7 @@
                <p>Continuing the subject, my friends have more than once suggested—or may be the garrulity of advancing age is possessing me—some further embryonic facts of "Leaves of Grass," and especially how I enter'd upon them. Dr. Bucke has, in his volume, already fully and fairly described the preparation of my poetic field, with the particular and general plowing, planting, seeding, and occupation of the ground, till everything was fertilized, rooted, and ready to start its own way for good or bad. Not till after all this, did I attempt any serious acquaintance with poetic literature. Along in my sixteenth year I had become possessor of a stout, well-cramm'd one thousand page octavo volume (I have it yet,) containing Walter Scott's poetry entire—an inexhaustible mine and treasury of poetic forage (especially the endless forests and jungles of notes)—has been so to me for fifty years, and remains so to this day.<ref target="n8" xml:id="r8">*</ref>
                </p>
                <p>Later, at intervals, summers and falls, I used to go off, sometimes for a week at a stretch, down in the country, or to Long Island's seashores—there, in the presence of outdoor influences,</p>
-               <note type="authorial"
-                  place="bottom"
-                  xml:id="n8"
-                  anchored="true"
-                  target="r8">
+               <note type="authorial" place="bottom" xml:id="n8" anchored="true" target="r8">
                   <p>*Sir Walter Scott's COMPLETE POEMS; especially including BORDER MINSTRELSY; then Sir Tristrem; Lay of the Last Minstrel; Ballads from the German; Marmion; Lady of the Lake; Vision of Don Roderick; Lord of the Isles; Rokeby; Bridal of Triermain; Field of Waterloo; Harold the Dauntless; all the Dramas; various Introductions, endless interesting Notes, and Essays on Poetry, Romance, &amp;c.</p>
                   <p>Lockhart's 1833 (or '34) edition with Scott's latest and copious revisions and annotations. (All the poems were thoroughly read by me, but the ballads of the Border Minstrelsy over and over again.)</p>
                </note>
@@ -21241,11 +21206,7 @@
                <p>From another point of view "Leaves of Grass" is avowedly the song of Sex and Amativeness, and even Animality—though meanings that do not usually go along with those words are behind all, and will duly emerge; and all are sought to be lifted into a different light and atmosphere. Of this feature, intentionally palpable in a few lines, I shall only say the espousing principle of those lines so gives breath of life to my whole scheme that the bulk of the pieces might as well have been left unwritten were those lines omitted. Difficult as it will be, it has become, in my opinion, imperative to achieve a shifted attitude from superior men and women towards the thought and fact of sexuality, as an element in character, personality, the emotions, and a theme in literature. I am not going to argue the question by itself; it does not stand by itself. The vitality of it is altogether in its relations, bearings, significance—like the clef of a symphony. At last analogy the lines I allude to, and the spirit in which they are spoken, permeate all "Leaves of Grass," and the work must stand or fall with them, as the human body and soul must remain as an entirety.</p>
                <p>Universal as are certain facts and symptoms of communities or individuals all times, there is nothing so rare in modern conventions and poetry as their normal recognizance. Literature is always calling in the doctor for consultation and confession, and always giving evasions and swathing suppressions in place of that "heroic nudity"<ref target="n9" xml:id="r9">*</ref> on which only a genuine diagnosis of serious cases can be built. And in respect to editions of "Leaves of Grass" in time to come (if there should be such) I take occasion now to confirm those lines with the settled convictions and deliberate renewals of thirty years, and to hereby prohibit, as far as word of mine can do so, any elision of them.</p>
                <milestone unit="undeclared" rend="horbar-full"/>
-               <note type="authorial"
-                  place="bottom"
-                  xml:id="n9"
-                  anchored="true"
-                  target="r9">
+               <note type="authorial" place="bottom" xml:id="n9" anchored="true" target="r9">
                   *"Nineteenth Century," July, 1883.
                </note>
                <pb facs="ppp.00707.445.jpg" xml:id="leaf224r" n="437" type="recto"/>

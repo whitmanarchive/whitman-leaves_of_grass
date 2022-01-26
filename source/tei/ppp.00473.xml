@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00473">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00473">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,7 +31,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>ppp.00473</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,7 +43,7 @@
             <availability>
                <p>The text of the original item is in the public domain.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of this material should credit the <title level="m">Walt Whitman Archive</title>.</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>ppp.00473</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>  
@@ -115,7 +112,7 @@
 <head type="main-authorial">CONTENTS.</head>
    <milestone unit="undeclared" rend="horbar-short-center"/>
 <table>
-   <row><cell></cell><cell>PAGE.</cell></row>
+   <row><cell/><cell>PAGE.</cell></row>
 <row>
 <cell>Inscription . . . . . . . . . . . . . . . . . . . . . </cell>
 <cell> 5 </cell>
@@ -138,7 +135,7 @@
 </row>
 <row>
 <cell>From Pent-Up Aching Rivers . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>I Sing the Body Electric . . . . . . . . </cell>
@@ -166,7 +163,7 @@
 </row>
 <row>
 <cell>Once I Pass'd through a Populous<lb/> City . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>Facing West from California's<lb/> Shores . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -174,7 +171,7 @@
 </row>
 <row>
    <cell>Ages and Ages, Returning at <choice><orig>In-<lb/>tervals</orig><reg>Intervals</reg></choice> . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>O Hymen! O Hymenee! . . . . . . . . </cell>
@@ -182,11 +179,11 @@
 </row>
 <row>
 <cell>I am He that Aches with Love . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>As Adam, Early in the Morning . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Excelsior . . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -230,7 +227,7 @@
 </row>
 <row>
    <cell>When I Heard at the Close of the <lb/>day . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>Are you the New Person Drawn<lb/> Toward me? . . . . . . . . . . . . . . . . </cell>
@@ -246,7 +243,7 @@
 </row>
 <row>
 <cell>Trickle, Drops . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Of Him I love Day and Night . . . </cell>
@@ -258,7 +255,7 @@
 </row>
 <row>
 <cell>Behold this Swarthy Face . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>I saw in Louisiana a Live-Oak<lb/> Growing . . . . . . . . . . . . . . . . . . . . </cell>
@@ -266,7 +263,7 @@
 </row>
 <row>
 <cell>That Music Always Round Me . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To a Stranger . . . . . . . . . . . . . . . . . . </cell>
@@ -286,19 +283,19 @@
 </row>
 <row>
 <cell>We Two Boys Together Clinging</cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
-<cell>O Living Always&#8212;Always Dying</cell>
+<cell>O Living Always—Always Dying</cell>
 <cell> 138 </cell>
 </row>
 <row>
    <cell>When I Peruse the Conquer'd<lb/> Fame . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Glimpse . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Promise to California . . . . . . . . . </cell>
@@ -306,7 +303,7 @@
 </row>
 <row>
 <cell>Here, Sailor! . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Here the Frailest Leaves of Me . . </cell>
@@ -314,11 +311,11 @@
 </row>
 <row>
    <cell>What Think you, I take my Pen<lb/> in Hand . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>No Labor-Saving Machine . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>I Dream'd in a Dream . . . . . . . . . . . </cell>
@@ -326,11 +323,11 @@
 </row>
 <row>
 <cell>To the East and to the West . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Earth, my Likeness . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Leaf for Hand in Hand . . . . . . . </cell>
@@ -338,11 +335,11 @@
 </row>
 <row>
 <cell>Fast Anchor'd, Eternal . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Sometimes, with One I Love . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>That Shadow, my Likeness . . . . . </cell>
@@ -350,11 +347,11 @@
 </row>
 <row>
 <cell>Among the Multitude . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To a Western Boy . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>O You whom I often and Silently<lb/> Come . . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -362,7 +359,7 @@
 </row>
 <row>
 <cell>Full of Life, Now . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Salut au Monde . . . . . . . . . . . . . . . . </cell>
@@ -400,11 +397,11 @@
 </row>
 <row>
 <cell>Tests . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Perfections . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Song of the Broad-Axe . . . . . . . . . . </cell>
@@ -440,7 +437,7 @@
 </row>
 <row>
 <cell>To Rich Givers . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Word Out of the Sea . . . . . . . . . . </cell>
@@ -468,7 +465,7 @@
 <pb facs="ppp.00473.004.jpg" xml:id="leaf004v" n="iv" type="verso"/>
 
 <table>
-   <row><cell></cell><cell>PAGE.</cell></row>
+   <row><cell/><cell>PAGE.</cell></row>
 <row>
 <cell>The Runner . . . . . . . . . . . . . . . . . . . . </cell>
 <cell> 214 </cell>
@@ -487,11 +484,11 @@
 </row>
 <row>
 <cell>Walt Whitman's Caution . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To Other Lands . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Song of the Open Road . . . . . . . . . . </cell>
@@ -503,7 +500,7 @@
 </row>
 <row>
 <cell>To a Certain Cantatrice . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To Workingmen . . . . . . . . . . . . . . . . </cell>
@@ -523,7 +520,7 @@
 </row>
 <row>
 <cell>"Tears! tears! tears!" . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>"Aboard at a ship's helm," . . . . . </cell>
@@ -559,7 +556,7 @@
 </row>
 <row>
 <cell>"Of waters, forests, hills" . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>"Of persons arrived at high <choice><orig>po-<lb/>sitions</orig><reg>positions</reg></choice>," . . . . . . . . . . . . . . . . . . . </cell>
@@ -567,11 +564,11 @@
 </row>
 <row>
 <cell>"Of ownership." . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>"As I sit with others, at a great<lb/> feast" . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>"Of what I write from myself" . </cell>
@@ -579,7 +576,7 @@
 </row>
 <row>
    <cell>"Of obedience, faith, <choice><orig>adhesive-<lb/>ness</orig><reg>adhesiveness</reg></choice>" . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To Him that was Crucified . . . . . . </cell>
@@ -587,7 +584,7 @@
 </row>
 <row>
 <cell>To Old Age . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To One Shortly to Die . . . . . . . . . . </cell>
@@ -595,7 +592,7 @@
 </row>
 <row>
 <cell>To You . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Unnamed Lands . . . . . . . . . . . . . . . </cell>
@@ -619,7 +616,7 @@
 </row>
 <row>
 <cell>Picture . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Poems of Joy . . . . . . . . . . . . . . . . . . . </cell>
@@ -635,7 +632,7 @@
 </row>
 <row>
 <cell>Leaflets . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</cell>
@@ -663,7 +660,7 @@
 </row>
 <row>
 <cell>Visor'd . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Not the Pilot . . . . . . . . . . . . . . . . . . . </cell>
@@ -671,7 +668,7 @@
 </row>
 <row>
 <cell>As if a Phantom Caress'd Me . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Great are the Myths . . . . . . . . . . . . </cell>
@@ -714,8 +711,8 @@
 <cell> 315 </cell>
 </row>
 <row>
-   <cell>"To oratists&#8212;to male and <choice><orig>fe-<lb/>male</orig><reg>female</reg></choice>" . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+   <cell>"To oratists—to male and <choice><orig>fe-<lb/>male</orig><reg>female</reg></choice>" . . . . . . . . . . . . . . . . . . . . . </cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>"Laws for Creations" . . . . . . . . . . . </cell>
@@ -723,7 +720,7 @@
 </row>
 <row>
 <cell>"Poets to come!" . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Me Imperturbe . . . . . . . . . . . . . . . . . </cell>
@@ -770,23 +767,23 @@
 </div1>
 <div1 type="epigraph">
 
-<pb facs="ppp.00473.005.jpg" xml:id="leaf005r"  type="recto"/>
+<pb facs="ppp.00473.005.jpg" xml:id="leaf005r" type="recto"/>
 
 <lg xml:id="ppp.00474" type="poem">
 <relations><work ref="xxx.00353"/></relations>
 <head type="main-authorial">INSCRIPTION.</head>
    <milestone unit="undeclared" rend="horbar-short-center"/>
 <l>S<hi rend="smallcaps">MALL</hi> 
-<hi rend="italic">is the theme of the following Chant, yet the</hi> <lb/><hi rend="italic">greatest&#8212;namely,</hi> 
-<hi rend="bold">ONE'S-SELF</hi>&#8212;<hi rend="italic">that wondrous </hi> <lb/><hi rend="italic">thing, a simple, separate person. That, for the </hi> <lb/><hi rend="italic">use of the New World, I sing</hi>.
+<hi rend="italic">is the theme of the following Chant, yet the</hi> <lb/><hi rend="italic">greatest—namely,</hi> 
+<hi rend="bold">ONE'S-SELF</hi>—<hi rend="italic">that wondrous </hi> <lb/><hi rend="italic">thing, a simple, separate person. That, for the </hi> <lb/><hi rend="italic">use of the New World, I sing</hi>.
 </l>
 <l>
-  <hi rend="italic">Man's physiology complete, from top to toe, I sing. Not </hi> <lb/><hi rend="italic">physiognomy alone, nor brain alone, is worthy for </hi> <lb/><hi rend="italic">the muse;&#8212;I say the Form complete is worthier </hi> <lb/><hi rend="italic">far. The female equally with the male, I sing</hi>.</l>
+  <hi rend="italic">Man's physiology complete, from top to toe, I sing. Not </hi> <lb/><hi rend="italic">physiognomy alone, nor brain alone, is worthy for </hi> <lb/><hi rend="italic">the muse;—I say the Form complete is worthier </hi> <lb/><hi rend="italic">far. The female equally with the male, I sing</hi>.</l>
 <l>
   <hi rend="italic">Nor cease at the theme of One's-Self. I speak the word </hi> <lb/><hi rend="italic">of the modern, the word</hi> 
 <hi rend="bold">EN-MASSE</hi>.</l>
 <l>
-  <hi rend="italic">My Days I sing, and the Lands&#8212;with interstice I knew</hi> <lb/><hi rend="italic">of hapless War</hi>.</l>
+  <hi rend="italic">My Days I sing, and the Lands—with interstice I knew</hi> <lb/><hi rend="italic">of hapless War</hi>.</l>
 <l>
    <hi rend="italic">O friend, whoe'er you are, at last arriving hither to <choice><orig>com-<lb/>mence</orig><reg>commence</reg></choice>, I feel through every leaf the pressure of</hi> <lb/><hi rend="italic">your hand, which I return. And thus upon our</hi> <lb/><hi rend="italic">journey link'd together let us go</hi>.
 </l>
@@ -800,7 +797,7 @@
          
          <body>
 
-         <pb facs="ppp.00473.007.jpg" xml:id="leaf006r"  type="recto"/>
+         <pb facs="ppp.00473.007.jpg" xml:id="leaf006r" type="recto"/>
 
          <lg xml:id="ppp.00475" type="poem">
             <relations>
@@ -1589,7 +1586,7 @@
                   <l>I hasten to inform him or her, it is just as lucky to <lb/>die, and I know it.</l>
                </lg>
                <lg n="40" type="linegroup">
-                  <l>I pass death with the dying, and birth with the new <lb/>wash'd babe, and am not contain'd between <choice><orig>my-<lb />hat</orig><reg>my hat</reg></choice> and boots; </l>
+                  <l>I pass death with the dying, and birth with the new <lb/>wash'd babe, and am not contain'd between <choice><orig>my-<lb/>hat</orig><reg>my hat</reg></choice> and boots; </l>
                   <l>And peruse manifold objects, no two alike, and every <lb/>one good; </l>
                   <l>The earth good, and the stars good, and their <lb/>adjuncts all good.</l>
                </lg>
@@ -11893,7 +11890,7 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                <head type="main-authorial">CONTENTS.</head>
                <milestone unit="undeclared" rend="horbar-short-center"/>
                   <table>
-                     <row><cell></cell><cell>PAGE</cell></row>
+                     <row><cell/><cell>PAGE</cell></row>
                      <row role="data">      
                         <cell role="data" rows="1" cols="1">Drum-Taps . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
                         <cell role="data" rows="1" cols="1"> 5</cell>
@@ -14389,7 +14386,7 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                <milestone unit="undeclared" rend="horbar-short-center"/>
                   <p><table>
                      <row>
-                        <cell></cell><cell>PAGE.</cell>
+                        <cell/><cell>PAGE.</cell>
                      </row>
                      <row role="data">
                         <cell role="data" rows="1" cols="1">When Lilacs last in the door-yard bloom'd . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -15350,7 +15347,7 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                <p>
                   <table>
                      <row>
-                        <cell></cell>
+                        <cell/>
                         <cell>PAGE</cell>
                      </row>
                      <row role="data">
@@ -15373,15 +15370,15 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                      </row>
                      <row role="data">
                         <cell role="data" rows="1" cols="1">"Now I make a leaf of Voices" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-                        <cell role="data" rows="1" cols="1">&#8212;</cell>
+                        <cell role="data" rows="1" cols="1">—</cell>
                      </row>
                      <row role="data">
                         <cell role="data" rows="1" cols="1">"What am I, after all, but a child" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
                         <cell role="data" rows="1" cols="1"> 24</cell>
                      </row>
                      <row role="data">
-                        <cell role="data" rows="1" cols="1">"Locations and times&#8212;what is it in me that meets them" . . . . . . . . . . . . . . . . </cell>
-                        <cell role="data" rows="1" cols="1">&#8212;</cell>
+                        <cell role="data" rows="1" cols="1">"Locations and times—what is it in me that meets them" . . . . . . . . . . . . . . . . </cell>
+                        <cell role="data" rows="1" cols="1">—</cell>
                      </row></table></p>
                     <milestone unit="undeclared" rend="horbar-short-center"/>
                     <p><table><row role="data">

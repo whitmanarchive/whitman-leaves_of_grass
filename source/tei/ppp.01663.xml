@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.01663">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.01663">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">Leaves of Grass (1881&#8211;1882)</title>
+            <title level="m" type="main">Leaves of Grass (1881–1882)</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="general">Ed Folsom</editor>
@@ -30,7 +27,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>ppp.01663</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +39,7 @@
             <availability>
                <p>The text of the original item is in the public domain.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of this material should credit the <title level="m">Walt Whitman Archive</title>.</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>ppp.01663</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -51,7 +48,7 @@
                   <imprint>
                      <pubPlace>Boston</pubPlace>
                      <publisher>James R. Osgood and Company</publisher>
-                     <date from="1881" to="1882">1881&#8211;1882</date>
+                     <date from="1881" to="1882">1881–1882</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -67,7 +64,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
-         <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1881&#8211;82" to "1881&#8211;1882"</change>
+         <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1881–82" to "1881–1882"</change>
          <change who="#bb" when="2019-02-22">corrected two reg tags for "Kanada"</change>
          <change who="#nhg" when="2018-06-27">added milestones, updated ToC</change>
          <change who="#bb" when="2017-11-20">corrected "pressesupon" to "presses upon" in "The Artilleryman's Vision"</change>
@@ -158,7 +155,7 @@ Boston.</hi></hi>
             <cell>11</cell>
          </row>
          <row>
-            <cell rend="indent">E<hi rend="smallcaps">ID&#211;LONS</hi> . . . . . . . . . . . </cell>
+            <cell rend="indent">E<hi rend="smallcaps">IDÓLONS</hi> . . . . . . . . . . . </cell>
             <cell>12</cell>
          </row>
          <row>
@@ -678,7 +675,7 @@ Boston.</hi></hi>
             </cell>
          </row>
          <row>
-            <cell rend="indent">A B<hi rend="smallcaps">OSTON</hi> B<hi rend="smallcaps">ALLAD</hi>&#8212;1854 . . . . . . . </cell>
+            <cell rend="indent">A B<hi rend="smallcaps">OSTON</hi> B<hi rend="smallcaps">ALLAD</hi>—1854 . . . . . . . </cell>
             <cell>209</cell>
          </row>
          <row>
@@ -844,7 +841,7 @@ Boston.</hi></hi>
             <cell><hi rend="smallcaps">PAGE</hi></cell>
          </row>
          <row>
-            <cell rend="indent">V<hi rend="smallcaps">IRGINIA</hi>&#8212;<hi rend="smallcaps">THE</hi> W<hi rend="smallcaps">EST</hi> . . . . . . . . </cell>
+            <cell rend="indent">V<hi rend="smallcaps">IRGINIA</hi>—<hi rend="smallcaps">THE</hi> W<hi rend="smallcaps">EST</hi> . . . . . . . . </cell>
             <cell>230</cell>
          </row>
          <row>
@@ -1421,7 +1418,7 @@ Boston.</hi></hi>
             <cell>366</cell>
          </row>
          <row>
-            <cell rend="indent">F<hi rend="smallcaps">ROM</hi> F<hi rend="smallcaps">AR</hi> D<hi rend="smallcaps">AKOTA'S</hi> C<hi rend="smallcaps">A&#209;ONS</hi> (J<hi rend="smallcaps">UNE</hi> 25, 1876) . . . </cell>
+            <cell rend="indent">F<hi rend="smallcaps">ROM</hi> F<hi rend="smallcaps">AR</hi> D<hi rend="smallcaps">AKOTA'S</hi> C<hi rend="smallcaps">AÑONS</hi> (J<hi rend="smallcaps">UNE</hi> 25, 1876) . . . </cell>
             <cell>366</cell>
          </row>
          <row>
@@ -1522,7 +1519,7 @@ Boston.</hi></hi>
             <cell>379</cell>
          </row>
          <row>
-            <cell rend="indent">N<hi rend="smallcaps">OW</hi> F<hi rend="smallcaps">INAL&#200; TO THE</hi> S<hi rend="smallcaps">HORE</hi> . . . . . . . </cell>
+            <cell rend="indent">N<hi rend="smallcaps">OW</hi> F<hi rend="smallcaps">INALÈ TO THE</hi> S<hi rend="smallcaps">HORE</hi> . . . . . . . </cell>
             <cell>380</cell>
          </row>
          <row>
@@ -18006,7 +18003,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
                <relations>
                   <work ref="xxx.00285"/>
                </relations>
-               <head type="main-authorial">FROM FAR DAKOTA'S CA&#209;ONS.</head>
+               <head type="main-authorial">FROM FAR DAKOTA'S CAÑONS.</head>
                <head type="sub">
                   <hi rend="italic">June</hi> 25, 1876.</head>
                <lg type="linegroup">
