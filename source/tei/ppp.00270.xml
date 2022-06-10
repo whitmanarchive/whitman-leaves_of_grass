@@ -57,7 +57,7 @@
             <msDesc>
                <msIdentifier>
                   <repository>Albert and Shirley Small Special Collections Library, University of Virginia</repository>
-                  <idno>PS3201 1871, copy 1</idno>
+                  <idno>PS3201 1871</idno>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
@@ -66,7 +66,10 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-06-10">corrected "obscencly" to "obscenely" on p. 335</change>
          <change who="#bb" when="2022-04-06">revised relations/work encoding to conform to tei_all schema</change>
+         <change who="#bb" when="2020-12-04">added page breaks for spine and front and back covers (recto and verso); corrected image reference in @facs for p. 77</change>
+         <change who="#bb" when="2020-11-18">removed "copy 1" from the call number (as this does not appear in the UVa catalog)</change>
          <change who="#bb" when="2019-02-25">changed "1871–72" in titleStmt to "1871" to agree with sourceDesc and printed copyright page</change>
          <change who="#nhg" when="2018-06-07">added encoding for milestones, adjusted encoding for contents to match other LG editions</change>
          <change who="#sf" when="2017-03-01">changed to correct pages in table of contents three poems that were marked 153 when they start on 158</change>
@@ -88,6 +91,9 @@
    </teiHeader>
    <text>
       <front>
+               <pb facs="uva_bb.00001.jpg" xml:id="spine" type="recto" />
+               <pb facs="uva_bb.00002.jpg" xml:id="leaf001r" type="recto" />
+               <pb facs="uva_bb.00003.jpg" xml:id="leaf001v" type="verso" />
                <pb facs="ppp.00270.003.jpg" xml:id="leaf002r" type="recto"/>
                
                <titlePage>
@@ -3005,7 +3011,7 @@
                   <l>I project my hat, sit shame-faced, and beg.</l>
                </lg>
 
-               <pb facs="ppp.00270.079.jpg" xml:id="leaf040r" type="recto" n="77"/>
+               <pb facs="uva_bb.00004.jpg" xml:id="leaf040r" type="recto" n="77"/>
                <lg type="linegroup" n="245">
                   <l>Enough! enough! enough!</l>
                   <l>Somehow I have been stunn'd, Stand back!</l>
@@ -12534,7 +12540,7 @@ UNKNOWN.</head>
 
                <l>Let churches accommodate serpents, vermin, and the <lb/>corpses of those who have died of the most <lb/>filty of diseases!</l>
                <l>Let marriage slip down among fools, and be for none <lb/>but fools!</l>
-               <l>Let men among themselves talk and think forever <choice><orig>ob-<lb/>scencly</orig><reg>obscencly</reg></choice> of women! and let women among <choice><orig>them-<lb/>selves</orig><reg>themselves</reg></choice> talk and think obscenely of men!</l>
+               <l>Let men among themselves talk and think forever <choice><orig>ob-<lb/>scenely</orig><reg>obscenely</reg></choice> of women! and let women among <choice><orig>them-<lb/>selves</orig><reg>themselves</reg></choice> talk and think obscenely of men!</l>
                <l>Let us all, without missing one, be exposed in public, <lb/>naked, monthly, at the peril of our lives! let <lb/>our bodies be freely handled and examined by <lb/>whoever chooses!</l>
                <l>Let nothing but copies at second hand be permitted to <lb/>exist upon the earth!</l>
                <l>Let the earth desert God, nor let there ever henceforth <lb/>be mention'd the name of God!</l>
@@ -14434,12 +14440,9 @@ UNKNOWN.</head>
                   </lg>
                </lg>
             </lg>
-
          </lg>
-         <!--<pb facs="ppp.00270.507.jpg" xml:id="leaf255r" type="recto"/>
-         <pb facs="ppp.00270.508.jpg" xml:id="leaf255v" type="verso"/>
-         <pb facs="ppp.00270.509.jpg" xml:id="leaf256r" type="recto"/>
-         <pb facs="ppp.00270.510.jpg" xml:id="leaf256v" type="verso"/>-->
+         <pb facs="uva_bb.00005.jpg" xml:id="leaf194r" type="recto"/>
+         <pb facs="uva_bb.00006.jpg" xml:id="leaf194v" type="verso"/>
       </body>
    </text>
 </TEI>
