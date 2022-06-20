@@ -64,6 +64,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-06-20">corrected "incollars" on p. 68 to "in collars"</change>
          <change who="#bb" when="2022-04-19">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1881–82" to "1881–1882"</change>
          <change who="#bb" when="2019-02-22">corrected two reg tags for "Kanada"</change>
@@ -4447,7 +4448,7 @@ and I am embodied in them,</l>
                   <l>The mayor and councils, banks, tariffs, steamships, factories, stocks, <lb/>stores, real estate and personal estate.</l>
                </lg>
                <lg type="linegroup">
-                  <l>The little plentiful manikins skipping around incollars and tail'd <lb/>coats,</l>
+                  <l>The little plentiful manikins skipping around in collars and tail'd <lb/>coats,</l>
                   <pb facs="ppp.01663.075.jpg" xml:id="leaf040r" n="69" type="recto"/>
                   <l>I am aware who they are, (they are positively not worms or fleas,)</l>
                   <l>I acknowledge the duplicates of myself, the weakest and shallowest <lb/>is deathless with me,</l>
