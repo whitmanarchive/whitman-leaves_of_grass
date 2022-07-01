@@ -67,6 +67,8 @@
       </encodingDesc>
       <revisionDesc>
          <change who="#bb" when="2022-03-08">revised relations/work encoding to conform to tei_all schema</change>
+         <change who="#bb" when="2019-11-19">changed value of @type on div1 for Leaves-Droppings</change>
+         <change who="#bb" when="2019-09-24">changed encoding of the signature mark at the bottom of p. 33 to accord with all of the others</change>
          <change who="#nhg" when="2018-05-21">added milestones, smallcaps, q, and fw for signature marks</change>
          <change who="#el" when="2015-07-30">changed "string-term" to "string-team"</change>
          <change who="#el" when="2015-07-30">changed "enemies'lands" to "enemies' lands"</change>
@@ -930,7 +932,7 @@ lands, they are not original with me,</l>
             </lg>
             <lg type="linegroup">
                <l>Whimpering and truckling fold with powders for <lb/>invalids, conformity goes to the <choice><orig>fourth-<lb/>removed</orig><reg>fourth-removed</reg></choice>,</l>
-               <milestone n="2*" unit="collate"/>
+               <fw type="sig" place="bottom">2*</fw>
                <pb facs="ppp.00237.042.jpg" xml:id="leaf020v" n="34" type="verso"/>
                <l>I cock my hat as I please, indoors or out.</l>
                <l>Shall I pray? Shall I venerate and be <choice><orig>cere-<lb/>monious</orig><reg>ceremonious</reg></choice>?</l>
@@ -7007,7 +7009,7 @@ account of all.</l>
       </body>
       <back>
          <pb facs="ppp.00237.351.jpg" xml:id="leaf175r" n="343" type="recto"/>
-         <div1 n="2" type="section">
+         <div1 n="2" type="commentary">
             <head type="main-authorial">LEAVES-DROPPINGS.</head>
             <pb facs="ppp.00237.352.jpg" xml:id="leaf175v" n="344" type="verso"/>
             <pb facs="ppp.00237.353.jpg" xml:id="leaf176r" n="345" type="recto"/>

@@ -67,6 +67,7 @@
       </encodingDesc>
       <revisionDesc>
          <change who="#bb" when="2022-03-29">revised relations/work encoding to conform to tei_all schema</change>
+         <change who="#bb" when="2019-04-16">corrected spelling of "mediæval" on p. 135</change>
          <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1860–61" to "1860–1861"</change>
          <change who="#nhg" when="2018-05-21">brought encoding of milestones, smallcaps, and fw into alignment with other LG editions</change>
          <change who="#bb" when="2018-01-22">corrected problem with line-end hyphenation in linegroup 9 of "Salut Au Monde!"</change>
@@ -4409,7 +4410,7 @@ ceremonious?</l>
                   <l>Served before any of those, the venerable and <choice><orig>harm-<lb/>less</orig><reg>harmless</reg></choice> men of Ethiopia,</l>
                   <l>Served the making of helms for the galleys of <lb/>pleasure, and the making of those for war,</l>
                   <l>Served all great works on land, and all great works <lb/>on the sea,</l>
-                  <l>For the medival ages, and before the mediæval <lb/>ages,</l>
+                  <l>For the medi&#230;val ages, and before the mediæval <lb/>ages,</l>
                   <l>Served not the living only, then as now, but served <lb/>the dead.</l>
                </lg>
 

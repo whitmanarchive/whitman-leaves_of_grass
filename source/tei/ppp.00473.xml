@@ -69,6 +69,8 @@
       </encodingDesc>
       <revisionDesc>
          <change who="#bb" when="2022-04-07">revised relations/work encoding to conform to tei_all schema</change>
+         <change who="#bb" when="2021-10-05">restored the words "hen, and she with her half-" to the transcription of p. 37</change>
+         <change who="#bb" when="2020-07-14">supplied the word "strong," which had been missing from our transcription of p. 37</change>
          <change who="#nhg" when="2018-05-22">brought encoding of milestones, smallcaps, and fw into alignment with other LG editions</change>
          <change who="#bb" when="2017-05-01">uncommented sections 9 through 13 of "Sleep-Chasings"</change>
          <change who="#sf" when="2017-04-27">Fixed small caps issues throughout and fixed pagination for page 183, which was appearing as 132</change>
@@ -1813,7 +1815,7 @@
                   <pb facs="ppp.00473.037.jpg" xml:id="leaf021r" n="37" type="recto"/>
 
                   <l>The litter of the grunting sow as they tug at her teats,</l>
-                  <l>The brood of the turkey <lb/>spread wings; </l>
+                  <l>The brood of the turkey-hen, and she with her half-<lb/>spread wings;</l>
                   <l>I see in them and myself the same old law.</l>
                </lg>
                <lg n="74" type="linegroup">
@@ -1840,7 +1842,7 @@
                   <l>The pure contralto sings in the organ loft;</l>
                   <l>The carpenter dresses his plank—the tongue of his <lb/>foreplane whistles its wild ascending lisp; </l>
                   <l>The married and unmarried children ride home to <lb/>their Thanksgiving dinner; </l>
-                  <l>The pilot seizes the king-pin—he heaves down with a <lb/>arm; </l>
+                  <l>The pilot seizes the king-pin—he heaves down with a <lb/>strong arm; </l>
                   <l>The mate stands braced in the whale-boat—lance and <lb/>harpoon are ready; </l>
                   <l>The duck-shooter walks by silent and cautious <lb/>stretches; </l>
                   <l>The deacons are ordain'd with cross'd hands at the <lb/>altar; </l>

@@ -66,6 +66,9 @@
       <revisionDesc>
          <change who="#bb" when="2022-06-20">corrected "incollars" on p. 68 to "in collars"</change>
          <change who="#bb" when="2022-04-19">revised relations/work encoding to conform to tei_all schema</change>
+         <change who="#bb" when="2021-03-31">corrected a period on p. 50 to a comma and "quitegrown" to "quite grown" on p. 82</change>
+         <change who="#bb" when="2020-07-24">corrected "be hung out" to "be hung our" on p. 134</change>
+         <change who="#bb" when="2019-10-18">corrected "Imourn" to "I mourn" on p. 184 and removed three pointy brackets (&gt;) on p. 183</change>
          <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1881–82" to "1881–1882"</change>
          <change who="#bb" when="2019-02-22">corrected two reg tags for "Kanada"</change>
          <change who="#nhg" when="2018-06-27">added milestones, updated ToC</change>
@@ -3601,7 +3604,7 @@ reference to ensemble,</l>
                <lg type="linegroup">
                   <l>The earth by the sky staid with, the daily close of their junction,</l>
                   <l>The heav'd challenge from the east that moment over my head,</l>
-                  <l>The mocking taunt. See then whether you shall be master!</l>
+                  <l>The mocking taunt, See then whether you shall be master!</l>
                </lg>
             </lg>
             <lg type="section" n="25">
@@ -5085,7 +5088,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
                      <l>The group of laborers seated at noon-time with their open <choice><orig>dinner-<lb/>kettles</orig><reg>dinner-kettles</reg></choice>, and their wives waiting,</l>
                      <l>The female soothing a child, the farmer's daughter in the garden <lb/>or cow-yard,</l>
                      <l>The young fellow hoeing corn, the sleigh-driver driving his six <lb/>horses through the crowd,</l>
-                     <l>The wrestle of wrestlers, two apprentice-boys, quitegrown, lusty, <lb/>good-natured, native-born, out on the vacant lot at <choice><orig>sun-<lb/>down</orig><reg>sundown</reg></choice> after work,</l>
+                     <l>The wrestle of wrestlers, two apprentice-boys, quite grown, lusty, <lb/>good-natured, native-born, out on the vacant lot at <choice><orig>sun-<lb/>down</orig><reg>sundown</reg></choice> after work,</l>
                      <l>The coats and caps thrown down, the embrace of love and resistance,</l>
                      <l>The upper-hold and under-hold, the hair rumpled over and <choice><orig>blind-<lb/>ing</orig><reg>blinding</reg></choice> the eyes;</l>
                      <l>The march of firemen in their own costumes, the play of <choice><orig>mascu-<lb/>line</orig><reg>masculine</reg></choice> muscle through clean-setting trowsers and waist-straps,</l>
@@ -7319,7 +7322,7 @@ tide, the <choice><orig>falling-<lb/>back</orig><reg>falling-back</reg></choice>
                   <pb facs="ppp.01663.140.jpg" xml:id="leaf072v" n="134" type="verso"/>
                   <l>Appearances, now or henceforth, indicate what you are,</l>
                   <l>You necessary film, continue to envelop the soul,</l>
-                  <l>About my body for me, and your body for you, be hung out <lb/>divinest aromas,</l>
+                  <l>About my body for me, and your body for you, be hung our <lb/>divinest aromas,</l>
                   <l>Thrive, cities—bring your freight, bring your shows, ample and <lb/>sufficient rivers,</l>
                   <l>Expand, being than which none else is perhaps more spiritual,</l>
                   <l>Keep your places, objects than which none else is more lasting.</l>
@@ -9481,13 +9484,13 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
                   <l rend="indented1">C<hi rend="smallcaps">OME</hi> my tan-faced children,</l>
                   <l>Follow well in order, get your weapons ready,</l>
                   <l>Have you your pistols? have you your sharp-edged axes?</l>
-                  <l rend="indented1">&gt;Pioneers! O pioneers!</l>
+                  <l rend="indented1">Pioneers! O pioneers!</l>
                </lg>
                <lg type="linegroup">
-                  <l rend="indented1">&gt;For we cannot tarry here,</l>
+                  <l rend="indented1">For we cannot tarry here,</l>
                   <l>We must march my darlings, we must bear the brunt of danger,</l>
                   <l>We the youthful sinewy races, all the rest on us depend,</l>
-                  <l rend="indented1">&gt;Pioneers! O pioneers!</l>
+                  <l rend="indented1">Pioneers! O pioneers!</l>
                </lg>
                <lg type="linegroup">
                   <l rend="indented1">O you youths, Western youths,</l>
@@ -9535,7 +9538,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
                <lg type="linegroup">
                   <l rend="indented1">O resistless restless race!</l>
                   <l>O beloved race in all! O my breast aches with tender love for all!</l>
-                  <l>O Imourn and yet exult, I am rapt with love for all,</l>
+                  <l>O I mourn and yet exult, I am rapt with love for all,</l>
                   <l rend="indented1">Pioneers! O pioneers!</l>
                </lg>
                <lg type="linegroup">
