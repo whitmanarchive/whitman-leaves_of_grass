@@ -70,6 +70,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-09-13">corrected six instances of type="lingegroup" and added type="linegroup" to one lg</change>
          <change who="#bb" when="2022-06-08">corrected value of @type on lg for six of the poems in "Fancies at Navesink" and supplied them with relations/work associations</change>
          <change who="#bb" when="2022-05-06">revised relations/work encoding to conform to tei_all schema; corrected nesting of "text" elements within "group" element</change>
          <change who="#bb" when="2021-11-17">inserted a space after a comma on p. 425; corrected a typo on p. 428 ("arc" to "are")</change>
@@ -5141,13 +5142,13 @@
                   <head type="main-authorial">I SING THE BODY ELECTRIC.</head>
                   <lg type="section" n="1">
                      <head type="main-authorial">1</head>
-                     <lg type="lingegroup">
+                     <lg type="linegroup">
                         <l>I <hi rend="smallcaps">SING</hi> the body electric,</l>
                         <l>The armies of those I love engirth me and I engirth them,</l>
                         <l>They will not let me off till I go with them, respond to them,</l>
                         <l>And discorrupt them, and charge them full with the charge of the <lb/>soul.</l>
                      </lg>
-                     <lg type="lingegroup">
+                     <lg type="linegroup">
                         <l>Was it doubted that those who corrupt their own bodies conceal <lb/>themselves?</l>
                         <l>And if those who defile the living are as bad as they who defile <lb/>the dead?</l>
                         <l>And if the body does not do fully as much as the soul?</l>
@@ -5156,11 +5157,11 @@
                   </lg>
                   <lg type="section" n="2">
                      <head type="main-authorial">2</head>
-                     <lg type="lingegroup">
+                     <lg type="linegroup">
                         <l>The love of the body of man or woman balks account, the body <lb/>itself balks account,</l>
                         <l>That of the male is perfect, and that of the female is perfect.</l>
                      </lg>
-                     <lg type="lingegroup">
+                     <lg type="linegroup">
                         <l>The expression of the face balks account,</l>
                         <l>But the expression of a well-made man appears not only in his <lb/>face,</l>
                         <pb facs="ppp.00707.090.jpg" xml:id="leaf046v" n="82" type="verso"/>
@@ -5170,7 +5171,7 @@
                         <l>To see him pass conveys as much as the best poem, perhaps more,</l>
                         <l>You linger to see his back, and the back of his neck and <choice><orig>shoul-<lb/>der</orig><reg>shoulder-side</reg></choice>-side.</l>
                      </lg>
-                     <lg type="lingegroup">
+                     <lg type="linegroup">
                         <l>The sprawl and fulness of babes, the bosoms and heads of women, <lb/>the folds of their dress, their style as we pass in the street, <lb/>the contour of their shape downwards,</l>
                         <l>The swimmer naked in the swimming-bath, seen as he swims <lb/>through the transparent green-shine, or lies with his face <lb/>up and rolls silently to and fro in the heave of the water,</l>
                         <l>The bending forward and backward of rowers in row-boats, the <lb/>horseman in his saddle,</l>
@@ -6486,7 +6487,7 @@
                   </relations>-->
             <note type="work_relations" target="xxx.00105"></note>
                   <head type="main-authorial">FAST ANCHOR'D ETERNAL O LOVE!</head>
-                  <lg type="lingegroup">
+                  <lg type="linegroup">
                      <l>F<hi rend="smallcaps">AST-ANCHOR'D</hi> eternal O love! O woman I love!</l>
                      <l>O bride! O wife! more resistless than I can tell, the thought of <lb/>you!</l>
                      <l>Then separate, as disembodied or another born,</l>
@@ -9704,7 +9705,7 @@
                      <l>Pioneers! O pioneers!</l>
                   </lg>
                   <pb facs="ppp.00707.192.jpg" xml:id="leaf097v" n="184" type="verso"/>
-                  <lg>
+                  <lg type="linegroup">
                      <l>Colorado men are we,</l>
                      <l>From the peaks gigantic, from the great sierras and the high <lb/>plateaus,</l>
                      <l>From the mine and from the gully, from the hunting trail we come,</l>

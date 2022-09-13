@@ -64,6 +64,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-09-13">corrected three instances of type="linegroup" and added type="linegroup" to one lg</change>
          <change who="#bb" when="2022-06-20">corrected "incollars" on p. 68 to "in collars"</change>
          <change who="#bb" when="2022-04-19">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2021-03-31">corrected a period on p. 50 to a comma and "quitegrown" to "quite grown" on p. 82</change>
@@ -5057,7 +5058,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
                      <l>They will not let me off till I go with them, respond to them,</l>
                      <l>And discorrupt them, and charge them full with the charge of the <lb/>soul.</l>
                   </lg>
-                  <lg type="lingegroup">
+                  <lg type="linegroup">
                      <l>Was it doubted that those who corrupt their own bodies conceal <lb/>themselves?</l>
                      <l>And if those who defile the living are as bad as they who defile <lb/>the dead?</l>
                      <l>And if the body does not do fully as much as the soul?</l>
@@ -5070,7 +5071,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
                      <l>The love of the body of man or woman balks account, the body <lb/>itself balks account,</l>
                      <l>That of the male is perfect, and that of the female is perfect.</l>
                   </lg>
-                  <lg type="lingegroup">
+                  <lg type="linegroup">
                      <l>The expression of the face balks account,</l>
                      <l>But the expression of a well-made man appears not only in his <lb/>face,</l>
                      <pb facs="ppp.01663.088.jpg" xml:id="leaf046v" n="82" type="verso"/>
@@ -5080,7 +5081,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
                      <l>To see him pass conveys as much as the best poem, perhaps more,</l>
                      <l>You linger to see his back, and the back of his neck and <choice><orig>shoul-<lb/>der</orig><reg>shoulder-side</reg></choice>-side.</l>
                   </lg>
-                  <lg type="lingegroup">
+                  <lg type="linegroup">
                      <l>The sprawl and fulness of babes, the bosoms and heads of women, <lb/>the folds of their dress, their style as we pass in the street, <lb/>the contour of their shape downwards,</l>
                      <l>The swimmer naked in the swimming-bath, seen as he swims <lb/>through the transparent green-shine, or lies with his face <lb/>up and rolls silently to and fro in the heave of the water,</l>
                      <l>The bending forward and backward of rowers in row-boats, the <lb/>horseman in his saddle,</l>
@@ -9523,7 +9524,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
                   <l rend="indented1">Pioneers! O pioneers!</l>
                </lg>
                <pb facs="ppp.01663.190.jpg" xml:id="leaf097v" n="184" type="verso"/>
-               <lg>
+               <lg type="linegroup">
                   <l rend="indented1">Colorado men are we,</l>
                   <l>From the peaks gigantic, from the great sierras and the high <lb/>plateaus,</l>
                   <l>From the mine and from the gully, from the hunting trail we come,</l>
