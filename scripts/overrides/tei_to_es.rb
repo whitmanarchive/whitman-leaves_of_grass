@@ -1,3 +1,4 @@
+require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
 class TeiToEs < XmlToEs
 
   # NOTE these overrides apply to all of the leaves of grass subclasses
@@ -47,7 +48,7 @@ class TeiToEs < XmlToEs
     "published works"
   end
 
-  def image_id
+  def cover_image
     # Note: don't pull full path because will be pulled by IIIF
     images = @xml.xpath(*@xpaths["image_id"])
     images.first if images
@@ -82,19 +83,15 @@ class TeiToEs < XmlToEs
     "en"
   end
 
-  def languages
-    ["en"]
-  end
-
   def person
     []
   end
 
-  def places
-  end
+  # def places
+  # end
 
-  def recipient
-  end
+  # def recipient
+  # end
 
   def source
     s_date = get_text(@xpaths["source"]["date"])
@@ -107,7 +104,7 @@ class TeiToEs < XmlToEs
     s = "#{s}, #{s_date}" if s_date && !s_date.empty?
   end
 
-  def subcategory
+  def category2
     "Leaves of Grass"
   end
 
@@ -128,7 +125,25 @@ class TeiToEs < XmlToEs
     Datura::Helpers.normalize_space(resulting_text.join(" "))
   end
 
-  def works
+  # def works
+  # end
+
+  def citation
+    # WorksInfo is get_works_info.rb in whitman-scripts repo
+    @works_info = WorksInfo.new(xml)
+    ids, names = @works_info.get_works_info
+    citations = []
+    if ids.length > 0
+      ids.each_with_index do |id, idx|
+        name = names[idx]
+        citations << {
+          "id" => id,
+          "title" => name,
+          "role" => "whitman_id"
+        }
+      end
+    end
+    citations
   end
 
 end
