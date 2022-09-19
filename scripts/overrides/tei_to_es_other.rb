@@ -5,8 +5,8 @@ class TeiToEsOther < TeiToEs
   # epigraphs, and more
 
   # TODO need to change datura instead of overriding here
-  def assemble_identifiers
-    file_id = @id
+  def get_id
+    file_id = @filename
     # TODO might need to check that this is the ONLY of its type in the document
     type = @xml["type"]
     num = @xml["n"]
@@ -19,7 +19,7 @@ class TeiToEsOther < TeiToEs
     if @section_label == "Article"
       @section_label = "Review"
     end
-    @json["identifier"] = "#{file_id}.#{@section_type}"
+    "#{file_id}.#{@section_type}"
   end
 
   def title
@@ -41,6 +41,10 @@ class TeiToEsOther < TeiToEs
   def uri
     # TODO find some way to link to specific sections of supporting materials?
     "#{@options["site_url"]}/published/LG/#{@year}/whole.html"
+  end
+
+  def category2
+    @section_type.split(".")[0]
   end
 
 end

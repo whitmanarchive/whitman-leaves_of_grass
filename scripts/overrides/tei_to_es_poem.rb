@@ -6,11 +6,9 @@ class TeiToEsPoem < TeiToEs
   # of the behavior related to the poem content of leaves of grass
 
   # TODO might be better to change the behavior in datura
-  def assemble_identifiers
-    @json["identifier"] = @xml["id"]
-    # TODO maybe leave this in here, because it's nice to see
-    # that something is happening
-    # puts @json["identifier"]
+  def get_id
+    poem_id = @xml["id"].gsub("ppp.", "poem_")
+    "#{@filename}.#{poem_id}"
   end
 
   def get_first_line
@@ -21,7 +19,6 @@ class TeiToEsPoem < TeiToEs
   end
 
   def title
-
     # majority of editions simply grab identified poem title
     label = @xml.at_xpath(@xpaths["title"]["main"])
     if label
@@ -68,6 +65,10 @@ class TeiToEsPoem < TeiToEs
     # TODO at some point these will be linking to individual poem pages instead
     # of poems within the entire edition, but that day is not today
     "#{@options["site_url"]}/published/LG/#{@year}/whole.html##{@xml["id"]}"
+  end
+
+  def category2
+    "poem"
   end
 
 end
