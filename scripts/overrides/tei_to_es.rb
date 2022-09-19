@@ -32,10 +32,10 @@ class TeiToEs < XmlToEs
         "title" => "//biblStruct/monogr/title",
       },
       "title" => {
-        "main" => "head[@type='main-authorial']",
-        "edition" => "//sourceDesc/biblStruct/monogr/title",
-        "article" => "head/title",
-        "newspaper" => "head[@type='main-authorial']/bibl/publisher"
+        "main" => "//head[@type='main-authorial']",
+        # "edition" => "//sourceDesc/biblStruct/monogr/title",
+        # "article" => "//head/title",
+        # "newspaper" => "//head[@type='main-authorial']/bibl/publisher"
       },
       "text" => "."
     }
