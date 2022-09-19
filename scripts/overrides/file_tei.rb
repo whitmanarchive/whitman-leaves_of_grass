@@ -8,6 +8,7 @@ class FileTei < FileType
   def subdoc_xpaths
     # match subdocs against classes
     {
+      "/" => TeiToEs,
       "//epigraph" => TeiToEsOther,
       "//div1[@type='essay' or @type='preface']" => TeiToEsOther,
       "//titlePart[@type='imprimatur']" => TeiToEsOther,
