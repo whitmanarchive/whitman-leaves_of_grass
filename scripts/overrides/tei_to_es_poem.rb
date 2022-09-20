@@ -20,7 +20,7 @@ class TeiToEsPoem < TeiToEs
 
   def title
     # majority of editions simply grab identified poem title
-    label = @xml.at_xpath(@xpaths["title_main"])
+    label = @xml.at_xpath(".#{@xpaths["title_main"]}")
     if label
       label = label.text
       label.gsub!(/[0-9]+ — /, "")
