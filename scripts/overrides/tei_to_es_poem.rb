@@ -29,7 +29,7 @@ class TeiToEsPoem < TeiToEs
     end
 
     # for two editions, will need to do something fancier for title
-    if @id == "ppp.00271"
+    if @filename == "ppp.00271"
       # need to get the opening lines for 1855 edition
       opening = get_first_line
       if opening
@@ -38,7 +38,7 @@ class TeiToEsPoem < TeiToEs
         label = "Leaves of Grass, Untitled Poem"
       end
 
-    elsif @id == "ppp.01500" || @id == "ppp.00473"
+    elsif @filename == "ppp.01500" || @filename == "ppp.00473"
       # need to get the poem cluster's title if poem doesn't have title
       if label[/^\d+\.?/] || label == ""
         cluster = @xml.at_xpath("./parent::lg[@type='cluster']//head[@type='main-authorial']")
@@ -50,9 +50,7 @@ class TeiToEsPoem < TeiToEs
         label = "#{cluster.text} #{label}" if cluster
       end
       label.gsub!(".", "")
-
     end
-
     label = label.downcase.titleize
     @year ? "#{label} (#{@year})" : label
   end
