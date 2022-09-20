@@ -8,4 +8,7 @@ class TeiToEsCluster < TeiToEs
   def category2
     "cluster"
   end
+
+  def title
+  end
 end
