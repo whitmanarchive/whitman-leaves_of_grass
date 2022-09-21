@@ -19,7 +19,7 @@ class TeiToEsOther < TeiToEs
     if @section_label == "Article"
       @section_label = "Review"
     end
-    "#{file_id}.#{@section_type}"
+    "#{file_id}_#{@section_type}"
   end
 
   def title

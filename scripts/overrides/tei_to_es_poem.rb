@@ -7,8 +7,8 @@ class TeiToEsPoem < TeiToEs
 
   # TODO might be better to change the behavior in datura
   def get_id
-    poem_id = @xml["id"].gsub("ppp.", "poem_")
-    "#{@filename}.#{poem_id}"
+    poem_id = @xml["id"].gsub("ppp.", "poem.")
+    "#{@filename}_#{poem_id}"
   end
 
   def get_first_line
