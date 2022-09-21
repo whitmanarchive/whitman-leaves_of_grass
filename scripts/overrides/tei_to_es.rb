@@ -144,4 +144,8 @@ class TeiToEs < XmlToEs
     citations
   end
 
+  def extent
+    "entire work"
+  end
+
 end
