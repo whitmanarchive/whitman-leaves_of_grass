@@ -43,7 +43,6 @@ class TeiToEsOther < TeiToEs
     "#{@options["site_url"]}/published/LG/#{@year}/whole.html"
   end
 
-<<<<<<< HEAD
   def format
     format = @section_type.split(".")[0]
     if ["letter", "article", "essay"].include?(format)
@@ -58,10 +57,6 @@ class TeiToEsOther < TeiToEs
   end
 
   def extent
-=======
-  def category2
-    @section_type.split(".")[0]
->>>>>>> 1feb8ff (add a unique id and subcategories for subdocs)
   end
 
 end
