@@ -43,8 +43,11 @@ class TeiToEsOther < TeiToEs
     "#{@options["site_url"]}/published/LG/#{@year}/whole.html"
   end
 
-  def category2
-    @section_type.split(".")[0]
+  def format
+    format = @section_type.split(".")[0]
+    if ["letter", "article", "essay"].include?(format)
+      format
+    end
   end
 
 end
