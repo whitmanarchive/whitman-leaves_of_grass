@@ -76,6 +76,9 @@ class TeiToEsPoem < TeiToEs
     "poem"
   end
 
+  def has_part
+  end
+
   def is_part_of
     title = @xml.at_xpath("./ancestor::TEI//titleStmt/title[1]")
     parts = [{
@@ -125,7 +128,7 @@ class TeiToEsPoem < TeiToEs
 
   def citation
     # WorksInfo is get_works_info.rb in whitman-scripts repo
-    @works_info = WorksInfo.new(xml)
+    @works_info = WorksInfo.new(@xml)
     ids, names = @works_info.get_works_info
     citations = []
     if ids.length > 0

@@ -50,4 +50,13 @@ class TeiToEsOther < TeiToEs
     end
   end
 
+  def has_part
+  end
+
+  def is_part_of
+  end
+
+  def extent
+  end
+
 end
