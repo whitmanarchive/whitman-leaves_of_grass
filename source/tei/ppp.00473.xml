@@ -68,6 +68,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Iowa copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-09-27">updated work associations for "Great Are the Myths" and "Respondez!"</change>
          <change who="#bb" when="2022-04-07">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2021-10-05">restored the words "hen, and she with her half-" to the transcription of p. 37</change>
          <change who="#bb" when="2020-07-14">supplied the word "strong," which had been missing from our transcription of p. 37</change>
@@ -10090,8 +10091,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <lg xml:id="ppp.00591" type="poem">
 <!--            <relations>
                <work ref="xxx.00433"/>
+               <work ref="xxx.00265"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00433"></note>
+            <note type="work_relations" target="xxx.00222"></note>
+            <note type="work_relations" target="xxx.00265"></note>
             <head type="main-authorial">R<hi rend="smallcaps">ESPONDEZ</hi>!</head>
             <l n="1">
                R<hi rend="smallcaps">ESPONDEZ!</hi> Respondez!</l>
@@ -10428,9 +10431,9 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
 
          <lg xml:id="ppp.00603" type="poem">
 <!--            <relations>
-               <work ref="xxx.00430"/>
+               <work ref="xxx.00121"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00430"></note>
+            <note type="work_relations" target="xxx.00121"></note>
             <head type="main-authorial">G<hi rend="smallcaps">REAT ARE THE</hi> M<hi rend="smallcaps">YTHS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">

@@ -66,6 +66,8 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         
+         <change who="#bb" when="2022-09-27">updated work associations for "Poem of a Few Greatnesses" and "Poem of Remembrances for A Girl or A Boy of These States"</change>
          <change who="#bb" when="2022-03-08">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2019-11-19">changed value of @type on div1 for Leaves-Droppings</change>
          <change who="#bb" when="2019-09-24">changed encoding of the signature mark at the bottom of p. 33 to accord with all of the others</change>
@@ -3504,9 +3506,9 @@ lump</orig><reg>loup-lump</reg></choice> at the bottom of the melt at last — <
          <pb facs="ppp.00237.169.jpg" xml:id="leaf084r" n="161" type="recto"/>
          <lg xml:id="ppp.00243" type="poem">
 <!--            <relations>
-               <work ref="xxx.00430"/>
+               <work ref="xxx.00121"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00430"></note>
+            <note type="work_relations" target="xxx.00121"></note>
             <head type="main-authorial">6 — Poem of a Few Greatnesses. </head>
             <lg type="linegroup">
                <l n="first">GREAT are the myths, I too delight in them,</l>
@@ -5686,9 +5688,9 @@ The Archipelagoes of the Sea. </head>
          <pb facs="ppp.00237.283.jpg" xml:id="leaf141r" n="275" type="recto"/>
          <lg xml:id="ppp.00260" type="poem">
 <!--            <relations>
-               <work ref="xxx.00431"/>
+               <work ref="xxx.00432"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00431"></note>
+            <note type="work_relations" target="xxx.00432"></note>
             <head type="main-authorial">23 — Poem of Remembrances for A Girl or A Boy of These States. </head>
             <lg type="linegroup">
                <l n="first">REMEMBER the organic compact of These <lb/>States!</l>

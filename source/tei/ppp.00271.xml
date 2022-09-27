@@ -64,6 +64,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Iowa copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-09-27">updated work association for the final poem</change>
          <change who="#bb" when="2022-03-08">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#nhg" when="2020-04-21">incorporated edits suggested by Walter Gr&#252;nzweig, including various spacing corrections, adding hyphen to "New York" on p. iv, and adding period after "The best farms" on p. 86</change>
          <change who="#nhg" when="2017-08-22">proofed against images</change>
@@ -3831,9 +3832,9 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
          <milestone unit="undeclared" rend="horbar-full"/>
          <lg xml:id="ppp.00472" type="poem">
 <!--            <relations>
-               <work ref="xxx.00430"/>
+               <work ref="xxx.00121"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00430"></note>
+            <note type="work_relations" target="xxx.00121"></note>
             <lg type="linegroup">
                <l>G<hi rend="smallcaps">REAT</hi> are the myths . . . . I too delight in them,</l>
                <l>Great are Adam and Eve . . . . I too look back and accept them;</l>

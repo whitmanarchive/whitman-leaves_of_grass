@@ -66,6 +66,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of Price's copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-09-27">updated work associations for "Chants Democratic-6" ("You just maturing youth")," "Leaves of Grass-2" ("Great are the myths"), "Leaves of Grass-24" ("Lift me close to your face till I whisper"), and "Respondez!"</change>
          <change who="#bb" when="2022-03-29">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2019-04-16">corrected spelling of "mediæval" on p. 135</change>
          <change who="#bb" when="2019-02-25">changed date attributes in sourceDesc; expanded "1860–61" to "1860–1861"</change>
@@ -5090,9 +5091,11 @@ ceremonious?</l>
 <milestone unit="undeclared" rend="horbar-short-center"/><!--Ornament-->
             <lg type="poem" xml:id="ppp.01509">
 <!--               <relations>
-                  <work ref="xxx.00433"/>
+                  <work ref="xxx.00222"/>
+                  <work ref="xxx.00265"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00433"></note>
+               <note type="work_relations" target="xxx.00222"></note>
+               <note type="work_relations" target="xxx.00265"></note>
                <head type="main-authorial">5.</head>
 
                <l>R<hi rend="smallcaps">ESPONDEZ</hi>! Respondez!</l>
@@ -5174,9 +5177,9 @@ ceremonious?</l>
 <milestone unit="undeclared" rend="horbar-short-center"/><!--Ornament-->
             <lg type="poem" xml:id="ppp.01510">
 <!--               <relations>
-                  <work ref="xxx.00431"/>
+                  <work ref="xxx.00432"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00431"></note>
+            <note type="work_relations" target="xxx.00432"></note>
                <head type="main-authorial">6.</head>
 
                <lg type="linegroup" n="1">
@@ -6054,9 +6057,9 @@ ceremonious?</l>
             <milestone unit="undeclared" rend="horbar-short-center"/><!--Ornament-->
             <lg type="poem" xml:id="ppp.01528">
 <!--               <relations>
-                  <work ref="xxx.00430"/>
+                  <work ref="xxx.00121"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00430"></note>
+            <note type="work_relations" target="xxx.00121"></note>
                <head type="main-authorial">2.</head>
 
                <lg type="linegroup" n="1">
@@ -7354,9 +7357,9 @@ ceremonious?</l>
 
             <lg type="poem" xml:id="ppp.01550">
 <!--               <relations>
-                  <work ref="xxx.00452"/>
+                  <work ref="xxx.00427"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00452"></note>
+            <note type="work_relations" target="xxx.00427"></note>
                <head type="main-authorial">24.</head>
 
                <l>L<hi rend="smallcaps">IFT</hi> me close to your face till I whisper,</l>

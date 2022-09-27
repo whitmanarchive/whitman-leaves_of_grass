@@ -66,6 +66,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-09-27">updated/corrected work associations for "A Promise to California," "A Leaf for Hand in Hand," "Great Are the Myths," and "Respondez!"</change>
          <change who="#bb" when="2022-06-10">corrected "obscencly" to "obscenely" on p. 335</change>
          <change who="#bb" when="2022-04-06">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2020-12-04">added page breaks for spine and front and back covers (recto and verso); corrected image reference in @facs for p. 77</change>
@@ -5220,7 +5221,7 @@
 <!--               <relations>
                   <work ref="xxx.00094"/>
                </relations>-->
-            <note type="work_relations" target="xxx.000094"></note>
+            <note type="work_relations" target="xxx.00094"></note>
                <head type="main-authorial">A PROMISE TO CALIFORNIA.</head>
 
                <l>A <hi rend="smallcaps">PROMISE</hi> to California,</l>
@@ -5311,7 +5312,7 @@
 <!--               <relations>
                   <work ref="xxx.00098"/>
                </relations>-->
-            <note type="work_relations" target="xxx.0098"></note>
+            <note type="work_relations" target="xxx.00098"></note>
                <head type="main-authorial">A LEAF FOR HAND IN HAND.</head>
 
                <l>A <hi rend="smallcaps">LEAF</hi> for hand in hand!</l>
@@ -9257,9 +9258,9 @@ Glance as she sits, inviting none, denying none,</l>
 
          <lg type="poem" xml:id="ppp.00372">
 <!--            <relations>
-               <work ref="xxx.00430"/>
+               <work ref="xxx.00121"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00430"></note>
+            <note type="work_relations" target="xxx.00121"></note>
             <head type="main-authorial">GREAT ARE THE MYTHS.</head>
 
             <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -12492,9 +12493,11 @@ UNKNOWN.</head>
 
             <lg type="poem" xml:id="ppp.00422">
 <!--               <relations>
-                  <work ref="xxx.00433"/>
+                  <work ref="xxx.00222"/>
+                  <work ref="xxx.00265"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00433"></note>
+               <note type="work_relations" target="xxx.00222"></note>
+               <note type="work_relations" target="xxx.00265"></note>
                <head type="main-authorial">RESPONDEZ!</head>
 
                <l>R<hi rend="smallcaps">ESPONDEZ</hi>! Respondez!</l>
