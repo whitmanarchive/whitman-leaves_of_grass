@@ -22,7 +22,7 @@ class TeiToEsCluster < TeiToEs
   end
 
   def has_part
-    poems = @xml.xpath("//lg[@type='poem' and @id and contains(@id, 'ppp')]")
+    poems = @xml.xpath(".//lg[@type='poem' and @id and contains(@id, 'ppp')]")
     parts = []
     poems.each do |poem_xml|
       poem = TeiToEsPoem.new(poem_xml, {}, nil, @filename)
