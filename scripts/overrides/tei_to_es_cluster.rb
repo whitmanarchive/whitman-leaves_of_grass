@@ -38,7 +38,7 @@ class TeiToEsCluster < TeiToEs
   def is_part_of
     title = @xml.at_xpath("./ancestor::TEI//titleStmt/title[1]")
     {
-      "role" => "containing work",
+      "role" => "containing volume",
       "id" => @filename,
       "title" => title.text
     }
