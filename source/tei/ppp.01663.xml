@@ -16,6 +16,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ef">Ed Folsom</persName>
                <persName xml:id="kp">Kenneth M. Price</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -64,6 +65,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#km" when="2022-10-10">corrected "noticeabsorbing" on p. 381 to "notice absorbing; added hyphen at end of penultimate line on same page</change>
          <change who="#bb" when="2022-09-13">corrected three instances of type="linegroup" and added type="linegroup" to one lg</change>
          <change who="#bb" when="2022-06-20">corrected "incollars" on p. 68 to "in collars"</change>
          <change who="#bb" when="2022-04-19">revised relations/work encoding to conform to tei_all schema</change>
@@ -19025,7 +19027,7 @@ compact, indissoluble,</l>
                </lg>
                <lg type="linegroup">
                   <l>Screaming electric, the atmosphere using,</l>
-                  <l>At random glancing, each as I noticeabsorbing,</l>
+                  <l>At random glancing, each as I notice absorbing,</l>
                   <l>Swiftly on, but a little while alighting,</l>
                   <l>Curious envelop'd messages delivering,</l>
                   <l>Sparkles hot, seed ethereal down in the dirt dropping,</l>
@@ -19033,7 +19035,7 @@ compact, indissoluble,</l>
                   <l>To ages and ages yet the growth of the seed leaving,</l>
                   <l>To troops out of the war arising, they the tasks I have set <choice><orig>promul-<lb/>ging</orig><reg>promulging</reg></choice>,</l>
                   <l>To women certain whispers of myself bequeathing, their affection <lb/>me more clearly explaining,</l>
-                  <l>To young men my problems offering—no dallier I—I the mus <lb/>cle of their brains trying,</l>
+                  <l>To young men my problems offering—no dallier I—I the mus-<lb/>cle of their brains trying,</l>
                   <l>So I pass, a little time vocal, visible, contrary,</l>
                   <pb facs="ppp.01663.388.jpg" xml:id="leaf196v" n="382" type="verso"/>
                   <l>Afterward a melodious echo, passionately bent for, (death making <lb/>me really undying,)</l>
