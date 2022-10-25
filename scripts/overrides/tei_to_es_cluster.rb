@@ -5,7 +5,7 @@ class TeiToEsCluster < TeiToEs
     "#{@filename}.#{cluster_id}"
   end
 
-  def category2
+  def extent
     "cluster"
   end
 

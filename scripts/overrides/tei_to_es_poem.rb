@@ -65,7 +65,7 @@ class TeiToEsPoem < TeiToEs
     "#{@options["site_url"]}/published/LG/#{@year}/whole.html##{@xml["id"]}"
   end
 
-  def category2
+  def extent
     "poem"
   end
 
