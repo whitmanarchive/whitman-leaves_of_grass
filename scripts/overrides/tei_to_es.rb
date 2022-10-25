@@ -31,12 +31,10 @@ class TeiToEs < XmlToEs
         "pubplace" => "//biblStruct/monogr/imprint/pubPlace",
         "title" => "//biblStruct/monogr/title",
       },
-      "title" => {
-        "main" => "head[@type='main-authorial']",
-        "edition" => "//sourceDesc/biblStruct/monogr/title",
-        "article" => "head/title",
-        "newspaper" => "head[@type='main-authorial']/bibl/publisher"
-      },
+      "title_main" => "//head[@type='main-authorial']",
+      "title_edition" => "//sourceDesc/biblStruct/monogr/title",
+      "title_article" => "//head/title",
+      "title_newspaper" => "//head[@type='main-authorial']/bibl/publisher",
       "text" => "."
     }
   end
