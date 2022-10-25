@@ -131,7 +131,8 @@ class TeiToEs < XmlToEs
     @works_info = WorksInfo.new(xml)
     ids, names = @works_info.get_works_info
     citations = []
-    if ids.length > 0
+    
+    if ids && ids.length > 0
       ids.each_with_index do |id, idx|
         name = names[idx]
         citations << {
@@ -146,6 +147,31 @@ class TeiToEs < XmlToEs
 
   def extent
     "entire work"
+
+  end
+
+  def has_part
+    poems = @xml.xpath("//lg[@type='poem' and @id and contains(@id, 'ppp')]")
+    clusters = @xml.xpath("//lg[@type='cluster']")
+    parts = []
+    poems.each do |poem_xml|
+      poem = TeiToEsPoem.new(poem_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained poem",
+        "id" => poem.get_id,
+        "title" => poem.title
+      }
+    end
+    clusters.each do |cluster_xml|
+      cluster = TeiToEsCluster.new(cluster_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained cluster",
+        "id" => cluster.get_id,
+        "title" => cluster.title
+      }
+    end
+    parts
+
   end
 
 end
