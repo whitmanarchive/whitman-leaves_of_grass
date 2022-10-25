@@ -43,6 +43,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   datura!
+  nokogiri
   titleize (~> 1.4, >= 1.4.1)
 
 BUNDLED WITH
