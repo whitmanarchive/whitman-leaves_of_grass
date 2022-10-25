@@ -131,6 +131,7 @@ class TeiToEs < XmlToEs
     @works_info = WorksInfo.new(xml)
     ids, names = @works_info.get_works_info
     citations = []
+    
     if ids && ids.length > 0
       ids.each_with_index do |id, idx|
         name = names[idx]
@@ -146,6 +147,7 @@ class TeiToEs < XmlToEs
 
   def extent
     "entire work"
+
   end
 
   def has_part
@@ -169,6 +171,7 @@ class TeiToEs < XmlToEs
       }
     end
     parts
+
   end
 
 end

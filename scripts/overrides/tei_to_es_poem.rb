@@ -6,6 +6,7 @@ class TeiToEsPoem < TeiToEs
   # of the behavior related to the poem content of leaves of grass
 
   # TODO might be better to change the behavior in datura
+
   def preprocessing
     @cluster = @xml.at_xpath("./parent::lg[@type='cluster']")
   end
@@ -14,6 +15,7 @@ class TeiToEsPoem < TeiToEs
     if !@xml["id"]
       return nil
     end
+
     poem_id = @xml["id"].gsub("ppp.", "poem.")
     "#{@filename}_#{poem_id}"
   end
