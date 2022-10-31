@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00237">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00237">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -319,7 +321,7 @@ p.383 changed "to seek the work itself." to "to seek the work itself,"
 <!--            <relations>
                <work ref="xxx.00048"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00048"></note>
+            <note type="work_relations" target="xxx.00048"/>
             <head type="main-authorial">1 — Poem of Walt Whitman, an American. </head>
             <lg type="linegroup">
                <l n="first">I CELEBRATE myself, </l>
@@ -2457,7 +2459,7 @@ lands, they are not original with me,</l>
 <!--            <relations>
                <work ref="xxx.00246"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00246"></note>
+            <note type="work_relations" target="xxx.00246"/>
             <head type="main-authorial">2 — Poem of Women. </head>
             <lg type="linegroup">
                <l n="first">UNFOLDED only out of the folds of the <lb/>woman, man comes unfolded, and is always <lb/>to come unfolded,</l>
@@ -2480,7 +2482,7 @@ lands, they are not original with me,</l>
 <!--            <relations>
                <work ref="xxx.00110"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00110"></note>
+            <note type="work_relations" target="xxx.00110"/>
             <head type="main-authorial">3 — Poem of Salutation. </head>
             <lg type="linegroup">
                <l n="first">O TAKE my hand, Walt Whitman!</l>
@@ -2829,7 +2831,7 @@ lands, they are not original with me,</l>
 <!--            <relations>
                <work ref="xxx.00119"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00119"></note>
+            <note type="work_relations" target="xxx.00119"/>
             <head type="main-authorial">4 — Poem of The Daily Work of The Workmen and Workwomen of These
 States. </head>
             <lg type="linegroup">
@@ -3123,7 +3125,7 @@ lump</orig><reg>loup-lump</reg></choice> at the bottom of the melt at last — <
 <!--            <relations>
                <work ref="xxx.00116"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00116"></note>
+            <note type="work_relations" target="xxx.00116"/>
             <head type="main-authorial">5 — Broad-Axe Poem. </head>
             <lg type="linegroup">
                <l n="first">BROAD-AXE, shapely, naked, wan! </l>
@@ -3508,7 +3510,7 @@ lump</orig><reg>loup-lump</reg></choice> at the bottom of the melt at last — <
 <!--            <relations>
                <work ref="xxx.00121"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00121"></note>
+            <note type="work_relations" target="xxx.00121"/>
             <head type="main-authorial">6 — Poem of a Few Greatnesses. </head>
             <lg type="linegroup">
                <l n="first">GREAT are the myths, I too delight in them,</l>
@@ -3643,7 +3645,7 @@ rules, and as <lb/>the love, justice, equality in the soul, rule.</l>
 <!--            <relations>
                <work ref="xxx.00052"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00052"></note>
+            <note type="work_relations" target="xxx.00052"/>
             <head type="main-authorial">7 — Poem of The Body. </head>
             <lg type="linegroup">
                <l n="first">THE bodies of men and women engirth me, and <lb/>I engirth them,</l>
@@ -3888,7 +3890,7 @@ rules, and as <lb/>the love, justice, equality in the soul, rule.</l>
 <!--            <relations>
                <work ref="xxx.00221"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00221"></note>
+            <note type="work_relations" target="xxx.00221"/>
             <head type="main-authorial">8 — Poem of Many In One. </head>
             <lg type="linegroup">
                <l n="first">A NATION announcing itself,</l>
@@ -4298,7 +4300,7 @@ with all <lb/>identities that exist, or ever have existed,</l>
 <!--            <relations>
                <work ref="xxx.00229"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00229"></note>
+            <note type="work_relations" target="xxx.00229"/>
             <head type="main-authorial">9 — Poem of Wonder at The Resurrection of The Wheat. </head>
             <lg type="linegroup">
                <l n="first">SOMETHING startles me where I thought I <lb/>was safest,</l>
@@ -4369,7 +4371,7 @@ with all <lb/>identities that exist, or ever have existed,</l>
 <!--            <relations>
                <work ref="xxx.00125"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00125"></note>
+            <note type="work_relations" target="xxx.00125"/>
             <head type="main-authorial">10 — Poem of You, Whoever You Are. </head>
             <lg type="linegroup">
                <l n="first">WHOEVER you are, I fear you are walking <lb/>the walks of dreams,</l>
@@ -4455,7 +4457,7 @@ with all <lb/>identities that exist, or ever have existed,</l>
 <!--            <relations>
                <work ref="xxx.00112"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00112"></note>
+            <note type="work_relations" target="xxx.00112"/>
             <head type="main-authorial">11 — Sun-Down Poem. </head>
             <lg type="linegroup">
                <l n="first">FLOOD-TIDE of the river, flow on! I watch <lb/>you, face to face,</l>
@@ -4677,7 +4679,7 @@ light, over the tops of houses, <lb/>and down into the clefts of streets.</l>
             <!-- <relations>
                <work ref="xxx.00111"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00111"></note>
+            <note type="work_relations" target="xxx.00111"/>
             <head type="main-authorial">12 — Poem of The Road. </head>
             <lg type="linegroup">
                <l n="first">AFOOT and light-hearted I take to the open <lb/>road!</l>
@@ -5051,7 +5053,7 @@ religions, </l>
 <!--            <relations>
                <work ref="xxx.00053"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00053"></note>
+            <note type="work_relations" target="xxx.00053"/>
             <head type="main-authorial">13 — Poem of Procreation. </head>
             <lg type="linegroup">
                <l n="first">A WOMAN waits for me—she contains all, <lb/>nothing is lacking,</l>
@@ -5122,7 +5124,7 @@ religions, </l>
 <!--            <relations>
                <work ref="xxx.00113"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00113"></note>
+            <note type="work_relations" target="xxx.00113"/>
             <head type="main-authorial">14 — Poem of The Poet. </head>
             <lg type="linegroup">
                <l n="first">A YOUNG man came to me with a message <lb/>from his brother,</l>
@@ -5226,7 +5228,7 @@ religions, </l>
 <!--            <relations>
                <work ref="xxx.00138"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00138"></note>
+            <note type="work_relations" target="xxx.00138"/>
             <head type="main-authorial">15 — Clef Poem. </head>
             <lg type="linegroup">
                <l n="first">THIS night I am happy,</l>
@@ -5283,7 +5285,7 @@ live <lb/>just as much as before.</l>
 <!--            <relations>
                <work ref="xxx.00144"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00144"></note>
+            <note type="work_relations" target="xxx.00144"/>
             <head type="main-authorial">16 — Poem of The Dead Young Men of Europe, The 72d and 73d Years of These States </head>
             <lg type="linegroup">
                <l n="first">SUDDENLY out of its stale and drowsy lair, <lb/>the lair of slaves,</l>
@@ -5352,7 +5354,7 @@ live <lb/>just as much as before.</l>
 <!--            <relations>
                <work ref="xxx.00278"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00278"></note>
+            <note type="work_relations" target="xxx.00278"/>
             <head type="main-authorial">17 — Poem of The Heart of The Son of Manhattan Island. </head>
             <lg type="linegroup">
                <l n="first">WHO has gone farthest? For I swear I will go <lb/>farther;</l>
@@ -5378,7 +5380,7 @@ live <lb/>just as much as before.</l>
 <!--            <relations>
                <work ref="xxx.00232"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00232"></note>
+            <note type="work_relations" target="xxx.00232"/>
             <head type="main-authorial">18 — Poem of The Last Explanation of Prudence. </head>
             <lg type="linegroup">
                <l n="first">ALL day I have walked the city and talked with <lb/>my friends, and thought of prudence,</l>
@@ -5471,7 +5473,7 @@ live <lb/>just as much as before.</l>
 <!--            <relations>
                <work ref="xxx.00113"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00113"></note>
+            <note type="work_relations" target="xxx.00113"/>
             <head type="main-authorial">19 — Poem of The Singers, and of The Words of Poems. </head>
             <lg type="linegroup">
                <l n="first">PERFECT sanity shows the master among <lb/>philosophs,</l>
@@ -5522,7 +5524,7 @@ full,</l>
 <!--            <relations>
                <work ref="xxx.00009"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00009"></note>
+            <note type="work_relations" target="xxx.00009"/>
             <head type="main-authorial">20 — Faith Poem. </head>
             <lg type="linegroup">
                <l n="first">I NEED no assurances—I am a man who is <lb/>pre-occupied of his own soul;</l>
@@ -5554,7 +5556,7 @@ on purpose—and that I shall one day be <lb/>eligible to do as much as they, an
 <!--            <relations>
                <work ref="xxx.00230"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00230"></note>
+            <note type="work_relations" target="xxx.00230"/>
             <head type="main-authorial">21 — Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and
 The Archipelagoes of the Sea. </head>
             <lg type="linegroup">
@@ -5601,7 +5603,7 @@ The Archipelagoes of the Sea. </head>
 <!--            <relations>
                <work ref="xxx.00143"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00143"></note>
+            <note type="work_relations" target="xxx.00143"/>
             <head type="main-authorial">22 — Poem of Apparitions in Boston, The 78th Year of These States. </head>
             <lg type="linegroup">
                <l n="first">CLEAR the way there, Jonathan!</l>
@@ -5690,7 +5692,7 @@ The Archipelagoes of the Sea. </head>
 <!--            <relations>
                <work ref="xxx.00432"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00432"></note>
+            <note type="work_relations" target="xxx.00432"/>
             <head type="main-authorial">23 — Poem of Remembrances for A Girl or A Boy of These States. </head>
             <lg type="linegroup">
                <l n="first">REMEMBER the organic compact of These <lb/>States!</l>
@@ -5770,7 +5772,7 @@ The Archipelagoes of the Sea. </head>
 <!--            <relations>
                <work ref="xxx.00243"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00243"></note>
+            <note type="work_relations" target="xxx.00243"/>
             <head type="main-authorial">24 — Poem of Perfect Miracles. </head>
             <lg type="linegroup">
                <l n="first">REALISM is mine, my miracles,</l>
@@ -5822,7 +5824,7 @@ The Archipelagoes of the Sea. </head>
 <!--            <relations>
                <work ref="xxx.00226"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00226"></note>
+            <note type="work_relations" target="xxx.00226"/>
             <head type="main-authorial">25 — Poem of The Child That Went Forth, and Always Goes Forth, Forever and Forever </head>
             <lg type="linegroup">
                <l n="first">THERE was a child went forth every day, </l>
@@ -5876,7 +5878,7 @@ mean, <lb/>angered, unjust,</l>
 <!--            <relations>
                <work ref="xxx.00264"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00264"></note>
+            <note type="work_relations" target="xxx.00264"/>
             <head type="main-authorial">26 — Night Poem. </head>
             <lg type="linegroup">
                <l n="first">I WANDER all night in my vision, </l>
@@ -6215,7 +6217,7 @@ mean, <lb/>angered, unjust,</l>
 <!--            <relations>
                <work ref="xxx.00271"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00271"></note>
+            <note type="work_relations" target="xxx.00271"/>
             <head type="main-authorial">27 — Poem of Faces. </head>
             <lg type="linegroup">
                <l n="first">SAUNTERING the pavement or riding the <lb/>country by-road, here then are faces!</l>
@@ -6372,7 +6374,7 @@ mean, <lb/>angered, unjust,</l>
 <!--            <relations>
                <work ref="xxx.00054"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00054"></note>
+            <note type="work_relations" target="xxx.00054"/>
             <head type="main-authorial">28 — Bunch Poem. </head>
             <lg type="linegroup">
                <l n="first">THE friend I am happy with,</l>
@@ -6427,7 +6429,7 @@ mean, <lb/>angered, unjust,</l>
 <!--            <relations>
                <work ref="xxx.00250"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00250"></note>
+            <note type="work_relations" target="xxx.00250"/>
             <head type="main-authorial">29 — Lesson Poem. </head>
             <lg type="linegroup">
                <l n="first">WHO learns my lesson complete?</l>
@@ -6484,7 +6486,7 @@ mean, <lb/>angered, unjust,</l>
 <!--            <relations>
                <work ref="xxx.00222"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00222"></note>
+            <note type="work_relations" target="xxx.00222"/>
             <head type="main-authorial">30 — Poem of The Propositions of Nakedness. </head>
             <lg type="linegroup">
                <l n="first">RESPONDEZ! Respondez!</l>
@@ -6568,7 +6570,7 @@ mean, <lb/>angered, unjust,</l>
 <!--            <relations>
                <work ref="xxx.00120"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00120"></note>
+            <note type="work_relations" target="xxx.00120"/>
             <head type="main-authorial">31 — Poem of The Sayers of The Words of The Earth. </head>
             <lg type="linegroup">
                <l n="first">EARTH, round, rolling, compact—suns, moons, <lb/>animals—all these are words,</l>
@@ -6789,7 +6791,7 @@ mean, <lb/>angered, unjust,</l>
 <!--            <relations>
                <work ref="xxx.00266"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00266"></note>
+            <note type="work_relations" target="xxx.00266"/>
             <head type="main-authorial">32 — Burial Poem. </head>
             <lg type="linegroup">
                <l n="first">To think of time! to think through the <choice><orig>retro-<lb/>spection</orig><reg>retrospection</reg></choice>!</l>
@@ -7226,7 +7228,7 @@ above.</p>
 by stimulating the appetite for more substantial nourishment. There are those also who are lifted by genial inspirations to receive influxes from the upper mind-sphere of the age. They stand, as it were, on clear mountains of intellectual elevation, and with keenest perception discern the purer forms of new unfolding truths ere they become sufficiently embodied to be manifest to the grosser minds of the race. Of these, Ralph Waldo Emerson is the highest type. He sees the future of truths as our Spirit-seers discern the future of man; he welcomes those impalpable forms, as Spiritualists receive with gladdened minds the returning hosts of Spirit-friends.</p>
                   <p>There are other mediatorial natures who are in mental and heart-sympathy with man, as he now is, struggling to free himself from the tyranny of the old and effete, and to grasp and retain the new life flowing down from the heavens. And as the kindling rays at first produce more smoke than fire, so their lay is one of promise rather than performance. Such we conceive to be the interior condition of the author of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." He accepts man as he is as to his whole nature, and all men as his own brothers. The lambent flame of his genius encircles the world—nor does he clearly discern between that which is to be preserved and that which is but as fuel for the purification of the ore from its dross. There is a wild strength, a Spartan simplicity about the man, and he stalks among the dapper gentlemen of this generation, like a drunken Hercules amid the dainty dancers. That his song is highly mediatorial, he himself asserts, though probably he is unacquainted with the Spiritual developments of the age. </p>
 
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01979">
                      <lg type="linegroup">
                         <l>"Through me," he sings, "many long dumb voices, </l>
                         <l>Voices of the interminable generations of slaves, </l>
@@ -7392,7 +7394,7 @@ the loftiest leading genius. Do you think the best honors of the earth are won s
 Whitman? Do you think city and country are to fall before the vehement egotism of your
 recitative of yourself?</p>
 
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01980">
                      <lg type="linegroup">
                         <l>I am the poet of the body, </l>
                         <l>And I am the poet of the soul. </l>
@@ -7474,7 +7476,7 @@ exposed to the waist, are each and all presented to show that the man to whom th
 belong scorns the delicate arts of civilization. The man is the true impersonation of his
 book—rough, uncouth, vulgar. It was by the merest accident that we discovered the name of this
 erratic and newest wonder; but at page 29 we find that he is —</p>
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01981">
                      <lg type="linegroup">
                         <l>Walt Whitman, an American, one of the roughs, a kosmos, </l>
                         <l>Disorderly, fleshly, and sensual. </l>
@@ -7511,7 +7513,7 @@ Walt Whitman has had near and ample opportunities of studying the vociferations 
 amiable savages. Or rather, perhaps, this Walt Whitman reminds us of Caliban flinging down his
 logs, and setting himself to write a poem. In fact, Caliban, and not Walt Whitman, might have
 written this:</p>
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01982">
                      <lg type="linegroup">
                         <l>I too am not a bit tamed—I too am untranslatable, </l>
                         <l>I sound my <hi rend="italic">barbaric yawp</hi> over the roofs of the world. </l>
@@ -7536,7 +7538,7 @@ been misdirected by civilization, call it the expression of <hi rend="italic">a 
 the hills. It is the doctrine of universal sympathy which the first poet maintained, and which the
 last on earth will maintain also. He says:</p>
 
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01983">
                      <lg type="linegroup">
                         <l>Not a mutineer walks handcuffed to the jail but I am handcuffed to <lb/>him and walk by his side,</l>
                         <l>Not a cholera patient lies at the last gasp but I also lie at the last <lb/>gasp.</l>
@@ -7546,7 +7548,7 @@ last on earth will maintain also. He says:</p>
 Herein we may behold the difference between a great and a contemptible poet. What
 Shakspeare—mighty shade of the mightiest bard, forgive us the comparison!—expressed in a
 single line,</p>
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01984">
                      <lg type="linegroup">
                         <l>One touch of nature makes the whole world kin, </l>
                      </lg>
@@ -7577,7 +7579,7 @@ World. To silence our incredulous readers, we assure them that the passage may b
 so to a nation from which the spirit-rappers sprung.
 </p>
                   <pb facs="ppp.00237.385.jpg" xml:id="leaf192r" n="377" type="recto"/>
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01985">
                      <lg type="linegroup">
                         <l>I depart as air, I shake my white locks at the runaway sun; </l>
                         <l>I effuse my flesh in eddies, and drift it in lacy jags; </l>
@@ -7591,7 +7593,7 @@ so to a nation from which the spirit-rappers sprung.
                   </p>
                   <p>And here a spice of his republican insolence, his rank Yankeedom, and his audacious trifling
 with death:</p>
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01986">
                      <lg type="linegroup">
                         <l>Dig out King George's coffin, unwrap him quick from the <choice><orig>grave-<lb/>clothes</orig><reg>grave-clothes</reg></choice>, box up his bones for a journey,</l>
                         <l>Find a swift Yankee clipper: here is freight for you, black-bellied <lb/>clipper,</l>
@@ -7614,7 +7616,7 @@ poet lies in his robust and rude health. He is, in fact, as he declares, "the po
 this theory, and Walt Whitman is a Titan; Shelley and Keats the merest pigmies. If we had
 commenced a notice of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>" in anger, we could not but dismiss it in grief, for
 its author, we have just discovered, is conscious of his affliction. He says, at page 33,</p>
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01987">
                      <lg type="linegroup">
                         <l rend="center">
                            <hi rend="italic">I am given up by traitors;</hi> 
@@ -7695,7 +7697,7 @@ to show how there
 arises catalogue within catalogue, and how sorely the paroxysm is aggravated by the incidental
 mention of any one particular that is itself again capable of subdivision into lots.</p>
 
-                  <q who="#ww"><lg type="poem">
+                  <q who="#ww"><lg type="poem" xml:id="ppp.01988">
                      <lg type="linegroup">
                         <l>The usual routine, the workshop, factory, yard, office, store, or desk; </l>
                         <l>The jaunt of hunting or fishing, or the life of hunting or fishing. </l>
@@ -7717,7 +7719,7 @@ the Household Furniture with the select collection of scarce, curious, and valua
 Goldsmith, deceased, which, by order of the adm<hi rend="superscript">r</hi>, will be sold by auction, &amp;c.,
 &amp;c.)</p>
                   <p rend="center">(<hi rend="italic">The Examiner's burlesque of Walt Whitman</hi>.)</p>
-                  <lg type="poem">
+                  <lg type="poem" xml:id="ppp.01989">
                      <lg type="linegroup">
                         <l>Surely the house of a poet is a poem, and behold a poet in the <lb/>auctioneer who tells you the whole lot of it—</l>
                         <l>The bath stone, compass front, open border, fender, shovel, tongs, <lb/>and poker,</l>

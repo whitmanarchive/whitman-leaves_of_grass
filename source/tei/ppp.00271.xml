@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00271">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00271">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -66,7 +68,7 @@
       <revisionDesc>
          <change who="#bb" when="2022-09-27">updated work association for the final poem</change>
          <change who="#bb" when="2022-03-08">revised relations/work encoding to conform to tei_all schema</change>
-         <change who="#nhg" when="2020-04-21">incorporated edits suggested by Walter Gr&#252;nzweig, including various spacing corrections, adding hyphen to "New York" on p. iv, and adding period after "The best farms" on p. 86</change>
+         <change who="#nhg" when="2020-04-21">incorporated edits suggested by Walter Grünzweig, including various spacing corrections, adding hyphen to "New York" on p. iv, and adding period after "The best farms" on p. 86</change>
          <change who="#nhg" when="2017-08-22">proofed against images</change>
          <change who="#bb" when="2017-05-26">on the advice of user Kelley Franklin, supplied missing linegroup break on p. 42</change>
          <change who="#bb" when="2017-03-14">on the advice of user Gregory Murray, removed two superfluous spaces after hyphens</change>
@@ -133,7 +135,7 @@
          
          <div1 type="preface">
             <!--<relations><work ref="xxx.00526"/></relations>-->
-            <note type="work_relations" target="xxx.00526"></note>
+            <note type="work_relations" target="xxx.00526"/>
             <p>AMERICA does not repel the past or what it has produced under its forms or amid other politics or the idea of castes or the old religions . . . . accepts the lesson with calmness . . . is not so impatient as has been supposed that the slough still sticks to opinions and manners and literature while the life which served its requirements has passed into the new life of the new forms . . . perceives that the corpse is slowly borne from the eating and sleeping rooms of the house . . . perceives that it waits a little while in the door . . . that it was fittest for its days . . . that its action has descended to the stalwart and wellshaped heir who approaches . . . and that he shall be fittest for his days. </p>
             <p>The Americans of all nations at any time upon the earth have probably the fullest poetical nature.  The United States themselves are essentially the greatest poem.  In the history of the earth hitherto the largest and most stirring appear tame and orderly to their ampler largeness and stir. Here at last is something in the doings of man that corresponds with the broadcast doings of the day and night. Here is not merely a nation but a teeming nation of nations. Here is action untied from strings necessarily blind to particulars and details magnificently moving in vast masses. Here is the hospitality which forever indicates heroes . . . . Here are the roughs and beards and space and ruggedness and nonchalance that the soul loves.  Here the performance disdaining the trivial unapproached in the tremendous audacity of its crowds and groupings and the push of its perspective spreads with crampless and flowing breadth and showers its prolific and splendid extravagance.  One sees it must indeed own the riches of the summer and winter, and need never be bankrupt while corn grows from the ground or the orchards drop apples or the bays contain fish or men beget children upon women. </p>
             <p>Other states indicate themselves in their deputies . . . . but the genius of the United States is not best or most in its executives or legislatures, nor in its ambassadors or authors or colleges or churches or parlors, nor even in its newspapers or inventors . . . but always most in the common people.  Their manners speech dress friendships—the freshness and candor of their physiognomy—the picturesque looseness of their carriage . . . their deathless attachment to freedom—their aversion to anything indecorous or soft or mean—the practical acknowledgment of the citizens of one state by the citizens of all other states—the fierceness of their roused resentment—their curiosity and welcome of novelty—their self-esteem and wonderful sympathy—their susceptibility to a slight—the air they have of persons who never knew how it felt to stand in the presence of superiors—the fluency of their speech—their delight in music, the sure symptom of manly tenderness and native elegance of soul . . . their good temper and openhandedness—the terrible significance of their elections—the President's taking off his hat to them not they to him—these too are unrhymed poetry.  It awaits the gigantic and generous treatment worthy of it. </p>
@@ -174,7 +176,7 @@
                <work ref="xxx.00048"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00461"></note>
+            <note type="work_relations" target="xxx.00461"/>
             <head type="main-authorial">Leaves of Grass.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="linegroup">
@@ -2285,7 +2287,7 @@ breath . . . . I buoy you up;</l>
                <work ref="xxx.00119"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00119"></note>
+            <note type="work_relations" target="xxx.00119"/>
             <head type="main-authorial">Leaves of Grass.</head>
             <lg type="linegroup">
                <l>C<hi rend="smallcaps">OME</hi> closer to me,</l>
@@ -2544,7 +2546,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00266"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00266"></note>
+            <note type="work_relations" target="xxx.00266"/>
             <head type="main-authorial">Leaves of Grass.</head>
             <lg type="linegroup">
                <l>T<hi rend="smallcaps">O</hi> think of time . . . . to think through the retrospection,</l>
@@ -2775,7 +2777,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00264"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00264"></note>
+            <note type="work_relations" target="xxx.00264"/>
             <head type="main-authorial">Leaves of Grass.</head>
             <lg type="linegroup">
                <l>I <hi rend="smallcaps">WANDER</hi> all night in my vision,</l>
@@ -3111,7 +3113,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00052"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00052"></note>
+            <note type="work_relations" target="xxx.00052"/>
             <head type="main-authorial">Leaves of Grass.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="linegroup">
@@ -3313,7 +3315,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00271"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00271"></note>
+            <note type="work_relations" target="xxx.00271"/>
             <head type="main-authorial">Leaves of Grass.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="linegroup">
@@ -3469,7 +3471,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00113"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00113"></note>
+            <note type="work_relations" target="xxx.00113"/>
             <lg type="linegroup">
                <l>A <hi rend="smallcaps">YOUNG</hi> man came to me with a message from his brother,</l>
                <l>How should the young man know the whether and when of his brother?</l>
@@ -3571,7 +3573,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00144"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00144"></note>
+            <note type="work_relations" target="xxx.00144"/>
             <lg type="linegroup">
                <l>S<hi rend="smallcaps">UDDENLY</hi> out of its stale and drowsy lair, the lair of slaves,</l>
                <l>Like lightning Europe le'pt forth . . . . half startled at itself,</l>
@@ -3640,7 +3642,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00143"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00143"></note>
+            <note type="work_relations" target="xxx.00143"/>
             <lg type="linegroup">
                <l>C<hi rend="smallcaps">LEAR</hi> the way there Jonathan!</l>
                <l>Way for the President's marshal! Way for the government cannon!</l>
@@ -3726,7 +3728,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00226"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00226"></note>
+            <note type="work_relations" target="xxx.00226"/>
             <lg type="linegroup">
                <l>T<hi rend="smallcaps">HERE</hi> was a child went forth every day,</l>
                <l>And the first object he looked upon and received with wonder or pity or love <lb/>or dread, that object he became,</l>
@@ -3777,7 +3779,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <work ref="xxx.00250"/>
             </relations>-->
             
-            <note type="work_relations" target="xxx.00250"></note>
+            <note type="work_relations" target="xxx.00250"/>
             <lg type="linegroup">
                <l>W<hi rend="smallcaps">HO</hi> learns my lesson complete?</l>
                <l>Boss and journeyman and apprentice? . . . . churchman and atheist?</l>
@@ -3834,7 +3836,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
 <!--            <relations>
                <work ref="xxx.00121"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00121"></note>
+            <note type="work_relations" target="xxx.00121"/>
             <lg type="linegroup">
                <l>G<hi rend="smallcaps">REAT</hi> are the myths . . . . I too delight in them,</l>
                <l>Great are Adam and Eve . . . . I too look back and accept them;</l>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.01663">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.01663">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1547,7 +1549,7 @@ Boston.</hi></hi>
 <!--            <relations>
                <work ref="xxx.00022"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00022"></note>
+            <note type="work_relations" target="xxx.00022"/>
             <head type="main-authorial">INSCRIPTIONS.</head>
 
             <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -1556,7 +1558,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00024"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00024"></note>
+            <note type="work_relations" target="xxx.00024"/>
                <head type="main-authorial">ONE'S-SELF I SING.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">NE'S-</hi>S<hi rend="smallcaps">ELF</hi> I sing, a simple separate person,</l>
@@ -1577,7 +1579,7 @@ Boston.</hi></hi>
                <!--               <relations>
                   <work ref="xxx.00025"/>
                </relations>-->
-               <note type="work_relations" target="xxx.00025"></note>
+               <note type="work_relations" target="xxx.00025"/>
                <head type="main-authorial">AS I PONDER'D IN SILENCE.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">S</hi> I ponder'd in silence,</l>
@@ -1634,7 +1636,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00026"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00026"></note>
+            <note type="work_relations" target="xxx.00026"/>
                <head type="main-authorial">IN CABIN'D SHIPS AT SEA.</head>
                <lg type="linegroup">
                   <l>I<hi rend="smallcaps">N</hi> cabin'd ships at sea,</l>
@@ -1683,7 +1685,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00027"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00027"></note>
+            <note type="work_relations" target="xxx.00027"/>
                <head type="main-authorial">TO FOREIGN LANDS.</head>
                <lg type="linegroup">
                   <l>I <hi rend="smallcaps">HEARD</hi> that you ask'd for something to prove this puzzle the New <lb/>World,</l>
@@ -1695,7 +1697,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00028"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00028"></note>
+            <note type="work_relations" target="xxx.00028"/>
                <head type="main-authorial">TO A HISTORIAN.</head>
                <lg type="linegroup">
                   <l>Y<hi rend="smallcaps">OU</hi> who celebrate bygones,</l>
@@ -1711,7 +1713,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00029"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00029"></note>
+            <note type="work_relations" target="xxx.00029"/>
                <head type="main-authorial">TO THEE OLD CAUSE.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">O</hi> thee old cause!</l>
@@ -1745,7 +1747,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00030"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00030"></note>
+            <note type="work_relations" target="xxx.00030"/>
                <head type="main-authorial">EIDÓLONS.</head>
                <lg type="linegroup">
                   <l rend="indented1">I <hi rend="smallcaps">MET</hi> a seer,</l>
@@ -1885,7 +1887,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00031"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00031"></note>
+            <note type="work_relations" target="xxx.00031"/>
                <head type="main-authorial">FOR HIM I SING.</head>
                <l>F<hi rend="smallcaps">OR</hi> him I sing,</l>
                <l>I raise the present on the past,</l>
@@ -1898,7 +1900,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00032"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00032"></note>
+            <note type="work_relations" target="xxx.00032"/>
                <head type="main-authorial">WHEN I READ THE BOOK.</head>
                <l>W<hi rend="smallcaps">HEN</hi> I read the book, the biography famous,</l>
                <l>And is this then (said I) what the author calls a man's life?</l>
@@ -1913,7 +1915,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00033"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00033"></note>
+            <note type="work_relations" target="xxx.00033"/>
                <head type="main-authorial">BEGINNING MY STUDIES.</head>
                <l>B<hi rend="smallcaps">EGINNING</hi> my studies the first step pleas'd me so much,</l>
                <l>The mere fact consciousness, these forms, the power of motion,</l>
@@ -1929,7 +1931,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00034"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00034"></note>
+            <note type="work_relations" target="xxx.00034"/>
                <head type="main-authorial">BEGINNERS.</head>
                <l>H<hi rend="smallcaps">OW</hi> they are provided for upon the earth, (appearing at <choice><orig>inter-<lb/>vals</orig><reg>intervals</reg></choice>,)</l>
                <l>How dear and dreadful they are to the earth,</l>
@@ -1944,7 +1946,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00035"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00035"></note>
+            <note type="work_relations" target="xxx.00035"/>
                <head type="main-authorial">TO THE STATES.</head>
                <l>T<hi rend="smallcaps">O</hi> the States or any one of them, or any city of the States, <hi rend="italic">Resist</hi> 
                   <lb/>
@@ -1958,7 +1960,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00036"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00036"></note>
+            <note type="work_relations" target="xxx.00036"/>
                <head type="main-authorial">ON JOURNEYS THROUGH THE STATES.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">N</hi> journeys through the States we start,</l>
@@ -1988,7 +1990,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00037"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00037"></note>
+            <note type="work_relations" target="xxx.00037"/>
                <head type="main-authorial">TO A CERTAIN CANTATRICE.</head>
                <l>H<hi rend="smallcaps">ERE</hi>, take this gift,</l>
                <l>I was reserving it for some hero, speaker, or general,</l>
@@ -2001,7 +2003,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00038"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00038"></note>
+            <note type="work_relations" target="xxx.00038"/>
                <head type="main-authorial">ME IMPERTURBE.</head>
                <l>M<hi rend="smallcaps">E</hi> imperturbe, standing at ease in Nature,</l>
                <l>Master of all or mistress of all, aplomb in the midst of irrational <lb/>things,</l>
@@ -2017,7 +2019,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00039"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00039"></note>
+            <note type="work_relations" target="xxx.00039"/>
                <head type="main-authorial">SAVANTISM.</head>
                <l>T<hi rend="smallcaps">HITHER</hi> as I look I see each result and glory retracing itself and <lb/>nestling close, always obligated,</l>
                <l>Thither hours, months, years—thither trades, compacts, <choice><orig>establish-<lb/>ments</orig><reg>establishments</reg></choice>, even the most minute,</l>
@@ -2030,7 +2032,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00040"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00040"></note>
+            <note type="work_relations" target="xxx.00040"/>
                <head type="main-authorial">THE SHIP STARTING.</head>
                <l>L<hi rend="smallcaps">O</hi>, the unbounded sea,</l>
                <l>On its breast a ship starting, spreading all sails, carrying even her <lb/>moonsails,</l>
@@ -2044,7 +2046,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00041"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00041"></note>
+            <note type="work_relations" target="xxx.00041"/>
                <head type="main-authorial">I HEAR AMERICA SINGING.</head>
                <l>I <hi rend="smallcaps">HEAR</hi> America singing, the varied carols I hear,</l>
                <l>Those of mechanics, each one singing his as it should be blithe <lb/>and strong,</l>
@@ -2063,7 +2065,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00042"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00042"></note>
+            <note type="work_relations" target="xxx.00042"/>
                <head type="main-authorial">WHAT PLACE IS BESIEGED?</head>
                <l>W<hi rend="smallcaps">HAT</hi> place is besieged, and vainly tries to raise the siege?</l>
                <l>Lo, I send to that place a commander, swift, brave, immortal,</l>
@@ -2075,7 +2077,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00043"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00043"></note>
+            <note type="work_relations" target="xxx.00043"/>
                <head type="main-authorial">STILL THOUGH THE ONE I SING.</head>
                <l>S<hi rend="smallcaps">TILL</hi> though the one I sing,</l>
                <l>(One, yet of contradictions made,) I dedicate to Nationality,</l>
@@ -2086,7 +2088,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00044"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00044"></note>
+            <note type="work_relations" target="xxx.00044"/>
                <head type="main-authorial">SHUT NOT YOUR DOORS.</head>
                <l>S<hi rend="smallcaps">HUT</hi> not your doors to me proud libraries,</l>
                <l>For that which was lacking on all your well-fill'd shelves, yet <lb/>needed most, I bring,</l>
@@ -2102,7 +2104,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00045"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00045"></note>
+            <note type="work_relations" target="xxx.00045"/>
                <head type="main-authorial">POETS TO COME.</head>
                <lg type="linegroup">
                   <l>P<hi rend="smallcaps">OETS</hi> to come! orators, singers, musicians to come!</l>
@@ -2125,7 +2127,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00023"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00023"></note>
+            <note type="work_relations" target="xxx.00023"/>
                <head type="main-authorial">TO YOU.</head>
                <l>S<hi rend="smallcaps">TRANGER</hi>, if you passing meet me and desire to speak to me, why <lb/>should you not speak to me?</l>
                <l>And why should I not speak to you?</l>
@@ -2135,7 +2137,7 @@ Boston.</hi></hi>
 <!--               <relations>
                   <work ref="xxx.00046"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00046"></note>
+            <note type="work_relations" target="xxx.00046"/>
                <head type="main-authorial">THOU READER.</head>
                <l>T<hi rend="smallcaps">HOU</hi> reader throbbest life and pride and love the same as I,</l>
                <l>Therefore for thee the following chants.</l>
@@ -2146,7 +2148,7 @@ Boston.</hi></hi>
 <!--            <relations>
                <work ref="xxx.00047"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00047"></note>
+            <note type="work_relations" target="xxx.00047"/>
             <head type="main-authorial">STARTING FROM PAUMANOK.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -2636,7 +2638,7 @@ reference to ensemble,</l>
 <!--            <relations>
                <work ref="xxx.00048"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00048"></note>
+            <note type="work_relations" target="xxx.00048"/>
             <head type="main-authorial">SONG OF MYSELF.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -4957,14 +4959,14 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--            <relations>
                <work ref="xxx.00049"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00049"></note>
+            <note type="work_relations" target="xxx.00049"/>
             <head type="main-authorial">CHILDREN OF ADAM.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01692">
 <!--               <relations>
                   <work ref="xxx.00050"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00050"></note>
+            <note type="work_relations" target="xxx.00050"/>
                <head type="main-authorial">TO THE GARDEN THE WORLD</head>
                <l>T<hi rend="smallcaps">O</hi> the garden the world anew ascending,</l>
                <l>Potent mates, daughters, sons, preluding,</l>
@@ -4982,7 +4984,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00051"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00051"></note>
+            <note type="work_relations" target="xxx.00051"/>
                <head type="main-authorial">FROM PENT-UP ACHING RIVERS.</head>
                <l>F<hi rend="smallcaps">ROM</hi> pent-up aching rivers,</l>
                <l>From that of myself without which I were nothing,</l>
@@ -5050,7 +5052,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00052"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00052"></note>
+            <note type="work_relations" target="xxx.00052"/>
                <head type="main-authorial">I SING THE BODY ELECTRIC.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -5319,7 +5321,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00053"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00053"></note>
+            <note type="work_relations" target="xxx.00053"/>
                <head type="main-authorial">A WOMAN WAITS FOR ME.</head>
                <lg type="linegroup">
                   <l>A <hi rend="smallcaps">WOMAN</hi> waits for me, she contains all, nothing is lacking,</l>
@@ -5382,7 +5384,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00054"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00054"></note>
+            <note type="work_relations" target="xxx.00054"/>
                <head type="main-authorial">SPONTANEOUS ME.</head>
                <lg type="linegroup">
                   <l>S<hi rend="smallcaps">PONTANEOUS</hi> me, Nature,</l>
@@ -5438,7 +5440,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00055"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00055"></note>
+            <note type="work_relations" target="xxx.00055"/>
                <head type="main-authorial">ONE HOUR TO MADNESS AND JOY.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">NE</hi> hour to madness and joy! O furious! O confine me not!</l>
@@ -5480,7 +5482,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00056"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00056"></note>
+            <note type="work_relations" target="xxx.00056"/>
                <head type="main-authorial">OUT OF THE ROLLING OCEAN THE CROWD.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">UT</hi> of the rolling ocean the crowd came a drop gently to me,</l>
@@ -5511,7 +5513,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00057"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00057"></note>
+            <note type="work_relations" target="xxx.00057"/>
                <head type="main-authorial">AGES AND AGES RETURNING AT INTERVALS.</head>
                <l>A<hi rend="smallcaps">GES</hi> and ages returning at intervals,</l>
                <l>Undestroy'd, wandering immortal,</l>
@@ -5527,7 +5529,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00058"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00058"></note>
+            <note type="work_relations" target="xxx.00058"/>
                <head type="main-authorial">WE TWO, HOW LONG WE WERE FOOL'D.</head>
                <l>W<hi rend="smallcaps">E</hi> two, how long we were fool'd,</l>
                <l>Now transmuted, we swiftly escape as Nature escapes,</l>
@@ -5553,7 +5555,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00059"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00059"></note>
+            <note type="work_relations" target="xxx.00059"/>
                <head type="main-authorial">O HYMEN! O HYMENEE!</head>
                <l>O <hi rend="smallcaps">HYMEN</hi>! O hymenee! why do you tantalize me thus?</l>
                <l>O why sting me for a swift moment only?</l>
@@ -5564,7 +5566,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00060"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00060"></note>
+            <note type="work_relations" target="xxx.00060"/>
                <head type="main-authorial">I AM HE THAT ACHES WITH LOVE.</head>
                <l>I <hi rend="smallcaps">AM</hi> he that aches with amorous love;</l>
                <l>Does the earth gravitate? does not all matter, aching, attract all <lb/>matter?</l>
@@ -5575,7 +5577,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00061"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00061"></note>
+            <note type="work_relations" target="xxx.00061"/>
                <head type="main-authorial">NATIVE MOMENTS.</head> 
                <l>N<hi rend="smallcaps">ATIVE</hi> moments—when you come upon me—ah you are here <lb/>now,</l>
                <l>Give me now libidinous joys only,</l>
@@ -5594,7 +5596,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00062"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00062"></note>
+            <note type="work_relations" target="xxx.00062"/>
                <head type="main-authorial">ONCE I PASS'D THROUGH A POPULOUS CITY.</head>
                <l>O<hi rend="smallcaps">NCE</hi> I pass'd through a populous city imprinting my brain for <lb/>future use with its shows, architecture, customs, traditions,</l>
                <l>Yet now of all that city I remember only a woman I casually met <lb/>there who detain'd me for love of me,</l>
@@ -5608,7 +5610,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00063"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00063"></note>
+            <note type="work_relations" target="xxx.00063"/>
                <head type="main-authorial">I HEARD YOU SOLEMN-SWEET PIPES OF THE ORGAN.</head>
                <l>I <hi rend="smallcaps">HEARD</hi> you solemn-sweet pipes of the organ as last Sunday morn <lb/>I pass'd the church,</l>
                <l>Winds of autumn, as I walk'd the woods at dusk I heard your <lb/>long-stretch'd sighs up above so mournful,</l>
@@ -5621,7 +5623,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00064"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00064"></note>
+            <note type="work_relations" target="xxx.00064"/>
                <head type="main-authorial">FACING WEST FROM CALIFORNIA'S SHORES.</head>
                <l>F<hi rend="smallcaps">ACING</hi> west from California's shores,</l>
                <l>Inquiring, tireless, seeking what is yet unfound,</l>
@@ -5639,7 +5641,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00065"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00065"></note>
+            <note type="work_relations" target="xxx.00065"/>
                <head type="main-authorial">AS ADAM EARLY IN THE MORNING.</head>
                <l>A<hi rend="smallcaps">S</hi> Adam early in the morning,</l>
                <l>Walking forth from the bower refresh'd with sleep,</l>
@@ -5653,14 +5655,14 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--            <relations>
                <work ref="xxx.00066"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00066"></note>
+            <note type="work_relations" target="xxx.00066"/>
             <head type="main-authorial">CALAMUS.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01709">
 <!--               <relations>
                   <work ref="xxx.00071"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00071"></note>
+            <note type="work_relations" target="xxx.00071"/>
                <head type="main-authorial">IN PATHS UNTRODDEN.</head>
                <l>I<hi rend="smallcaps">N</hi> paths untrodden,</l>
                <l>In the growth by margins of pond-waters,</l>
@@ -5686,7 +5688,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00072"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00072"></note>
+            <note type="work_relations" target="xxx.00072"/>
                <head type="main-authorial">SCENTED HERBAGE OF MY BREAST.</head>
                <l>S<hi rend="smallcaps">CENTED</hi> herbage of my breast,</l> 
                <l>Leaves from you I glean, I write, to be perused best afterwards,</l>
@@ -5732,7 +5734,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00073"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00073"></note>
+            <note type="work_relations" target="xxx.00073"/>
                <head type="main-authorial">WHOEVER YOU ARE HOLDING ME NOW IN HAND.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HOEVER</hi> you are holding me now in hand,</l>
@@ -5793,7 +5795,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00074"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00074"></note>
+            <note type="work_relations" target="xxx.00074"/>
                <head type="main-authorial">FOR YOU O DEMOCRACY.</head>
                <lg type="linegroup">
                   <l>C<hi rend="smallcaps">OME</hi>, I will make the continent indissoluble,</l>
@@ -5813,7 +5815,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00075"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00075"></note>
+            <note type="work_relations" target="xxx.00075"/>
                <head type="main-authorial">THESE I SINGING IN SPRING.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HESE</hi> I singing in spring collect for lovers,</l>
@@ -5851,7 +5853,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00076"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00076"></note>
+            <note type="work_relations" target="xxx.00076"/>
                <head type="main-authorial">NOT HEAVING FROM MY RIBB'D BREAST ONLY.</head>
                <l>N<hi rend="smallcaps">OT</hi> heaving from my ribb'd breast only,</l>
                <l>Not in sighs at night in rage dissatisfied with myself,</l>
@@ -5876,7 +5878,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00077"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00077"></note>
+            <note type="work_relations" target="xxx.00077"/>
                <head type="main-authorial">OF THE TERRIBLE DOUBT OF APPEARANCES.</head>
                <l>O<hi rend="smallcaps">F</hi> the terrible doubt of appearances,</l>
                <l>Of the uncertainty after all, that we may be deluded,</l>
@@ -5899,7 +5901,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00078"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00078"></note>
+            <note type="work_relations" target="xxx.00078"/>
                <head type="main-authorial">THE BASE OF ALL METAPHYSICS.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">ND</hi> now gentlemen,</l>
@@ -5928,7 +5930,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00079"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00079"></note>
+            <note type="work_relations" target="xxx.00079"/>
                <head type="main-authorial">RECORDERS AGES HENCE.</head>
                <l>R<hi rend="smallcaps">ECORDERS</hi> ages hence,</l>
                <l>Come, I will take you down underneath this impassive exterior, I <lb/>will tell you what to say of me,</l>
@@ -5945,7 +5947,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00080"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00080"></note>
+            <note type="work_relations" target="xxx.00080"/>
                <head type="main-authorial">WHEN I HEARD AT THE CLOSE OF THE DAY.</head>
                <l>W<hi rend="smallcaps">HEN</hi> I heard at the close of the day how my name had been <lb/>receiv'd with plaudits in the capitol, still it was not a happy <lb/>night for me that follow'd,</l>
                <l>And else when I carous'd, or when my plans were accomplish'd, <lb/>still I was not happy,</l>
@@ -5966,7 +5968,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00081"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00081"></note>
+            <note type="work_relations" target="xxx.00081"/>
                <head type="main-authorial">ARE YOU THE NEW PERSON DRAWN TOWARD ME?</head>
                <l>A<hi rend="smallcaps">RE</hi> you the new person drawn toward me?</l>
                <l>To begin with take warning, I am surely far different from what <lb/>you suppose;</l>
@@ -5982,7 +5984,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00082"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00082"></note>
+            <note type="work_relations" target="xxx.00082"/>
                <head type="main-authorial">ROOTS AND LEAVES THEMSELVES ALONE.</head>
                <l>R<hi rend="smallcaps">OOTS</hi> and leaves themselves alone are these,</l>
                <l>Scents brought to men and women from the wild woods and <lb/>pond-side,</l>
@@ -6000,7 +6002,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00083"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00083"></note>
+            <note type="work_relations" target="xxx.00083"/>
                <head type="main-authorial">NOT HEAT FLAMES UP AND CONSUMES.</head>
                <l>N<hi rend="smallcaps">OT</hi> heat flames up and consumes,</l>
                <l>Not sea-waves hurry in and out,</l>
@@ -6017,7 +6019,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00084"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00084"></note>
+            <note type="work_relations" target="xxx.00084"/>
                <head type="main-authorial">TRICKLE DROPS.</head>
                <l>T<hi rend="smallcaps">RICKLE</hi> drops! my blue veins leaving!</l>
                <l>O drops of me! trickle, slow drops,</l>
@@ -6036,7 +6038,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00085"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00085"></note>
+            <note type="work_relations" target="xxx.00085"/>
                <head type="main-authorial">CITY OF ORGIES.</head>
                <l>C<hi rend="smallcaps">ITY</hi> of orgies, walks and joys,</l>
                <l>City whom that I have lived and sung in your midst will one day <lb/>make you illustrious,</l>
@@ -6052,7 +6054,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00086"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00086"></note>
+            <note type="work_relations" target="xxx.00086"/>
                <head type="main-authorial">BEHOLD THIS SWARTHY FACE.</head>
                <l>B<hi rend="smallcaps">EHOLD</hi> this swarthy face, these gray eyes,</l>
                <l>This beard, the white wool unclipt upon my neck,</l>
@@ -6066,7 +6068,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00087"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00087"></note>
+            <note type="work_relations" target="xxx.00087"/>
                <head type="main-authorial">I SAW IN LOUISIANA A LIVE-OAK GROWING.</head>
                <l>I <hi rend="smallcaps">SAW</hi> in Louisiana a live-oak growing,</l>
                <l>All alone stood it and the moss hung down from the branches,</l>
@@ -6087,7 +6089,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00088"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00088"></note>
+            <note type="work_relations" target="xxx.00088"/>
                <head type="main-authorial">TO A STRANGER.</head>
                <l>P<hi rend="smallcaps">ASSING</hi> stranger! you do not know how longingly I look upon <lb/>you,</l>
                <l>You must be he I was seeking, or she I was seeking, (it comes to <lb/>me as of a dream,)</l>
@@ -6104,7 +6106,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00089"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00089"></note>
+            <note type="work_relations" target="xxx.00089"/>
                <head type="main-authorial">THIS MOMENT YEARNING AND THOUGHTFUL.</head>
                <l>T<hi rend="smallcaps">HIS</hi> moment yearning and thoughtful sitting alone,</l>
                <l>It seems to me there are other men in other lands yearning and <lb/>thoughtful,</l>
@@ -6119,7 +6121,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00090"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00090"></note>
+            <note type="work_relations" target="xxx.00090"/>
                <head type="main-authorial">I HEAR IT WAS CHARGED AGAINST ME.</head>
                <l>I <hi rend="smallcaps">HEAR</hi> it was charged against me that I sought to destroy <choice><orig>institu-<lb/>tions</orig><reg>institutions</reg></choice>,</l>
                <l>But really I am neither for nor against institutions,</l>
@@ -6133,7 +6135,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00091"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00091"></note>
+            <note type="work_relations" target="xxx.00091"/>
                <head type="main-authorial">THE PRAIRIE-GRASS DIVIDING.</head>
                <l>T<hi rend="smallcaps">HE</hi> prairie-grass dividing, its special odor breathing,</l>
                <l>I demand of it the spiritual corresponding,</l>
@@ -6151,7 +6153,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00092"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00092"></note>
+            <note type="work_relations" target="xxx.00092"/>
                <head type="main-authorial">WHEN I PERUSE THE CONQUER'D FAME.</head>
                <l>W<hi rend="smallcaps">HEN</hi> I peruse the conquer'd fame of heroes and the victories <lb/>of mighty generals, I do not envy the generals,</l>
                <l>Nor the President in his Presidency, nor the rich in his great <lb/>house,</l>
@@ -6165,7 +6167,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00093"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00093"></note>
+            <note type="work_relations" target="xxx.00093"/>
                <head type="main-authorial">WE TWO BOYS TOGETHER CLINGING.</head>
                <l>W<hi rend="smallcaps">E</hi> two boys together clinging,</l>
                <l>One the other never leaving,</l>
@@ -6181,7 +6183,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00094"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00094"></note>
+            <note type="work_relations" target="xxx.00094"/>
                <head type="main-authorial">A PROMISE TO CALIFORNIA.</head>
                <l>A <hi rend="smallcaps">PROMISE</hi> to California,</l>
                <l>Or inland to the great pastoral Plains, and on to Puget sound and <lb/>Oregon;</l>
@@ -6193,7 +6195,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00095"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00095"></note>
+            <note type="work_relations" target="xxx.00095"/>
                <head type="main-authorial">HERE THE FRAILEST LEAVES OF ME.</head>
                <l>H<hi rend="smallcaps">ERE</hi> the frailest leaves of me and yet my strongest lasting,</l>
                <l>Here I shade and hide my thoughts, I myself do not expose them,</l>
@@ -6203,7 +6205,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00096"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00096"></note>
+            <note type="work_relations" target="xxx.00096"/>
                <head type="main-authorial">NO LABOR-SAVING MACHINE.</head>
                <l>N<hi rend="smallcaps">O</hi> labor-saving machine,</l>
                <l>Nor discovery have I made,</l>
@@ -6218,7 +6220,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00097"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00097"></note>
+            <note type="work_relations" target="xxx.00097"/>
                <head type="main-authorial">A GLIMPSE.</head>
                <l>A <hi rend="smallcaps">GLIMPSE</hi> through an interstice caught,</l>
                <l>Of a crowd of workmen and drivers in a bar-room around the <lb/>stove late of a winter night, and I unremark'd seated in a <lb/>corner,</l>
@@ -6230,7 +6232,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00098"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00098"></note>
+            <note type="work_relations" target="xxx.00098"/>
                <head type="main-authorial">A LEAF FOR HAND IN HAND.</head>
                <l>A <hi rend="smallcaps">LEAF</hi> for hand in hand;</l>
                <l>You natural persons old and young!</l>
@@ -6243,7 +6245,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00099"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00099"></note>
+            <note type="work_relations" target="xxx.00099"/>
                <head type="main-authorial">EARTH, MY LIKENESS.</head>
                <l>E<hi rend="smallcaps">ARTH</hi>, my likeness,</l>
                <l>Though you look so impassive, ample and spheric there,</l>
@@ -6257,7 +6259,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00100"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00100"></note>
+            <note type="work_relations" target="xxx.00100"/>
                <head type="main-authorial">I DREAM'D IN A DREAM.</head>
                <l>I <hi rend="smallcaps">DREAM'D</hi> in a dream I saw a city invincible to the attacks of the <lb/>whole of the rest of the earth,</l>
                <l>I dream'd that was the new city of Friends,</l>
@@ -6270,7 +6272,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00101"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00101"></note>
+            <note type="work_relations" target="xxx.00101"/>
                <head type="main-authorial">WHAT THINK YOU I TAKE MY PEN IN HAND?</head>
                <l>W<hi rend="smallcaps">HAT</hi> think you I take my pen in hand to record?</l>
                <l>The battle-ship, perfect-model'd, majestic, that I saw pass the <lb/>offing to-day under full sail?</l>
@@ -6284,7 +6286,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00102"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00102"></note>
+            <note type="work_relations" target="xxx.00102"/>
                <head type="main-authorial">TO THE EAST AND TO THE WEST.</head>
                <l>T<hi rend="smallcaps">O</hi> the East and to the West,</l>
                <l>To the man of the Seaside State and of Pennsylvania,</l>
@@ -6312,7 +6314,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00105"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00105"></note>
+            <note type="work_relations" target="xxx.00105"/>
                <head type="main-authorial">FAST ANCHOR'D ETERNAL O LOVE!</head>
                <l>F<hi rend="smallcaps">AST-ANCHOR'D</hi> eternal O love! O woman I love!</l>
                <l>O bride! O wife! more resistless than I can tell, the thought of <lb/>you!</l>
@@ -6325,7 +6327,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00106"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00106"></note>
+            <note type="work_relations" target="xxx.00106"/>
                <head type="main-authorial">AMONG THE MULTITUDE.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">MONG</hi> the men and women the multitude,</l>
@@ -6343,7 +6345,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00107"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00107"></note>
+            <note type="work_relations" target="xxx.00107"/>
                <head type="main-authorial">O YOU WHOM I OFTEN AND SILENTLY COME.</head>
                <l>O <hi rend="smallcaps">YOU</hi> whom I often and silently come where you are that I may <lb/>be with you,</l>
                <l>As I walk by your side or sit near, or remain in the same room <lb/>with you,</l>
@@ -6353,7 +6355,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00108"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00108"></note>
+            <note type="work_relations" target="xxx.00108"/>
                <head type="main-authorial">THAT SHADOW MY LIKENESS.</head>
                <l>T<hi rend="smallcaps">HAT</hi> shadow my likeness that goes to and fro seeking a <choice><orig>liveli-<lb/>hood</orig><reg>livelihood</reg></choice>, chattering, chaffering,</l>
                <l>How often I find myself standing and looking at it where it <lb/>flits,</l>
@@ -6365,7 +6367,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--               <relations>
                   <work ref="xxx.00109"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00109"></note>
+            <note type="work_relations" target="xxx.00109"/>
                <head type="main-authorial">FULL OF LIFE NOW.</head>
                <lg type="linegroup">
                   <l>F<hi rend="smallcaps">ULL</hi> of life now, compact, visible,</l>
@@ -6387,7 +6389,7 @@ plan—it is eternal <lb/>life—it is Happiness.</l>
 <!--            <relations>
                <work ref="xxx.00110"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00110"></note>
+            <note type="work_relations" target="xxx.00110"/>
             <head type="main-authorial">SALUT AU MONDE!</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -6748,7 +6750,7 @@ eyed Samoiede and the Finn,</l>
 <!--            <relations>
                <work ref="xxx.00111"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00111"></note>
+            <note type="work_relations" target="xxx.00111"/>
             <head type="main-authorial">SONG OF THE OPEN ROAD.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -7141,7 +7143,7 @@ eyed Samoiede and the Finn,</l>
 <!--            <relations>
                <work ref="xxx.00112"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00112"></note>
+            <note type="work_relations" target="xxx.00112"/>
             <head type="main-authorial">CROSSING BROOKLYN FERRY.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -7346,7 +7348,7 @@ tide, the <choice><orig>falling-<lb/>back</orig><reg>falling-back</reg></choice>
 <!--            <relations>
                <work ref="xxx.00113"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00113"></note>
+            <note type="work_relations" target="xxx.00113"/>
             <head type="main-authorial">SONG OF THE ANSWERER.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -7500,7 +7502,7 @@ tide, the <choice><orig>falling-<lb/>back</orig><reg>falling-back</reg></choice>
 <!--            <relations>
                <work ref="xxx.00114"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00114"></note>
+            <note type="work_relations" target="xxx.00114"/>
             <head type="main-authorial">OUR OLD FEUILLAGE.</head>
             <lg type="linegroup">
                <l>A<hi rend="smallcaps">LWAYS</hi> our old feuillage!</l>
@@ -7598,7 +7600,7 @@ ever-united lands—my body no <lb/>more inevitably united, part to part, and ma
 <!--            <relations>
                <work ref="xxx.00115"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00115"></note>
+            <note type="work_relations" target="xxx.00115"/>
             <head type="main-authorial">A SONG OF JOYS.</head>
             <lg type="linegroup">
                <l>O <hi rend="smallcaps">TO</hi> make the most jubilant song!</l>
@@ -7848,7 +7850,7 @@ ever-united lands—my body no <lb/>more inevitably united, part to part, and ma
 <!--            <relations>
                <work ref="xxx.00116"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00116"></note>
+            <note type="work_relations" target="xxx.00116"/>
             <head type="main-authorial">SONG OF THE BROAD-AXE.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -8216,7 +8218,7 @@ longer any axe <lb/>upon it,</l>
 <!--            <relations>
                <work ref="xxx.00117"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00117"></note>
+            <note type="work_relations" target="xxx.00117"/>
             <head type="main-authorial">SONG OF THE EXPOSITION.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -8581,7 +8583,7 @@ longer any axe <lb/>upon it,</l>
 <!--            <relations>
                <work ref="xxx.00118"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00118"></note>
+            <note type="work_relations" target="xxx.00118"/>
             <head type="main-authorial">SONG OF THE REDWOOD-TREE.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -8869,7 +8871,7 @@ longer any axe <lb/>upon it,</l>
 <!--            <relations>
                <work ref="xxx.00119"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00119"></note>
+            <note type="work_relations" target="xxx.00119"/>
             <head type="main-authorial">A SONG FOR OCCUPATIONS.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -9112,7 +9114,7 @@ longer any axe <lb/>upon it,</l>
 <!--            <relations>
                <work ref="xxx.00120"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00120"></note>
+            <note type="work_relations" target="xxx.00120"/>
             <head type="main-authorial">A SONG OF THE ROLLING EARTH.</head>
 
             <lg type="section" n="1">
@@ -9334,7 +9336,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--            <relations>
                <work ref="xxx.00121"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00121"></note>
+            <note type="work_relations" target="xxx.00121"/>
             <head type="main-authorial">YOUTH, DAY, OLD AGE AND NIGHT.</head>
             <lg type="linegroup">
                <l>Y<hi rend="smallcaps">OUTH</hi>, large, lusty, loving—youth full of grace, force, fascination,</l>
@@ -9350,14 +9352,14 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
  <!--           <relations>
                <work ref="xxx.00122"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00122"></note>
+            <note type="work_relations" target="xxx.00122"/>
             <head type="main-authorial">BIRDS OF PASSAGE.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01761">
 <!--               <relations>
                   <work ref="xxx.00123"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00123"></note>
+            <note type="work_relations" target="xxx.00123"/>
                <head type="main-authorial">SONG OF THE UNIVERSAL.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -9481,7 +9483,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--               <relations>
                   <work ref="xxx.00124"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00124"></note>
+            <note type="work_relations" target="xxx.00124"/>
                <head type="main-authorial">PIONEERS! O PIONEERS!</head>
                <lg type="linegroup">
                   <l rend="indented1">C<hi rend="smallcaps">OME</hi> my tan-faced children,</l>
@@ -9647,7 +9649,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--               <relations>
                   <work ref="xxx.00125"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00125"></note>
+            <note type="work_relations" target="xxx.00125"/>
                <head type="main-authorial">TO YOU.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HOEVER</hi> you are, I fear you are walking the walks of dreams,</l>
@@ -9725,7 +9727,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--               <relations>
                   <work ref="xxx.00126"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00126"></note>
+            <note type="work_relations" target="xxx.00126"/>
                <head type="main-authorial">FRANCE,</head>
                <head type="sub" rend="italic">The 18th Year of these States.</head>
                <lg type="linegroup">
@@ -9772,7 +9774,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--               <relations>
                   <work ref="xxx.00127"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00127"></note>
+            <note type="work_relations" target="xxx.00127"/>
                <head type="main-authorial">MYSELF AND MINE.</head>
                <lg type="linegroup">
                   <l>M<hi rend="smallcaps">YSELF</hi> and mine gymnastic ever,</l>
@@ -9837,7 +9839,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--               <relations>
                   <work ref="xxx.00128"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00128"></note>
+            <note type="work_relations" target="xxx.00128"/>
                <head type="main-authorial">YEAR OF METEORS.</head>
                <head type="sub">(1859–60.)</head>
                <lg type="linegroup">
@@ -9875,7 +9877,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--               <relations>
                   <work ref="xxx.00129"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00129"></note>
+            <note type="work_relations" target="xxx.00129"/>
                <head type="main-authorial">WITH ANTECEDENTS.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -9950,7 +9952,7 @@ rest shall not forget you, they shall perceive that you <lb/>are not an iota les
 <!--            <relations>
                <work ref="xxx.00021"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00021"></note>
+            <note type="work_relations" target="xxx.00021"/>
             <head type="main-authorial">A BROADWAY PAGEANT.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -10082,14 +10084,14 @@ from the <lb/>procession,</l>
 <!--            <relations>
                <work ref="xxx.00130"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00130"></note>
+            <note type="work_relations" target="xxx.00130"/>
             <head type="main-authorial">SEA-DRIFT.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01770">
 <!--               <relations>
                   <work ref="xxx.00131"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00131"></note>
+            <note type="work_relations" target="xxx.00131"/>
                <head type="main-authorial">OUT OF THE CRADLE ENDLESSLY ROCKING.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">UT</hi> of the cradle endlessly rocking,</l>
@@ -10503,7 +10505,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00132"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00132"></note>
+            <note type="work_relations" target="xxx.00132"/>
                <head type="main-authorial">AS I EBB'D WITH THE OCEAN OF LIFE.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -10623,7 +10625,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00133"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00133"></note>
+            <note type="work_relations" target="xxx.00133"/>
                <head type="main-authorial">TEARS.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">EARS</hi>! tears! tears!</l>
@@ -10645,7 +10647,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00134"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00134"></note>
+            <note type="work_relations" target="xxx.00134"/>
                <head type="main-authorial">TO THE MAN-OF-WAR-BIRD.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HOU</hi> who hast slept all night upon the storm,</l>
@@ -10680,7 +10682,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00135"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00135"></note>
+            <note type="work_relations" target="xxx.00135"/>
                <head type="main-authorial">ABOARD AT A SHIP'S HELM.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">BOARD</hi> at a ship's helm,</l>
@@ -10708,7 +10710,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00136"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00136"></note>
+            <note type="work_relations" target="xxx.00136"/>
                <head type="main-authorial">ON THE BEACH AT NIGHT.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">N</hi> the beach at night,</l>
@@ -10760,7 +10762,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00137"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00137"></note>
+            <note type="work_relations" target="xxx.00137"/>
                <head type="main-authorial">THE WORLD BELOW THE BRINE.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HE</hi> world below the brine,</l>
@@ -10781,7 +10783,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00138"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00138"></note>
+            <note type="work_relations" target="xxx.00138"/>
                <head type="main-authorial">ON THE BEACH AT NIGHT ALONE.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">N</hi> the beach at night alone,</l>
@@ -10806,7 +10808,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00139"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00139"></note>
+            <note type="work_relations" target="xxx.00139"/>
                <head type="main-authorial">SONG FOR ALL SEAS, ALL SHIPS.</head>
                <lg type="section" n="1">
                   <lg type="linegroup">
@@ -10849,7 +10851,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00140"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00140"></note>
+            <note type="work_relations" target="xxx.00140"/>
                <head type="main-authorial">PATROLING BARNEGAT.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">ILD</hi>, wild the storm, and the sea high running,</l>
@@ -10873,7 +10875,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00141"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00141"></note>
+            <note type="work_relations" target="xxx.00141"/>
                <head type="main-authorial">AFTER THE SEA-SHIP.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">FTER</hi> the sea-ship, after the whistling winds,</l>
@@ -10896,7 +10898,7 @@ from the <lb/>procession,</l>
 <!--            <relations>
                <work ref="xxx.00142"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00142"></note>
+            <note type="work_relations" target="xxx.00142"/>
             <head type="main-authorial">BY THE ROADSIDE.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.00820">
@@ -10985,7 +10987,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00144"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00144"></note>
+            <note type="work_relations" target="xxx.00144"/>
                <head type="main-authorial">EUROPE,</head>
                <head type="sub" rend="italic">The 72d and 73d Years of These States.</head>
                <lg type="linegroup">
@@ -11059,7 +11061,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00145"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00145"></note>
+            <note type="work_relations" target="xxx.00145"/>
                <head type="main-authorial">A HAND-MIRROR.</head>
                <lg type="linegroup">
                   <l>H<hi rend="smallcaps">OLD</hi> it up sternly—see this it sends back, (who is it? is it <lb/>you?)</l>
@@ -11080,7 +11082,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00146"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00146"></note>
+            <note type="work_relations" target="xxx.00146"/>
                <head type="main-authorial">GODS.</head>
                <lg type="linegroup">
                   <l>L<hi rend="smallcaps">OVER</hi> divine and perfect Comrade,</l>
@@ -11121,7 +11123,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00147"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00147"></note>
+            <note type="work_relations" target="xxx.00147"/>
                <head type="main-authorial">GERMS.</head>
                <lg type="linegroup">
                   <l>F<hi rend="smallcaps">ORMS</hi>, qualities, lives, humanity, language, thoughts,</l>
@@ -11137,7 +11139,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00148"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00148"></note>
+            <note type="work_relations" target="xxx.00148"/>
                <head type="main-authorial">THOUGHTS.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">F</hi> ownership—as if one fit to own things could not at pleasure <lb/>enter upon all, and incorporate them into himself or herself;</l>
@@ -11151,7 +11153,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00149"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00149"></note>
+            <note type="work_relations" target="xxx.00149"/>
                <head type="main-authorial">WHEN I HEARD THE LEARN'D ASTRONOMER.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HEN</hi> I heard the learn'd astronomer,</l>
@@ -11168,7 +11170,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00150"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00150"></note>
+            <note type="work_relations" target="xxx.00150"/>
                <head type="main-authorial">PERFECTIONS.</head>
                   <l>O<hi rend="smallcaps">NLY</hi> themselves understand themselves and the like of themselves,</l>
                   <l>As souls only understand souls.</l>
@@ -11178,7 +11180,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00151"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00151"></note>
+            <note type="work_relations" target="xxx.00151"/>
                <head type="main-authorial">O ME! O LIFE!</head>
                <lg type="section">
                   <l>O <hi rend="smallcaps">ME</hi>! O life! of the questions of these recurring,</l>
@@ -11199,7 +11201,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00152"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00152"></note>
+            <note type="work_relations" target="xxx.00152"/>
                <head type="main-authorial">TO A PRESIDENT.</head>
                <l>A<hi rend="smallcaps">LL</hi> you are doing and saying is to America dangled mirages,</l>
                <l>You have not learn'd of Nature—of the politics of Nature you <lb/>have not learn'd the great amplitude, rectitude, impartiality,</l>
@@ -11210,7 +11212,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00153"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00153"></note>
+            <note type="work_relations" target="xxx.00153"/>
                <head type="main-authorial">I SIT AND LOOK OUT.</head>
                <l>I <hi rend="smallcaps">SIT</hi> and look out upon all the sorrows of the world, and upon all <lb/>oppression and shame,</l>
                <l>I hear secret convulsive sobs from young men at anguish with <lb/>themselves, remorseful after deeds done,</l>
@@ -11228,7 +11230,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00154"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00154"></note>
+            <note type="work_relations" target="xxx.00154"/>
                <head type="main-authorial">TO RICH GIVERS.</head>
                <l>W<hi rend="smallcaps">HAT</hi> you give me I cheerfully accept,</l>
                <l>A little sustenance, a hut and garden, a little money, as I <choice><orig>rendez-<lb/>vous</orig><reg>rendezvous</reg></choice> with my poems,</l>
@@ -11240,7 +11242,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00155"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00155"></note>
+            <note type="work_relations" target="xxx.00155"/>
                <head type="main-authorial">THE DALLIANCE OF THE EAGLES.</head>
                <l>S<hi rend="smallcaps">KIRTING</hi> the river road, (my forenoon walk, my rest,)</l>
                <l>Skyward in air a sudden muffled sound, the dalliance of the eagles,</l>
@@ -11257,7 +11259,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00156"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00156"></note>
+            <note type="work_relations" target="xxx.00156"/>
                <head type="main-authorial">ROAMING IN THOUGHT.</head>
                <head type="sub">(<hi rend="italic">After reading</hi> H<hi rend="smallcaps">EGEL</hi>.)</head>
                <l>Roaming in thought over the Universe, I saw the little that is <lb/>Good steadily hastening towards immortality,</l>
@@ -11267,7 +11269,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00157"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00157"></note>
+            <note type="work_relations" target="xxx.00157"/>
                <head type="main-authorial">A FARM PICTURE.</head>
                <l>T<hi rend="smallcaps">HROUGH</hi> the ample open door of the peaceful country barn,</l>
                <l>A sunlit pasture field with cattle and horses feeding,</l>
@@ -11278,7 +11280,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00158"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00158"></note>
+            <note type="work_relations" target="xxx.00158"/>
                <head type="main-authorial">A CHILD'S AMAZE</head>
                <l>S<hi rend="smallcaps">ILENT</hi> and amazed even when a little boy,</l>
                <l>I remember I heard the preacher every Sunday put God in his <lb/>statements,</l>
@@ -11288,7 +11290,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00159"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00159"></note>
+            <note type="work_relations" target="xxx.00159"/>
                <head type="main-authorial">THE RUNNER.</head>
                <l>O<hi rend="smallcaps">N</hi> a flat road runs the well-train'd runner,</l>
                <l>He is lean and sinewy with muscular legs,</l>
@@ -11299,7 +11301,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00160"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00160"></note>
+            <note type="work_relations" target="xxx.00160"/>
                <head type="main-authorial">BEAUTIFUL WOMEN.</head>
                <l>W<hi rend="smallcaps">OMEN</hi> sit or move to and fro, some old, some young,</l>
                <l>The young are beautiful—but the old are more beautiful than the <lb/>young.</l>
@@ -11308,7 +11310,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00161"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00161"></note>
+            <note type="work_relations" target="xxx.00161"/>
                <head type="main-authorial">MOTHER AND BABE.</head>
                <l>I <hi rend="smallcaps">SEE</hi> the sleeping babe nestling the breast of its mother,</l>
                <l>The sleeping mother and babe—hush'd, I study them long and <lb/>long.</l>
@@ -11317,7 +11319,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00162"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00162"></note>
+            <note type="work_relations" target="xxx.00162"/>
                <head type="main-authorial">THOUGHT.</head>
                <l>O<hi rend="smallcaps">F</hi> obedience, faith, adhesiveness;</l>
                <l>As I stand aloof and look there is to me something profoundly <lb/>affecting in large masses of men following the lead of those <lb/>who do not believe in men.</l>
@@ -11326,7 +11328,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00163"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00163"></note>
+            <note type="work_relations" target="xxx.00163"/>
                <head type="main-authorial">VISOR'D.</head>
                <l>A <hi rend="smallcaps">MASK</hi>, a perpetual natural disguiser of herself,</l>
                <l>Concealing her face, concealing her form,</l>
@@ -11337,7 +11339,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00164"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00164"></note>
+            <note type="work_relations" target="xxx.00164"/>
                <head type="main-authorial">THOUGHT.</head>
                <l>O<hi rend="smallcaps">F</hi> Justice—as if Justice could be any thing but the same ample <lb/>law, expounded by natural judges and saviors,</l>
                <l>As if it might be this thing or that thing, according to decisions.</l>
@@ -11347,7 +11349,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00165"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00165"></note>
+            <note type="work_relations" target="xxx.00165"/>
                <head type="main-authorial">GLIDING O'ER ALL.</head>
                <l>G<hi rend="smallcaps">LIDING</hi> o'er all, through all,</l>
                <l>Through Nature, Time, and Space,</l>
@@ -11359,7 +11361,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00166"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00166"></note>
+            <note type="work_relations" target="xxx.00166"/>
                <head type="main-authorial">HAST NEVER COME TO THEE AN HOUR.</head>
                <l>H<hi rend="smallcaps">AST</hi> never come to thee an hour,</l>
                <l>A sudden gleam divine, precipitating, bursting all these bubbles, <lb/>fashions, wealth?</l>
@@ -11370,7 +11372,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00167"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00167"></note>
+            <note type="work_relations" target="xxx.00167"/>
                <head type="main-authorial">THOUGHT.</head>
                <l>O<hi rend="smallcaps">F</hi> Equality—as if it harm'd me, giving others the same chances <lb/>and rights as myself—as if it were not indispensable to <lb/>my own rights that others possess the same.</l>
             </lg>
@@ -11378,7 +11380,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00168"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00168"></note>
+            <note type="work_relations" target="xxx.00168"/>
                <head type="main-authorial">TO OLD AGE.</head>
                <l>I <hi rend="smallcaps">SEE</hi> in you the estuary that enlarges and spreads itself grandly as <lb/>it pours in the great sea.</l>
             </lg>
@@ -11386,7 +11388,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00169"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00169"></note>
+            <note type="work_relations" target="xxx.00169"/>
                <head type="main-authorial">LOCATIONS AND TIMES.</head>
                <l>L<hi rend="smallcaps">OCATIONS</hi> and times—what is it in me that meets them all, <choice><orig>when-<lb/>ever</orig><reg>whenever</reg></choice> and wherever, and makes me at home?</l>
                <l>Forms, colors, densities, odors—what is it in me that corresponds <lb/>with them?</l>
@@ -11395,7 +11397,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00170"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00170"></note>
+            <note type="work_relations" target="xxx.00170"/>
                <head type="main-authorial">OFFERINGS.</head>
                <l>A <hi rend="smallcaps">THOUSAND</hi> perfect men and women appear,</l>
                <l>Around each gathers a cluster of friends, and gay children and <lb/>youths, with offerings.</l>
@@ -11404,7 +11406,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00171"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00171"></note>
+            <note type="work_relations" target="xxx.00171"/>
                <head type="main-authorial">
                   <hi rend="italic">TO THE STATES,</hi>
                </head>
@@ -11425,14 +11427,14 @@ from the <lb/>procession,</l>
 <!--            <relations>
                <work ref="xxx.00172"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00172"></note>
+            <note type="work_relations" target="xxx.00172"/>
             <head type="main-authorial">DRUM-TAPS.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01811">
 <!--               <relations>
                   <work ref="xxx.00173"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00173"></note>
+            <note type="work_relations" target="xxx.00173"/>
                <head type="main-authorial">FIRST O SONGS FOR A PRELUDE.</head>
                <lg type="linegroup">
                   <l>F<hi rend="smallcaps">IRST</hi> O songs for a prelude,</l>
@@ -11514,7 +11516,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00174"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00174"></note>
+            <note type="work_relations" target="xxx.00174"/>
                <head type="main-authorial">EIGHTEEN SIXTY-ONE.</head>
                <l>A<hi rend="smallcaps">RM'D</hi> year—year of the struggle,</l>
                <l>No dainty rhymes or sentimental love verses for you terrible year,</l>
@@ -11538,7 +11540,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00175"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00175"></note>
+            <note type="work_relations" target="xxx.00175"/>
                <head type="main-authorial">BEAT! BEAT! DRUMS!</head>
                <lg type="linegroup">
                   <l>B<hi rend="smallcaps">EAT</hi>! beat! drums!—blow! bugles! blow!</l>
@@ -11572,7 +11574,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00176"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00176"></note>
+            <note type="work_relations" target="xxx.00176"/>
                <head type="main-authorial">FROM PAUMANOK STARTING I FLY LIKE A BIRD.</head>
                <l>F<hi rend="smallcaps">ROM</hi> Paumanok starting I fly like a bird,</l>
                <l>Around and around to soar to sing the idea of all,</l>
@@ -11591,7 +11593,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00177"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00177"></note>
+            <note type="work_relations" target="xxx.00177"/>
                <head type="main-authorial">SONG OF THE BANNER AT DAYBREAK.</head>
                <lg type="section">
                   <head type="main-authorial" rend="italic">Poet.</head>
@@ -11827,7 +11829,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00178"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00178"></note>
+            <note type="work_relations" target="xxx.00178"/>
                <head type="main-authorial">RISE O DAYS FROM YOUR FATHOMLESS DEEPS.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -11899,7 +11901,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00179"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00179"></note>
+            <note type="work_relations" target="xxx.00179"/>
                <head type="main-authorial">VIRGINIA—THE WEST.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HE</hi> noble sire fallen on evil days,</l>
@@ -11924,7 +11926,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00180"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00180"></note>
+            <note type="work_relations" target="xxx.00180"/>
                <head type="main-authorial">CITY OF SHIPS.</head>
                <lg type="linegroup">
                   <l>C<hi rend="smallcaps">ITY</hi> of ships!</l>
@@ -11951,7 +11953,7 @@ from the <lb/>procession,</l>
 <!--               <relations>
                   <work ref="xxx.00181"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00181"></note>
+            <note type="work_relations" target="xxx.00181"/>
                <head type="main-authorial">THE CENTENARIAN'S STORY.</head>
                <head type="sub" rend="italic">Volunteer of 1861-2, (at Washington Park, Brooklyn, assisting the Centenarian.)</head>
                <lg type="section">
@@ -12144,7 +12146,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00182"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00182"></note>
+            <note type="work_relations" target="xxx.00182"/>
                <head type="main-authorial">CAVALRY CROSSING A FORD.</head>
                <lg type="linegroup">
                   <l>A <hi rend="smallcaps">LINE</hi> in long array where they wind betwixt green islands,</l>
@@ -12160,7 +12162,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00183"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00183"></note>
+            <note type="work_relations" target="xxx.00183"/>
                <head type="main-authorial">BIVOUAC ON A MOUNTAIN SIDE.</head>
                <lg type="linegroup">
                   <l>I <hi rend="smallcaps">SEE</hi> before me now a traveling army halting,</l>
@@ -12177,7 +12179,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00184"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00184"></note>
+            <note type="work_relations" target="xxx.00184"/>
                <head type="main-authorial">AN ARMY CORPS ON THE MARCH.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">ITH</hi> its cloud of skirmishers in advance,</l>
@@ -12193,7 +12195,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00185"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00185"></note>
+            <note type="work_relations" target="xxx.00185"/>
                <head type="main-authorial">BY THE BIVOUAC'S FITFUL FLAME.</head>
                <lg type="linegroup">
                   <l>B<hi rend="smallcaps">Y</hi> the bivouac's fitful flame,</l>
@@ -12212,7 +12214,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00186"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00186"></note>
+            <note type="work_relations" target="xxx.00186"/>
                <head type="main-authorial">COME UP FROM THE FIELDS FATHER.</head>
                <lg type="linegroup">
                   <l>C<hi rend="smallcaps">OME</hi> up from the fields father, here's a letter from our Pete,</l>
@@ -12286,7 +12288,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00187"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00187"></note>
+            <note type="work_relations" target="xxx.00187"/>
                <head type="main-authorial">VIGIL STRANGE I KEPT ON THE FIELD ONE NIGHT.</head>
                <l>V<hi rend="smallcaps">IGIL</hi> strange I kept on the field one night;</l>
                <l>When you my son and my comrade dropt at my side that day,</l>
@@ -12320,7 +12322,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00188"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00188"></note>
+            <note type="work_relations" target="xxx.00188"/>
                <head type="main-authorial">A MARCH IN THE RANKS HARD-PREST, AND THE ROAD UNKNOWN.</head>
                <l>A <hi rend="smallcaps">MARCH</hi> in the ranks hard-prest, and the road unknown,</l>
                <l>A route through a heavy wood with muffled steps in the darkness,</l>
@@ -12354,7 +12356,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00189"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00189"></note>
+            <note type="work_relations" target="xxx.00189"/>
                <head type="main-authorial">A SIGHT IN CAMP IN THE DAYBREAK GRAY AND DIM.</head>
                <lg type="linegroup">
                   <l>A <hi rend="smallcaps">SIGHT</hi> in camp in the daybreak gray and dim,</l>
@@ -12384,7 +12386,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00190"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00190"></note>
+            <note type="work_relations" target="xxx.00190"/>
                <head type="main-authorial">AS TOILSOME I WANDER'D VIRGINIA'S WOODS.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">S</hi> toilsome I wander'd Virginia's woods,</l>
@@ -12412,7 +12414,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00191"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00191"></note>
+            <note type="work_relations" target="xxx.00191"/>
                <head type="main-authorial">NOT THE PILOT.</head>
                <l>N<hi rend="smallcaps">OT</hi> the pilot has charged himself to bring his ship into port, <lb/>though beaten back and many times baffled;</l>
                <l>Not the pathfinder penetrating inland weary and long,</l>
@@ -12424,7 +12426,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00192"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00192"></note>
+            <note type="work_relations" target="xxx.00192"/>
                <head type="main-authorial">YEAR THAT TREMBLED AND REEL'D BENEATH ME.</head>
                <l>Y<hi rend="smallcaps">EAR</hi> that trembled and reel'd beneath me!</l>
                <l>Your summer wind was warm enough, yet the air I breathed <lb/>froze me,</l>
@@ -12437,7 +12439,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00193"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00193"></note>
+            <note type="work_relations" target="xxx.00193"/>
                <head type="main-authorial">THE WOUND-DRESSER.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -12546,7 +12548,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00194"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00194"></note>
+            <note type="work_relations" target="xxx.00194"/>
                <head type="main-authorial">LONG, TOO LONG AMERICA.</head>
                <l>L<hi rend="smallcaps">ONG</hi>, too long America,</l>
                <l>Traveling roads all even and peaceful you learn'd from joys and <lb/>prosperity only,</l>
@@ -12558,7 +12560,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00195"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00195"></note>
+            <note type="work_relations" target="xxx.00195"/>
                <head type="main-authorial">GIVE ME THE SPLENDID SILENT SUN.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -12619,7 +12621,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00196"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00196"></note>
+            <note type="work_relations" target="xxx.00196"/>
                <head type="main-authorial">DIRGE FOR TWO VETERANS.</head>
                <lg type="linegroup">
                   <l rend="indented1">T<hi rend="smallcaps">HE</hi> last sunbeam</l>
@@ -12681,7 +12683,7 @@ damp and another day,</l>
 <!--               <relations>
                   <work ref="xxx.00197"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00197"></note>
+            <note type="work_relations" target="xxx.00197"/>
                <head type="main-authorial">OVER THE CARNAGE ROSE PROPHETIC A VOICE.</head>
                <lg type="linegroup">
                   <l>O<hi rend="smallcaps">VER</hi> the carnage rose prophetic a voice,</l>
@@ -12727,7 +12729,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00198"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00198"></note>
+            <note type="work_relations" target="xxx.00198"/>
                <head type="main-authorial">I SAW OLD GENERAL AT BAY.</head>
                <lg type="linegroup">
                   <l>I <hi rend="smallcaps">SAW</hi> old General at bay,</l>
@@ -12744,7 +12746,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00199"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00199"></note>
+            <note type="work_relations" target="xxx.00199"/>
                <head type="main-authorial">THE ARTILLERYMAN'S VISION.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HILE</hi> my wife at my side lies slumbering, and the wars are over <lb/>long,</l>
@@ -12780,7 +12782,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00200"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00200"></note>
+            <note type="work_relations" target="xxx.00200"/>
                <head type="main-authorial">ETHIOPIA SALUTING THE COLORS.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HO</hi> are you dusky woman, so ancient hardly human,</l>
@@ -12818,7 +12820,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00201"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00201"></note>
+            <note type="work_relations" target="xxx.00201"/>
                <head type="main-authorial">NOT YOUTH PERTAINS TO ME.</head>
                <lg type="linegroup">
                   <l>N<hi rend="smallcaps">OT</hi> youth pertains to me,</l>
@@ -12836,7 +12838,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00202"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00202"></note>
+            <note type="work_relations" target="xxx.00202"/>
                <head type="main-authorial">RACE OF VETERANS.</head>
                <l>R<hi rend="smallcaps">ACE</hi> of veterans—race of victors!</l>
                <l>Race of the soil, ready for conflict—race of the conquering march!</l>
@@ -12848,7 +12850,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00203"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00203"></note>
+            <note type="work_relations" target="xxx.00203"/>
                <head type="main-authorial">WORLD TAKE GOOD NOTICE.</head>
                <l>W<hi rend="smallcaps">ORLD</hi> take good notice, silver stars fading,</l>
                <l>Milky hue ript, weft of white detaching,</l>
@@ -12860,7 +12862,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00204"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00204"></note>
+            <note type="work_relations" target="xxx.00204"/>
                <head type="main-authorial">O TAN-FACED PRAIRIE-BOY.</head>
                <l>O <hi rend="smallcaps">TAN-FACED</hi> prairie-boy,</l>
                <l>Before you came to camp came many a welcome gift,</l>
@@ -12872,7 +12874,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00205"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00205"></note>
+            <note type="work_relations" target="xxx.00205"/>
                <head type="main-authorial">LOOK DOWN FAIR MOON.</head>
                <l>L<hi rend="smallcaps">OOK</hi> down fair moon and bathe this scene,</l>
                <l>Pour softly down night's nimbus floods on faces ghastly, swollen, <lb/>purple,</l>
@@ -12883,7 +12885,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00206"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00206"></note>
+            <note type="work_relations" target="xxx.00206"/>
                <head type="main-authorial">RECONCILIATION.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">ORD</hi> over all, beautiful as the sky,</l>
@@ -12899,7 +12901,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00207"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00207"></note>
+            <note type="work_relations" target="xxx.00207"/>
                <head type="main-authorial">HOW SOLEMN AS ONE BY ONE.</head>
                <head type="sub" rend="italic">(Washington City, 1865.)</head>
                <l>H<hi rend="smallcaps">OW</hi> solemn as one by one,</l>
@@ -12918,7 +12920,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00208"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00208"></note>
+            <note type="work_relations" target="xxx.00208"/>
                <head type="main-authorial">AS I LAY WITH MY HEAD IN YOUR LAP CAMERADO.</head>
                <l>A<hi rend="smallcaps">S</hi> I lay with my head in your lap camerado,</l>
                <l>The confession I made I resume, what I said to you and the open <lb/>air I resume,</l>
@@ -12937,7 +12939,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00209"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00209"></note>
+            <note type="work_relations" target="xxx.00209"/>
                <head type="main-authorial">DELICATE CLUSTER.</head>
                <l>D<hi rend="smallcaps">ELICATE</hi> cluster! flag of teeming life!</l>
                <l>Covering all my lands—all my seashores lining!</l>
@@ -12952,7 +12954,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00210"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00210"></note>
+            <note type="work_relations" target="xxx.00210"/>
                <head type="main-authorial">TO A CERTAIN CIVILIAN.</head>
                <l>D<hi rend="smallcaps">ID</hi> you ask dulcet rhymes from me?</l>
                <l>Did you seek the civilian's peaceful and languishing rhymes?</l>
@@ -12969,7 +12971,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00211"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00211"></note>
+            <note type="work_relations" target="xxx.00211"/>
                <head type="main-authorial">LO, VICTRESS ON THE PEAKS.</head>
                <l>L<hi rend="smallcaps">O</hi>, Victress on the peaks,</l>
                <l>Where thou with mighty brow regarding the world,</l>
@@ -12986,7 +12988,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00212"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00212"></note>
+            <note type="work_relations" target="xxx.00212"/>
                <head type="main-authorial">SPIRIT WHOSE WORK IS DONE.</head>
                <head type="sub" rend="italic">(Washington City, 1865.)</head>
                <l>S<hi rend="smallcaps">PIRIT</hi> whose work is done—spirit of dreadful hours!</l>
@@ -13012,7 +13014,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00213"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00213"></note>
+            <note type="work_relations" target="xxx.00213"/>
                <head type="main-authorial">ADIEU TO A SOLDIER.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">DIEU</hi> O soldier,</l>
@@ -13039,7 +13041,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00214"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00214"></note>
+            <note type="work_relations" target="xxx.00214"/>
                <head type="main-authorial">TURN O LIBERTAD.</head>
                <l>T<hi rend="smallcaps">URN</hi> O Libertad, for the war is over,</l>
                <l>From it and all henceforth expanding, doubting no more, resolute, <lb/>sweeping the world,</l>
@@ -13058,7 +13060,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00215"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00215"></note>
+            <note type="work_relations" target="xxx.00215"/>
                <head type="main-authorial">TO THE LEAVEN'D SOIL THEY TROD.</head>
                <l>T<hi rend="smallcaps">O</hi> the leaven'd soil they trod calling I sing for the last,</l>
                <l>(Forth from my tent emerging for good, loosing, untying the <choice><orig>tent-<lb/>ropes</orig><reg>tent-ropes</reg></choice>,)</l>
@@ -13082,14 +13084,14 @@ iron,</l>
   <!--          <relations>
                <work ref="xxx.00216"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00216"></note>
+            <note type="work_relations" target="xxx.00216"/>
             <head type="main-authorial">MEMORIES OF PRESIDENT LINCOLN.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01855">
 <!--               <relations>
                   <work ref="xxx.00217"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00217"></note>
+            <note type="work_relations" target="xxx.00217"/>
                <head type="main-authorial">WHEN LILACS LAST IN THE DOORYARD BLOOM'D.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -13441,7 +13443,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00218"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00218"></note>
+            <note type="work_relations" target="xxx.00218"/>
                <head type="main-authorial">O CAPTAIN! MY CAPTAIN!</head>
                <lg type="linegroup">
                   <l>O C<hi rend="smallcaps">APTAIN</hi>! my Captain! our fearful trip is done,</l>
@@ -13479,7 +13481,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00219"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00219"></note>
+            <note type="work_relations" target="xxx.00219"/>
                <head type="main-authorial">HUSH'D BE THE CAMPS TO-DAY.</head>
                <head type="sub">(<hi rend="italic">May 4, 1865.</hi>)</head>
                <lg type="linegroup">
@@ -13507,7 +13509,7 @@ iron,</l>
 <!--               <relations>
                   <work ref="xxx.00220"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00220"></note>
+            <note type="work_relations" target="xxx.00220"/>
                <head type="main-authorial">THIS DUST WAS ONCE THE MAN.</head>
                <l>T<hi rend="smallcaps">HIS</hi> dust was once the man,</l>
                <l>Gentle, plain, just and resolute, under whose cautious hand,</l>
@@ -13520,7 +13522,7 @@ iron,</l>
 <!--            <relations>
                <work ref="xxx.00221"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00221"></note>
+            <note type="work_relations" target="xxx.00221"/>
             <head type="main-authorial">BY BLUE ONTARIO'S SHORE.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -14074,7 +14076,7 @@ all, Nativity,</l>
 <!--            <relations>
                <work ref="xxx.00222"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00222"></note>
+            <note type="work_relations" target="xxx.00222"/>
             <head type="main-authorial">REVERSALS.</head>
             <l>L<hi rend="smallcaps">ET</hi> that which stood in front go behind,</l>
             <l>Let that which was behind advance to the front,</l>
@@ -14088,14 +14090,14 @@ all, Nativity,</l>
 <!--            <relations>
                <work ref="xxx.00223"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00223"></note>
+            <note type="work_relations" target="xxx.00223"/>
             <head type="main-authorial">AUTUMN RIVULETS.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01862">
 <!--               <relations>
                   <work ref="xxx.00224"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00224"></note>
+            <note type="work_relations" target="xxx.00224"/>
                <head type="main-authorial">AS CONSEQUENT, <hi rend="italic">Etc.</hi>
                </head>
                <lg type="linegroup">
@@ -14151,7 +14153,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00225"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00225"></note>
+            <note type="work_relations" target="xxx.00225"/>
                <head type="main-authorial">THE RETURN OF THE HEROES.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -14376,7 +14378,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00226"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00226"></note>
+            <note type="work_relations" target="xxx.00226"/>
                <head type="main-authorial">THERE WAS A CHILD WENT FORTH.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HERE</hi> was a child went forth every day,</l>
@@ -14434,7 +14436,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00227"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00227"></note>
+            <note type="work_relations" target="xxx.00227"/>
                <head type="main-authorial">OLD IRELAND.</head>
                <lg type="linegroup">
                   <l>F<hi rend="smallcaps">AR</hi> hence amid an isle of wondrous beauty,</l>
@@ -14463,7 +14465,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00228"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00228"></note>
+            <note type="work_relations" target="xxx.00228"/>
                <head type="main-authorial">THE CITY DEAD-HOUSE.</head>
                <l>B<hi rend="smallcaps">Y</hi> the city dead-house by the gate,</l>
                <l>As idly sauntering wending my way from the clangor,</l>
@@ -14488,7 +14490,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00229"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00229"></note>
+            <note type="work_relations" target="xxx.00229"/>
                <head type="main-authorial">THIS COMPOST.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -14562,7 +14564,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00230"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00230"></note>
+            <note type="work_relations" target="xxx.00230"/>
                <head type="main-authorial">TO A FOIL'D EUROPEAN REVOLUTIONAIRE.</head>
                <lg type="linegroup">
                   <l>C<hi rend="smallcaps">OURAGE</hi> yet, my brother or my sister!</l>
@@ -14621,7 +14623,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00231"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00231"></note>
+            <note type="work_relations" target="xxx.00231"/>
                <head type="main-authorial">UNNAMED LANDS.</head>
                <lg type="linegroup">
                   <l>N<hi rend="smallcaps">ATIONS</hi> ten thousand years before these States, and many times <lb/>ten thousand years before these States,</l>
@@ -14669,7 +14671,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00232"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00232"></note>
+            <note type="work_relations" target="xxx.00232"/>
                <head type="main-authorial">SONG OF PRUDENCE.</head>
                <lg type="linegroup">
                   <l>M<hi rend="smallcaps">ANHATTAN'S</hi> streets I saunter'd pondering,</l>
@@ -14761,7 +14763,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00233"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00233"></note>
+            <note type="work_relations" target="xxx.00233"/>
                <head type="main-authorial">THE SINGER IN THE PRISON.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -14853,7 +14855,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00234"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00234"></note>
+            <note type="work_relations" target="xxx.00234"/>
                <head type="main-authorial">WARBLE FOR LILAC-TIME.</head>
                <l>W<hi rend="smallcaps">ARBLE</hi> me now for joy of lilac-time, (returning in reminiscence,)</l>
                <l>Sort me O tongue and lips for Nature's sake, souvenirs of earliest <lb/>summer,</l>
@@ -14887,7 +14889,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00235"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00235"></note>
+            <note type="work_relations" target="xxx.00235"/>
                <head type="main-authorial">OUTLINES FOR A TOMB.</head>
                <head type="sub">(<hi rend="italic">G. P., Buried 1870.</hi>)</head>
                <lg type="section" n="1">
@@ -14979,7 +14981,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00236"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00236"></note>
+            <note type="work_relations" target="xxx.00236"/>
                <head type="main-authorial">OUT FROM BEHIND THIS MASK.</head>
                <head type="sub">(<hi rend="italic">To Confront a Portrait.</hi>)</head>
                <lg type="section" n="1">
@@ -15018,7 +15020,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00237"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00237"></note>
+            <note type="work_relations" target="xxx.00237"/>
                <head type="main-authorial">VOCALISM.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -15059,7 +15061,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00238"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00238"></note>
+            <note type="work_relations" target="xxx.00238"/>
                <head type="main-authorial">TO HIM THAT WAS CRUCIFIED.</head>
                <l>M<hi rend="smallcaps">Y</hi> spirit to yours dear brother,</l>
                <l>Do not mind because many sounding your name do not <choice><orig>under-<lb/>stand</orig><reg>understand</reg></choice> you,</l>
@@ -15079,7 +15081,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00239"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00239"></note>
+            <note type="work_relations" target="xxx.00239"/>
                <head type="main-authorial">YOU FELONS ON TRIAL IN COURTS.</head>
                <lg type="linegroup">
                   <l>Y<hi rend="smallcaps">OU</hi> felons on trial in courts,</l>
@@ -15110,7 +15112,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00240"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00240"></note>
+            <note type="work_relations" target="xxx.00240"/>
                <head type="main-authorial">LAWS FOR CREATIONS.</head>
                <lg type="linegroup">
                   <l>L<hi rend="smallcaps">AWS</hi> for creations,</l>
@@ -15134,7 +15136,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00261"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00261"></note>
+            <note type="work_relations" target="xxx.00261"/>
                <head type="main-authorial">TO A COMMON PROSTITUTE.</head>
                <lg type="linegroup">
                   <l>B<hi rend="smallcaps">E</hi> composed—be at ease with me—I am Walt Whitman, liberal <lb/>and lusty as Nature,</l>
@@ -15154,7 +15156,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00241"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00241"></note>
+            <note type="work_relations" target="xxx.00241"/>
                <head type="main-authorial">I WAS LOOKING A LONG WHILE.</head>
                <l>I <hi rend="smallcaps">WAS</hi> looking a long while for Intentions,</l>
                <l>For a clew to the history of the past for myself, and for these <lb/>chants—and now I have found it,</l>
@@ -15171,7 +15173,7 @@ all, Nativity,</l>
 <!--               <relations>
                   <work ref="xxx.00242"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00242"></note>
+            <note type="work_relations" target="xxx.00242"/>
                <head type="main-authorial">THOUGHT.</head>
                <l>O<hi rend="smallcaps">F</hi> persons arrived at high positions, ceremonies, wealth, <choice><orig>scholar-<lb/>ships</orig><reg>scholarships</reg></choice>, and the like;</l>
                <l>(To me all that those persons have arrived at sinks away from <lb/>them, except as it results to their bodies and souls,</l>
@@ -15188,7 +15190,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00243"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00243"></note>
+            <note type="work_relations" target="xxx.00243"/>
                <head type="main-authorial">MIRACLES.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HY</hi>, who makes much of a miracle?</l>
@@ -15224,7 +15226,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00244"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00244"></note>
+            <note type="work_relations" target="xxx.00244"/>
                <head type="main-authorial">SPARKLES FROM THE WHEEL.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HERE</hi> the city's ceaseless crowd moves on the livelong day,</l>
@@ -15254,7 +15256,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00245"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00245"></note>
+            <note type="work_relations" target="xxx.00245"/>
                <head type="main-authorial">TO A PUPIL.</head>
                <lg type="linegroup">
                   <l>I<hi rend="smallcaps">S</hi> reform needed? is it through you?</l>
@@ -15274,7 +15276,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00246"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00246"></note>
+            <note type="work_relations" target="xxx.00246"/>
                <head type="main-authorial">UNFOLDED OUT OF THE FOLDS.</head>
                <l>U<hi rend="smallcaps">NFOLDED</hi> out of the folds of the woman man comes unfolded, <lb/>and is always to come unfolded,</l>
                <l>Unfolded only out of the superbest woman of the earth is to come <lb/>the superbest man of the earth,</l>
@@ -15294,7 +15296,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00247"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00247"></note>
+            <note type="work_relations" target="xxx.00247"/>
                <head type="main-authorial">WHAT AM I AFTER ALL.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HAT</hi> am I after all but a child, pleas'd with the sound of my own <lb/>name? repeating it over and over;</l>
@@ -15309,7 +15311,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00248"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00248"></note>
+            <note type="work_relations" target="xxx.00248"/>
                <head type="main-authorial">KOSMOS.</head>
                <l>W<hi rend="smallcaps">HO</hi> includes diversity and is Nature,</l>
                <l>Who is the amplitude of the earth, and the coarseness and <choice><orig>sex-<lb/>uality</orig><reg>sexuality</reg></choice> of the earth, and the great charity of the earth, and <lb/>the equilibrium also,</l>
@@ -15328,7 +15330,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00249"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00249"></note>
+            <note type="work_relations" target="xxx.00249"/>
                <head type="main-authorial">OTHERS MAY PRAISE WHAT THEY LIKE.</head>
                <l>O<hi rend="smallcaps">THERS</hi> may praise what they like;</l>
                <l>But I, from the banks of the running Missouri, praise nothing in <lb/>art or aught else,</l>
@@ -15339,7 +15341,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00250"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00250"></note>
+            <note type="work_relations" target="xxx.00250"/>
                <head type="main-authorial">WHO LEARNS MY LESSON COMPLETE?</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HO</hi> learns my lesson complete?</l>
@@ -15393,7 +15395,7 @@ nothing more,</l>
   <!--             <relations>
                   <work ref="xxx.00251"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00251"></note>
+            <note type="work_relations" target="xxx.00251"/>
                <head type="main-authorial">TESTS.</head>
                <l>A<hi rend="smallcaps">LL</hi> submit to them where they sit, inner, secure, unapproachable <lb/>to analysis in the soul,</l>
                <l>Not traditions, not the outer authorities are the judges,</l>
@@ -15405,7 +15407,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00252"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00252"></note>
+            <note type="work_relations" target="xxx.00252"/>
                <head type="main-authorial">THE TORCH.</head>
                <l>O<hi rend="smallcaps">N</hi> my Northwest coast in the midst of the night a fishermen's <lb/>group stands watching,</l>
                <l>Out on the lake that expands before them, others are spearing <lb/>salmon,</l>
@@ -15417,7 +15419,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00253"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00253"></note>
+            <note type="work_relations" target="xxx.00253"/>
                <head type="main-authorial">O STAR OF FRANCE.</head>
                <head type="sub">1870-71.</head>
                <lg type="linegroup">
@@ -15481,7 +15483,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00254"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00254"></note>
+            <note type="work_relations" target="xxx.00254"/>
                <head type="main-authorial">THE OX-TAMER.</head>
                <l>I<hi rend="smallcaps">N</hi> a far-away northern county in the placid pastoral region,</l>
                <l>Lives my farmer friend, the theme of my recitative, a famous <lb/>tamer of oxen,</l>
@@ -15509,7 +15511,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00255"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00255"></note>
+            <note type="work_relations" target="xxx.00255"/>
                <head type="main-authorial">AN OLD MAN'S THOUGHT OF SCHOOL.</head>
                <head type="sub"> <hi rend="italic">For the Inauguration of a Public School, Camden, New Jersey, 1874.</hi></head>
                <lg type="linegroup">
@@ -15548,7 +15550,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00256"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00256"></note>
+            <note type="work_relations" target="xxx.00256"/>
                <head type="main-authorial">WANDERING AT MORN.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">ANDERING</hi> at morn,</l>
@@ -15574,7 +15576,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00257"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00257"></note>
+            <note type="work_relations" target="xxx.00257"/>
                <head type="main-authorial">ITALIAN MUSIC IN DAKOTA.</head>
                <head type="sub">[<hi rend="italic">"The Seventeenth—the finest Regimental Band I ever heard."</hi>]</head>
                <lg type="linegroup">
@@ -15604,7 +15606,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00258"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00258"></note>
+            <note type="work_relations" target="xxx.00258"/>
                <head type="main-authorial">WITH ALL THY GIFTS.</head>
                <l>W<hi rend="smallcaps">ITH</hi> all thy gifts America,</l>
                <l>Standing secure, rapidly tending, overlooking the world,</l>
@@ -15619,7 +15621,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00259"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00259"></note>
+            <note type="work_relations" target="xxx.00259"/>
                <head type="main-authorial">MY PICTURE-GALLERY.</head>
                <l>I<hi rend="smallcaps">N</hi> a little house keep I pictures suspended, it is not a fix'd house,</l>
                <l>It is round, it is only a few inches from one side to the other;</l>
@@ -15632,7 +15634,7 @@ nothing more,</l>
 <!--               <relations>
                   <work ref="xxx.00260"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00260"></note>
+            <note type="work_relations" target="xxx.00260"/>
                <head type="main-authorial">THE PRAIRIE STATES.</head>
                <l>A <hi rend="smallcaps">NEWER</hi> garden of creation, no primal solitude,</l>
                <l>Dense, joyous, modern, populous millions, cities and farms,</l>
@@ -15647,7 +15649,7 @@ nothing more,</l>
 <!--            <relations>
                <work ref="xxx.00262"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00262"></note>
+            <note type="work_relations" target="xxx.00262"/>
             <head type="main-authorial">PROUD MUSIC OF THE STORM.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -15908,7 +15910,7 @@ seizing inflates me,</l>
 <!--            <relations>
                <work ref="xxx.00496"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00496"></note>
+            <note type="work_relations" target="xxx.00496"/>
             <head type="main-authorial">PASSAGE TO INDIA.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -16290,7 +16292,7 @@ seizing inflates me,</l>
 <!--            <relations>
                <work ref="xxx.00263"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00263"></note>
+            <note type="work_relations" target="xxx.00263"/>
             <head type="main-authorial">PRAYER OF COLUMBUS.</head>
             <lg type="linegroup">
                <l>A <hi rend="smallcaps">BATTER'D</hi>, wreck'd old man,</l>
@@ -16390,7 +16392,7 @@ seizing inflates me,</l>
 <!--            <relations>
                <work ref="xxx.00264"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00264"></note>
+            <note type="work_relations" target="xxx.00264"/>
             <head type="main-authorial">THE SLEEPERS.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -16715,7 +16717,7 @@ seizing inflates me,</l>
 <!--            <relations>
                <work ref="xxx.00265"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00265"></note>
+            <note type="work_relations" target="xxx.00265"/>
             <head type="main-authorial">TRANSPOSITIONS.</head>
             <lg type="linegroup">
                <l>L<hi rend="smallcaps">ET</hi> the reformers descend from the stands where they are forever <lb/>bawling—let an idiot or insane person appear on each of <lb/>the stands;</l>
@@ -16728,7 +16730,7 @@ seizing inflates me,</l>
 <!--            <relations>
                <work ref="xxx.00266"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00266"></note>
+            <note type="work_relations" target="xxx.00266"/>
             <head type="main-authorial">TO THINK OF TIME.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -16966,14 +16968,14 @@ seizing inflates me,</l>
 <!--            <relations>
                <work ref="xxx.00002"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00002"></note>
+            <note type="work_relations" target="xxx.00002"/>
             <head type="main-authorial">WHISPERS OF HEAVENLY DEATH.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01907">
 <!--               <relations>
                   <work ref="xxx.00004"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00004"></note>
+            <note type="work_relations" target="xxx.00004"/>
                <head type="main-authorial">DAREST THOU NOW O SOUL.</head>
                <lg type="linegroup">
                   <l>D<hi rend="smallcaps">AREST</hi> thou now O soul,</l>
@@ -17005,7 +17007,7 @@ seizing inflates me,</l>
 <!--               <relations>
                   <work ref="xxx.00003"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00003"></note>
+            <note type="work_relations" target="xxx.00003"/>
                <head type="main-authorial">WHISPERS OF HEAVENLY DEATH.</head>
                <lg type="linegroup">
                   <l>W<hi rend="smallcaps">HISPERS</hi> of heavenly death murmur'd I hear,</l>
@@ -17031,7 +17033,7 @@ seizing inflates me,</l>
 <!--               <relations>
                   <work ref="xxx.00005"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00005"></note>
+            <note type="work_relations" target="xxx.00005"/>
                <head type="main-authorial">CHANTING THE SQUARE DEIFIC.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -17104,7 +17106,7 @@ seizing inflates me,</l>
 <!--               <relations>
                   <work ref="xxx.00006"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00006"></note>
+            <note type="work_relations" target="xxx.00006"/>
                <head type="main-authorial">OF HIM I LOVE DAY AND NIGHT.</head>
                <l>O<hi rend="smallcaps">F</hi> him I love day and night I dream'd I heard he was dead,</l>
                <l>And I dream'd I went where they had buried him I love, but he <lb/>was not in that place,</l>
@@ -17126,7 +17128,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00007"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00007"></note>
+            <note type="work_relations" target="xxx.00007"/>
                <head type="main-authorial">YET, YET, YE DOWNCAST HOURS.</head>
                <lg type="linegroup">
                   <l>Y<hi rend="smallcaps">ET</hi>, yet, ye downcast hours, I know ye also,</l>
@@ -17161,7 +17163,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00008"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00008"></note>
+            <note type="work_relations" target="xxx.00008"/>
                <head type="main-authorial">AS IF A PHANTOM CARESS'D ME.</head>
                <l>A<hi rend="smallcaps">S</hi> if a phantom caress'd me,</l>
                <l>I thought I was not alone walking here by the shore;</l>
@@ -17174,7 +17176,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00009"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00009"></note>
+            <note type="work_relations" target="xxx.00009"/>
                <head type="main-authorial">ASSURANCES.</head>
                <l>I <hi rend="smallcaps">NEED</hi> no assurances, I am a man who is pre-occupied of his <lb/>own soul;</l>
                <l>I do not doubt that from under the feet and beside the hands and <lb/>face I am cognizant of, are now looking faces I am not <lb/>cognizant of, calm and actual faces,</l>
@@ -17193,7 +17195,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00010"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00010"></note>
+            <note type="work_relations" target="xxx.00010"/>
                <head type="main-authorial">QUICKSAND YEARS.</head>
                <l>Q<hi rend="smallcaps">UICKSAND</hi> years that whirl me I know not whither,</l>
                <l>Your schemes, politics, fail, lines give way, substances mock and <lb/>elude me,</l>
@@ -17207,7 +17209,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00011"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00011"></note>
+            <note type="work_relations" target="xxx.00011"/>
                <head type="main-authorial">THAT MUSIC ALWAYS ROUND ME.</head>
                <l>T<hi rend="smallcaps">HAT</hi> music always round me, unceasing, unbeginning, yet long <lb/>untaught I did not hear,</l>
                <l>But now the chorus I hear and am elated,</l>
@@ -17223,7 +17225,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00012"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00012"></note>
+            <note type="work_relations" target="xxx.00012"/>
                <head type="main-authorial">WHAT SHIP PUZZLED AT SEA.</head>
                <l>W<hi rend="smallcaps">HAT</hi> ship puzzled at sea, cons for the true reckoning?</l>
                <l>Or coming in, to avoid the bars and follow the channel a perfect <lb/>pilot needs?</l>
@@ -17234,7 +17236,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00013"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00013"></note>
+            <note type="work_relations" target="xxx.00013"/>
                <head type="main-authorial">A NOISELESS PATIENT SPIDER.</head>
                <lg type="linegroup">
                   <l>A <hi rend="smallcaps">NOISELESS</hi> patient spider,</l>
@@ -17256,7 +17258,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00014"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00014"></note>
+            <note type="work_relations" target="xxx.00014"/>
                <head type="main-authorial">O LIVING ALWAYS, ALWAYS DYING.</head>
                <l>O <hi rend="smallcaps">LIVING</hi> always, always dying!</l>
                <l>O the burials of me past and present,</l>
@@ -17269,7 +17271,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00015"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00015"></note>
+            <note type="work_relations" target="xxx.00015"/>
                <head type="main-authorial">TO ONE SHORTLY TO DIE.</head>
                <lg type="linegroup">
                   <l>F<hi rend="smallcaps">ROM</hi> all the rest I single out you, having a message for you,</l>
@@ -17297,7 +17299,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00016"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00016"></note>
+            <note type="work_relations" target="xxx.00016"/>
                <head type="main-authorial">NIGHT ON THE PRAIRIES.</head>
                <lg type="linegroup">
                   <l>N<hi rend="smallcaps">IGHT</hi> on the prairies,</l>
@@ -17334,7 +17336,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00017"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00017"></note>
+            <note type="work_relations" target="xxx.00017"/>
                <head type="main-authorial">THOUGHT.</head>
                <l>A<hi rend="smallcaps">S</hi> I sit with others at a great feast, suddenly while the music is <lb/>playing,</l>
                <l>To my mind, (whence it comes I know not,) spectral in mist of <lb/>a wreck at sea,</l>
@@ -17352,7 +17354,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00018"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00018"></note>
+            <note type="work_relations" target="xxx.00018"/>
                <head type="main-authorial">THE LAST INVOCATION.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">T</hi> the last, tenderly,</l>
@@ -17375,7 +17377,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00019"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00019"></note>
+            <note type="work_relations" target="xxx.00019"/>
                <head type="main-authorial">AS I WATCH'D THE PLOUGHMAN PLOUGHING.</head>
                <l>A<hi rend="smallcaps">S</hi> I watch'd the ploughman ploughing,</l>
                <l>Or the sower sowing in the fields, or the harvester harvesting,</l>
@@ -17386,7 +17388,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00020"/>
                </relations>--> 
-            <note type="work_relations" target="xxx.00020"></note>
+            <note type="work_relations" target="xxx.00020"/>
                <head type="main-authorial">PENSIVE AND FALTERING.</head>
                <l>P<hi rend="smallcaps">ENSIVE</hi> and faltering,</l>
                <l>The words <hi rend="italic">the Dead</hi> I write,</l>
@@ -17399,7 +17401,7 @@ shall be <lb/>satisfied,</l>
 <!--            <relations>
                <work ref="xxx.00267"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00267"></note>
+            <note type="work_relations" target="xxx.00267"/>
             <head type="main-authorial">THOU MOTHER WITH THY EQUAL BROOD.</head>
             <lg type="section" n="1">
                <head type="main-authorial">1</head>
@@ -17595,7 +17597,7 @@ shall be <lb/>satisfied,</l>
 <!--            <relations>
                <work ref="xxx.00268"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00268"></note>
+            <note type="work_relations" target="xxx.00268"/>
             <head type="main-authorial">A PAUMANOK PICTURE.</head>
             <l>T<hi rend="smallcaps">WO</hi> boats with nets lying off the sea-beach, quite still,</l>
             <l>Ten fishermen waiting—they discover a thick school of <choice><orig>moss-<lb/>bonkers</orig><reg>mossbonkers</reg></choice>—they drop the join'd seine-ends in the water,</l>
@@ -17610,14 +17612,14 @@ shall be <lb/>satisfied,</l>
 <!--            <relations>
                <work ref="xxx.00269"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00269"></note>
+            <note type="work_relations" target="xxx.00269"/>
             <head type="main-authorial">FROM NOON TO STARRY NIGHT.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01928">
 <!--               <relations>
                   <work ref="xxx.00270"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00270"></note>
+            <note type="work_relations" target="xxx.00270"/>
                <head type="main-authorial">THOU ORB ALOFT FULL-DAZZLING.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HOU</hi> orb aloft full-dazzling! thou hot October noon!</l>
@@ -17660,7 +17662,7 @@ shall be <lb/>satisfied,</l>
 <!--               <relations>
                   <work ref="xxx.00271"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00271"></note>
+            <note type="work_relations" target="xxx.00271"/>
                <head type="main-authorial">FACES.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -17831,7 +17833,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00272"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00272"></note>
+            <note type="work_relations" target="xxx.00272"/>
                <head type="main-authorial">THE MYSTIC TRUMPETER.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -17966,7 +17968,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00273"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00273"></note>
+            <note type="work_relations" target="xxx.00273"/>
                <head type="main-authorial">TO A LOCOMOTIVE IN WINTER.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HEE</hi> for my recitative,</l>
@@ -18003,7 +18005,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00274"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00274"></note>
+            <note type="work_relations" target="xxx.00274"/>
                <head type="main-authorial">O MAGNET-SOUTH.</head>
                <l>O <hi rend="smallcaps">MAGNET</hi>-S<hi rend="smallcaps">OUTH</hi>! O glistening perfumed South! my South!</l>
                <l>O quick mettle, rich blood, impulse and love! good and evil! O <lb/>all dear to me!</l>
@@ -18033,7 +18035,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00275"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00275"></note>
+            <note type="work_relations" target="xxx.00275"/>
                <head type="main-authorial">MANNAHATTA.</head>
                <lg type="linegroup">
                   <l>I <hi rend="smallcaps">WAS</hi> asking for something specific and perfect for my city,</l>
@@ -18065,7 +18067,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00276"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00276"></note>
+            <note type="work_relations" target="xxx.00276"/>
                <head type="main-authorial">ALL IS TRUTH.</head>
                <lg type="linegroup">
                   <l>O <hi rend="smallcaps">ME</hi>, man of slack faith so long,</l>
@@ -18098,7 +18100,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00277"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00277"></note>
+            <note type="work_relations" target="xxx.00277"/>
                <head type="main-authorial">A RIDDLE SONG.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HAT</hi> which eludes this verse and any verse,</l>
@@ -18154,7 +18156,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00278"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00278"></note>
+            <note type="work_relations" target="xxx.00278"/>
                <head type="main-authorial">EXCELSIOR.</head>
                <l>W<hi rend="smallcaps">HO</hi> has gone farthest? for I would go farther,</l>
                <l>And who has been just? for I would be the most just person of <lb/>the earth,</l>
@@ -18174,7 +18176,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00279"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00279"></note>
+            <note type="work_relations" target="xxx.00279"/>
                <head type="main-authorial">AH POVERTIES, WINCINGS, AND SULKY RETREATS.</head>
                <l>A<hi rend="smallcaps">H</hi> poverties, wincings, and sulky retreats,</l>
                <l>Ah you foes that in conflict have overcome me,</l>
@@ -18192,7 +18194,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00280"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00280"></note>
+            <note type="work_relations" target="xxx.00280"/>
                <head type="main-authorial">THOUGHTS.</head>
                <l>O<hi rend="smallcaps">F</hi> public opinion,</l>
                <l>Of a calm and cool fiat sooner or later, (how impassive! how <lb/>certain and final!)</l>
@@ -18213,7 +18215,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00281"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00281"></note>
+            <note type="work_relations" target="xxx.00281"/>
                <head type="main-authorial">MEDIUMS.</head>
                <l>T<hi rend="smallcaps">HEY</hi> shall arise in the States,</l>
                <l>They shall report Nature, laws, physiology, and happiness,</l>
@@ -18232,7 +18234,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00282"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00282"></note>
+            <note type="work_relations" target="xxx.00282"/>
                <head type="main-authorial">WEAVE IN, MY HARDY LIFE.</head>
                <l>W<hi rend="smallcaps">EAVE</hi> in, weave in, my hardy life,</l>
                <l>Weave yet a soldier strong and full for great campaigns to come,</l>
@@ -18247,7 +18249,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00283"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00283"></note>
+            <note type="work_relations" target="xxx.00283"/>
                <head type="main-authorial">SPAIN, 1873-74</head>
                <l>O<hi rend="smallcaps">UT</hi> of the murk of heaviest clouds,</l>
                <l>Out of the feudal wrecks and heap'd-up skeletons of kings,</l>
@@ -18268,7 +18270,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00284"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00284"></note>
+            <note type="work_relations" target="xxx.00284"/>
                <head type="main-authorial">BY BROAD POTOMAC'S SHORE.</head>
                <lg type="linegroup">
                   <l>B<hi rend="smallcaps">Y</hi> broad Potomac's shore, again old tongue,</l>
@@ -18291,7 +18293,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00285"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00285"></note>
+            <note type="work_relations" target="xxx.00285"/>
                <head type="main-authorial">FROM FAR DAKOTA'S CAÑONS.</head>
                <head type="sub">
                   <hi rend="italic">June</hi> 25, 1876.</head>
@@ -18337,7 +18339,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00286"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00286"></note>
+            <note type="work_relations" target="xxx.00286"/>
                <head type="main-authorial">OLD WAR-DREAMS.</head>
                <lg type="linegroup">
                   <l>I<hi rend="smallcaps">N</hi> midnight sleep of many a face of anguish,</l>
@@ -18362,7 +18364,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00287"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00287"></note>
+            <note type="work_relations" target="xxx.00287"/>
                <head type="main-authorial">THICK-SPRINKLED BUNTING.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HICK-SPRINKLED</hi> bunting! flag of stars!</l>
@@ -18382,7 +18384,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00288"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00288"></note>
+            <note type="work_relations" target="xxx.00288"/>
                <head type="main-authorial">WHAT BEST I SEE IN THEE.</head>
                <head type="sub" rend="italic">To U. S. G. return'd from his World's Tour.</head>
                <l>W<hi rend="smallcaps">HAT</hi> best I see in thee,</l>
@@ -18401,7 +18403,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00289"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00289"></note>
+            <note type="work_relations" target="xxx.00289"/>
                <head type="main-authorial">SPIRIT THAT FORM'D THIS SCENE.</head>
                <head type="sub" rend="italic">Written in Platte Cañon, Colorado.</head>
                <l>S<hi rend="smallcaps">PIRIT</hi> that form'd this scene,</l>
@@ -18422,7 +18424,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00290"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00290"></note>
+            <note type="work_relations" target="xxx.00290"/>
                <head type="main-authorial">AS I WALK THESE BROAD MAJESTIC DAYS.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">S</hi> I walk these broad majestic days of peace,</l>
@@ -18458,7 +18460,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00291"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00291"></note>
+            <note type="work_relations" target="xxx.00291"/>
                <head type="main-authorial">A CLEAR MIDNIGHT.</head>
                <l>T<hi rend="smallcaps">HIS</hi> is thy hour O Soul, thy free flight into the wordless,</l>
                <l>Away from books, away from art, the day erased, the lesson done,</l>
@@ -18475,14 +18477,14 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--            <relations>
                <work ref="xxx.00292"/>
             </relations>-->
-            <note type="work_relations" target="xxx.00292"></note>
+            <note type="work_relations" target="xxx.00292"/>
             <head type="main-authorial">SONGS OF PARTING.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01951">
 <!--               <relations>
                   <work ref="xxx.00294"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00294"></note>
+            <note type="work_relations" target="xxx.00294"/>
                <head type="main-authorial">AS THE TIME DRAWS NIGH.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">S</hi> the time draws nigh glooming a cloud,</l>
@@ -18503,7 +18505,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00295"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00295"></note>
+            <note type="work_relations" target="xxx.00295"/>
                <head type="main-authorial">YEARS OF THE MODERN.</head>
                <l>Y<hi rend="smallcaps">EARS</hi> of the modern! years of the unperform'd!</l>
                <l>Your horizon rises, I see it parting away for more august dramas,</l>
@@ -18541,7 +18543,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00293"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00293"></note>
+            <note type="work_relations" target="xxx.00293"/>
                <head type="main-authorial">ASHES OF SOLDIERS.</head>
                <lg type="linegroup">
                   <l>A<hi rend="smallcaps">SHES</hi> of soldiers South or North,</l>
@@ -18615,7 +18617,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00296"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00296"></note>
+            <note type="work_relations" target="xxx.00296"/>
                <head type="main-authorial">THOUGHTS.</head>
                <lg type="section" n="1">
                   <head type="main-authorial">1</head>
@@ -18668,7 +18670,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00297"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00297"></note>
+            <note type="work_relations" target="xxx.00297"/>
                <head type="main-authorial">SONG AT SUNSET.</head>
                <lg type="linegroup">
                   <l>S<hi rend="smallcaps">PLENDOR</hi> of ended day floating and filling me,</l>
@@ -18759,7 +18761,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00298"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00298"></note>
+            <note type="work_relations" target="xxx.00298"/>
                <head type="main-authorial">AS AT THY PORTALS ALSO DEATH.</head>
                <l>A<hi rend="smallcaps">S</hi> at thy portals also death,</l>
                <l>Entering thy sovereign, dim, illimitable grounds,</l>
@@ -18776,7 +18778,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00299"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00299"></note>
+            <note type="work_relations" target="xxx.00299"/>
                <head type="main-authorial">MY LEGACY.</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">HE</hi> business man the acquirer vast,</l>
@@ -18798,7 +18800,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00300"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00300"></note>
+            <note type="work_relations" target="xxx.00300"/>
                <head type="main-authorial">PENSIVE ON HER DEAD GAZING.</head>
                <l>P<hi rend="smallcaps">ENSIVE</hi> on her dead gazing I heard the Mother of All,</l>
                <l>Desperate on the torn bodies, on the forms covering the <choice><orig>battle-<lb/>fields</orig><reg>battlefields</reg></choice> gazing,</l>
@@ -18822,7 +18824,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00301"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00301"></note>
+            <note type="work_relations" target="xxx.00301"/>
                <head type="main-authorial">CAMPS OF GREEN.</head>
                <lg type="linegroup">
                   <l>N<hi rend="smallcaps">OT</hi> alone those camps of white, old comrades of the wars,</l>
@@ -18862,7 +18864,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00302"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00302"></note>
+            <note type="work_relations" target="xxx.00302"/>
                <head type="main-authorial">THE SOBBING OF THE BELLS.</head>
                <head type="sub">(<hi rend="italic">Midnight, Sept.</hi> 19-20, 1881.)</head>
                <l>T<hi rend="smallcaps">HE</hi> sobbing of the bells, the sudden death-news everywhere,</l>
@@ -18877,7 +18879,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00303"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00303"></note>
+            <note type="work_relations" target="xxx.00303"/>
                <head type="main-authorial">AS THEY DRAW TO A CLOSE.</head>
                <l>A<hi rend="smallcaps">S</hi> they draw to a close,</l>
                <l>Of what underlies the precedent songs—of my aims in them,</l>
@@ -18898,7 +18900,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00304"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00304"></note>
+            <note type="work_relations" target="xxx.00304"/>
                <head type="main-authorial">JOY, SHIPMATE, JOY!</head>
                <l>J<hi rend="smallcaps">OY</hi>, shipmate, joy!</l>
                <l>(Pleas'd to my soul at death I cry,)</l>
@@ -18912,7 +18914,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00305"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00305"></note>
+            <note type="work_relations" target="xxx.00305"/>
                <head type="main-authorial">THE UNTOLD WANT.</head>
                <l>T<hi rend="smallcaps">HE</hi> untold want by life and land ne'er granted,</l>
                <l>Now voyager sail thou forth to seek and find.</l>
@@ -18921,7 +18923,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00306"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00306"></note>
+            <note type="work_relations" target="xxx.00306"/>
                <head type="main-authorial">PORTALS.</head>
                <l>W<hi rend="smallcaps">HAT</hi> are those of the known but to ascend and enter the <lb/>Unknown?</l>
                <l>And what are those of life but for Death?</l>
@@ -18930,7 +18932,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00307"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00307"></note>
+            <note type="work_relations" target="xxx.00307"/>
                <head type="main-authorial">THESE CAROLS.</head>
                <l>T<hi rend="smallcaps">HESE</hi> carols sung to cheer my passage through the world I see,</l>
                <l>For completion I dedicate to the Invisible World.</l>
@@ -18940,7 +18942,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00308"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00308"></note>
+            <note type="work_relations" target="xxx.00308"/>
                <head type="main-authorial">NOW FINALÈ TO THE SHORE.</head>
                <l>N<hi rend="smallcaps">OW</hi> finalè to the shore,</l>
                <l>Now land and life finalè and farewell,</l>
@@ -18957,7 +18959,7 @@ smear'd and slobbering idiot they had <lb/>at the asylum,</l>
 <!--               <relations>
                   <work ref="xxx.00309"/>
                </relations>-->
-            <note type="work_relations" target="xxx.00309"></note>
+            <note type="work_relations" target="xxx.00309"/>
                <head type="main-authorial">SO LONG!</head>
                <lg type="linegroup">
                   <l>T<hi rend="smallcaps">O</hi> conclude, I announce what comes after me.</l>
