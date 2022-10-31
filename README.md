@@ -8,7 +8,7 @@ It contains TEI-XML files for seven Leaves of Grass editions. For TEI-XML and sc
 
 For information about populating the CDRH API or generating HTML views, see [Datura's documentation](https://github.com/CDRH/datura).
 
-### Poem identifier
+### Poem identifier script
 
 Poems are encoded throughout the editions as `<lg type="poem">` and `<lg type="cluster">`. Most of these poems also carry a unique identifier.
 
@@ -21,3 +21,18 @@ bundle install
 
 ./scripts/poem_identifier.rb
 ```
+
+### Poem id assigning script
+
+CAUTION: This script is destructive in the wrong hands, and possibly even in the right ones. It was written very hastily to
+squish some identifiers into poems that were missing it,
+and was not written with the idea in mind that it would be run again!
+
+```bash
+bundle install
+./scripts/poem_id_assigner.rb
+```
+
+The script will give you a big warning (type "y" to continue)
+and then will ask for an identifier to START with. Aka: whatever
+you got as output from the poem identifier script, add one
