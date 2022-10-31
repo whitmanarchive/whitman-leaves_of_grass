@@ -37,12 +37,10 @@ class BookOfPoems
   def initialize(path)
     @path = path
     @xml = File.open(path) { |f| Nokogiri::XML(f) }
-    # removes custom Whitman TEI namespace, will use id instead of xml:id
-    @xml.remove_namespaces!
   end
 
   def find_and_create_poems
-    lgs = @xml.xpath("//lg[@type='poem' or @type='cluster']")
+    lgs = @xml.xpath("//xmlns:lg[@type='poem' or @type='cluster']")
     lgs.map do |lg|
       Poem.new(lg)
     end
@@ -73,7 +71,7 @@ class Poem
   end
 
   def id
-    @id ||= @element.xpath("@id").text
+    @id ||= @element.xpath("@xml:id").text
   end
 
   def has_id?
