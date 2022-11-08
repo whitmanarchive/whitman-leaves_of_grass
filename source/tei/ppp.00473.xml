@@ -68,6 +68,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Iowa copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-11-08">added unique IDs for the two "Debris" poems</change>
          <change who="#bb" when="2022-09-27">updated work associations for "Great Are the Myths" and "Respondez!"</change>
          <change who="#bb" when="2022-04-07">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2021-10-05">restored the words "hen, and she with her half-" to the transcription of p. 37</change>
@@ -9061,7 +9062,7 @@ wait.</l>
             </relations>-->
             <note type="work_relations" target="xxx.00453"></note>
             <head type="main-authorial">D<hi rend="smallcaps">EBRIS</hi>.</head>
-            <lg type="poem">
+            <lg type="poem" xml:id="ppp.01975">
 <!--               <relations>
                   <work ref="xxx.00418"/>
                </relations>-->
@@ -9071,7 +9072,7 @@ H<hi rend="smallcaps">E</hi> is wisest who has the most caution;</l>
                <l>He only wins who goes far enough.</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
-            <lg type="poem">
+            <lg type="poem" xml:id="ppp.01976">
 <!--               <relations>
                   <work ref="xxx.00614"/>
                </relations>-->
