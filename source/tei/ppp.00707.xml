@@ -70,6 +70,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-11-08">added unique IDs to 5 poems</change>
          <change who="#bb" when="2022-09-13">corrected six instances of type="lingegroup" and added type="linegroup" to one lg</change>
          <change who="#bb" when="2022-06-08">corrected value of @type on lg for six of the poems in "Fancies at Navesink" and supplied them with relations/work associations</change>
          <change who="#bb" when="2022-05-06">revised relations/work encoding to conform to tei_all schema; corrected nesting of "text" elements within "group" element</change>
@@ -19991,7 +19992,7 @@
                   *Navesink—a sea-side mountain, lower entrance of New York Bay.
                </note>
                <pb facs="ppp.00707.398.jpg" xml:id="leaf200v" n="390" type="verso"/>
-               <lg type="poem">
+               <lg type="poem" xml:id="ppp.01968">
                   <note type="work_relations" target="xxx.00334"></note>
                   <head type="main-authorial">LAST OF EBB, AND DAYLIGHT WANING.</head>
                   <lg type="linegroup">
@@ -20016,7 +20017,7 @@
                      <l>On for your time, ye furious debouché!</l>
                   </lg>
                </lg>
-               <lg type="poem">
+               <lg type="poem" xml:id="ppp.01969">
                   <note type="work_relations" target="xxx.00335"></note>
                   <head type="main-authorial">AND YET NOT YOU ALONE.</head>
                   <lg type="linegroup">
@@ -20029,7 +20030,7 @@
                      <l>The rhythmus of Birth eternal.</l>
                   </lg>
                </lg>
-               <lg type="poem">
+               <lg type="poem" xml:id="ppp.01970">
                   <note type="work_relations" target="xxx.00336"></note>
                   <head type="main-authorial">PROUDLY THE FLOOD COMES IN.</head>
                   <lg type="linegroup">
@@ -20041,7 +20042,7 @@
                      <l>Flaunting from many a spar the flag I love.</l>
                   </lg>
                </lg>
-               <lg type="poem">
+               <lg type="poem" xml:id="ppp.01971">
                   <note type="work_relations" target="xxx.00337"></note>
                   <head type="main-authorial">BY THAT LONG SCAN OF WAVES.</head>
                   <lg type="linegroup">
@@ -20057,7 +20058,7 @@
                      <l>Like one of yours, ye multitudinous ocean.</l>
                   </lg>
                </lg>
-               <lg type="poem">
+               <lg type="poem" xml:id="ppp.01972">
                   <note type="work_relations" target="xxx.00338"></note>
                   <head type="main-authorial">THEN LAST OF ALL.</head>
                   <lg type="linegroup">
