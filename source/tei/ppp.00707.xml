@@ -70,7 +70,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
-         <change who="#bb" when="2022-11-08">added unique IDs to 5 poems</change>
+         <change who="#bb" when="2022-11-08">added unique IDs to 5 of the "Fancies at Navesink" poems</change>
          <change who="#bb" when="2022-09-13">corrected six instances of type="lingegroup" and added type="linegroup" to one lg</change>
          <change who="#bb" when="2022-06-08">corrected value of @type on lg for six of the poems in "Fancies at Navesink" and supplied them with relations/work associations</change>
          <change who="#bb" when="2022-05-06">revised relations/work encoding to conform to tei_all schema; corrected nesting of "text" elements within "group" element</change>
