@@ -66,6 +66,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-11-08">added unique IDs to "Lo! Victress on the Peaks!" and "World, Take Good Notice"</change>
          <change who="#bb" when="2022-09-27">updated/corrected work associations for "A Promise to California," "A Leaf for Hand in Hand," "Great Are the Myths," and "Respondez!"</change>
          <change who="#bb" when="2022-06-10">corrected "obscencly" to "obscenely" on p. 335</change>
          <change who="#bb" when="2022-04-06">revised relations/work encoding to conform to tei_all schema</change>
@@ -13431,7 +13432,7 @@ UNKNOWN.</head>
                </lg>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
-            <lg type="poem">
+            <lg type="poem" xml:id="ppp.01977">
 <!--               <relations>
                   <work ref="xxx.00211"/>
                </relations>-->
@@ -13449,7 +13450,7 @@ UNKNOWN.</head>
                <l>And psalms of the dead.</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
-            <lg type="poem">
+            <lg type="poem" xml:id="ppp.01978">
 <!--               <relations>
                   <work ref="xxx.00203"/>
                </relations>-->
