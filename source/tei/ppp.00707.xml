@@ -22,6 +22,7 @@
                <persName xml:id="ef">Ed Folsom</persName>
                <persName xml:id="kp">Kenneth M. Price</persName>
                <persName xml:id="sf">Said Fallaha</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -70,6 +71,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#km" when="2022-12-07">added hyphen in the middle of the word "muscle" (where it breaks on a line) on page 381</change>
          <change who="#bb" when="2022-11-08">added unique IDs to 5 of the "Fancies at Navesink" poems</change>
          <change who="#bb" when="2022-09-13">corrected six instances of type="lingegroup" and added type="linegroup" to one lg</change>
          <change who="#bb" when="2022-06-08">corrected value of @type on lg for six of the poems in "Fancies at Navesink" and supplied them with relations/work associations</change>
@@ -19408,7 +19410,7 @@
                      <l>To ages and ages yet the growth of the seed leaving,</l>
                      <l>To troops out of the war arising, they the tasks I have set <choice><orig>promul-<lb/>ging</orig><reg>promulging</reg></choice>,</l>
                      <l>To women certain whispers of myself bequeathing, their affection <lb/>me more clearly explaining,</l>
-                     <l>To young men my problems offering—no dallier I—I the mus <lb/>cle of their brains trying,</l>
+                     <l>To young men my problems offering—no dallier I—I the mus- <lb/>cle of their brains trying,</l>
                      <l>So I pass, a little time vocal, visible, contrary,</l>
                      <pb facs="ppp.00707.390.jpg" xml:id="leaf196v" n="382" type="verso"/>
                      <l>Afterward a melodious echo, passionately bent for, (death making <lb/>me really undying,)</l>
