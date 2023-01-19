@@ -43,7 +43,7 @@ class TeiToEs < XmlToEs
   end
 
   def category
-    "published works"
+    "Published Works"
   end
 
   def cover_image
@@ -103,7 +103,11 @@ class TeiToEs < XmlToEs
   end
 
   def category2
-    "Leaves of Grass"
+    "Published Works / Books"
+  end
+
+  def category3
+    "Published Works / Books / Leaves of Grass"
   end
 
   def text
