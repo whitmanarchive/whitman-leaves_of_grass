@@ -28,7 +28,7 @@ class FileTei < FileType
       html_docs = Datura::Helpers.get_directory_files(@out_html).filter { |name| !name.split("/").last.include?("_")}
       html_docs.each do |filename|
         # create poem and cluster html files by splitting big file
-        html = CommonXml.create_html_object(filename)
+        html = create_html_object(filename)
         transform_clusters(html, filename, @out_html)
         transform_poems(html, filename, @out_html)
       end
@@ -44,7 +44,8 @@ class FileTei < FileType
         cluster_id = cluster.attributes["data-xmlid"].value.gsub("ppp.", "cluster.")
         volume_id = filename.split("/").last.delete_suffix(".html")
         new_filename = File.join(output_dir, "#{volume_id}_#{cluster_id}.html")
-        File.write(new_filename, cluster.to_html)
+        html = cluster.to_html.encode('UTF-8')
+        File.write(new_filename, html)
       end
     end
   end
@@ -57,10 +58,19 @@ class FileTei < FileType
           poem_id = poem.attributes["data-xmlid"].value.gsub("ppp.", "poem.")
           volume_id = filename.split("/").last.delete_suffix(".html")
           new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
-          File.write(new_filename, poem.to_html)
+          html = poem.to_html.encode('UTF-8')
+          File.write(new_filename, html)
         end
       end
     end
+  end
+
+  private
+
+  def create_html_object(filepath, remove_ns=true)
+    file_html = File.open(filepath) { |f| Nokogiri::HTML(f, nil, 'utf-8') }
+    file_html.remove_namespaces! if remove_ns
+    file_html
   end
 
 end
