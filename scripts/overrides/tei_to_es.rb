@@ -103,10 +103,6 @@ class TeiToEs < XmlToEs
   end
 
   def category2
-    "Published Works / Books"
-  end
-
-  def category3
     "Published Works / Books / Leaves of Grass"
   end
 
