@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00237">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="ppp.00237">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,7 +32,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>ppp.00237</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +44,7 @@
             <availability>
                <p>The text of the original item is in the public domain.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of this material should credit the <title level="m">Walt Whitman Archive</title>.</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>ppp.00237</idno></publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -66,9 +69,6 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
-         
-         <change who="#bb" when="2022-09-27">updated work associations for "Poem of a Few Greatnesses" and "Poem of Remembrances for A Girl or A Boy of These States"</change>
-         <change who="#bb" when="2022-03-08">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2019-11-19">changed value of @type on div1 for Leaves-Droppings</change>
          <change who="#bb" when="2019-09-24">changed encoding of the signature mark at the bottom of p. 33 to accord with all of the others</change>
          <change who="#nhg" when="2018-05-21">added milestones, smallcaps, q, and fw for signature marks</change>
@@ -78,11 +78,11 @@
          <change when="2015-05-05" who="#el">updated TEI header</change>
          <change who="#el" when="2015-01-26">converted to P5</change>
          <change who="#bb" when="2014-03-04">removed superflous space in "A FOOT and light-hearted"</change>
-         <change who="#bb" when="2012-07-02">Corrected a typo in the Table of Contents</change>
-         <change who="#bb" when="2010-08-18">Corrected a couple of typos in the parody in "Leaves-Droppings"</change>
-         <change who="#bb" when="2009-02-27">Corrected work ID for "Song of Myself"; corrected seg and lg tagging problem at bottom of p. 133</change>
-         <change who="#sb" when="2005-04-20">Added work ids.</change>
-         <change who="#bb" when="2004-05-25">Corrected the signature tagging on p. 358; tagged the superscripted "r" on p. 380; parsed.</change>
+         <change who="#bb" when="2012-07-02">corrected a typo in the Table of Contents</change>
+         <change who="#bb" when="2010-08-18">corrected a couple of typos in the parody in "Leaves-Droppings"</change>
+         <change who="#bb" when="2009-02-27">corrected work ID for "Song of Myself"; corrected seg and lg tagging problem at bottom of p. 133</change>
+         <change who="#sb" when="2005-04-20">cdded work ids</change>
+         <change who="#bb" when="2004-05-25">corrected the signature tagging on p. 358; tagged the superscripted "r" on p. 380; parsed</change>
          <change who="#ms" when="2004-02-24">p.13 "soon out" correction found on p.12, not p.13.
 First correction made: p 118 "sparkle"
 p.145 changed "tho" to "the" before "glare and dense shadows"
@@ -152,7 +152,7 @@ p.383 changed "to seek the work itself." to "to seek the work itself,"
             <milestone unit="undeclared" rend="horbar-short-center"/>
                <table>
                   <row>
-                     <cell/>
+                     <cell></cell>
                      <cell>Page</cell>
                   </row>
                   <row>
@@ -316,10 +316,9 @@ p.383 changed "to seek the work itself." to "to seek the work itself,"
          <head type="main-authorial">LEAVES OF GRASS.</head>
          <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00236" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00048"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00048"></note>
+            </relations>
             <head type="main-authorial">1 — Poem of Walt Whitman, an American. </head>
             <lg type="linegroup">
                <l n="first">I CELEBRATE myself, </l>
@@ -2454,10 +2453,9 @@ lands, they are not original with me,</l>
          </lg>
          <pb facs="ppp.00237.109.jpg" xml:id="leaf054r" n="101" type="recto"/>
          <lg xml:id="ppp.00239" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00246"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00246"></note>
+            </relations>
             <head type="main-authorial">2 — Poem of Women. </head>
             <lg type="linegroup">
                <l n="first">UNFOLDED only out of the folds of the <lb/>woman, man comes unfolded, and is always <lb/>to come unfolded,</l>
@@ -2477,10 +2475,9 @@ lands, they are not original with me,</l>
          </lg>
          <pb facs="ppp.00237.111.jpg" xml:id="leaf055r" n="103" type="recto"/>
          <lg xml:id="ppp.00240" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00110"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00110"></note>
+            </relations>
             <head type="main-authorial">3 — Poem of Salutation. </head>
             <lg type="linegroup">
                <l n="first">O TAKE my hand, Walt Whitman!</l>
@@ -2826,10 +2823,9 @@ lands, they are not original with me,</l>
          </lg>
          <pb facs="ppp.00237.129.jpg" xml:id="leaf064r" n="121" type="recto"/>
          <lg xml:id="ppp.00241" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00119"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00119"></note>
+            </relations>
             <head type="main-authorial">4 — Poem of The Daily Work of The Workmen and Workwomen of These
 States. </head>
             <lg type="linegroup">
@@ -3120,10 +3116,9 @@ lump</orig><reg>loup-lump</reg></choice> at the bottom of the melt at last — <
          </lg>
          <pb facs="ppp.00237.148.jpg" xml:id="leaf073v" n="140" type="verso"/>
          <lg xml:id="ppp.00242" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00116"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00116"></note>
+            </relations>
             <head type="main-authorial">5 — Broad-Axe Poem. </head>
             <lg type="linegroup">
                <l n="first">BROAD-AXE, shapely, naked, wan! </l>
@@ -3505,10 +3500,9 @@ lump</orig><reg>loup-lump</reg></choice> at the bottom of the melt at last — <
          </lg>
          <pb facs="ppp.00237.169.jpg" xml:id="leaf084r" n="161" type="recto"/>
          <lg xml:id="ppp.00243" type="poem">
-<!--            <relations>
-               <work ref="xxx.00121"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00121"></note>
+            <relations>
+               <work ref="xxx.00430"/>
+            </relations>
             <head type="main-authorial">6 — Poem of a Few Greatnesses. </head>
             <lg type="linegroup">
                <l n="first">GREAT are the myths, I too delight in them,</l>
@@ -3640,10 +3634,9 @@ rules, and as <lb/>the love, justice, equality in the soul, rule.</l>
          </lg>
          <pb facs="ppp.00237.175.jpg" xml:id="leaf087r" n="167" type="recto"/>
          <lg xml:id="ppp.00244" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00052"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00052"></note>
+            </relations>
             <head type="main-authorial">7 — Poem of The Body. </head>
             <lg type="linegroup">
                <l n="first">THE bodies of men and women engirth me, and <lb/>I engirth them,</l>
@@ -3885,10 +3878,9 @@ rules, and as <lb/>the love, justice, equality in the soul, rule.</l>
          </lg>
          <pb facs="ppp.00237.188.jpg" xml:id="leaf093v" n="180" type="verso"/>
          <lg xml:id="ppp.00245" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00221"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00221"></note>
+            </relations>
             <head type="main-authorial">8 — Poem of Many In One. </head>
             <lg type="linegroup">
                <l n="first">A NATION announcing itself,</l>
@@ -4295,10 +4287,9 @@ with all <lb/>identities that exist, or ever have existed,</l>
          <fw type="sig" place="bottom">9*</fw>
          <pb facs="ppp.00237.210.jpg" xml:id="leaf104v" n="202" type="verso"/>
          <lg xml:id="ppp.00246" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00229"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00229"></note>
+            </relations>
             <head type="main-authorial">9 — Poem of Wonder at The Resurrection of The Wheat. </head>
             <lg type="linegroup">
                <l n="first">SOMETHING startles me where I thought I <lb/>was safest,</l>
@@ -4366,10 +4357,9 @@ with all <lb/>identities that exist, or ever have existed,</l>
          </lg>
          <pb facs="ppp.00237.214.jpg" xml:id="leaf106v" n="206" type="verso"/>
          <lg xml:id="ppp.00247" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00125"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00125"></note>
+            </relations>
             <head type="main-authorial">10 — Poem of You, Whoever You Are. </head>
             <lg type="linegroup">
                <l n="first">WHOEVER you are, I fear you are walking <lb/>the walks of dreams,</l>
@@ -4452,10 +4442,9 @@ with all <lb/>identities that exist, or ever have existed,</l>
          </lg>
          <pb facs="ppp.00237.219.jpg" xml:id="leaf109r" n="211" type="recto"/>
          <lg xml:id="ppp.00248" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00112"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00112"></note>
+            </relations>
             <head type="main-authorial">11 — Sun-Down Poem. </head>
             <lg type="linegroup">
                <l n="first">FLOOD-TIDE of the river, flow on! I watch <lb/>you, face to face,</l>
@@ -4673,11 +4662,10 @@ light, over the tops of houses, <lb/>and down into the clefts of streets.</l>
             </lg>
          </lg>
          <pb facs="ppp.00237.231.jpg" xml:id="leaf115r" n="223" type="recto"/>
-        <lg xml:id="ppp.00249" type="poem">
-            <!-- <relations>
+         <lg xml:id="ppp.00249" type="poem">
+            <relations>
                <work ref="xxx.00111"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00111"></note>
+            </relations>
             <head type="main-authorial">12 — Poem of The Road. </head>
             <lg type="linegroup">
                <l n="first">AFOOT and light-hearted I take to the open <lb/>road!</l>
@@ -5048,10 +5036,9 @@ religions, </l>
          </lg>
          <pb facs="ppp.00237.248.jpg" xml:id="leaf123v" n="240" type="verso"/>
          <lg xml:id="ppp.00250" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00053"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00053"></note>
+            </relations>
             <head type="main-authorial">13 — Poem of Procreation. </head>
             <lg type="linegroup">
                <l n="first">A WOMAN waits for me—she contains all, <lb/>nothing is lacking,</l>
@@ -5119,10 +5106,9 @@ religions, </l>
          </lg>
          <pb facs="ppp.00237.252.jpg" xml:id="leaf125v" n="244" type="verso"/>
          <lg xml:id="ppp.00251" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00113"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00113"></note>
+            </relations>
             <head type="main-authorial">14 — Poem of The Poet. </head>
             <lg type="linegroup">
                <l n="first">A YOUNG man came to me with a message <lb/>from his brother,</l>
@@ -5223,10 +5209,9 @@ religions, </l>
          </lg>
          <pb facs="ppp.00237.257.jpg" xml:id="leaf128r" n="249" type="recto"/>
          <lg xml:id="ppp.00252" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00138"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00138"></note>
+            </relations>
             <head type="main-authorial">15 — Clef Poem. </head>
             <lg type="linegroup">
                <l n="first">THIS night I am happy,</l>
@@ -5280,10 +5265,9 @@ live <lb/>just as much as before.</l>
          </lg>
          <pb facs="ppp.00237.260.jpg" xml:id="leaf129v" n="252" type="verso"/>
          <lg xml:id="ppp.00253" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00144"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00144"></note>
+            </relations>
             <head type="main-authorial">16 — Poem of The Dead Young Men of Europe, The 72d and 73d Years of These States </head>
             <lg type="linegroup">
                <l n="first">SUDDENLY out of its stale and drowsy lair, <lb/>the lair of slaves,</l>
@@ -5349,10 +5333,9 @@ live <lb/>just as much as before.</l>
          </lg>
          <pb facs="ppp.00237.263.jpg" xml:id="leaf131r" n="255" type="recto"/>
          <lg xml:id="ppp.00254" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00278"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00278"></note>
+            </relations>
             <head type="main-authorial">17 — Poem of The Heart of The Son of Manhattan Island. </head>
             <lg type="linegroup">
                <l n="first">WHO has gone farthest? For I swear I will go <lb/>farther;</l>
@@ -5375,10 +5358,9 @@ live <lb/>just as much as before.</l>
          </lg>
          <pb facs="ppp.00237.265.jpg" xml:id="leaf132r" n="257" type="recto"/>
          <lg xml:id="ppp.00255" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00232"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00232"></note>
+            </relations>
             <head type="main-authorial">18 — Poem of The Last Explanation of Prudence. </head>
             <lg type="linegroup">
                <l n="first">ALL day I have walked the city and talked with <lb/>my friends, and thought of prudence,</l>
@@ -5468,10 +5450,9 @@ live <lb/>just as much as before.</l>
          </lg>
          <pb facs="ppp.00237.270.jpg" xml:id="leaf134v" n="262" type="verso"/>
          <lg xml:id="ppp.00256" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00113"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00113"></note>
+            </relations>
             <head type="main-authorial">19 — Poem of The Singers, and of The Words of Poems. </head>
             <lg type="linegroup">
                <l n="first">PERFECT sanity shows the master among <lb/>philosophs,</l>
@@ -5519,10 +5500,9 @@ full,</l>
          </lg>
          <pb facs="ppp.00237.273.jpg" xml:id="leaf136r" n="265" type="recto"/>
          <lg xml:id="ppp.00257" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00009"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00009"></note>
+            </relations>
             <head type="main-authorial">20 — Faith Poem. </head>
             <lg type="linegroup">
                <l n="first">I NEED no assurances—I am a man who is <lb/>pre-occupied of his own soul;</l>
@@ -5551,10 +5531,9 @@ on purpose—and that I shall one day be <lb/>eligible to do as much as they, an
          </lg>
          <pb facs="ppp.00237.276.jpg" xml:id="leaf137v" n="268" type="verso"/>
          <lg xml:id="ppp.00258" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00230"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00230"></note>
+            </relations>
             <head type="main-authorial">21 — Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and
 The Archipelagoes of the Sea. </head>
             <lg type="linegroup">
@@ -5598,10 +5577,9 @@ The Archipelagoes of the Sea. </head>
          </lg>
          <pb facs="ppp.00237.279.jpg" xml:id="leaf139r" n="271" type="recto"/>
          <lg xml:id="ppp.00259" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00143"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00143"></note>
+            </relations>
             <head type="main-authorial">22 — Poem of Apparitions in Boston, The 78th Year of These States. </head>
             <lg type="linegroup">
                <l n="first">CLEAR the way there, Jonathan!</l>
@@ -5687,10 +5665,9 @@ The Archipelagoes of the Sea. </head>
          </lg>
          <pb facs="ppp.00237.283.jpg" xml:id="leaf141r" n="275" type="recto"/>
          <lg xml:id="ppp.00260" type="poem">
-<!--            <relations>
-               <work ref="xxx.00432"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00432"></note>
+            <relations>
+               <work ref="xxx.00431"/>
+            </relations>
             <head type="main-authorial">23 — Poem of Remembrances for A Girl or A Boy of These States. </head>
             <lg type="linegroup">
                <l n="first">REMEMBER the organic compact of These <lb/>States!</l>
@@ -5767,10 +5744,9 @@ The Archipelagoes of the Sea. </head>
          </lg>
          <pb facs="ppp.00237.287.jpg" xml:id="leaf143r" n="279" type="recto"/>
          <lg xml:id="ppp.00261" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00243"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00243"></note>
+            </relations>
             <head type="main-authorial">24 — Poem of Perfect Miracles. </head>
             <lg type="linegroup">
                <l n="first">REALISM is mine, my miracles,</l>
@@ -5819,10 +5795,9 @@ The Archipelagoes of the Sea. </head>
          </lg>
          <pb facs="ppp.00237.290.jpg" xml:id="leaf144v" n="282" type="verso"/>
          <lg xml:id="ppp.00262" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00226"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00226"></note>
+            </relations>
             <head type="main-authorial">25 — Poem of The Child That Went Forth, and Always Goes Forth, Forever and Forever </head>
             <lg type="linegroup">
                <l n="first">THERE was a child went forth every day, </l>
@@ -5873,10 +5848,9 @@ mean, <lb/>angered, unjust,</l>
          </lg>
          <pb facs="ppp.00237.294.jpg" xml:id="leaf146v" n="286" type="verso"/>
          <lg xml:id="ppp.00263" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00264"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00264"></note>
+            </relations>
             <head type="main-authorial">26 — Night Poem. </head>
             <lg type="linegroup">
                <l n="first">I WANDER all night in my vision, </l>
@@ -6212,10 +6186,9 @@ mean, <lb/>angered, unjust,</l>
          </lg>
          <pb facs="ppp.00237.310.jpg" xml:id="leaf154v" n="302" type="verso"/>
          <lg xml:id="ppp.00264" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00271"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00271"></note>
+            </relations>
             <head type="main-authorial">27 — Poem of Faces. </head>
             <lg type="linegroup">
                <l n="first">SAUNTERING the pavement or riding the <lb/>country by-road, here then are faces!</l>
@@ -6369,10 +6342,9 @@ mean, <lb/>angered, unjust,</l>
          </lg>
          <pb facs="ppp.00237.317.jpg" xml:id="leaf158r" n="309" type="recto"/>
          <lg xml:id="ppp.00265" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00054"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00054"></note>
+            </relations>
             <head type="main-authorial">28 — Bunch Poem. </head>
             <lg type="linegroup">
                <l n="first">THE friend I am happy with,</l>
@@ -6424,10 +6396,9 @@ mean, <lb/>angered, unjust,</l>
          </lg>
          <pb facs="ppp.00237.321.jpg" xml:id="leaf160r" n="313" type="recto"/>
          <lg xml:id="ppp.00266" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00250"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00250"></note>
+            </relations>
             <head type="main-authorial">29 — Lesson Poem. </head>
             <lg type="linegroup">
                <l n="first">WHO learns my lesson complete?</l>
@@ -6481,10 +6452,9 @@ mean, <lb/>angered, unjust,</l>
          </lg>
          <pb facs="ppp.00237.324.jpg" xml:id="leaf161v" n="316" type="verso"/>
          <lg xml:id="ppp.00267" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00222"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00222"></note>
+            </relations>
             <head type="main-authorial">30 — Poem of The Propositions of Nakedness. </head>
             <lg type="linegroup">
                <l n="first">RESPONDEZ! Respondez!</l>
@@ -6565,10 +6535,9 @@ mean, <lb/>angered, unjust,</l>
          <pb facs="ppp.00237.330.jpg" xml:id="leaf164v" n="322" type="verso"/>
 
          <lg xml:id="ppp.00268" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00120"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00120"></note>
+            </relations>
             <head type="main-authorial">31 — Poem of The Sayers of The Words of The Earth. </head>
             <lg type="linegroup">
                <l n="first">EARTH, round, rolling, compact—suns, moons, <lb/>animals—all these are words,</l>
@@ -6786,10 +6755,9 @@ mean, <lb/>angered, unjust,</l>
          </lg>
          <pb facs="ppp.00237.340.jpg" xml:id="leaf169v" n="332" type="verso"/>
          <lg xml:id="ppp.00269" type="poem">
-<!--            <relations>
+            <relations>
                <work ref="xxx.00266"/>
-            </relations>-->
-            <note type="work_relations" target="xxx.00266"></note>
+            </relations>
             <head type="main-authorial">32 — Burial Poem. </head>
             <lg type="linegroup">
                <l n="first">To think of time! to think through the <choice><orig>retro-<lb/>spection</orig><reg>retrospection</reg></choice>!</l>
