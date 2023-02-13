@@ -1,0 +1,226 @@
+
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE TEI.2 PUBLIC "-//UVA::IATH//DTD whitman.dtd (Whitman Archive)//EN" "whitman.dtd" [
+		
+
+<!ENTITY xxx.00087 SYSTEM "xxx.00087.xml" NDATA xml>
+
+<!ENTITY nyp.00014.001 SYSTEM "nyp.00014.001.jpg" NDATA jpeg>
+<!ENTITY nyp.00014.002 SYSTEM "nyp.00014.002.jpg" NDATA jpeg>
+
+]>
+
+		
+<TEI.2 id="nyp.00014" type="doc">
+
+
+
+
+
+
+
+<relations>
+<work entity="xxx.00087" cert="high"><p>This manuscript contains an early draft of "I Saw in Louisiana a Live-Oak Growing" first published as No. 20 of the "Calamus" cluster in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</p></work>
+</relations>
+
+
+
+
+
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+
+<title level="m" type="main">
+		growing
+</title>
+
+<title level="m" type="sub">a machine readable transcription</title>
+
+<author>Walt Whitman</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+
+
+<respStmt>
+<resp>Transcription and encoding</resp>
+<name>The Walt Whitman Archive Staff</name>
+</respStmt>
+<sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+<sponsor>University of Iowa</sponsor>
+<sponsor>University of Nebraska-Lincoln</sponsor>
+<funder>The National Endowment for the Humanities</funder>
+<funder>The United States Department of Education</funder>
+</titleStmt><editionStmt>
+<edition><date>2004</date></edition>
+</editionStmt><publicationStmt>
+
+<idno>nyp.00014</idno>
+
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
+<availability>
+<p>Copyright &#169; 2004 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, The Institute for Advanced Technology in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+</availability>
+</publicationStmt>
+<notesStmt>
+<note type="project" target="dat1">This manuscript was probably composed between <date value="1856/1860">1856 and 1860</date>.</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Walt Whitman</author>
+<title>
+[I Saw in Louisiana a Live Oak Growing] Holograph of five lines of the poem.
+</title>
+
+<date certainty="high" value="1856/1860" id="dat1">About 1856-1860</date>
+<idno type="callno">
+</idno> 
+<orgName>
+The Henry W. and Albert A. Berg Collection of English and American Literature
+</orgName> 
+
+
+<note type="project">Transcribed from our own digital image of original manuscript.</note>
+</bibl>
+
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<handList>
+<hand scribe="Chris Forster" id="cf"/>
+</handList>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>2004-05-13</date>
+<respStmt>
+<name>Kenneth M. Price</name>
+</respStmt>
+<item>Checked; edited</item>
+</change>
+<change>
+<date>2004-04-27</date>
+<respStmt>
+<name>Amanda Gailey</name>
+</respStmt>
+<item>Checked; revised</item>
+</change>
+<change>
+<date>2004-08-17</date>
+<respStmt>
+<name>Chris Forster</name>
+</respStmt>
+<item>Encoded</item>
+</change>
+<change>
+<date>2004-08-17</date>
+<respStmt>
+<name>Chris Forster</name>
+</respStmt>
+<item>Transcribed</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+<text type="manuscript">
+<body>
+
+<pb corresp="nyp.00014.001" id="leaf01r" type="recto"/>
+<lg1 type="poem">
+
+
+<head type="main-derived">
+growing</head>
+
+ 
+<delSpan to="d1" type="hashmark"/>
+<l>
+<seg><gap reason="cut away"/></seg>
+<seg>growing,</seg>
+</l>
+
+<l>
+<seg>All alone stood it, and the moss</seg>
+<seg>hung down from the branches,</seg>
+</l>
+
+<l>
+<seg>Without any companion it grew</seg>
+<seg>there, glistening <add place="supralinear" type="insertion">out</add> with joyous</seg>
+<seg>leaves of dark green,</seg>
+</l>
+
+<l>
+<seg>And its look, rude, unbending, lusty,</seg>
+<seg>made me think of myself;</seg>
+</l>
+
+<l>
+<seg>But I wondered how it could</seg>
+<seg>utter joyous leaves, standing alone</seg>
+<seg>there without its friend, its</seg>
+<seg>lover&#8212;For I <app>
+<rdg varSeq="1"><del type="overstrike">know</del> </rdg>
+<rdg varSeq="2"><add place="supralinear" type="unmarked">knew</add> </rdg></app>
+I could</seg>
+<seg>not;</seg>
+</l>
+
+<l>
+<seg>And I plucked a twig with a certain</seg>
+<seg>number of leaves upon it and</seg>
+<seg>twined around it a little moss,</seg>
+<seg>and brought it away&#8212;And I</seg>
+<seg>have placed it in sight in m<unclear reason="cut away" cert="60%" resp="cf">y</unclear></seg>
+<seg>room,</seg>
+</l>
+
+<anchor id="d1"/>
+</lg1>
+
+
+<pb corresp="nyp.00014.002" id="leaf01v" type="verso"/>
+<div1 type="poemnotes">
+<head type="main-authorial" rend="underline">
+
+Poem<del type="overstrike">s</del>
+</head>
+
+<p>a cluster of poems, sonnets </p><milestone unit="undeclared" rend="horbar-short-left"/> <p>expressing the thoughts, pictures, aspirations, &#38;c.</p>
+
+<milestone unit="undeclared" rend="horbar-short-left"/>
+
+<p>Fit to be perused during the days of the approach of Death.</p>
+
+<milestone unit="undeclared" rend="horbar-short-left"/>
+
+<p>(that I have prepared myself for that purpose.&#8212;</p>
+
+<milestone unit="undeclared" rend="horbar-short-left"/>
+
+<p>
+(Remember now&#8212;&#8212;&#8212;<lb/>
+Remember the&#8212;&#8212;&#8212;
+</p>
+
+
+
+</div1>
+</body>
+</text>
+</TEI.2>

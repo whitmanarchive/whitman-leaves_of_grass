@@ -1,0 +1,566 @@
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00015">
+
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title level="m" type="main">
+                                        <hi rend="italic">Blue Book Copy of Leaves of Grass</hi></title>
+                                <title level="m" type="sub">a machine readable transcription</title>
+                                <author>Walt Whitman, 1819-1892</author>
+                                <editor>Ed Folsom</editor>
+                                <editor>Kenneth M. Price</editor>
+                                <respStmt>
+                                        <resp>Transcription and encoding</resp>
+                                        <persName xml:id="el">Elizabeth Lorang</persName>
+                                        <persName xml:id="bb">Brett Barney</persName>
+                                </respStmt>
+                                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                                <sponsor>University of Iowa</sponsor>
+                                <funder>National Endowment for the Humanities</funder>
+                        </titleStmt>
+                        <editionStmt>
+                                <edition>
+                                        <date>2015</date>
+                                </edition>
+                        </editionStmt>
+                        <publicationStmt>
+                                <idno>nyp.00015</idno>
+                                <distributor>The Walt Whitman Archive</distributor>
+                                <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+                                <availability>
+                                        <p>The published text of the original item is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0).</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                                </availability>
+                        </publicationStmt>
+                        <sourceDesc>
+                                <biblStruct>
+                                        <monogr>
+                                                <author key="Whitman, Walt">Walt Whitman</author>
+                                                <title>Leaves of Grass</title>
+                                                <imprint>
+                                                        <pubPlace>Boston</pubPlace>
+                                                        <publisher>Thayer and Eldridge</publisher>
+                                                        <date when="1860">1860&#8211;61</date>
+                                                </imprint>
+                                        </monogr>
+                                </biblStruct>
+        <msDesc>
+                <msIdentifier>
+                        <repository>The New York Public Library, Rare Book Division, Oscar Lion Collection</repository>
+                        <idno>MSS Unit ID : 1767</idno>
+                </msIdentifier>
+        </msDesc>
+</sourceDesc>
+</fileDesc>
+                <revisionDesc>
+                        <change who="#el" when="2015-07-02">updated funder and sponsor information in TEI header</change>
+                        <change who="#el" when="2015-05-07">updated TEI header</change>
+                        <change who="#el" when="2015-05-06">converted to P5</change>
+                        <change who="#bb" when="2010-06-29">created file</change>
+                </revisionDesc>
+</teiHeader>
+
+ <!--       <pb facs="nyp.00015.001.jpg" xml:id="leaf001r" type="recto"/>
+        <pb facs="nyp.00015.002.jpg" xml:id="leaf001v" type="verso"/> 
+
+I'VE COMMENTED THESE OUT AT LEAST TEMPORARILY BECAUSE THEY ARE TWO-UP SHOTS OF "AFTERMARKET" COVERS/BINDINGS.  BB
+-->
+
+
+        <pb facs="nyp.00015.003.jpg" xml:id="leaf002r" type="recto"/>
+        <pb facs="nyp.00015.004.jpg" xml:id="leaf002v" type="verso"/>
+        <pb facs="nyp.00015.005.jpg" xml:id="leaf003r" type="recto"/>
+        <pb facs="nyp.00015.006.jpg" xml:id="leaf003v" type="verso"/>
+        <pb facs="nyp.00015.007.jpg" xml:id="leaf004r" type="recto"/>
+        <pb facs="nyp.00015.008.jpg" xml:id="leaf004v" type="verso"/>
+        <pb facs="nyp.00015.009.jpg" xml:id="leaf005r" type="recto"/>
+        <pb facs="nyp.00015.010.jpg" xml:id="leaf005v" type="verso"/>
+        <pb facs="nyp.00015.011.jpg" xml:id="leaf006r" type="recto"/>
+        <pb facs="nyp.00015.012.jpg" xml:id="leaf006v" type="verso"/>
+        <pb facs="nyp.00015.013.jpg" xml:id="leaf007r" type="recto"/>
+        <pb facs="nyp.00015.014.jpg" xml:id="leaf007v" type="verso"/>
+        <pb facs="nyp.00015.015.jpg" xml:id="leaf008r" type="recto"/>
+        <pb facs="nyp.00015.016.jpg" xml:id="leaf008v" type="verso"/>
+        <pb facs="nyp.00015.017.jpg" xml:id="leaf009r" type="recto"/>
+        <pb facs="nyp.00015.018.jpg" xml:id="leaf009v" type="verso"/>
+        <pb facs="nyp.00015.019.jpg" xml:id="leaf010r" type="recto"/>
+        <pb facs="nyp.00015.020.jpg" xml:id="leaf010v" type="verso"/>
+        <pb facs="nyp.00015.021.jpg" xml:id="leaf011r" type="recto"/>
+        <pb facs="nyp.00015.022.jpg" xml:id="leaf011v" type="verso"/>
+        <pb facs="nyp.00015.023.jpg" xml:id="leaf012r" type="recto"/>
+        <pb facs="nyp.00015.024.jpg" xml:id="leaf012v" type="verso"/>
+        <pb facs="nyp.00015.025.jpg" xml:id="leaf013r" type="recto"/>
+        <pb facs="nyp.00015.026.jpg" xml:id="leaf013v" type="verso"/>
+        <pb facs="nyp.00015.027.jpg" xml:id="leaf014r" type="recto"/>
+        <pb facs="nyp.00015.028.jpg" xml:id="leaf014v" type="verso"/>
+        <pb facs="nyp.00015.029.jpg" xml:id="leaf015r" type="recto"/>
+        <pb facs="nyp.00015.030.jpg" xml:id="leaf015v" type="verso"/>
+        <pb facs="nyp.00015.031.jpg" xml:id="leaf016r" type="recto"/>
+        <pb facs="nyp.00015.032.jpg" xml:id="leaf016v" type="verso"/>
+        <pb facs="nyp.00015.033.jpg" xml:id="leaf017r" type="recto"/>
+        <pb facs="nyp.00015.034.jpg" xml:id="leaf017v" type="verso"/>
+        <pb facs="nyp.00015.035.jpg" xml:id="leaf018r" type="recto"/>
+        <pb facs="nyp.00015.036.jpg" xml:id="leaf018v" type="verso"/>
+        <pb facs="nyp.00015.037.jpg" xml:id="leaf019r" type="recto"/>
+        <pb facs="nyp.00015.038.jpg" xml:id="leaf019v" type="verso"/>
+        <pb facs="nyp.00015.039.jpg" xml:id="leaf020r" type="recto"/>
+        <pb facs="nyp.00015.040.jpg" xml:id="leaf020v" type="verso"/>
+        <pb facs="nyp.00015.041.jpg" xml:id="leaf021r" type="recto"/>
+        <pb facs="nyp.00015.042.jpg" xml:id="leaf021v" type="verso"/>
+        <pb facs="nyp.00015.043.jpg" xml:id="leaf022r" type="recto"/>
+        <pb facs="nyp.00015.044.jpg" xml:id="leaf022v" type="verso"/>
+        <pb facs="nyp.00015.045.jpg" xml:id="leaf023r" type="recto"/>
+        <pb facs="nyp.00015.046.jpg" xml:id="leaf023v" type="verso"/>
+        <pb facs="nyp.00015.047.jpg" xml:id="leaf024r" type="recto"/>
+        <pb facs="nyp.00015.048.jpg" xml:id="leaf024v" type="verso"/>
+        <pb facs="nyp.00015.049.jpg" xml:id="leaf025r" type="recto"/>
+        <pb facs="nyp.00015.050.jpg" xml:id="leaf025v" type="verso"/>
+        <pb facs="nyp.00015.051.jpg" xml:id="leaf026r" type="recto"/>
+        <pb facs="nyp.00015.052.jpg" xml:id="leaf026v" type="verso"/>
+        <pb facs="nyp.00015.053.jpg" xml:id="leaf027r" type="recto"/>
+        <pb facs="nyp.00015.054.jpg" xml:id="leaf027v" type="verso"/>
+        <pb facs="nyp.00015.055.jpg" xml:id="leaf028r" type="recto"/>
+        <pb facs="nyp.00015.056.jpg" xml:id="leaf028v" type="verso"/>
+        <pb facs="nyp.00015.057.jpg" xml:id="leaf029r" type="recto"/>
+        <pb facs="nyp.00015.058.jpg" xml:id="leaf029v" type="verso"/>
+        <pb facs="nyp.00015.059.jpg" xml:id="leaf030r" type="recto"/>
+        <pb facs="nyp.00015.060.jpg" xml:id="leaf030v" type="verso"/>
+        <pb facs="nyp.00015.061.jpg" xml:id="leaf031r" type="recto"/>
+        <pb facs="nyp.00015.062.jpg" xml:id="leaf031v" type="verso"/>
+        <pb facs="nyp.00015.063.jpg" xml:id="leaf032r" type="recto"/>
+        <pb facs="nyp.00015.064.jpg" xml:id="leaf032v" type="verso"/>
+        <pb facs="nyp.00015.065.jpg" xml:id="leaf033r" type="recto"/>
+        <pb facs="nyp.00015.066.jpg" xml:id="leaf033v" type="verso"/>
+        <pb facs="nyp.00015.067.jpg" xml:id="leaf034r" type="recto"/>
+        <pb facs="nyp.00015.068.jpg" xml:id="leaf034v" type="verso"/>
+        <pb facs="nyp.00015.069.jpg" xml:id="leaf035r" type="recto"/>
+        <pb facs="nyp.00015.070.jpg" xml:id="leaf035v" type="verso"/>
+        <pb facs="nyp.00015.071.jpg" xml:id="leaf036r" type="recto"/>
+        <pb facs="nyp.00015.072.jpg" xml:id="leaf036v" type="verso"/>
+        <pb facs="nyp.00015.073.jpg" xml:id="leaf037r" type="recto"/>
+        <pb facs="nyp.00015.074.jpg" xml:id="leaf037v" type="verso"/>
+        <pb facs="nyp.00015.075.jpg" xml:id="leaf038r" type="recto"/>
+        <pb facs="nyp.00015.076.jpg" xml:id="leaf038v" type="verso"/>
+        <pb facs="nyp.00015.077.jpg" xml:id="leaf039r" type="recto"/>
+        
+        
+        <pb facs="nyp.00015.078.jpg" xml:id="leaf040v" type="verso"/>
+        <pb facs="nyp.00015.079.jpg" xml:id="leaf041r" type="recto"/>
+        <pb facs="nyp.00015.080.jpg" xml:id="leaf041v" type="verso"/>
+        <pb facs="nyp.00015.081.jpg" xml:id="leaf042r" type="recto"/>
+        <pb facs="nyp.00015.082.jpg" xml:id="leaf042v" type="verso"/>
+        <pb facs="nyp.00015.083.jpg" xml:id="leaf043r" type="recto"/>
+        <pb facs="nyp.00015.084.jpg" xml:id="leaf043v" type="verso"/>
+        <pb facs="nyp.00015.085.jpg" xml:id="leaf044r" type="recto"/>
+        <pb facs="nyp.00015.086.jpg" xml:id="leaf044v" type="verso"/>
+        <pb facs="nyp.00015.087.jpg" xml:id="leaf045r" type="recto"/>
+        <pb facs="nyp.00015.088.jpg" xml:id="leaf045v" type="verso"/>
+        <pb facs="nyp.00015.089.jpg" xml:id="leaf046r" type="recto"/>
+        <pb facs="nyp.00015.090.jpg" xml:id="leaf046v" type="verso"/>
+        <pb facs="nyp.00015.091.jpg" xml:id="leaf047r" type="recto"/>
+        <pb facs="nyp.00015.092.jpg" xml:id="leaf047v" type="verso"/>
+        <pb facs="nyp.00015.093.jpg" xml:id="leaf048r" type="recto"/>
+        <pb facs="nyp.00015.094.jpg" xml:id="leaf048v" type="verso"/>
+        <pb facs="nyp.00015.095.jpg" xml:id="leaf049r" type="recto"/>
+        <pb facs="nyp.00015.096.jpg" xml:id="leaf049v" type="verso"/>
+        <pb facs="nyp.00015.097.jpg" xml:id="leaf050r" type="recto"/>
+        <pb facs="nyp.00015.098.jpg" xml:id="leaf050v" type="verso"/>
+        <pb facs="nyp.00015.099.jpg" xml:id="leaf051r" type="recto"/>
+        <pb facs="nyp.00015.100.jpg" xml:id="leaf051v" type="verso"/>
+        <pb facs="nyp.00015.101.jpg" xml:id="leaf052r" type="recto"/>
+        <pb facs="nyp.00015.102.jpg" xml:id="leaf052v" type="verso"/>
+        <pb facs="nyp.00015.103.jpg" xml:id="leaf053r" type="recto"/>
+        <pb facs="nyp.00015.104.jpg" xml:id="leaf053v" type="verso"/>
+        <pb facs="nyp.00015.105.jpg" xml:id="leaf054r" type="recto"/>
+        <pb facs="nyp.00015.106.jpg" xml:id="leaf054v" type="verso"/>
+        <pb facs="nyp.00015.107.jpg" xml:id="leaf055r" type="recto"/>
+        <pb facs="nyp.00015.108.jpg" xml:id="leaf055v" type="verso"/>
+        <pb facs="nyp.00015.109.jpg" xml:id="leaf056r" type="recto"/>
+        <pb facs="nyp.00015.110.jpg" xml:id="leaf056v" type="verso"/>
+        <pb facs="nyp.00015.111.jpg" xml:id="leaf057r" type="recto"/>
+        <pb facs="nyp.00015.112.jpg" xml:id="leaf057v" type="verso"/>
+        <pb facs="nyp.00015.113.jpg" xml:id="leaf058r" type="recto"/>
+        <pb facs="nyp.00015.114.jpg" xml:id="leaf058v" type="verso"/>
+        <pb facs="nyp.00015.115.jpg" xml:id="leaf059r" type="recto"/>
+        <pb facs="nyp.00015.116.jpg" xml:id="leaf059v" type="verso"/>
+        <pb facs="nyp.00015.117.jpg" xml:id="leaf060r" type="recto"/>
+        <pb facs="nyp.00015.118.jpg" xml:id="leaf060v" type="verso"/>
+        <pb facs="nyp.00015.119.jpg" xml:id="leaf061r" type="recto"/>
+        <pb facs="nyp.00015.120.jpg" xml:id="leaf061v" type="verso"/>
+        <pb facs="nyp.00015.121.jpg" xml:id="leaf062r" type="recto"/>
+        <pb facs="nyp.00015.122.jpg" xml:id="leaf062v" type="verso"/>
+        <pb facs="nyp.00015.123.jpg" xml:id="leaf063r" type="recto"/>
+        <pb facs="nyp.00015.124.jpg" xml:id="leaf063v" type="verso"/>
+        <pb facs="nyp.00015.125.jpg" xml:id="leaf064r" type="recto"/>
+        <pb facs="nyp.00015.126.jpg" xml:id="leaf064v" type="verso"/>
+        <pb facs="nyp.00015.127.jpg" xml:id="leaf065r" type="recto"/>
+        <pb facs="nyp.00015.128.jpg" xml:id="leaf065v" type="verso"/>
+        <pb facs="nyp.00015.129.jpg" xml:id="leaf066r" type="recto"/>
+        <pb facs="nyp.00015.130.jpg" xml:id="leaf066v" type="verso"/>
+        <pb facs="nyp.00015.131.jpg" xml:id="leaf067r" type="recto"/>
+        <pb facs="nyp.00015.132.jpg" xml:id="leaf067v" type="verso"/>
+        <pb facs="nyp.00015.133.jpg" xml:id="leaf068r" type="recto"/>
+        <pb facs="nyp.00015.134.jpg" xml:id="leaf068v" type="verso"/>
+        <pb facs="nyp.00015.135.jpg" xml:id="leaf069r" type="recto"/>
+        <pb facs="nyp.00015.136.jpg" xml:id="leaf069v" type="verso"/>
+        <pb facs="nyp.00015.137.jpg" xml:id="leaf070r" type="recto"/>
+        <pb facs="nyp.00015.138.jpg" xml:id="leaf070v" type="verso"/>
+        <pb facs="nyp.00015.139.jpg" xml:id="leaf071r" type="recto"/>
+        <pb facs="nyp.00015.140.jpg" xml:id="leaf071v" type="verso"/>
+        <pb facs="nyp.00015.141.jpg" xml:id="leaf072r" type="recto"/>
+        <pb facs="nyp.00015.142.jpg" xml:id="leaf072v" type="verso"/>
+        <pb facs="nyp.00015.143.jpg" xml:id="leaf073r" type="recto"/>
+        <pb facs="nyp.00015.144.jpg" xml:id="leaf073v" type="verso"/>
+        <pb facs="nyp.00015.145.jpg" xml:id="leaf074r" type="recto"/>
+        <pb facs="nyp.00015.146.jpg" xml:id="leaf074v" type="verso"/>
+        <pb facs="nyp.00015.147.jpg" xml:id="leaf075r" type="recto"/>
+        <pb facs="nyp.00015.148.jpg" xml:id="leaf075v" type="verso"/>
+        <pb facs="nyp.00015.149.jpg" xml:id="leaf076r" type="recto"/>
+        <pb facs="nyp.00015.150.jpg" xml:id="leaf076v" type="verso"/>
+        <pb facs="nyp.00015.151.jpg" xml:id="leaf077r" type="recto"/>
+        <pb facs="nyp.00015.152.jpg" xml:id="leaf077v" type="verso"/>
+        <pb facs="nyp.00015.153.jpg" xml:id="leaf078r" type="recto"/>
+        <pb facs="nyp.00015.154.jpg" xml:id="leaf078v" type="verso"/>
+        <pb facs="nyp.00015.155.jpg" xml:id="leaf079r" type="recto"/>
+        <pb facs="nyp.00015.156.jpg" xml:id="leaf079v" type="verso"/>
+        <pb facs="nyp.00015.157.jpg" xml:id="leaf080r" type="recto"/>
+        <pb facs="nyp.00015.158.jpg" xml:id="leaf080v" type="verso"/>
+        <pb facs="nyp.00015.159.jpg" xml:id="leaf081r" type="recto"/>
+        <pb facs="nyp.00015.160.jpg" xml:id="leaf081v" type="verso"/>
+        <pb facs="nyp.00015.161.jpg" xml:id="leaf082r" type="recto"/>
+        <pb facs="nyp.00015.162.jpg" xml:id="leaf082v" type="verso"/>
+        <pb facs="nyp.00015.163.jpg" xml:id="leaf083r" type="recto"/>
+        <pb facs="nyp.00015.164.jpg" xml:id="leaf083v" type="verso"/>
+        <pb facs="nyp.00015.165.jpg" xml:id="leaf084r" type="recto"/>
+        <pb facs="nyp.00015.166.jpg" xml:id="leaf084v" type="verso"/>
+        <pb facs="nyp.00015.167.jpg" xml:id="leaf085r" type="recto"/>
+        <pb facs="nyp.00015.168.jpg" xml:id="leaf085v" type="verso"/>
+        <pb facs="nyp.00015.169.jpg" xml:id="leaf086r" type="recto"/>
+        <pb facs="nyp.00015.170.jpg" xml:id="leaf086v" type="verso"/>
+        <pb facs="nyp.00015.171.jpg" xml:id="leaf087r" type="recto"/>
+        <pb facs="nyp.00015.172.jpg" xml:id="leaf087v" type="verso"/>
+        <pb facs="nyp.00015.173.jpg" xml:id="leaf088r" type="recto"/>
+        <pb facs="nyp.00015.174.jpg" xml:id="leaf088v" type="verso"/>
+        <pb facs="nyp.00015.175.jpg" xml:id="leaf089r" type="recto"/>
+        <pb facs="nyp.00015.176.jpg" xml:id="leaf089v" type="verso"/>
+        <pb facs="nyp.00015.177.jpg" xml:id="leaf090r" type="recto"/>
+        <pb facs="nyp.00015.178.jpg" xml:id="leaf090v" type="verso"/>
+        <pb facs="nyp.00015.179.jpg" xml:id="leaf091r" type="recto"/>
+        <pb facs="nyp.00015.180.jpg" xml:id="leaf091v" type="verso"/>
+        <pb facs="nyp.00015.181.jpg" xml:id="leaf092r" type="recto"/>
+        <pb facs="nyp.00015.182.jpg" xml:id="leaf092v" type="verso"/>
+        <pb facs="nyp.00015.183.jpg" xml:id="leaf093r" type="recto"/>
+        <pb facs="nyp.00015.184.jpg" xml:id="leaf093v" type="verso"/>
+        <pb facs="nyp.00015.185.jpg" xml:id="leaf094r" type="recto"/>
+        <pb facs="nyp.00015.186.jpg" xml:id="leaf094v" type="verso"/>
+        <pb facs="nyp.00015.187.jpg" xml:id="leaf095r" type="recto"/>
+        <pb facs="nyp.00015.188.jpg" xml:id="leaf095v" type="verso"/>
+        <pb facs="nyp.00015.189.jpg" xml:id="leaf096r" type="recto"/>
+        <pb facs="nyp.00015.190.jpg" xml:id="leaf096v" type="verso"/>
+        <pb facs="nyp.00015.191.jpg" xml:id="leaf097r" type="recto"/>
+        <pb facs="nyp.00015.192.jpg" xml:id="leaf097v" type="verso"/>
+        <pb facs="nyp.00015.193.jpg" xml:id="leaf098r" type="recto"/>
+        <pb facs="nyp.00015.194.jpg" xml:id="leaf098v" type="verso"/>
+        <pb facs="nyp.00015.195.jpg" xml:id="leaf099r" type="recto"/>
+        <pb facs="nyp.00015.196.jpg" xml:id="leaf099v" type="verso"/>
+        <pb facs="nyp.00015.197.jpg" xml:id="leaf100r" type="recto"/>
+        <pb facs="nyp.00015.198.jpg" xml:id="leaf100v" type="verso"/>
+        <pb facs="nyp.00015.199.jpg" xml:id="leaf101r" type="recto"/>
+        <pb facs="nyp.00015.200.jpg" xml:id="leaf101v" type="verso"/>
+        <pb facs="nyp.00015.201.jpg" xml:id="leaf102r" type="recto"/>
+        <pb facs="nyp.00015.202.jpg" xml:id="leaf102v" type="verso"/>
+        <pb facs="nyp.00015.203.jpg" xml:id="leaf103r" type="recto"/>
+        <pb facs="nyp.00015.204.jpg" xml:id="leaf103v" type="verso"/>
+        <pb facs="nyp.00015.205.jpg" xml:id="leaf104r" type="recto"/>
+        <pb facs="nyp.00015.206.jpg" xml:id="leaf104v" type="verso"/>
+        <pb facs="nyp.00015.207.jpg" xml:id="leaf105r" type="recto"/>
+        <pb facs="nyp.00015.208.jpg" xml:id="leaf105v" type="verso"/>
+        <pb facs="nyp.00015.209.jpg" xml:id="leaf106r" type="recto"/>
+        <pb facs="nyp.00015.210.jpg" xml:id="leaf106v" type="verso"/>
+        <pb facs="nyp.00015.211.jpg" xml:id="leaf107r" type="recto"/>
+        <pb facs="nyp.00015.212.jpg" xml:id="leaf107v" type="verso"/>
+        <pb facs="nyp.00015.213.jpg" xml:id="leaf108r" type="recto"/>
+        <pb facs="nyp.00015.214.jpg" xml:id="leaf108v" type="verso"/>
+        <pb facs="nyp.00015.215.jpg" xml:id="leaf109r" type="recto"/>
+        <pb facs="nyp.00015.216.jpg" xml:id="leaf109v" type="verso"/>
+        <pb facs="nyp.00015.217.jpg" xml:id="leaf110r" type="recto"/>
+        <pb facs="nyp.00015.218.jpg" xml:id="leaf110v" type="verso"/>
+        <pb facs="nyp.00015.219.jpg" xml:id="leaf111r" type="recto"/>
+        <pb facs="nyp.00015.220.jpg" xml:id="leaf111v" type="verso"/>
+        <pb facs="nyp.00015.221.jpg" xml:id="leaf112r" type="recto"/>
+        <pb facs="nyp.00015.222.jpg" xml:id="leaf112v" type="verso"/>
+        <pb facs="nyp.00015.223.jpg" xml:id="leaf113r" type="recto"/>
+        <pb facs="nyp.00015.224.jpg" xml:id="leaf113v" type="verso"/>
+        <pb facs="nyp.00015.225.jpg" xml:id="leaf114r" type="recto"/>
+        <pb facs="nyp.00015.226.jpg" xml:id="leaf114v" type="verso"/>
+        <pb facs="nyp.00015.227.jpg" xml:id="leaf115r" type="recto"/>
+        <pb facs="nyp.00015.228.jpg" xml:id="leaf115v" type="verso"/>
+        <pb facs="nyp.00015.229.jpg" xml:id="leaf116r" type="recto"/>
+        <pb facs="nyp.00015.230.jpg" xml:id="leaf116v" type="verso"/>
+        <pb facs="nyp.00015.231.jpg" xml:id="leaf117r" type="recto"/>
+        <pb facs="nyp.00015.232.jpg" xml:id="leaf117v" type="verso"/>
+        <pb facs="nyp.00015.233.jpg" xml:id="leaf118r" type="recto"/>
+        <pb facs="nyp.00015.234.jpg" xml:id="leaf118v" type="verso"/>
+        <pb facs="nyp.00015.235.jpg" xml:id="leaf119r" type="recto"/>
+        <pb facs="nyp.00015.236.jpg" xml:id="leaf119v" type="verso"/>
+        <pb facs="nyp.00015.237.jpg" xml:id="leaf120r" type="recto"/>
+        <pb facs="nyp.00015.238.jpg" xml:id="leaf120v" type="verso"/>
+        <pb facs="nyp.00015.239.jpg" xml:id="leaf121r" type="recto"/>
+        <pb facs="nyp.00015.240.jpg" xml:id="leaf121v" type="verso"/>
+        <pb facs="nyp.00015.241.jpg" xml:id="leaf122r" type="recto"/>
+        <pb facs="nyp.00015.242.jpg" xml:id="leaf122v" type="verso"/>
+        <pb facs="nyp.00015.243.jpg" xml:id="leaf123r" type="recto"/>
+        <pb facs="nyp.00015.244.jpg" xml:id="leaf123v" type="verso"/>
+
+
+        <pb facs="nyp.00015.474.jpg" xml:id="leaf124r" type="recto"/>
+        <pb facs="nyp.00015.475.jpg" xml:id="leaf124v" type="verso"/>
+        <pb facs="nyp.00015.476.jpg" xml:id="leaf125r" type="recto"/>
+        <pb facs="nyp.00015.477.jpg" xml:id="leaf125v" type="verso"/>
+        <pb facs="nyp.00015.478.jpg" xml:id="leaf126r" type="recto"/>
+        <pb facs="nyp.00015.479.jpg" xml:id="leaf126v" type="verso"/>
+        <pb facs="nyp.00015.480.jpg" xml:id="leaf127r" type="recto"/>
+        <pb facs="nyp.00015.481.jpg" xml:id="leaf127v" type="verso"/>
+        <pb facs="nyp.00015.482.jpg" xml:id="leaf128r" type="recto"/>
+        <pb facs="nyp.00015.483.jpg" xml:id="leaf128v" type="verso"/>
+        <pb facs="nyp.00015.484.jpg" xml:id="leaf129r" type="recto"/>
+        <pb facs="nyp.00015.485.jpg" xml:id="leaf129v" type="verso"/>
+        <pb facs="nyp.00015.486.jpg" xml:id="leaf130r" type="recto"/>
+
+
+
+        <pb facs="nyp.00015.245.jpg" xml:id="leaf130v" type="verso"/>
+        <pb facs="nyp.00015.246.jpg" xml:id="leaf131r" type="recto"/>
+        <pb facs="nyp.00015.247.jpg" xml:id="leaf131v" type="verso"/>
+        <pb facs="nyp.00015.248.jpg" xml:id="leaf132r" type="recto"/>
+        <pb facs="nyp.00015.249.jpg" xml:id="leaf132v" type="verso"/>
+        <pb facs="nyp.00015.250.jpg" xml:id="leaf133r" type="recto"/>
+        <pb facs="nyp.00015.251.jpg" xml:id="leaf133v" type="verso"/>
+        <pb facs="nyp.00015.252.jpg" xml:id="leaf134r" type="recto"/>
+        <pb facs="nyp.00015.253.jpg" xml:id="leaf134v" type="verso"/>
+        <pb facs="nyp.00015.254.jpg" xml:id="leaf135r" type="recto"/>
+        <pb facs="nyp.00015.255.jpg" xml:id="leaf135v" type="verso"/>
+        <pb facs="nyp.00015.256.jpg" xml:id="leaf136r" type="recto"/>
+        <pb facs="nyp.00015.257.jpg" xml:id="leaf136v" type="verso"/>
+        <pb facs="nyp.00015.258.jpg" xml:id="leaf137r" type="recto"/>
+        <pb facs="nyp.00015.259.jpg" xml:id="leaf137v" type="verso"/>
+        <pb facs="nyp.00015.260.jpg" xml:id="leaf138r" type="recto"/>
+        <pb facs="nyp.00015.261.jpg" xml:id="leaf138v" type="verso"/>
+        <pb facs="nyp.00015.262.jpg" xml:id="leaf139r" type="recto"/>
+        <pb facs="nyp.00015.263.jpg" xml:id="leaf139v" type="verso"/>
+        <pb facs="nyp.00015.264.jpg" xml:id="leaf140r" type="recto"/>
+        <pb facs="nyp.00015.265.jpg" xml:id="leaf140v" type="verso"/>
+        <pb facs="nyp.00015.266.jpg" xml:id="leaf141r" type="recto"/>
+        <pb facs="nyp.00015.267.jpg" xml:id="leaf141v" type="verso"/>
+        <pb facs="nyp.00015.268.jpg" xml:id="leaf142r" type="recto"/>
+        <pb facs="nyp.00015.269.jpg" xml:id="leaf142v" type="verso"/>
+        <pb facs="nyp.00015.270.jpg" xml:id="leaf143r" type="recto"/>
+        <pb facs="nyp.00015.271.jpg" xml:id="leaf143v" type="verso"/>
+        <pb facs="nyp.00015.272.jpg" xml:id="leaf144r" type="recto"/>
+        <pb facs="nyp.00015.273.jpg" xml:id="leaf144v" type="verso"/>
+        <pb facs="nyp.00015.274.jpg" xml:id="leaf145r" type="recto"/>
+        <pb facs="nyp.00015.275.jpg" xml:id="leaf145v" type="verso"/>
+        <pb facs="nyp.00015.276.jpg" xml:id="leaf146r" type="recto"/>
+        <pb facs="nyp.00015.277.jpg" xml:id="leaf146v" type="verso"/>
+        <pb facs="nyp.00015.278.jpg" xml:id="leaf147r" type="recto"/>
+        <pb facs="nyp.00015.279.jpg" xml:id="leaf147v" type="verso"/>
+        <pb facs="nyp.00015.280.jpg" xml:id="leaf148r" type="recto"/>
+        <pb facs="nyp.00015.281.jpg" xml:id="leaf148v" type="verso"/>
+        <pb facs="nyp.00015.282.jpg" xml:id="leaf149r" type="recto"/>
+        <pb facs="nyp.00015.283.jpg" xml:id="leaf149v" type="verso"/>
+        <pb facs="nyp.00015.284.jpg" xml:id="leaf150r" type="recto"/>
+        <pb facs="nyp.00015.285.jpg" xml:id="leaf150v" type="verso"/>
+        <pb facs="nyp.00015.286.jpg" xml:id="leaf151r" type="recto"/>
+        <pb facs="nyp.00015.287.jpg" xml:id="leaf151v" type="verso"/>
+        <pb facs="nyp.00015.288.jpg" xml:id="leaf152r" type="recto"/>
+        <pb facs="nyp.00015.289.jpg" xml:id="leaf152v" type="verso"/>
+        <pb facs="nyp.00015.290.jpg" xml:id="leaf153r" type="recto"/>
+        <pb facs="nyp.00015.291.jpg" xml:id="leaf153v" type="verso"/>
+        <pb facs="nyp.00015.292.jpg" xml:id="leaf154r" type="recto"/>
+        <pb facs="nyp.00015.293.jpg" xml:id="leaf154v" type="verso"/>
+        <pb facs="nyp.00015.294.jpg" xml:id="leaf155r" type="recto"/>
+        <pb facs="nyp.00015.295.jpg" xml:id="leaf155v" type="verso"/>
+        <pb facs="nyp.00015.296.jpg" xml:id="leaf156r" type="recto"/>
+        <pb facs="nyp.00015.297.jpg" xml:id="leaf156v" type="verso"/>
+        <pb facs="nyp.00015.298.jpg" xml:id="leaf157r" type="recto"/>
+        <pb facs="nyp.00015.299.jpg" xml:id="leaf157v" type="verso"/>
+        <pb facs="nyp.00015.300.jpg" xml:id="leaf158r" type="recto"/>
+        <pb facs="nyp.00015.301.jpg" xml:id="leaf158v" type="verso"/>
+        <pb facs="nyp.00015.302.jpg" xml:id="leaf159r" type="recto"/>
+        <pb facs="nyp.00015.303.jpg" xml:id="leaf159v" type="verso"/>
+        <pb facs="nyp.00015.304.jpg" xml:id="leaf160r" type="recto"/>
+        <pb facs="nyp.00015.305.jpg" xml:id="leaf160v" type="verso"/>
+        <pb facs="nyp.00015.306.jpg" xml:id="leaf161r" type="recto"/>
+        <pb facs="nyp.00015.307.jpg" xml:id="leaf161v" type="verso"/>
+        <pb facs="nyp.00015.308.jpg" xml:id="leaf162r" type="recto"/>
+        <pb facs="nyp.00015.309.jpg" xml:id="leaf162v" type="verso"/>
+        <pb facs="nyp.00015.310.jpg" xml:id="leaf163r" type="recto"/>
+        <pb facs="nyp.00015.311.jpg" xml:id="leaf163v" type="verso"/>
+        <pb facs="nyp.00015.312.jpg" xml:id="leaf164r" type="recto"/>
+        <pb facs="nyp.00015.313.jpg" xml:id="leaf164v" type="verso"/>
+        <pb facs="nyp.00015.314.jpg" xml:id="leaf165r" type="recto"/>
+        <pb facs="nyp.00015.315.jpg" xml:id="leaf165v" type="verso"/>
+        <pb facs="nyp.00015.316.jpg" xml:id="leaf166r" type="recto"/>
+        <pb facs="nyp.00015.317.jpg" xml:id="leaf166v" type="verso"/>
+        <pb facs="nyp.00015.318.jpg" xml:id="leaf167r" type="recto"/>
+        <pb facs="nyp.00015.319.jpg" xml:id="leaf167v" type="verso"/>
+        <pb facs="nyp.00015.320.jpg" xml:id="leaf168r" type="recto"/>
+        <pb facs="nyp.00015.321.jpg" xml:id="leaf168v" type="verso"/>
+        <pb facs="nyp.00015.322.jpg" xml:id="leaf169r" type="recto"/>
+        <pb facs="nyp.00015.323.jpg" xml:id="leaf169v" type="verso"/>
+        <pb facs="nyp.00015.324.jpg" xml:id="leaf170r" type="recto"/>
+        <pb facs="nyp.00015.325.jpg" xml:id="leaf170v" type="verso"/>
+        <pb facs="nyp.00015.326.jpg" xml:id="leaf171r" type="recto"/>
+        <pb facs="nyp.00015.327.jpg" xml:id="leaf171v" type="verso"/>
+        <pb facs="nyp.00015.328.jpg" xml:id="leaf172r" type="recto"/>
+        <pb facs="nyp.00015.329.jpg" xml:id="leaf172v" type="verso"/>
+        <pb facs="nyp.00015.330.jpg" xml:id="leaf173r" type="recto"/>
+        <pb facs="nyp.00015.331.jpg" xml:id="leaf173v" type="verso"/>
+        <pb facs="nyp.00015.332.jpg" xml:id="leaf174r" type="recto"/>
+        <pb facs="nyp.00015.333.jpg" xml:id="leaf174v" type="verso"/>
+        <pb facs="nyp.00015.334.jpg" xml:id="leaf175r" type="recto"/>
+        <pb facs="nyp.00015.335.jpg" xml:id="leaf175v" type="verso"/>
+        <pb facs="nyp.00015.336.jpg" xml:id="leaf176r" type="recto"/>
+        <pb facs="nyp.00015.337.jpg" xml:id="leaf176v" type="verso"/>
+        <pb facs="nyp.00015.338.jpg" xml:id="leaf177r" type="recto"/>
+        <pb facs="nyp.00015.339.jpg" xml:id="leaf177v" type="verso"/>
+        <pb facs="nyp.00015.340.jpg" xml:id="leaf178r" type="recto"/>
+        <pb facs="nyp.00015.341.jpg" xml:id="leaf178v" type="verso"/>
+        <pb facs="nyp.00015.342.jpg" xml:id="leaf179r" type="recto"/>
+        <pb facs="nyp.00015.343.jpg" xml:id="leaf179v" type="verso"/>
+        <pb facs="nyp.00015.344.jpg" xml:id="leaf180r" type="recto"/>
+        <pb facs="nyp.00015.345.jpg" xml:id="leaf180v" type="verso"/>
+        <pb facs="nyp.00015.346.jpg" xml:id="leaf181r" type="recto"/>
+        <pb facs="nyp.00015.347.jpg" xml:id="leaf181v" type="verso"/>
+        <pb facs="nyp.00015.348.jpg" xml:id="leaf182r" type="recto"/>
+        <pb facs="nyp.00015.349.jpg" xml:id="leaf182v" type="verso"/>
+        <pb facs="nyp.00015.350.jpg" xml:id="leaf183r" type="recto"/>
+        <pb facs="nyp.00015.351.jpg" xml:id="leaf183v" type="verso"/>
+        <pb facs="nyp.00015.352.jpg" xml:id="leaf184r" type="recto"/>
+        <pb facs="nyp.00015.353.jpg" xml:id="leaf184v" type="verso"/>
+        <pb facs="nyp.00015.354.jpg" xml:id="leaf185r" type="recto"/>
+        <pb facs="nyp.00015.355.jpg" xml:id="leaf185v" type="verso"/>
+        <pb facs="nyp.00015.356.jpg" xml:id="leaf186r" type="recto"/>
+        <pb facs="nyp.00015.357.jpg" xml:id="leaf186v" type="verso"/>
+        <pb facs="nyp.00015.358.jpg" xml:id="leaf187r" type="recto"/>
+        <pb facs="nyp.00015.359.jpg" xml:id="leaf187v" type="verso"/>
+        <pb facs="nyp.00015.360.jpg" xml:id="leaf188r" type="recto"/>
+        <pb facs="nyp.00015.361.jpg" xml:id="leaf188v" type="verso"/>
+        <pb facs="nyp.00015.362.jpg" xml:id="leaf189r" type="recto"/>
+        <pb facs="nyp.00015.363.jpg" xml:id="leaf189v" type="verso"/>
+        <pb facs="nyp.00015.364.jpg" xml:id="leaf190r" type="recto"/>
+        <pb facs="nyp.00015.365.jpg" xml:id="leaf190v" type="verso"/>
+        <pb facs="nyp.00015.366.jpg" xml:id="leaf191r" type="recto"/>
+        <pb facs="nyp.00015.367.jpg" xml:id="leaf191v" type="verso"/>
+        <pb facs="nyp.00015.368.jpg" xml:id="leaf192r" type="recto"/>
+        <pb facs="nyp.00015.369.jpg" xml:id="leaf192v" type="verso"/>
+        <pb facs="nyp.00015.370.jpg" xml:id="leaf193r" type="recto"/>
+        <pb facs="nyp.00015.371.jpg" xml:id="leaf193v" type="verso"/>
+        <pb facs="nyp.00015.372.jpg" xml:id="leaf194r" type="recto"/>
+        <pb facs="nyp.00015.373.jpg" xml:id="leaf194v" type="verso"/>
+        <pb facs="nyp.00015.374.jpg" xml:id="leaf195r" type="recto"/>
+        <pb facs="nyp.00015.375.jpg" xml:id="leaf195v" type="verso"/>
+        <pb facs="nyp.00015.376.jpg" xml:id="leaf196r" type="recto"/>
+        <pb facs="nyp.00015.377.jpg" xml:id="leaf196v" type="verso"/>
+        <pb facs="nyp.00015.378.jpg" xml:id="leaf197r" type="recto"/>
+        <pb facs="nyp.00015.379.jpg" xml:id="leaf197v" type="verso"/>
+        <pb facs="nyp.00015.380.jpg" xml:id="leaf198r" type="recto"/>
+        <pb facs="nyp.00015.381.jpg" xml:id="leaf198v" type="verso"/>
+        <pb facs="nyp.00015.382.jpg" xml:id="leaf199r" type="recto"/>
+        <pb facs="nyp.00015.383.jpg" xml:id="leaf199v" type="verso"/>
+        <pb facs="nyp.00015.384.jpg" xml:id="leaf200r" type="recto"/>
+        <pb facs="nyp.00015.385.jpg" xml:id="leaf200v" type="verso"/>
+        <pb facs="nyp.00015.386.jpg" xml:id="leaf201r" type="recto"/>
+        <pb facs="nyp.00015.387.jpg" xml:id="leaf201v" type="verso"/>
+        <pb facs="nyp.00015.388.jpg" xml:id="leaf202r" type="recto"/>
+        <pb facs="nyp.00015.389.jpg" xml:id="leaf202v" type="verso"/>
+        <pb facs="nyp.00015.390.jpg" xml:id="leaf203r" type="recto"/>
+        <pb facs="nyp.00015.391.jpg" xml:id="leaf203v" type="verso"/>
+        <pb facs="nyp.00015.392.jpg" xml:id="leaf204r" type="recto"/>
+        <pb facs="nyp.00015.393.jpg" xml:id="leaf204v" type="verso"/>
+        <pb facs="nyp.00015.394.jpg" xml:id="leaf205r" type="recto"/>
+        <pb facs="nyp.00015.395.jpg" xml:id="leaf205v" type="verso"/>
+        <pb facs="nyp.00015.396.jpg" xml:id="leaf206r" type="recto"/>
+        <pb facs="nyp.00015.397.jpg" xml:id="leaf206v" type="verso"/>
+        <pb facs="nyp.00015.398.jpg" xml:id="leaf207r" type="recto"/>
+        <pb facs="nyp.00015.399.jpg" xml:id="leaf207v" type="verso"/>
+        <pb facs="nyp.00015.400.jpg" xml:id="leaf208r" type="recto"/>
+        <pb facs="nyp.00015.401.jpg" xml:id="leaf208v" type="verso"/>
+        <pb facs="nyp.00015.402.jpg" xml:id="leaf209r" type="recto"/>
+        <pb facs="nyp.00015.403.jpg" xml:id="leaf209v" type="verso"/>
+        <pb facs="nyp.00015.404.jpg" xml:id="leaf210r" type="recto"/>
+        <pb facs="nyp.00015.405.jpg" xml:id="leaf210v" type="verso"/>
+        <pb facs="nyp.00015.406.jpg" xml:id="leaf211r" type="recto"/>
+        <pb facs="nyp.00015.407.jpg" xml:id="leaf211v" type="verso"/>
+        <pb facs="nyp.00015.408.jpg" xml:id="leaf212r" type="recto"/>
+        <pb facs="nyp.00015.409.jpg" xml:id="leaf212v" type="verso"/>
+        <pb facs="nyp.00015.410.jpg" xml:id="leaf213r" type="recto"/>
+        <pb facs="nyp.00015.411.jpg" xml:id="leaf213v" type="verso"/>
+        <pb facs="nyp.00015.412.jpg" xml:id="leaf214r" type="recto"/>
+        <pb facs="nyp.00015.413.jpg" xml:id="leaf214v" type="verso"/>
+        <pb facs="nyp.00015.414.jpg" xml:id="leaf215r" type="recto"/>
+        <pb facs="nyp.00015.415.jpg" xml:id="leaf215v" type="verso"/>
+        <pb facs="nyp.00015.416.jpg" xml:id="leaf216r" type="recto"/>
+        <pb facs="nyp.00015.417.jpg" xml:id="leaf216v" type="verso"/>
+        <pb facs="nyp.00015.418.jpg" xml:id="leaf217r" type="recto"/>
+        <pb facs="nyp.00015.419.jpg" xml:id="leaf217v" type="verso"/>
+        <pb facs="nyp.00015.420.jpg" xml:id="leaf218r" type="recto"/>
+        <pb facs="nyp.00015.421.jpg" xml:id="leaf218v" type="verso"/>
+        <pb facs="nyp.00015.422.jpg" xml:id="leaf219r" type="recto"/>
+        <pb facs="nyp.00015.423.jpg" xml:id="leaf219v" type="verso"/>
+        <pb facs="nyp.00015.424.jpg" xml:id="leaf220r" type="recto"/>
+        <pb facs="nyp.00015.425.jpg" xml:id="leaf220v" type="verso"/>
+        <pb facs="nyp.00015.426.jpg" xml:id="leaf221r" type="recto"/>
+        <pb facs="nyp.00015.427.jpg" xml:id="leaf221v" type="verso"/>
+        <pb facs="nyp.00015.428.jpg" xml:id="leaf222r" type="recto"/>
+        <pb facs="nyp.00015.429.jpg" xml:id="leaf222v" type="verso"/>
+        <pb facs="nyp.00015.430.jpg" xml:id="leaf223r" type="recto"/>
+        <pb facs="nyp.00015.431.jpg" xml:id="leaf223v" type="verso"/>
+        <pb facs="nyp.00015.432.jpg" xml:id="leaf224r" type="recto"/>
+        <pb facs="nyp.00015.433.jpg" xml:id="leaf224v" type="verso"/>
+        <pb facs="nyp.00015.434.jpg" xml:id="leaf225r" type="recto"/>
+        <pb facs="nyp.00015.435.jpg" xml:id="leaf225v" type="verso"/>
+        <pb facs="nyp.00015.436.jpg" xml:id="leaf226r" type="recto"/>
+        <pb facs="nyp.00015.437.jpg" xml:id="leaf226v" type="verso"/>
+        <pb facs="nyp.00015.438.jpg" xml:id="leaf227r" type="recto"/>
+        <pb facs="nyp.00015.439.jpg" xml:id="leaf227v" type="verso"/>
+        <pb facs="nyp.00015.440.jpg" xml:id="leaf228r" type="recto"/>
+        <pb facs="nyp.00015.441.jpg" xml:id="leaf228v" type="verso"/>
+        <pb facs="nyp.00015.442.jpg" xml:id="leaf229r" type="recto"/>
+        <pb facs="nyp.00015.443.jpg" xml:id="leaf229v" type="verso"/>
+        <pb facs="nyp.00015.444.jpg" xml:id="leaf230r" type="recto"/>
+        <pb facs="nyp.00015.445.jpg" xml:id="leaf230v" type="verso"/>
+        <pb facs="nyp.00015.446.jpg" xml:id="leaf231r" type="recto"/>
+        <pb facs="nyp.00015.447.jpg" xml:id="leaf231v" type="verso"/>
+        <pb facs="nyp.00015.448.jpg" xml:id="leaf232r" type="recto"/>
+        <pb facs="nyp.00015.449.jpg" xml:id="leaf232v" type="verso"/>
+        <pb facs="nyp.00015.450.jpg" xml:id="leaf233r" type="recto"/>
+        <pb facs="nyp.00015.451.jpg" xml:id="leaf233v" type="verso"/>
+        <pb facs="nyp.00015.452.jpg" xml:id="leaf234r" type="recto"/>
+        <pb facs="nyp.00015.453.jpg" xml:id="leaf234v" type="verso"/>
+        <pb facs="nyp.00015.454.jpg" xml:id="leaf235r" type="recto"/>
+        <pb facs="nyp.00015.455.jpg" xml:id="leaf235v" type="verso"/>
+        <pb facs="nyp.00015.456.jpg" xml:id="leaf236r" type="recto"/>
+        <pb facs="nyp.00015.457.jpg" xml:id="leaf236v" type="verso"/>
+        <pb facs="nyp.00015.458.jpg" xml:id="leaf237r" type="recto"/>
+        <pb facs="nyp.00015.459.jpg" xml:id="leaf237v" type="verso"/>
+        <pb facs="nyp.00015.460.jpg" xml:id="leaf238r" type="recto"/>
+        <pb facs="nyp.00015.461.jpg" xml:id="leaf238v" type="verso"/>
+        <pb facs="nyp.00015.462.jpg" xml:id="leaf239r" type="recto"/>
+        <pb facs="nyp.00015.463.jpg" xml:id="leaf239v" type="verso"/>
+        <pb facs="nyp.00015.464.jpg" xml:id="leaf240r" type="recto"/>
+        <pb facs="nyp.00015.465.jpg" xml:id="leaf240v" type="verso"/>
+        <pb facs="nyp.00015.466.jpg" xml:id="leaf241r" type="recto"/>
+        <pb facs="nyp.00015.467.jpg" xml:id="leaf241v" type="verso"/>
+        <pb facs="nyp.00015.468.jpg" xml:id="leaf242r" type="recto"/>
+        <pb facs="nyp.00015.469.jpg" xml:id="leaf242v" type="verso"/>
+        <pb facs="nyp.00015.470.jpg" xml:id="leaf243r" type="recto"/>
+        <pb facs="nyp.00015.471.jpg" xml:id="leaf243v" type="verso"/>
+        <pb facs="nyp.00015.472.jpg" xml:id="leaf244r" type="recto"/>
+
+</TEI>

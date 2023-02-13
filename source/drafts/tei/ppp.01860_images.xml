@@ -1,0 +1,136 @@
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="ppp.01860">
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Leaves of Grass Imprints (1860)</title>
+                <author>Walt Whitman, 1819-1892</author>
+                <editor>Ed Folsom</editor>
+                <editor>Kenneth M. Price</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>ppp.01860</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+                <availability>
+                    <p>The text of the original item is in the public domain.</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author key="Whitman, Walt">Walt Whitman</author>
+                        <title>Leaves of Grass Imprints</title>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Thayer and Eldridge</publisher>
+                            <date when="1860">1860</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University of Iowa Libraries, Special Collections &amp; University Archives</repository>
+                        <idno>PS3238 .L35 1860, copy 1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#el" when="2015-07-02">updated funder and sponsor information in TEI header</change>
+            <change who="#el" when="2015-05-06">converted to P5</change>
+            <change who="#el" when="2013">created file</change>
+        </revisionDesc>
+    </teiHeader>
+
+ 
+    <pb facs="ppp.01860.001.jpg" xml:id="leaf001r" type="recto"/>
+    <pb facs="ppp.01860.002.jpg" xml:id="leaf001v" type="verso"/>
+    <pb facs="ppp.01860.003.jpg" xml:id="leaf002r" type="recto"/>
+        <pb facs="ppp.01860.004.jpg" xml:id="leaf002v" type="verso"/>
+        <pb facs="ppp.01860.005.jpg" xml:id="leaf003r" type="recto"/>
+        <pb facs="ppp.01860.006.jpg" xml:id="leaf003v" type="verso"/>
+        <pb facs="ppp.01860.007.jpg" xml:id="leaf004r" type="recto"/>
+        <pb facs="ppp.01860.008.jpg" xml:id="leaf004v" type="verso"/>
+        <pb facs="ppp.01860.009.jpg" xml:id="leaf005r" type="recto"/>
+        <pb facs="ppp.01860.010.jpg" xml:id="leaf005v" type="verso"/>
+        <pb facs="ppp.01860.011.jpg" xml:id="leaf006r" type="recto"/>
+        <pb facs="ppp.01860.012.jpg" xml:id="leaf006v" type="verso"/>
+        <pb facs="ppp.01860.013.jpg" xml:id="leaf007r" type="recto"/>
+        <pb facs="ppp.01860.014.jpg" xml:id="leaf007v" type="verso"/>
+        <pb facs="ppp.01860.015.jpg" xml:id="leaf008r" type="recto"/>
+        <pb facs="ppp.01860.016.jpg" xml:id="leaf008v" type="verso"/>
+        <pb facs="ppp.01860.017.jpg" xml:id="leaf009r" type="recto"/>
+        <pb facs="ppp.01860.018.jpg" xml:id="leaf009v" type="verso"/>
+        <pb facs="ppp.01860.019.jpg" xml:id="leaf010r" type="recto"/>
+        <pb facs="ppp.01860.020.jpg" xml:id="leaf010v" type="verso"/>
+        <pb facs="ppp.01860.021.jpg" xml:id="leaf011r" type="recto"/>
+        <pb facs="ppp.01860.022.jpg" xml:id="leaf011v" type="verso"/>
+        <pb facs="ppp.01860.023.jpg" xml:id="leaf012r" type="recto"/>
+        <pb facs="ppp.01860.024.jpg" xml:id="leaf012v" type="verso"/>
+        <pb facs="ppp.01860.025.jpg" xml:id="leaf013r" type="recto"/>
+        <pb facs="ppp.01860.026.jpg" xml:id="leaf013v" type="verso"/>
+        <pb facs="ppp.01860.027.jpg" xml:id="leaf014r" type="recto"/>
+        <pb facs="ppp.01860.028.jpg" xml:id="leaf014v" type="verso"/>
+        <pb facs="ppp.01860.029.jpg" xml:id="leaf015r" type="recto"/>
+        <pb facs="ppp.01860.030.jpg" xml:id="leaf015v" type="verso"/>
+        <pb facs="ppp.01860.031.jpg" xml:id="leaf016r" type="recto"/>
+        <pb facs="ppp.01860.032.jpg" xml:id="leaf016v" type="verso"/>
+        <pb facs="ppp.01860.033.jpg" xml:id="leaf017r" type="recto"/>
+        <pb facs="ppp.01860.034.jpg" xml:id="leaf017v" type="verso"/>
+        <pb facs="ppp.01860.035.jpg" xml:id="leaf018r" type="recto"/>
+        <pb facs="ppp.01860.036.jpg" xml:id="leaf018v" type="verso"/>
+        <pb facs="ppp.01860.037.jpg" xml:id="leaf019r" type="recto"/>
+        <pb facs="ppp.01860.038.jpg" xml:id="leaf019v" type="verso"/>
+        <pb facs="ppp.01860.039.jpg" xml:id="leaf020r" type="recto"/>
+        <pb facs="ppp.01860.040.jpg" xml:id="leaf020v" type="verso"/>
+        <pb facs="ppp.01860.041.jpg" xml:id="leaf021r" type="recto"/>
+        <pb facs="ppp.01860.042.jpg" xml:id="leaf021v" type="verso"/>
+        <pb facs="ppp.01860.043.jpg" xml:id="leaf022r" type="recto"/>
+        <pb facs="ppp.01860.044.jpg" xml:id="leaf022v" type="verso"/>
+        <pb facs="ppp.01860.045.jpg" xml:id="leaf023r" type="recto"/>
+        <pb facs="ppp.01860.046.jpg" xml:id="leaf023v" type="verso"/>
+        <pb facs="ppp.01860.047.jpg" xml:id="leaf024r" type="recto"/>
+        <pb facs="ppp.01860.048.jpg" xml:id="leaf024v" type="verso"/>
+        <pb facs="ppp.01860.049.jpg" xml:id="leaf025r" type="recto"/>
+        <pb facs="ppp.01860.050.jpg" xml:id="leaf025v" type="verso"/>
+        <pb facs="ppp.01860.051.jpg" xml:id="leaf026r" type="recto"/>
+        <pb facs="ppp.01860.052.jpg" xml:id="leaf026v" type="verso"/>
+        <pb facs="ppp.01860.053.jpg" xml:id="leaf027r" type="recto"/>
+        <pb facs="ppp.01860.054.jpg" xml:id="leaf027v" type="verso"/>
+        <pb facs="ppp.01860.055.jpg" xml:id="leaf028r" type="recto"/>
+        <pb facs="ppp.01860.056.jpg" xml:id="leaf028v" type="verso"/>
+        <pb facs="ppp.01860.057.jpg" xml:id="leaf029r" type="recto"/>
+        <pb facs="ppp.01860.058.jpg" xml:id="leaf029v" type="verso"/>
+        <pb facs="ppp.01860.059.jpg" xml:id="leaf030r" type="recto"/>
+        <pb facs="ppp.01860.060.jpg" xml:id="leaf030v" type="verso"/>
+        <pb facs="ppp.01860.061.jpg" xml:id="leaf031r" type="recto"/>
+        <pb facs="ppp.01860.062.jpg" xml:id="leaf031v" type="verso"/>
+        <pb facs="ppp.01860.063.jpg" xml:id="leaf032r" type="recto"/>
+        <pb facs="ppp.01860.064.jpg" xml:id="leaf032v" type="verso"/>
+        <pb facs="ppp.01860.065.jpg" xml:id="leaf033r" type="recto"/>
+        <pb facs="ppp.01860.066.jpg" xml:id="leaf033v" type="verso"/>
+        <pb facs="ppp.01860.067.jpg" xml:id="leaf034r" type="recto"/>
+        <pb facs="ppp.01860.068.jpg" xml:id="leaf034v" type="verso"/>       
+
+</TEI>
+
