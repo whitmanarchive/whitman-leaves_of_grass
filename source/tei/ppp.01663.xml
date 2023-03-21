@@ -65,6 +65,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Virginia copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2023-03-21">supplied two missing hyphens on p. 61</change>
          <change who="#km" when="2022-10-10">corrected "noticeabsorbing" on p. 381 to "notice absorbing; added hyphen at end of penultimate line on same page</change>
          <change who="#bb" when="2022-09-13">corrected three instances of type="linegroup" and added type="linegroup" to one lg</change>
          <change who="#bb" when="2022-06-20">corrected "incollars" on p. 68 to "in collars"</change>
@@ -4081,12 +4082,12 @@ young man's heart's complaint,)</l>
                   <l>The cries, curses, roar, the plaudits for well-aim'd shots,</l>
                   <l>The ambulanza slowly passing trailing its red drip,</l>
                   <l>Workmen searching after damages, making indispensable repairs,</l>
-                  <l>The fall of grenades through the rent roof, the fan-shaped explo <lb/>sion,</l>
+                  <l>The fall of grenades through the rent roof, the fan-shaped explo- <lb/>sion,</l>
                   <l>The whizz of limbs, heads, stone, wood, iron, high in the air.</l>
                </lg>
                <lg type="linegroup">
                   <l>Again gurgles the mouth of my dying general, he furiously waves <lb/>with his hand,</l>
-                  <l>He gasps through the clot <hi rend="italic">Mind not me—mind—the entrench</hi> 
+                  <l>He gasps through the clot <hi rend="italic">Mind not me—mind—the entrench-</hi> 
                      <lb/>
                         <hi rend="italic">ments.</hi> 
                     </l>
