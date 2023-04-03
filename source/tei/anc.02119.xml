@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_basic.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anc.02119"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Introduction to <hi rend="italic">Leaves of Grass Imprints</hi></title>
+                <title level="m" type="sub">a machine readable transcription</title>  
+                <author>Eric Conrad</author>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ec">Eric Conrad</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text encoding and text of this introduction were created and/or prepared by 
+                     the <title level="m">Walt Whitman Archive</title> and Eric Conrad, and
+                        are licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 
+                        International License</ref> (CC BY 4.0). Any reuse of these materials should credit the <title level="m">Walt 
+                        Whitman Archive</title> and Eric Conrad.</p>
+                </availability>
+                <idno>anc.02119</idno> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title level="a">Introduction to <hi rend="italic">Leaves of Grass Imprints</hi></title>
+                    <note type="project">Written for the <hi rend="italic">Walt Whitman Archive</hi>. First published on the <hi rend="italic">Archive</hi> in 2017.</note></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2023-04-03" who="#km">updated schema and namespace declarations; other validation updates</change>
+            <change when="2017-10-26" who="#smb">corrections</change>
+            <change when="2016-08-09" who="#smb">adjusted encoding, renamed file</change>
+            <change when="2016-07-01" who="#ec">Encoded</change>
+            <change when="2016-06-28" who="#ec">Created as Word-format document</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="apparatus"> 
+        <body>
+            <head type="main-authorial">Introduction to <hi rend="italic">Leaves of Grass Imprints</hi></head>
+            <div1 type="section">
+                
+                <p> When the young Boston publishers Thayer &#38; Eldridge first contacted Walt
+                    Whitman in 1860 and pledged to put his book "into good form, and style
+                    attractive to the eye," they were aggressively professing their faith that a
+                    third edition of <hi rend="italic">Leaves of Grass</hi> could become a major
+                    commercial and cultural success. Nowhere is that blind optimism more apparent
+                    than in <hi rend="italic">Leaves of Grass Imprints</hi>, an elaborate, 64-page
+                    promotional pamphlet Whitman and his publishers created to advertise the third
+                    edition of <hi rend="italic">Leaves of Grass</hi> and to capitalize on the
+                    growing celebrity of its author. Circulated freely through the mail, <hi
+                    rend="italic">Imprints</hi> billed itself as a brochure for "all persons disposed 
+                    to commence the study" of <hi rend="italic">Leaves of Grass</hi>. Behind its significant 
+                    typographical excesses and rhetorical contradictions, <hi rend="italic">Imprints</hi> strives to 
+                    function as a sort of primer on Whitman’s poetic project and on the political, spiritual, and cultural 
+                    import of <hi rend="italic">Leaves of Grass</hi>.</p>
+                 
+                <p>Examined within the chaotic context of nineteenth-century advertising, the length
+                    and complexity of <hi rend="italic">Imprints</hi> alone make it an anomaly, but
+                    when compared to the restrained promotional practices of other literary
+                    publishers, Whitman’s pamphlet stands out in stark contrast as a unique text
+                    worthy of careful consideration. While <hi rend="italic">Imprints</hi> did not,
+                    in its time, come to define this moment of American literary promotion,
+                    retrospectively it invites us to consider the methods available for nineteenth-century poets 
+                    and publishers to distinguish their literary commodities and authorial personas in rapidly expanding and 
+                    increasingly unpredictable markets. In theory, the success of <hi rend="italic">Imprints</hi> as a 
+                    promotional device hinges on its reader’s willingness to "study" Whitman and his poetry. By flouting emerging 
+                    advertising conventions that called for clarity, simplicity, and brevity, the odd assortment of material 
+                    found in <hi rend="italic">Imprints</hi> breaks every law of modern advertising: it demands more than mere 
+                    passive consumption. The cramped pamphlet contains twenty-six individual entries, most of which are previously 
+                    published reviews of the first and second edition of <hi rend="italic">Leaves</hi>, ranging from some of the 
+                    harshest critiques ever levied against Whitman to overwhelmingly positive puffs, including some the poet 
+                    published anonymously about himself. Mixed in with these reviews are a number of pieces&#8212;including 
+                    two stories debating Whitman’s rumored stint as an omnibus driver&#8212;that focus exclusively on Whitman 
+                    as a personality rather than his literary work. What we are left with is an incredibly complex and 
+                    contradictory piece of advertising ephemera, a dense promotional pamphlet that sells Whitman and his 
+                    poetry by giving readers seemingly indiscriminate access to the positive, negative, and, at times, 
+                    sensational coverage the poet and <hi rend="italic">Leaves of Grass</hi> received in the American and British press.</p>
+                
+                <p>This curious and compact volume, what Whitman once called "the little book before
+                    the war," had a relatively large circulation, thanks in part to Thayer &#38; Eldridge’s penchant for 
+                    unorthodox marketing techniques. Most print advertisements for the 1860 <hi rend="italic">Leaves of Grass</hi> 
+                    mention <hi rend="italic">Imprints</hi> by name, 
+                    offering to mail the pamphlet to readers simply for the price of postage. As these traditional advertisements
+                    were appearing in a variety of periodicals across the country, Thayer &#38;
+                    Eldridge also ran&#8212;without Whitman’s consent&#8212;a cryptic notice in <hi rend="italic">Frank Leslie’s 
+                    Illustrated Newspaper</hi> that neither mentions the poet nor his publishers by name. 
+                    This unassuming advertisement published under the enticing title "A Good Book Free" 
+                    enacted Thayer 	&#38; Eldridge’s plan to give <hi rend="italic">Imprints</hi> a "very wide 
+                    and telling circulation" by promising to mail "One of the most interesting and spicy Books 
+                    ever published," packed with "64 pages of excellent reading matter." Assuring readers it 
+                    was "no advertisement of a patent medicine or other humbug"&#8212;a guarantee that should 
+                    indicate just how outlandish Thayer &#38; Eldridge’s scheme was&#8212;the notice vowed to 
+                    deliver "a handsome and well-printed book" which would both “amuse and instruct” audiences. Of 
+                    course, that "handsome book" was not Whitman’s poetry, but <hi rend="italic">Leaves of Grass Imprints</hi>. In the 
+                    wake of the <hi rend="italic">Frank Leslie</hi>’s campaign, Whitman’s publishers received hundreds of requests a day
+                    for <hi rend="italic">Imprints</hi>, though the pamphlet’s actual impact on sales is difficult to determine precisely.</p>
+                
+                <p>Whitman’s shifting attitudes toward the design and circulation of <hi
+                    rend="italic">Imprints</hi> are as contradictory as the contents of the pamphlet
+                    itself. Lingering concerns over Thayer &#38; Eldridge’s overzealous handling of
+                    <hi rend="italic">Imprints</hi> might, in part, explain Whitman’s protest later
+                    in life to Horace Traubel that the pamphlet was “not my book,” insisting to his
+                    friend that he had "nothing to do with it." During a different conversation with
+                    Traubel, however, Whitman took sole credit for <hi rend="italic">Imprints</hi>'
+                    design, calling it a "sort of barricade" he "set . . . up" to hold back the
+                    "desperate assaults" of his enemies. "When most everybody lied about me,"
+                    Whitman explained on this occasion, <hi rend="italic">Imprints</hi> gave him an
+                    opportunity "to tell the truth about myself." Considering the odd assortment of
+                    material found in <hi rend="italic">Imprints</hi> (especially the inclusion of
+                    vicious attacks on <hi rend="italic">Leaves of Grass</hi>), neither of Whitman’s
+                    characterizations&#8212;that he either had no part in the conception of Imprints
+                    or that he was the chief engineer behind it&#8212;seems entirely plausible. Yet,
+                    <hi rend="italic">Imprints</hi> falls neatly into Whitman’s evolving promotional
+                    strategies for the three antebellum editions of <hi rend="italic">Leaves of
+                        Grass</hi>.  As early as 1855, the poet was including reviews printed from
+                    carefully worked-over proofs alongside his poetry, binding this material into later issues of
+                    the first edition of <hi rend="italic">Leaves of Grass</hi> in a way that
+                    clearly anticipated the pre-planned "Leaves-Dropping" annex of the 
+                    1856 edition. <hi rend="italic">Leaves of Grass Imprints</hi> takes this earlier 
+                    strategy a step further, adopting an even more expansive approach to literary 
+                    advertising, creating a separately circulated pamphlet out of the same type of 
+                    material Whitman had been positioning alongside his poetry since the 
+                    inception of <hi rend="italic">Leaves of Grass</hi>.</p>
+                
+                <p>One of the most difficult challenges Whitman and his publishers faced in <hi
+                    rend="italic">Imprints</hi> was to mobilize criticism of two earlier (and quite
+                    different) editions of <hi rend="italic">Leaves of Grass</hi> to sell the new,
+                    "complete" 1860 volume. In their attempt to distance the Thayer &#38; Eldridge
+                    edition from its "temporary and partial" predecessors, Whitman and his
+                    publishers continually emphasize the "superb" quality of the new electrotype
+                    edition. The contents of <hi rend="italic">Imprints</hi> attest to the fierce
+                    critical debate over the value of Whitman’s poetry in 1860, but the pamphlet’s
+                    typographical eccentricities allude to a fact that few of even Whitman’s most 
+                    passionate detractors would dispute: Thayer &#38; Eldridge’s edition of <hi rend="italic">Leaves of Grass</hi> was 
+                    a singular, if not beautiful, printed object.  George Searle Philips, one of Whitman’s early champions 
+                    whose "Letter Impromptu" appears in <hi rend="italic">Imprints</hi>, described the third edition 
+                    as "perhaps, the most magnificent specimen of typography ever issued by the American Press." It was 
+                    the <hi rend="italic">Westminster Review</hi>, though, that drew the starkest contrast between 
+                    the elegance of Thayer &#38; Eldridge’s book and the perversity of Whitman’s verse, 
+                    marveling at how poetry containing such "obscenity and profanity" could appear 
+                    amidst "all the glories of hot-pressed paper, costly binding, and stereotype printing."</p>
+                
+                <p>As an advertisement for America’s "most magnificent specimen of typography," <hi
+                    rend="italic">Imprints</hi> goes to lengths to display the variety of typefaces
+                    and ornamentation that readers could find in Thayer &#38; Eldridge’s volume.
+                    Whitman had direct control over the distinctive visual aspects of the 1860 
+                    <hi rend="italic">Leaves of Grass</hi>, precisely the features 
+                    <hi rend="italic">Imprints</hi>’ layout accentuates. Taking full advantage
+                    of the autonomy his publishers granted him, Whitman hand-picked fonts and
+                    flourishes for the 1860 edition from several books, most importantly 
+                    <hi rend="italic">Specimens of Printing Types, Plain and Ornamental, Borders,
+                     Cuts, Rules, Dashes Etc. from the Factory of L. Johnson &#38; Co.</hi>
+                    (Philadelphia, 1859). From Johnson’s massive collection, Whitman selected a
+                    dozen or so fonts for <hi rend="italic">Leaves</hi>, most of which are also
+                    jammed into <hi rend="italic">Imprints</hi> where a single page may contain up to six 
+                    different typefaces. This frenzied typographical display was meant to give readers a 
+                    sense of the "superior manner" in which Thayer &#38; Eldridge’s edition was printed. 
+                    The back of the pamphlet promises that the typography of <hi rend="italic">Leaves</hi> "will be found to vie 
+                    in elegance with any thing ever issued from the American or English press." By sampling different 
+                    typefaces&#8212;and by prominently reprinting an illustration central to the 1860 edition, 
+                    a manicule (or little hand) with a butterfly perched on it&#8212;<hi rend="italic">Imprints</hi> 
+                    gives readers a visual approximation of what they would find within Thayer &#38; Eldridge’s "ELEGANT BOOK," enticing 
+                    consumers with glimpses of what Whitman had in-store for them in his larger volume.</p>
+                
+                <p>While the primary purpose of <hi rend="italic">Imprints</hi> was to sell copies
+                    of <hi rend="italic">Leaves of Grass</hi>, the pamphlet is equally concerned
+                    with establishing and promoting Whitman’s own celebrity imprint.  The pun
+                    evident in "Leaves-Droppings," the annex to the 1856 <hi rend="italic">Leaves of
+                    Grass</hi>, suggests to the reader that he or she is listening in on a private 
+                    conversation between Ralph Waldo Emerson and Whitman, whose letters to one another 
+                    are included in the edition’s paratextual appendix.  More so, "Leaves-Droppings" would have readers believe 
+                    they are eavesdropping on the beginning of a national conversation, a discussion displaying Whitman’s 
+                    growing cultural relevance. <hi rend="italic">Leaves of Grass Imprints</hi> intensifies the punning 
+                    of "Droppings." Within the pamphlet, Whitman demonstrates the marks he has made on America through 
+                    his own writing, itself a type of imprint. The pamphlet moves beyond the tentative "listening-in" quality 
+                    of "Droppings" and makes a stronger declaration of Whitman’s enduring and recognizable contributions. By 1860 you no longer had to 
+                    strain your ear to hear Whitman’s name; you could now easily see the imprint of his poetry 
+                    everywhere. <hi rend="italic">Imprints</hi> offers itself as evidence that Whitman was beginning 
+                    to achieve at least part of the "proof of a poet" he first articulated in the 1855 preface: his country was absorbing 
+                    him, even if not yet as "affectionately as he [had] absorbed it."</p>
+               
+            </div1>
+                
+            <div1 type="bibliography">
+                
+                <head type="main-authorial">Bibliography</head>
+                
+                <listBibl>
+                    
+                    <bibl>Blake, David Haven. <hi rend="italic">Walt Whitman and the Culture of
+                        American Celebrity</hi>. New Haven: 
+                        Yale University Press, 2006.
+                    </bibl>
+                    <bibl>Conrad, Eric. "The Walt Whitman Brand: <hi rend="italic">Leaves of Grass</hi> and Literary Promotion, 1855&#8211;1892.” 
+                        Ph.D. Dissertation, University of Iowa, 2013.
+                    </bibl> 
+                    <bibl>Folsom, Ed. "Appearing in Print: Illustrations of the Self in <hi
+                        rend="italic">Leaves of Grass</hi>," <hi rend="italic">The 
+                        Cambridge Companion to Walt Whitman</hi>, edited by Ezra Greenspan (Cambridge: Cambridge University Press, 1995), 135&#8211;165.
+                    </bibl>
+                    <bibl>Folsom, Ed. <hi rend="italic">Whitman Making Books / Books Making Whitman</hi>. Iowa City: Obermann Center for 
+                        Advanced Studies, 2005.
+                    </bibl>
+                    <bibl>Gailey, Amanda. "Walt Whitman and the King of Bohemia: The Poet in the <hi rend="italic">Saturday 
+                        Press</hi>." <hi rend="italic">Walt Whitman Quarterly Review</hi> (Spring
+                        2008): 143&#8211;166.
+                    </bibl>
+                    <bibl>Genoways, Ted. <hi rend="italic">Walt Whitman and the Civil War: America’s Poet during the Lost Years of 
+                        1860&#8211;1862</hi>. Berkeley: University of California Press, 2009.
+                    </bibl>
+                    <bibl>Greenspan, Ezra. <hi rend="italic">Walt Whitman and the American Reader</hi>. New York: Cambridge 
+                        University Press, 1990.
+                    </bibl>
+                    <bibl>Morton, Heather. "Democracy, Self-Reviews and the 1855 <hi
+                        rend="italic">Leaves of Grass</hi>." <hi rend="italic">Virginia 
+                        Quarterly Review</hi> (Spring 2005): 229&#8211;243. 
+                    </bibl>
+                    <bibl>O’Driscoll, Michael J. "Whitman in the Archive: <hi rend="italic">Leaves
+                        of Grass</hi> and the Culture of the 
+                        Book." <hi rend="italic">English Studies in Canada</hi> 25(1999): 295&#8211;323.
+                    </bibl>
+                    <bibl>Reynolds, David S. <hi rend="italic">Walt Whitman’s America</hi>. New York: Vintage Books, 1995.</bibl>
+                    <bibl>Traubel, Horace. <hi rend="italic">With Walt Whitman in Camden</hi>. Various publishers, 1906&#8211;1996.</bibl>
+                    <bibl>Whitley, Edward. "Presenting Walt Whitman: 'Leaves-Droppings' as Paratext." <hi rend="italic">Walt 
+                        Whitman Quarterly Review</hi> (Summer 2001): 1&#8211;17.
+                    </bibl>
+                    <bibl>Whitt, Jan, "<hi rend="italic">Leaves of Grass Imprints</hi> (1860)," <hi
+                        rend="italic">Walt Whitman: An Encyclopedia</hi>, edited 
+                        by J. R. LeMaster and Donald D. Kummings (New York: Garland, 1998), 381.
+                    </bibl>
+                  
+                </listBibl>
+            </div1>
+        </body>
+    </text>
+</TEI>
