@@ -21,7 +21,7 @@ class TeiToEsPoem < TeiToEs
   end
 
   def get_first_line
-    # grab the first 7 words in the fisrt line of the poem, since there
+    # grab the first 7 words in the first line of the poem, since there
     # are no poem titles in this edition, or return nil if line is not found
     line = @xml.at_xpath(".//l")
     line.text.split(" ")[0..6].join(" ") if line
@@ -130,7 +130,7 @@ class TeiToEsPoem < TeiToEs
 
   def citation
     # WorksInfo is get_works_info.rb in whitman-scripts repo
-    @works_info = WorksInfo.new(@xml)
+    @works_info = WorksInfo.new(@xml, @id)
     ids, names = @works_info.get_works_info
     citations = []
     if ids && ids.length > 0
