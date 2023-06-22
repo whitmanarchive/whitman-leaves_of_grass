@@ -120,7 +120,7 @@ class TeiToEs < XmlToEs
     # like L<hi>EAVES OF</hi> G<hi>RASS</hi> => LEAVES OF GRASS
     section_xml.xpath("//hi").each {|hi| hi.replace(hi.children)}
     resulting_text << Datura::Helpers.normalize_space(section_xml.text)
-    Datura::Helpers.normalize_space(resulting_text.join(" "))
+    Datura::Helpers.normalize_space(resulting_text.join(" "))[0..999999]
   end
 
   # def works
