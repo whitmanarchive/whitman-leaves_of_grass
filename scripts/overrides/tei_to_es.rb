@@ -43,7 +43,7 @@ class TeiToEs < XmlToEs
   end
 
   def category
-    "Published Works"
+    "Published Writings"
   end
 
   def cover_image
@@ -103,7 +103,7 @@ class TeiToEs < XmlToEs
   end
 
   def category2
-    "Published Works / Books / Leaves of Grass"
+    "Published Writings / Leaves of Grass"
   end
 
   def text
@@ -120,7 +120,7 @@ class TeiToEs < XmlToEs
     # like L<hi>EAVES OF</hi> G<hi>RASS</hi> => LEAVES OF GRASS
     section_xml.xpath("//hi").each {|hi| hi.replace(hi.children)}
     resulting_text << Datura::Helpers.normalize_space(section_xml.text)
-    Datura::Helpers.normalize_space(resulting_text.join(" "))
+    Datura::Helpers.normalize_space(resulting_text.join(" "))[0..999999]
   end
 
   # def works
@@ -128,7 +128,7 @@ class TeiToEs < XmlToEs
 
   def citation
     # WorksInfo is get_works_info.rb in whitman-scripts repo
-    @works_info = WorksInfo.new(xml)
+    @works_info = WorksInfo.new(xml, @id)
     ids, names = @works_info.get_works_info
     citations = []
     
