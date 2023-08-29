@@ -118,9 +118,12 @@ class TeiToEs < XmlToEs
     section_xml = Nokogiri::XML.parse(@xml.at_xpath(".").to_xml)
     # need to remove "<hi rend='smallcaps'>" type tags to put back together words
     # like L<hi>EAVES OF</hi> G<hi>RASS</hi> => LEAVES OF GRASS
-    section_xml.xpath("//hi").each {|hi| hi.replace(hi.children)}
-    resulting_text << Datura::Helpers.normalize_space(section_xml.text)
-    Datura::Helpers.normalize_space(resulting_text.join(" "))[0..999999]
+    section_xml.xpath("//hi").each {|hi|
+      hi.replace(Nokogiri::XML::Text.new(hi.text, hi.document))
+    }
+    # make sure the rest of the text doesn't squish together
+    resulting_text << Datura::Helpers.normalize_space(section_xml.xpath("//text()").to_a.join(" "))
+    Datura::Helpers.normalize_space(resulting_text.join(" "))[0..900000]
   end
 
   # def works
