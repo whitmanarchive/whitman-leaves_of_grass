@@ -22,7 +22,7 @@ class TeiToEs < XmlToEs
         "display" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date",
         "default" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date/@when"
       },
-      "image_id" => ["./preceding-sibling::pb/@facs", "./parent::node()/preceding-sibling::pb/@facs"],
+      "image_id" => "//pb/@facs",
       "publisher" => "//biblStruct/monogr/imprint/publisher",
       "rights_holder" => "//publicationStmt/distributor",
       "source" => {
@@ -199,5 +199,30 @@ class TeiToEs < XmlToEs
     end
     parts
   end
+
+  def fig_location
+    image = nil
+    # overriding in order to remove prefix
+    # Note: don't pull full path because will be pulled by IIIF
+    images = get_list(@xpaths["image_id"])
+    # Note: below code is specific to Nebraskaland. Will have to be modified for Leaves of Grass
+    # if images
+    #   issue = get_iiif_issue_dir(@id)
+    #   image = File.join(issue, "#{images.first}.jpg")
+    # end
+    images
+  end
+
+  private
+
+  def get_iiif_issue_dir(issue)
+    # will have to be modified for Leaves of Grass, specific to Nebraskaland
+    updated = issue
+      .sub("nela.", "")
+      .sub("se", "")
+    # the directory should only ever be 11 characters
+    updated[0,11]
+  end
+
 
 end
