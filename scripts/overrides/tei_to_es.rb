@@ -156,6 +156,10 @@ class TeiToEs < XmlToEs
   def has_part
     poems = @xml.xpath("//lg[@type='poem' and @id and contains(@id, 'ppp')]")
     clusters = @xml.xpath("//lg[@type='cluster']")
+    # getting all the xpaths that go to TeiToEsOther
+    other1 = @xml.xpath("//div1[@type='essay' or @type='preface']")
+    other2 = @xml.xpath("/titlePart[@type='imprimatur']")
+    other3 = @xml.xpath("//div3[@type='letter' or @type='article']")
     parts = []
     poems.each do |poem_xml|
       poem = TeiToEsPoem.new(poem_xml, {}, nil, @filename)
@@ -173,31 +177,32 @@ class TeiToEs < XmlToEs
         "title" => cluster.title
       }
     end
-    parts
-
-  end
-
-  def has_part
-    poems = @xml.xpath("//lg[@type='poem' and @id and contains(@id, 'ppp')]")
-    clusters = @xml.xpath("//lg[@type='cluster']")
-    parts = []
-    poems.each do |poem_xml|
-      poem = TeiToEsPoem.new(poem_xml, {}, nil, @filename)
+    other1.each do |other_xml|
+      other = TeiToEsOther.new(other_xml, {}, nil, @filename)
       parts << {
-        "role" => "contained poem",
-        "id" => poem.get_id,
-        "title" => poem.title
+        "role" => "contained other section",
+        "id" => other.get_id,
+        "title" => other.title
       }
     end
-    clusters.each do |cluster_xml|
-      cluster = TeiToEsCluster.new(cluster_xml, {}, nil, @filename)
+    other2.each do |other_xml|
+      other = TeiToEsOther.new(other_xml, {}, nil, @filename)
       parts << {
-        "role" => "contained cluster",
-        "id" => cluster.get_id,
-        "title" => cluster.title
+        "role" => "contained other section",
+        "id" => other.get_id,
+        "title" => other.title
+      }
+    end
+    other3.each do |other_xml|
+      other = TeiToEsOther.new(other_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained other section",
+        "id" => other.get_id,
+        "title" => other.title
       }
     end
     parts
+
   end
 
   def fig_location

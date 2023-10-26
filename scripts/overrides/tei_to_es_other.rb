@@ -24,14 +24,17 @@ class TeiToEsOther < TeiToEs
 
   def title
     edition = get_text(@xpaths["title_edition"])
-
-    if @section_label == "Review"
-      review_title = get_text(@xpaths["title_article"])
-      newspaper = get_text(@xpaths["title_newspaper"])
-      "#{@section_label}: \"#{review_title},\" #{newspaper} (#{edition}, #{@year})"
-    else
-      "#{@section_label}. #{edition} (#{@year})"
-    end
+    #commenting out because titles are ridiculously long
+    # TODO find a better xpath for newspaper titles
+    
+    #if @section_label == "Review"
+      
+      # review_title = get_text(@xpaths["title_article"])
+      # newspaper = get_text(@xpaths["title_newspaper"])
+      # "#{@section_label}: \"#{review_title},\" #{newspaper} (#{edition}, #{@year})"
+    #else
+    "#{@section_label}. #{edition} (#{@year})"
+    #end
   end
 
   def topics

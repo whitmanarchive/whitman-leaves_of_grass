@@ -16,7 +16,7 @@ class TeiToEsPoem < TeiToEs
       return nil
     end
 
-    poem_id = @xml["id"].gsub("ppp.", "poem.")
+    poem_id = @xml["id"].gsub("ppp.", "")
     "#{@filename}_#{poem_id}"
   end
 
