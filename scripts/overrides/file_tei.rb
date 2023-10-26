@@ -31,6 +31,7 @@ class FileTei < FileType
         html = create_html_object(filename)
         transform_clusters(html, filename, @out_html)
         transform_poems(html, filename, @out_html)
+        transform_other(html, filename, @out_html)
       end
     end
     # return so that Datura doesn't break
@@ -60,6 +61,25 @@ class FileTei < FileType
           new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
           html = poem.to_html.encode('UTF-8')
           File.write(new_filename, html)
+        end
+      end
+    end
+  end
+
+  def transform_other(html, filename, output_dir)
+    paths = ["//span[contains(@class, 'tei_titlePart_type_imprimatur')]", "//span[contains(@class, 'tei_div3_type_article')]", "//span[contains(@class, 'tei_div3_type_letter')]", "//span[contains(@class, 'tei_div1_type_essay')]", "//span[contains(@class, 'tei_div1_type_preface')]"]
+    paths.each do |path|
+      other_works = html.xpath(path)
+      if other_works.length > 0
+        other_works.each do |other|
+          if other.attributes["data-xmltype"]
+            bybeug
+            poem_id = other.attributes["data-xmlid"].value.gsub("ppp.", "")
+            volume_id = filename.split("/").last.delete_suffix(".html")
+            new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
+            html = other.to_html.encode('UTF-8')
+            File.write(new_filename, html)
+          end
         end
       end
     end
