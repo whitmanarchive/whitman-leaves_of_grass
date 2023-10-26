@@ -41,7 +41,7 @@ class FileTei < FileType
     clusters = html.xpath("//span[contains(@class, 'tei_lg_type_cluster')]")
     if clusters.length > 0
       clusters.each do |cluster|
-        cluster_id = cluster.attributes["data-xmlid"].value.gsub("ppp.", "cluster.")
+        cluster_id = cluster.attributes["data-xmlid"].value.gsub("ppp.", "")
         volume_id = filename.split("/").last.delete_suffix(".html")
         new_filename = File.join(output_dir, "#{volume_id}_#{cluster_id}.html")
         html = cluster.to_html.encode('UTF-8')
@@ -55,7 +55,7 @@ class FileTei < FileType
     if poems.length > 0
       poems.each do |poem|
         if poem.attributes["data-xmlid"]
-          poem_id = poem.attributes["data-xmlid"].value.gsub("ppp.", "poem.")
+          poem_id = poem.attributes["data-xmlid"].value.gsub("ppp.", "")
           volume_id = filename.split("/").last.delete_suffix(".html")
           new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
           html = poem.to_html.encode('UTF-8')

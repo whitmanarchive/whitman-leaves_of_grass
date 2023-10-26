@@ -1,7 +1,7 @@
 class TeiToEsCluster < TeiToEs
 
   def get_id
-    cluster_id = @xml["id"].gsub("ppp.", "cluster.")
+    cluster_id = @xml["id"].gsub("ppp.", "")
     "#{@filename}_#{cluster_id}"
   end
 
