@@ -177,29 +177,6 @@ class TeiToEs < XmlToEs
 
   end
 
-  def has_part
-    poems = @xml.xpath("//lg[@type='poem' and @id and contains(@id, 'ppp')]")
-    clusters = @xml.xpath("//lg[@type='cluster']")
-    parts = []
-    poems.each do |poem_xml|
-      poem = TeiToEsPoem.new(poem_xml, {}, nil, @filename)
-      parts << {
-        "role" => "contained poem",
-        "id" => poem.get_id,
-        "title" => poem.title
-      }
-    end
-    clusters.each do |cluster_xml|
-      cluster = TeiToEsCluster.new(cluster_xml, {}, nil, @filename)
-      parts << {
-        "role" => "contained cluster",
-        "id" => cluster.get_id,
-        "title" => cluster.title
-      }
-    end
-    parts
-  end
-
   def fig_location
     image = nil
     # overriding in order to remove prefix
