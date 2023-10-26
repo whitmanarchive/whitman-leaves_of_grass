@@ -66,24 +66,24 @@ class FileTei < FileType
     end
   end
 
-  def transform_other(html, filename, output_dir)
-    paths = ["//span[contains(@class, 'tei_titlePart_type_imprimatur')]", "//span[contains(@class, 'tei_div3_type_article')]", "//span[contains(@class, 'tei_div3_type_letter')]", "//span[contains(@class, 'tei_div1_type_essay')]", "//span[contains(@class, 'tei_div1_type_preface')]"]
-    paths.each do |path|
-      other_works = html.xpath(path)
-      if other_works.length > 0
-        other_works.each do |other|
-          if other.attributes["data-xmltype"]
-            bybeug
-            poem_id = other.attributes["data-xmlid"].value.gsub("ppp.", "")
-            volume_id = filename.split("/").last.delete_suffix(".html")
-            new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
-            html = other.to_html.encode('UTF-8')
-            File.write(new_filename, html)
-          end
-        end
-      end
-    end
-  end
+  # TODO create a proper override that creates the filenames
+  # def transform_other(html, filename, output_dir)
+  #   paths = ["//span[contains(@class, 'tei_titlePart_type_imprimatur')]", "//span[contains(@class, 'tei_div3_type_article')]", "//span[contains(@class, 'tei_div3_type_letter')]", "//span[contains(@class, 'tei_div1_type_essay')]", "//span[contains(@class, 'tei_div1_type_preface')]"]
+  #   paths.each do |path|
+  #     other_works = html.xpath(path)
+  #     if other_works.length > 0
+  #       other_works.each do |other|
+  #         if other.attributes["data-xmltype"]
+  #           poem_id = other.attributes["data-xmlid"].value.gsub("ppp.", "")
+  #           volume_id = filename.split("/").last.delete_suffix(".html")
+  #           new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
+  #           html = other.to_html.encode('UTF-8')
+  #           File.write(new_filename, html)
+  #         end
+  #       end
+  #     end
+  #   end
+  # end
 
   private
 

@@ -25,7 +25,7 @@ class TeiToEsOther < TeiToEs
   def title
     edition = get_text(@xpaths["title_edition"])
     #commenting out because titles are ridiculously long
-    # TODO find a better xpath for newspaper titlesquit
+    # TODO find a better xpath for newspaper titles
     
     #if @section_label == "Review"
       
