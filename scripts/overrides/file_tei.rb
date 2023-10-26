@@ -31,7 +31,7 @@ class FileTei < FileType
         html = create_html_object(filename)
         transform_clusters(html, filename, @out_html)
         transform_poems(html, filename, @out_html)
-        transform_other(html, filename, @out_html)
+        # transform_other(html, filename, @out_html)
       end
     end
     # return so that Datura doesn't break
