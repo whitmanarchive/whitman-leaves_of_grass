@@ -31,7 +31,7 @@ class FileTei < FileType
         html = create_html_object(filename)
         transform_clusters(html, filename, @out_html)
         transform_poems(html, filename, @out_html)
-        # transform_other(html, filename, @out_html)
+        transform_other(html, filename, @out_html)
       end
     end
     # return so that Datura doesn't break
@@ -45,8 +45,8 @@ class FileTei < FileType
         cluster_id = cluster.attributes["data-xmlid"].value.gsub("ppp.", "")
         volume_id = filename.split("/").last.delete_suffix(".html")
         new_filename = File.join(output_dir, "#{volume_id}_#{cluster_id}.html")
-        html = cluster.to_html.encode('UTF-8')
-        File.write(new_filename, html)
+        new_html = cluster.to_html.encode('UTF-8')
+        File.write(new_filename, new_html)
       end
     end
   end
@@ -59,31 +59,40 @@ class FileTei < FileType
           poem_id = poem.attributes["data-xmlid"].value.gsub("ppp.", "")
           volume_id = filename.split("/").last.delete_suffix(".html")
           new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
-          html = poem.to_html.encode('UTF-8')
-          File.write(new_filename, html)
+          new_html = poem.to_html.encode('UTF-8')
+          File.write(new_filename, new_html)
         end
       end
     end
   end
 
   # TODO create a proper override that creates the filenames
-  # def transform_other(html, filename, output_dir)
-  #   paths = ["//span[contains(@class, 'tei_titlePart_type_imprimatur')]", "//span[contains(@class, 'tei_div3_type_article')]", "//span[contains(@class, 'tei_div3_type_letter')]", "//span[contains(@class, 'tei_div1_type_essay')]", "//span[contains(@class, 'tei_div1_type_preface')]"]
-  #   paths.each do |path|
-  #     other_works = html.xpath(path)
-  #     if other_works.length > 0
-  #       other_works.each do |other|
-  #         if other.attributes["data-xmltype"]
-  #           poem_id = other.attributes["data-xmlid"].value.gsub("ppp.", "")
-  #           volume_id = filename.split("/").last.delete_suffix(".html")
-  #           new_filename = File.join(output_dir, "#{volume_id}_#{poem_id}.html")
-  #           html = other.to_html.encode('UTF-8')
-  #           File.write(new_filename, html)
-  #         end
-  #       end
-  #     end
-  #   end
-  # end
+  def transform_other(html, filename, output_dir)
+    paths = ["//span[contains(@class, 'tei_titlePart_type_imprimatur')]", "//div[contains(@class, 'article')]", "//div[contains(@class, 'letter')]", "//div[contains(@class, 'essay')]", "//div[contains(@class, 'preface')]"]
+    paths.each do |path|
+      other_works = html.xpath(path)
+      if other_works.length > 0
+        @article_count = 0
+        @essay_count = 0
+        @letter_count = 0
+        other_works.each do |other|
+            other_id = /'(\w*)'/.match(path)[1]
+            if other_id == "tei_titlePart_type_imprimatur"
+              other_id = "imprimatur"
+            end
+            #types of material that need to be numbered to match api
+            if ["article", "letter"].include?(other_id)
+              other_id += ".#{get_count(other_id)}"
+            end
+            volume_id = filename.split("/").last.delete_suffix(".html")
+            new_filename = File.join(output_dir, "#{volume_id}_#{other_id}.html")
+            puts new_filename
+            new_html = other.to_html.encode('UTF-8')
+            File.write(new_filename, new_html)
+        end
+      end
+    end
+  end
 
   private
 
@@ -93,4 +102,16 @@ class FileTei < FileType
     file_html
   end
 
+  def get_count(name)
+    if name == "article"
+      @article_count += 1
+      return @article_count
+    elsif name == "letter"
+      @letter_count += 1
+      return @letter_count
+    elsif name == "essay"
+      @essay_count += 1
+      return @essay_count
+    end
+  end
 end
