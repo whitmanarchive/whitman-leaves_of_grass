@@ -158,7 +158,7 @@ class TeiToEs < XmlToEs
     clusters = @xml.xpath("//lg[@type='cluster']")
     # getting all the xpaths that go to TeiToEsOther
     other1 = @xml.xpath("//div1[@type='essay' or @type='preface']")
-    other2 = @xml.xpath("/titlePart[@type='imprimatur']")
+    other2 = @xml.xpath("//titlePart[@type='imprimatur']")
     other3 = @xml.xpath("//div3[@type='letter' or @type='article']")
     parts = []
     poems.each do |poem_xml|
