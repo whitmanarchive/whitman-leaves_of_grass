@@ -27,6 +27,11 @@ class TeiToEsPoem < TeiToEs
     line.text.split(" ")[0..6].join(" ") if line
   end
 
+  def category3
+    year = date.split("-")[0]
+    "Published Writings / Leaves of Grass / #{year}"
+  end
+
   def title
     # majority of editions simply grab identified poem title
     label = @xml.at_xpath(".#{@xpaths["title_main"]}")
@@ -89,7 +94,7 @@ class TeiToEsPoem < TeiToEs
       "title" => title.text
     }]
     if @cluster
-      cluster_id = @cluster["id"].gsub("ppp.", "cluster.")
+      cluster_id = @cluster["id"].gsub("ppp.", "")
       cluster_title = @cluster.at_xpath(".#{@xpaths["title_main"]}")
       parts << {
         "role" => "containing cluster",
