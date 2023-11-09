@@ -8,12 +8,13 @@ default:
   variables_html:
     image_large: 1200
     image_thumb: 80
+  api_version: "2.0"
+  es_index: whitman-api_v2
+  threads: 1
 
 development:
-  api_version: '2.0'
   data_base: https://whitman-dev.unl.edu/media
   es_path: https://whitman-dev.unl.edu/elastic
-  es_index: api_v2
   site_url: https://whitman-dev.unl.edu
 
 production:
