@@ -37,6 +37,11 @@ class TeiToEsOther < TeiToEs
     #end
   end
 
+  def category3
+    year = date.split("-")[0]
+    "Published Writings / Leaves of Grass / #{year}"
+  end
+
   def topics
     [ @section ]
   end
