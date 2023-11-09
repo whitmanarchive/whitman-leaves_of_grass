@@ -94,7 +94,7 @@ class TeiToEsPoem < TeiToEs
       "title" => title.text
     }]
     if @cluster
-      cluster_id = @cluster["id"].gsub("ppp.", "cluster.")
+      cluster_id = @cluster["id"].gsub("ppp.", "")
       cluster_title = @cluster.at_xpath(".#{@xpaths["title_main"]}")
       parts << {
         "role" => "containing cluster",
