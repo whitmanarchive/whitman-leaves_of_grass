@@ -13,9 +13,5 @@ default:
   threads: 1
 
 development:
-  data_base: https://whitman-dev.unl.edu/media
-  es_path: https://whitman-dev.unl.edu/elastic
-  site_url: https://whitman-dev.unl.edu
+  es_index: api_v2
 
-production:
-  site_url: https://whitmanarchive.org
