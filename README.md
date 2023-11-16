@@ -6,6 +6,16 @@ It contains TEI-XML files for seven Leaves of Grass editions. For TEI-XML and sc
 
 ## Scripts
 
+This repo shares its Ruby gem dependencies with all other Whitman data
+repos via the
+[Gemfile](https://github.com/whitmanarchive/whitman-scripts/blob/main/Gemfile)
+in the [whitman-scripts
+repo](https://github.com/whitmanarchive/whitman-scripts)
+
+This repo also has works-related documents which require `post`-ing
+with `threads: 1` in `config/public.yml` or `config/private.yml` to not
+break writing to `../whitman-scripts/source/json/works_and_items.json`
+
 For information about populating the CDRH API or generating HTML views, see [Datura's documentation](https://github.com/CDRH/datura).
 
 ### Poem identifier
