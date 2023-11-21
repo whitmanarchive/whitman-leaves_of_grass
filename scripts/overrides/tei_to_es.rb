@@ -131,7 +131,7 @@ class TeiToEs < XmlToEs
 
   def citation
     # WorksInfo is get_works_info.rb in whitman-scripts repo
-    @works_info = WorksInfo.new(xml, @id)
+    @works_info = WorksInfo.new(xml, @id, @options["threads"])
     ids, names = @works_info.get_works_info
     citations = []
     
