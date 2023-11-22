@@ -30,8 +30,7 @@
               
       <xsl:if test="TEI/teiHeader//notesStmt/note[@type='editorial']">
         <li xmlns="http://www.w3.org/1999/xhtml">
-          <strong>Editorial note(s): </strong> <xsl:apply-templates select="TEI/teiHeader//notesStmt/note[@type='editorial']"/
-          ></li>
+          <strong>Editorial note(s): </strong> <xsl:apply-templates select="TEI/teiHeader//notesStmt/note[@type='editorial']"/></li>
       </xsl:if>
 
     </ul>
