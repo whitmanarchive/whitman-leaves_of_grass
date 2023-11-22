@@ -25,14 +25,14 @@
 <xsl:variable name="top_metadata">
     <ul>
       <li><strong>Source: </strong> 
-
-     
-<em><xsl:apply-templates select="//sourceDesc//monogr//title"/></em><xsl:text> (</xsl:text><xsl:apply-templates select="//sourceDesc//monogr//pubPlace"/><xsl:if test="//sourceDesc//monogr//publisher">: <xsl:apply-templates select="//sourceDesc//monogr//publisher"/></xsl:if>, <xsl:apply-templates select="//sourceDesc//monogr//date"/><xsl:text>)</xsl:text>. <span class="copy_info"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/repository"/><xsl:if test="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"><xsl:text>, </xsl:text><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/></xsl:if><xsl:text>. </xsl:text></span><span><xsl:apply-templates select="//encodingDesc"/></span> For a description of the editorial rationale behind our treatment of editions of <em>Leaves of Grass</em>, see our <a href="../about/editorial-policies">statement of editorial policy</a>.</li>
+        <em><xsl:apply-templates select="//sourceDesc//monogr//title"/></em><xsl:text> (</xsl:text><xsl:apply-templates select="//sourceDesc//monogr//pubPlace"/><xsl:if test="//sourceDesc//monogr//publisher">: <xsl:apply-templates select="//sourceDesc//monogr//publisher"/></xsl:if>, <xsl:apply-templates select="//sourceDesc//monogr//date"/><xsl:text>)</xsl:text>. <span class="copy_info"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/repository"/><xsl:if test="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"><xsl:text>, </xsl:text><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/></xsl:if><xsl:text>. </xsl:text></span><span><xsl:apply-templates select="//encodingDesc"/></span> For a description of the editorial rationale behind our treatment of editions of <em>Leaves of Grass</em>, see our <a href="../about/editorial-policies">statement of editorial policy</a>.
+      </li>
               
-              <xsl:if test="TEI/teiHeader//notesStmt/note[@type='editorial']"><li xmlns="http://www.w3.org/1999/xhtml"><strong>Editorial note(s): </strong> <xsl:apply-templates select="TEI/teiHeader//notesStmt/note[@type='editorial']"/></li>
-              </xsl:if>
-
-
+      <xsl:if test="TEI/teiHeader//notesStmt/note[@type='editorial']">
+        <li xmlns="http://www.w3.org/1999/xhtml">
+          <strong>Editorial note(s): </strong> <xsl:apply-templates select="TEI/teiHeader//notesStmt/note[@type='editorial']"/
+          ></li>
+      </xsl:if>
 
     </ul>
   </xsl:variable>
