@@ -1,4 +1,6 @@
 require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
+require_relative "../../../whitman-scripts/scripts/archive-wide/overrides.rb"
+
 class TeiToEs < XmlToEs
 
   # NOTE these overrides apply to all of the leaves of grass subclasses
@@ -37,18 +39,6 @@ class TeiToEs < XmlToEs
       "title_newspaper" => "//head[@type='main-authorial']/bibl/publisher",
       "text" => "."
     }
-  end
-
-  # Overwriting this to provide a role to contributors with roles not defined in XML file
-  def contributor
-    contribs = get_elements(@xpaths["contributor"]).map do |ele|
-      {
-        "id" => get_text("@id", xml: ele),
-        "name" => get_text(".", xml: ele),
-        "role" => get_text("@role", xml: ele).to_s.empty? ? "contributor" : get_text("@role", xml: ele)
-      }
-    end
-    contribs.uniq
   end
 
   def annotations_text
