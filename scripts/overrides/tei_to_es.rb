@@ -39,6 +39,18 @@ class TeiToEs < XmlToEs
     }
   end
 
+  # Overwriting this to provide a role to contributors with roles not defined in XML file
+  def contributor
+    contribs = get_elements(@xpaths["contributor"]).map do |ele|
+      {
+        "id" => get_text("@id", xml: ele),
+        "name" => get_text(".", xml: ele),
+        "role" => get_text("@role", xml: ele).to_s.empty? ? "contributor" : get_text("@role", xml: ele)
+      }
+    end
+    contribs.uniq
+  end
+
   def annotations_text
   end
 
