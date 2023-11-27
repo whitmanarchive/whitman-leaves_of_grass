@@ -1,4 +1,6 @@
 require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
+require_relative "../../../whitman-scripts/scripts/archive-wide/overrides.rb"
+
 class TeiToEs < XmlToEs
 
   # NOTE these overrides apply to all of the leaves of grass subclasses
