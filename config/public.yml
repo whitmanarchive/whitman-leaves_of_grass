@@ -12,6 +12,4 @@ default:
   es_index: whitman-api_v2
   threads: 1
 
-development:
-  es_index: api_v2
 
