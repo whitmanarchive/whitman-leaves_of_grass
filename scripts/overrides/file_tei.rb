@@ -20,22 +20,30 @@ class FileTei < FileType
 
   def transform_html
     # this is the usual transformation of the tei files into html
+    if @options["threads"] != 1
+       puts "threads must be set to 1 to generate html"
+       exit 1
+    end
     res_html = exec_xsl(@file_location, @script_html, "html", @out_html, @options["variables_html"])
     source_dir = File.expand_path('..', @file_location)
     original_docs = Datura::Helpers.get_directory_files(source_dir)
     # only create the poems and clusters after all the html files for volumes have been created
+
     if @file_location == original_docs.last
-      html_docs = Datura::Helpers.get_directory_files(@out_html).filter { |name| !name.split("/").last.include?("_")}
-      html_docs.each do |filename|
-        # create poem and cluster html files by splitting big file
-        html = create_html_object(filename)
-        transform_clusters(html, filename, @out_html)
-        transform_poems(html, filename, @out_html)
-        transform_other(html, filename, @out_html)
-      end
+        html_docs = Datura::Helpers.get_directory_files(@out_html).filter { |name| !name.split("/").last.include?("_")}
+        html_docs.each do |filename|
+          # create poem and cluster html files by splitting big file
+          html = create_html_object(filename)
+          transform_clusters(html, filename, @out_html)
+          transform_poems(html, filename, @out_html)
+          transform_other(html, filename, @out_html)
+        end
     end
     # return so that Datura doesn't break
     res_html
+  end
+
+  def transform_html_sections
   end
 
   def transform_clusters(html, filename, output_dir)
