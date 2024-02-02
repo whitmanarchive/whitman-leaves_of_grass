@@ -110,9 +110,7 @@
             </xsl:choose>
           </xsl:variable>
           <xsl:text>[ begin page </xsl:text>
-          <xsl:value-of select="$page"></xsl:value-of>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="$rectoverso"/>
+          <xsl:value-of select="$pb_n"/>
           <xsl:text> ]</xsl:text>
         </xsl:if>
       </span>
