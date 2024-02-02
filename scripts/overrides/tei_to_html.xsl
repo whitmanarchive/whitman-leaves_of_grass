@@ -109,7 +109,7 @@
               <xsl:when test="$last_character = 'v'">verso</xsl:when>
             </xsl:choose>
           </xsl:variable>
-          <xsl:text>[ begin leaf </xsl:text>
+          <xsl:text>[ begin page </xsl:text>
           <xsl:value-of select="$page"></xsl:value-of>
           <xsl:text> </xsl:text>
           <xsl:value-of select="$rectoverso"/>
