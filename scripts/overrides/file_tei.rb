@@ -90,6 +90,9 @@ class FileTei < FileType
         @essay_count = 0
         @letter_count = 0
         other_works.each do |other|
+            #get the preceding page image with link and put it at the front
+            image = other.xpath("preceding::a[img]").last
+            other.first_element_child.before(image)
             other_id = /'(\w*)'/.match(path)[1]
             if other_id == "tei_titlePart_type_imprimatur"
               other_id = "imprimatur"
