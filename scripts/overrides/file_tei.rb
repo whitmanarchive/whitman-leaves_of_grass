@@ -50,6 +50,9 @@ class FileTei < FileType
     clusters = html.xpath("//span[contains(@class, 'tei_lg_type_cluster')]")
     if clusters.length > 0
       clusters.each do |cluster|
+        #get the preceding page image with link and put it at the front
+        image = cluster.xpath("preceding::a[img]").last
+        cluster.first_element_child.before(image)
         cluster_id = cluster.attributes["data-xmlid"].value.gsub("ppp.", "")
         volume_id = filename.split("/").last.delete_suffix(".html")
         new_filename = File.join(output_dir, "#{volume_id}_#{cluster_id}.html")
@@ -63,6 +66,9 @@ class FileTei < FileType
     poems = html.xpath("//span[contains(@class, 'tei_lg_type_poem')]")
     if poems.length > 0
       poems.each do |poem|
+        #get the preceding page image with link and put it at the front
+        image = poem.xpath("preceding::a[img]").last
+        poem.first_element_child.before(image)
         if poem.attributes["data-xmlid"]
           poem_id = poem.attributes["data-xmlid"].value.gsub("ppp.", "")
           volume_id = filename.split("/").last.delete_suffix(".html")
@@ -84,6 +90,9 @@ class FileTei < FileType
         @essay_count = 0
         @letter_count = 0
         other_works.each do |other|
+            #get the preceding page image with link and put it at the front
+            image = other.xpath("preceding::a[img]").last
+            other.first_element_child.before(image)
             other_id = /'(\w*)'/.match(path)[1]
             if other_id == "tei_titlePart_type_imprimatur"
               other_id = "imprimatur"
