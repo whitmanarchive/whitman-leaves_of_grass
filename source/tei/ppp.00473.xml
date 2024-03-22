@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="ppp.00473">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00473">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,7 +31,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>ppp.00473</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,7 +43,7 @@
             <availability>
                <p>The text of the original item is in the public domain.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of this material should credit the <title level="m">Walt Whitman Archive</title>.</p><p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>ppp.00473</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>  
@@ -71,6 +68,11 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Iowa copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2022-11-08">added unique IDs for the two "Debris" poems</change>
+         <change who="#bb" when="2022-09-27">updated work associations for "Great Are the Myths" and "Respondez!"</change>
+         <change who="#bb" when="2022-04-07">revised relations/work encoding to conform to tei_all schema</change>
+         <change who="#bb" when="2021-10-05">restored the words "hen, and she with her half-" to the transcription of p. 37</change>
+         <change who="#bb" when="2020-07-14">supplied the word "strong," which had been missing from our transcription of p. 37</change>
          <change who="#nhg" when="2018-05-22">brought encoding of milestones, smallcaps, and fw into alignment with other LG editions</change>
          <change who="#bb" when="2017-05-01">uncommented sections 9 through 13 of "Sleep-Chasings"</change>
          <change who="#sf" when="2017-04-27">Fixed small caps issues throughout and fixed pagination for page 183, which was appearing as 132</change>
@@ -115,7 +117,7 @@
 <head type="main-authorial">CONTENTS.</head>
    <milestone unit="undeclared" rend="horbar-short-center"/>
 <table>
-   <row><cell></cell><cell>PAGE.</cell></row>
+   <row><cell/><cell>PAGE.</cell></row>
 <row>
 <cell>Inscription . . . . . . . . . . . . . . . . . . . . . </cell>
 <cell> 5 </cell>
@@ -138,7 +140,7 @@
 </row>
 <row>
 <cell>From Pent-Up Aching Rivers . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>I Sing the Body Electric . . . . . . . . </cell>
@@ -166,7 +168,7 @@
 </row>
 <row>
 <cell>Once I Pass'd through a Populous<lb/> City . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>Facing West from California's<lb/> Shores . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -174,7 +176,7 @@
 </row>
 <row>
    <cell>Ages and Ages, Returning at <choice><orig>In-<lb/>tervals</orig><reg>Intervals</reg></choice> . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>O Hymen! O Hymenee! . . . . . . . . </cell>
@@ -182,11 +184,11 @@
 </row>
 <row>
 <cell>I am He that Aches with Love . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>As Adam, Early in the Morning . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Excelsior . . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -230,7 +232,7 @@
 </row>
 <row>
    <cell>When I Heard at the Close of the <lb/>day . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>Are you the New Person Drawn<lb/> Toward me? . . . . . . . . . . . . . . . . </cell>
@@ -246,7 +248,7 @@
 </row>
 <row>
 <cell>Trickle, Drops . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Of Him I love Day and Night . . . </cell>
@@ -258,7 +260,7 @@
 </row>
 <row>
 <cell>Behold this Swarthy Face . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>I saw in Louisiana a Live-Oak<lb/> Growing . . . . . . . . . . . . . . . . . . . . </cell>
@@ -266,7 +268,7 @@
 </row>
 <row>
 <cell>That Music Always Round Me . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To a Stranger . . . . . . . . . . . . . . . . . . </cell>
@@ -286,19 +288,19 @@
 </row>
 <row>
 <cell>We Two Boys Together Clinging</cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
-<cell>O Living Always&#8212;Always Dying</cell>
+<cell>O Living Always—Always Dying</cell>
 <cell> 138 </cell>
 </row>
 <row>
    <cell>When I Peruse the Conquer'd<lb/> Fame . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Glimpse . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Promise to California . . . . . . . . . </cell>
@@ -306,7 +308,7 @@
 </row>
 <row>
 <cell>Here, Sailor! . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Here the Frailest Leaves of Me . . </cell>
@@ -314,11 +316,11 @@
 </row>
 <row>
    <cell>What Think you, I take my Pen<lb/> in Hand . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>No Labor-Saving Machine . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>I Dream'd in a Dream . . . . . . . . . . . </cell>
@@ -326,11 +328,11 @@
 </row>
 <row>
 <cell>To the East and to the West . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Earth, my Likeness . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Leaf for Hand in Hand . . . . . . . </cell>
@@ -338,11 +340,11 @@
 </row>
 <row>
 <cell>Fast Anchor'd, Eternal . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Sometimes, with One I Love . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>That Shadow, my Likeness . . . . . </cell>
@@ -350,11 +352,11 @@
 </row>
 <row>
 <cell>Among the Multitude . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To a Western Boy . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>O You whom I often and Silently<lb/> Come . . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -362,7 +364,7 @@
 </row>
 <row>
 <cell>Full of Life, Now . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Salut au Monde . . . . . . . . . . . . . . . . </cell>
@@ -400,11 +402,11 @@
 </row>
 <row>
 <cell>Tests . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Perfections . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Song of the Broad-Axe . . . . . . . . . . </cell>
@@ -440,7 +442,7 @@
 </row>
 <row>
 <cell>To Rich Givers . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>A Word Out of the Sea . . . . . . . . . . </cell>
@@ -468,7 +470,7 @@
 <pb facs="ppp.00473.004.jpg" xml:id="leaf004v" n="iv" type="verso"/>
 
 <table>
-   <row><cell></cell><cell>PAGE.</cell></row>
+   <row><cell/><cell>PAGE.</cell></row>
 <row>
 <cell>The Runner . . . . . . . . . . . . . . . . . . . . </cell>
 <cell> 214 </cell>
@@ -487,11 +489,11 @@
 </row>
 <row>
 <cell>Walt Whitman's Caution . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To Other Lands . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Song of the Open Road . . . . . . . . . . </cell>
@@ -503,7 +505,7 @@
 </row>
 <row>
 <cell>To a Certain Cantatrice . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To Workingmen . . . . . . . . . . . . . . . . </cell>
@@ -523,7 +525,7 @@
 </row>
 <row>
 <cell>"Tears! tears! tears!" . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>"Aboard at a ship's helm," . . . . . </cell>
@@ -559,7 +561,7 @@
 </row>
 <row>
 <cell>"Of waters, forests, hills" . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>"Of persons arrived at high <choice><orig>po-<lb/>sitions</orig><reg>positions</reg></choice>," . . . . . . . . . . . . . . . . . . . </cell>
@@ -567,11 +569,11 @@
 </row>
 <row>
 <cell>"Of ownership." . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
    <cell>"As I sit with others, at a great<lb/> feast" . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>"Of what I write from myself" . </cell>
@@ -579,7 +581,7 @@
 </row>
 <row>
    <cell>"Of obedience, faith, <choice><orig>adhesive-<lb/>ness</orig><reg>adhesiveness</reg></choice>" . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To Him that was Crucified . . . . . . </cell>
@@ -587,7 +589,7 @@
 </row>
 <row>
 <cell>To Old Age . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>To One Shortly to Die . . . . . . . . . . </cell>
@@ -595,7 +597,7 @@
 </row>
 <row>
 <cell>To You . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Unnamed Lands . . . . . . . . . . . . . . . </cell>
@@ -619,7 +621,7 @@
 </row>
 <row>
 <cell>Picture . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Poems of Joy . . . . . . . . . . . . . . . . . . . </cell>
@@ -635,7 +637,7 @@
 </row>
 <row>
 <cell>Leaflets . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</cell>
@@ -663,7 +665,7 @@
 </row>
 <row>
 <cell>Visor'd . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Not the Pilot . . . . . . . . . . . . . . . . . . . </cell>
@@ -671,7 +673,7 @@
 </row>
 <row>
 <cell>As if a Phantom Caress'd Me . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Great are the Myths . . . . . . . . . . . . </cell>
@@ -714,8 +716,8 @@
 <cell> 315 </cell>
 </row>
 <row>
-   <cell>"To oratists&#8212;to male and <choice><orig>fe-<lb/>male</orig><reg>female</reg></choice>" . . . . . . . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+   <cell>"To oratists—to male and <choice><orig>fe-<lb/>male</orig><reg>female</reg></choice>" . . . . . . . . . . . . . . . . . . . . . </cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>"Laws for Creations" . . . . . . . . . . . </cell>
@@ -723,7 +725,7 @@
 </row>
 <row>
 <cell>"Poets to come!" . . . . . . . . . . . . . . . </cell>
-<cell>&#8212;</cell>
+<cell>—</cell>
 </row>
 <row>
 <cell>Me Imperturbe . . . . . . . . . . . . . . . . . </cell>
@@ -770,23 +772,24 @@
 </div1>
 <div1 type="epigraph">
 
-<pb facs="ppp.00473.005.jpg" xml:id="leaf005r"  type="recto"/>
+<pb facs="ppp.00473.005.jpg" xml:id="leaf005r" type="recto"/>
 
 <lg xml:id="ppp.00474" type="poem">
-<relations><work ref="xxx.00353"/></relations>
+   <!--<relations><work ref="xxx.00353"/></relations>-->
+   <note type="work_relations" target="xxx.00353"></note>
 <head type="main-authorial">INSCRIPTION.</head>
    <milestone unit="undeclared" rend="horbar-short-center"/>
 <l>S<hi rend="smallcaps">MALL</hi> 
-<hi rend="italic">is the theme of the following Chant, yet the</hi> <lb/><hi rend="italic">greatest&#8212;namely,</hi> 
-<hi rend="bold">ONE'S-SELF</hi>&#8212;<hi rend="italic">that wondrous </hi> <lb/><hi rend="italic">thing, a simple, separate person. That, for the </hi> <lb/><hi rend="italic">use of the New World, I sing</hi>.
+<hi rend="italic">is the theme of the following Chant, yet the</hi> <lb/><hi rend="italic">greatest—namely,</hi> 
+<hi rend="bold">ONE'S-SELF</hi>—<hi rend="italic">that wondrous </hi> <lb/><hi rend="italic">thing, a simple, separate person. That, for the </hi> <lb/><hi rend="italic">use of the New World, I sing</hi>.
 </l>
 <l>
-  <hi rend="italic">Man's physiology complete, from top to toe, I sing. Not </hi> <lb/><hi rend="italic">physiognomy alone, nor brain alone, is worthy for </hi> <lb/><hi rend="italic">the muse;&#8212;I say the Form complete is worthier </hi> <lb/><hi rend="italic">far. The female equally with the male, I sing</hi>.</l>
+  <hi rend="italic">Man's physiology complete, from top to toe, I sing. Not </hi> <lb/><hi rend="italic">physiognomy alone, nor brain alone, is worthy for </hi> <lb/><hi rend="italic">the muse;—I say the Form complete is worthier </hi> <lb/><hi rend="italic">far. The female equally with the male, I sing</hi>.</l>
 <l>
   <hi rend="italic">Nor cease at the theme of One's-Self. I speak the word </hi> <lb/><hi rend="italic">of the modern, the word</hi> 
 <hi rend="bold">EN-MASSE</hi>.</l>
 <l>
-  <hi rend="italic">My Days I sing, and the Lands&#8212;with interstice I knew</hi> <lb/><hi rend="italic">of hapless War</hi>.</l>
+  <hi rend="italic">My Days I sing, and the Lands—with interstice I knew</hi> <lb/><hi rend="italic">of hapless War</hi>.</l>
 <l>
    <hi rend="italic">O friend, whoe'er you are, at last arriving hither to <choice><orig>com-<lb/>mence</orig><reg>commence</reg></choice>, I feel through every leaf the pressure of</hi> <lb/><hi rend="italic">your hand, which I return. And thus upon our</hi> <lb/><hi rend="italic">journey link'd together let us go</hi>.
 </l>
@@ -800,12 +803,13 @@
          
          <body>
 
-         <pb facs="ppp.00473.007.jpg" xml:id="leaf006r"  type="recto"/>
+         <pb facs="ppp.00473.007.jpg" xml:id="leaf006r" type="recto"/>
 
          <lg xml:id="ppp.00475" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00047"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00047"></note>
             <head type="main-authorial">S<hi rend="smallcaps">TARTING FROM</hi> P<hi rend="smallcaps">AUMANOK</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -1338,9 +1342,10 @@
          <pb facs="ppp.00473.023.jpg" xml:id="leaf014r" n="23" type="recto"/>
 
          <lg xml:id="ppp.00476" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00048"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00048"></note>
             <head type="main-authorial">WALT WHITMAN.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -1589,7 +1594,7 @@
                   <l>I hasten to inform him or her, it is just as lucky to <lb/>die, and I know it.</l>
                </lg>
                <lg n="40" type="linegroup">
-                  <l>I pass death with the dying, and birth with the new <lb/>wash'd babe, and am not contain'd between <choice><orig>my-<lb />hat</orig><reg>my hat</reg></choice> and boots; </l>
+                  <l>I pass death with the dying, and birth with the new <lb/>wash'd babe, and am not contain'd between <choice><orig>my-<lb/>hat</orig><reg>my hat</reg></choice> and boots; </l>
                   <l>And peruse manifold objects, no two alike, and every <lb/>one good; </l>
                   <l>The earth good, and the stars good, and their <lb/>adjuncts all good.</l>
                </lg>
@@ -1812,7 +1817,7 @@
                   <pb facs="ppp.00473.037.jpg" xml:id="leaf021r" n="37" type="recto"/>
 
                   <l>The litter of the grunting sow as they tug at her teats,</l>
-                  <l>The brood of the turkey <lb/>spread wings; </l>
+                  <l>The brood of the turkey-hen, and she with her half-<lb/>spread wings;</l>
                   <l>I see in them and myself the same old law.</l>
                </lg>
                <lg n="74" type="linegroup">
@@ -1839,7 +1844,7 @@
                   <l>The pure contralto sings in the organ loft;</l>
                   <l>The carpenter dresses his plank—the tongue of his <lb/>foreplane whistles its wild ascending lisp; </l>
                   <l>The married and unmarried children ride home to <lb/>their Thanksgiving dinner; </l>
-                  <l>The pilot seizes the king-pin—he heaves down with a <lb/>arm; </l>
+                  <l>The pilot seizes the king-pin—he heaves down with a <lb/>strong arm; </l>
                   <l>The mate stands braced in the whale-boat—lance and <lb/>harpoon are ready; </l>
                   <l>The duck-shooter walks by silent and cautious <lb/>stretches; </l>
                   <l>The deacons are ordain'd with cross'd hands at the <lb/>altar; </l>
@@ -3812,15 +3817,17 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.095.jpg" xml:id="leaf050r" n="95" type="recto"/>
 
          <lg xml:id="ppp.00238" type="cluster">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00049"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00049"></note>
             <head type="main-authorial">CHILDREN OF ADAM.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00477" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00050"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00050"></note>
                <head type="main-authorial">T<hi rend="smallcaps">O THE</hi> G<hi rend="smallcaps">ARDEN, THE</hi> W<hi rend="smallcaps">ORLD</hi>.</head>
                <l n="1"> T<hi rend="smallcaps">o THE</hi> garden, the world, anew ascending,</l>
                <l>Potent mates, daughters, sons, preluding,</l>
@@ -3836,9 +3843,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00478" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00051"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00051"></note>
                <head type="main-authorial">F<hi rend="smallcaps">ROM</hi> P<hi rend="smallcaps">ENT-UP</hi> A<hi rend="smallcaps">CHING</hi> R<hi rend="smallcaps">IVERS</hi>.</head>
                <l n="1"> F<hi rend="smallcaps">ROM</hi> pent-up, aching rivers;</l>
                <l>From that of myself, without which I were nothing;</l>
@@ -3916,9 +3924,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00479" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00052"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00052"></note>
                <head type="main-authorial">I S<hi rend="smallcaps">ING THE</hi> B<hi rend="smallcaps">ODY</hi> E<hi rend="smallcaps">LECTRIC</hi>.</head>
                <lg n="1" type="section">
                   <head type="main-authorial">1</head>
@@ -4201,9 +4210,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.108.jpg" xml:id="leaf056v" n="108" type="verso"/>
 
             <lg xml:id="ppp.00480" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00053"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00053"></note>
                <head type="main-authorial">A W<hi rend="smallcaps">OMAN</hi> W<hi rend="smallcaps">AITS FOR</hi> M<hi rend="smallcaps">E</hi>.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -4270,9 +4280,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.110.jpg" xml:id="leaf057v" n="110" type="verso"/>
 
             <lg xml:id="ppp.00481" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00054"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00054"></note>
                <head type="main-authorial">S<hi rend="smallcaps">PONTANEOUS</hi> M<hi rend="smallcaps">E</hi></head>
                <l n="1">
                   S<hi rend="smallcaps">PONTANEOUS</hi> me, Nature,</l>
@@ -4329,9 +4340,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00482" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00055"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00055"></note>
                <head type="main-authorial">O<hi rend="smallcaps">NE</hi> H<hi rend="smallcaps">OUR TO</hi> M<hi rend="smallcaps">ADNESS AND</hi> J<hi rend="smallcaps">OY</hi></head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -4379,9 +4391,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.114.jpg" xml:id="leaf059v" n="114" type="verso"/>
 
             <lg xml:id="ppp.00483" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00058"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00058"></note>
                <head type="main-authorial">W<hi rend="smallcaps">E</hi> T<hi rend="smallcaps">WO</hi>—H<hi rend="smallcaps">OW</hi> L<hi rend="smallcaps">ONG WE WERE</hi> F<hi rend="smallcaps">OOL'D</hi>.</head>
                <l n="1"> W<hi rend="smallcaps">E</hi> two—how long we were fool'd!</l>
                <l>Now transmuted, we swiftly escape, as Nature escapes;</l>
@@ -4407,9 +4420,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.115.jpg" xml:id="leaf060r" n="115" type="recto"/>
 
             <lg xml:id="ppp.00484" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00061"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00061"></note>
                <head type="main-authorial">N<hi rend="smallcaps">ATIVE</hi> M<hi rend="smallcaps">OMENTS</hi>.</head>
                <l n="1">N<hi rend="smallcaps">ATIVE</hi> moments! when you come upon me—Ah you <lb/>are here now!</l>
                <l>Give me now libidinous joys only!</l>
@@ -4427,9 +4441,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00485" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00062"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00062"></note>
                <head type="main-authorial">O<hi rend="smallcaps">NCE</hi> I <hi rend="smallcaps">PASS'D THROUGH A</hi> P<hi rend="smallcaps">OPULOUS</hi> C<hi rend="smallcaps">ITY</hi>.</head>
                <l n="1">O<hi rend="smallcaps">NCE</hi> I pass'd through a populous city, imprinting my <lb/>brain, for future use, with its shows, <choice><orig>architec-<lb/>ture</orig><reg>architecture</reg></choice>, customs, and traditions; </l>
                <l>Yet now, of all that city, I remember only a woman I <lb/>casually met there, who detain'd me for love of <lb/>me; </l>
@@ -4443,9 +4458,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.116.jpg" xml:id="leaf060v" n="116" type="verso"/>
 
             <lg xml:id="ppp.00486" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00064"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00064"></note>
                <head type="main-authorial">F<hi rend="smallcaps">ACING</hi> W<hi rend="smallcaps">EST</hi> <hi rend="smallcaps">FROM</hi> C<hi rend="smallcaps">ALIFORNIA'S</hi> S<hi rend="smallcaps">HORES</hi>.</head>
                <l n="1">
                   F<hi rend="smallcaps">ACING</hi> west, from California's shores,</l>
@@ -4462,9 +4478,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00487" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00057"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00057"></note>
                <head type="main-authorial">A<hi rend="smallcaps">GES AND</hi> A<hi rend="smallcaps">GES</hi>, R<hi rend="smallcaps">ETURNING AT</hi> I<hi rend="smallcaps">NTERVALS</hi>.</head>
                <l n="1">
                   A<hi rend="smallcaps">GES</hi> and ages, returning at intervals,</l>
@@ -4480,9 +4497,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.117.jpg" xml:id="leaf061r" n="117" type="recto"/>
 
             <lg xml:id="ppp.00488" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00059"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00059"></note>
                <head type="main-authorial">O H<hi rend="smallcaps">YMEN</hi>! O H<hi rend="smallcaps">YMENEE</hi>.</head>
                <l n="1">
                   O <hi rend="smallcaps">HYMEN!</hi> O Hymenee!</l>
@@ -4493,9 +4511,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00489" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00060"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00060"></note>
                <head type="main-authorial">I <hi rend="smallcaps">AM</hi> H<hi rend="smallcaps">E THAT</hi> A<hi rend="smallcaps">CHES WITH</hi> L<hi rend="smallcaps">OVE</hi>.</head>
                <l n="1">
                   I <hi rend="smallcaps">AM</hi> he that aches with amorous love;</l>
@@ -4504,9 +4523,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00490" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00065"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00065"></note>
                <head type="main-authorial">A<hi rend="smallcaps">S</hi> A<hi rend="smallcaps">DAM</hi>, E<hi rend="smallcaps">ARLY IN THE</hi> M<hi rend="smallcaps">ORNING</hi>.</head>
                <l n="1"> A<hi rend="smallcaps">S</hi> Adam, early in the morning,</l>
                <l>Walking forth from the bower, refresh'd with sleep;</l>
@@ -4519,9 +4539,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.118.jpg" xml:id="leaf061v" n="118" type="verso"/>
 
          <lg xml:id="ppp.00491" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00278"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00278"></note>
             <head type="main-authorial">E<hi rend="smallcaps">XCELSIOR</hi>.</head>
             <l n="1">
                W<hi rend="smallcaps">HO</hi> has gone farthest? For I swear I will go farther;</l>
@@ -4544,15 +4565,17 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.119.jpg" xml:id="leaf062r" n="119" type="recto"/>
 
          <lg xml:id="ppp.00390" type="cluster">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00066"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00066"></note>
             <head type="main-authorial">CALAMUS.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00492" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00071"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00071"></note>
                <head type="main-authorial">I<hi rend="smallcaps">N</hi> P<hi rend="smallcaps">ATHS</hi> U<hi rend="smallcaps">NTRODDEN</hi>.</head>
                <l n="1">
                   I<hi rend="smallcaps">N</hi> paths untrodden,</l>
@@ -4578,9 +4601,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.120.jpg" xml:id="leaf062v" n="120" type="verso"/>
 
             <lg xml:id="ppp.00493" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00072"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00072"></note>
                <head type="main-authorial">S<hi rend="smallcaps">CENTED</hi> H<hi rend="smallcaps">ERBAGE OF</hi> M<hi rend="smallcaps">Y</hi> B<hi rend="smallcaps">REAST</hi>.</head>
                <l n="1">
                   S<hi rend="smallcaps">CENTED</hi> herbage of my breast,</l>
@@ -4634,9 +4658,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00494" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00073"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00073"></note>
                <head type="main-authorial">Whoever you are, Holding me now in Hand.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -4699,9 +4724,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.124.jpg" xml:id="leaf064v" n="124" type="verso"/>
 
             <lg xml:id="ppp.00495" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00075"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00075"></note>
                <head type="main-authorial">T<hi rend="smallcaps">HESE</hi> <hi rend="smallcaps">I</hi>, S<hi rend="smallcaps">INGING IN</hi> S<hi rend="smallcaps">PRING</hi>.</head>
                <l n="1">
                   T<hi rend="smallcaps">HESE,</hi> I, singing in spring, collect for lovers,</l>
@@ -4738,9 +4764,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00496" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00074"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00074"></note>
                <head type="main-authorial">A S<hi rend="smallcaps">ONG</hi>.</head>
                <lg n="1" type="section">
                   <head type="main-authorial">1</head>
@@ -4764,9 +4791,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00497" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00076"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00076"></note>
                <head type="main-authorial">Not Heaving from my Ribb'd Breast only.</head>
                <l n="1">
                   N<hi rend="smallcaps">OT</hi> heaving from my ribb'd breast only;</l>
@@ -4791,9 +4819,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.127.jpg" xml:id="leaf066r" n="127" type="recto"/>
 
             <lg xml:id="ppp.00498" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00077"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00077"></note>
                <head type="main-authorial">Of the Terrible Doubt of Appearances.</head>
                <l n="1">
                   O<hi rend="smallcaps">F</hi> the terrible doubt of appearances,</l>
@@ -4817,9 +4846,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.128.jpg" xml:id="leaf066v" n="128" type="verso"/>
 
             <lg xml:id="ppp.00499" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00079"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00079"></note>
                <head type="main-authorial">R<hi rend="smallcaps">ECORDERS</hi> A<hi rend="smallcaps">GES</hi> H<hi rend="smallcaps">ENCE</hi>.</head>
                <l n="1">
                   R<hi rend="smallcaps">ECORDERS</hi> ages hence!</l>
@@ -4835,9 +4865,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00500" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00080"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00080"></note>
                <head type="main-authorial">When I Heard at the Close of the Day.</head>
                <l n="1">W<hi rend="smallcaps">HEN</hi> I heard at the close of the day how my name <lb/>had been receiv'd with plaudits in the capitol, <lb/>still it was not a happy night for me that <choice><orig>fol-<lb/>low</orig><reg>follow'd</reg></choice>; </l>
                <l>And else, when I carous'd, or when my plans were <lb/>accomplish'd, still I was not happy; </l>
@@ -4858,9 +4889,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00501" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00081"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00081"></note>
                <head type="main-authorial">Are you the New Person Drawn Toward me?</head>
                <l n="1">
                   A<hi rend="smallcaps">RE</hi> you the new person drawn toward me?</l>
@@ -4878,9 +4910,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00502" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00082"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00082"></note>
                <head type="main-authorial">Roots and Leaves Themselves Alone.</head>
                <l n="1">
                   R<hi rend="smallcaps">OOTS</hi> and leaves themselves alone are these;</l>
@@ -4898,9 +4931,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.131.jpg" xml:id="leaf068r" n="131" type="recto"/>
 
             <lg xml:id="ppp.00503" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00083"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00083"></note>
                <head type="main-authorial">Not Heat Flames up and Consumes.</head>
                <l n="1">
                   N<hi rend="smallcaps">OT</hi> heat flames up and consumes,</l>
@@ -4916,9 +4950,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00504" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00084"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00084"></note>
                <head type="main-authorial">T<hi rend="smallcaps">RICKLE</hi>, D<hi rend="smallcaps">ROPS</hi>.</head>
                <l n="1">
                   T<hi rend="smallcaps">RICKLE</hi>, drops! my blue veins leaving!</l>
@@ -4938,9 +4973,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00505" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00006"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00006"></note>
                <head type="main-authorial">Of Him I Love Day and Night.</head>
                <l n="1">O<hi rend="smallcaps">F</hi> him I love day and night, I dream'd I heard he was <lb/>dead; </l>
                <l>And I dream'd I went where they had buried him I love <lb/>—but he was not in that place; </l>
@@ -4960,9 +4996,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.133.jpg" xml:id="leaf069r" n="133" type="recto"/>
 
             <lg xml:id="ppp.00506" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00085"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00085"></note>
                <head type="main-authorial">C<hi rend="smallcaps">ITY OF</hi> O<hi rend="smallcaps">RGIES</hi>.</head>
                <l n="1">
                   C<hi rend="smallcaps">ITY</hi> of orgies, walks and joys!</l>
@@ -4977,9 +5014,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00507" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00086"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00086"></note>
                <head type="main-authorial">B<hi rend="smallcaps">EHOLD THIS</hi> S<hi rend="smallcaps">WARTHY</hi> F<hi rend="smallcaps">ACE</hi>.</head>
                <l n="1">B<hi rend="smallcaps">EHOLD</hi> this swarthy face, this unrefined face—these <lb/>gray eyes,</l>
                <l>This beard—the white wool, unclipt upon my neck,</l>
@@ -4993,9 +5031,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.134.jpg" xml:id="leaf069v" n="134" type="verso"/>
 
             <lg xml:id="ppp.00508" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00087"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00087"></note>
                <head type="main-authorial">I saw in Louisiana a Live-Oak Growing.</head>
                <l n="1">
                   I <hi rend="smallcaps">SAW</hi> in Louisiana a live-oak growing,</l>
@@ -5014,9 +5053,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00509" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00011"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00011"></note>
                <head type="main-authorial">That Music Always Round Me.</head>
                <l n="1">T<hi rend="smallcaps">HAT</hi> music always round me, unceasing, unbeginning <lb/>—yet long untaught I did not hear; </l>
                <l>But now the chorus I hear, and am elated;</l>
@@ -5033,9 +5073,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00510" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00088"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00088"></note>
                <head type="main-authorial">T<hi rend="smallcaps">O A</hi> S<hi rend="smallcaps">TRANGER</hi>.</head>
                <l n="1">P<hi rend="smallcaps">ASSING</hi> stranger! you do not know how longingly I <lb/>look upon you,</l>
                <l>You must be he I was seeking, or she I was seeking, <lb/>(it comes to me, as of a dream,)</l>
@@ -5052,9 +5093,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.136.jpg" xml:id="leaf070v" n="136" type="verso"/>
 
             <lg xml:id="ppp.00511" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00089"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00089"></note>
                <head type="main-authorial">This Moment, Yearning and Thoughtful.</head>
                <l n="1">
                   T<hi rend="smallcaps">HIS</hi> moment yearning and thoughtful, sitting alone,</l>
@@ -5066,9 +5108,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00512" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00090"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00090"></note>
                <head type="main-authorial">I Hear it was Charged Against Me.</head>
                <l n="1">I <hi rend="smallcaps">HEAR</hi> it was charged against me that I sought to <lb/>destroy institutions; </l>
                <l>But really I am neither for nor against institutions;</l>
@@ -5082,9 +5125,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.137.jpg" xml:id="leaf071r" n="137" type="recto"/>
 
             <lg xml:id="ppp.00513" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00091"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00091"></note>
                <head type="main-authorial">The Prairie-Grass Dividing.</head>
                <l n="1">
                   T<hi rend="smallcaps">HE</hi> prairie-grass dividing—its special odor breathing,</l>
@@ -5101,9 +5145,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00514" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00093"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00093"></note>
                <head type="main-authorial">We Two Boys Together Clinging.</head>
                <l n="1">
                   W<hi rend="smallcaps">E</hi> two boys together clinging,</l>
@@ -5120,9 +5165,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.138.jpg" xml:id="leaf071" n="138" type="verso"/>
 
             <lg xml:id="ppp.00515" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00014"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00014"></note>
                <head type="main-authorial">O Living Always—Always Dying!</head>
                <l n="1">
                   O <hi rend="smallcaps">LIVING</hi> always—always dying!</l>
@@ -5134,9 +5180,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00516" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00092"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00092"></note>
                <head type="main-authorial">When I Peruse the Conquer'd Fame.</head>
                <l n="1">W<hi rend="smallcaps">HEN</hi> I peruse the conquer'd fame of heroes, and the <lb/>victories of mighty generals, I do not envy the <lb/>generals,</l>
                <l>Nor the President in his Presidency, nor the rich in <lb/>his great house; </l>
@@ -5147,9 +5194,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00517" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00097"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00097"></note>
                <head type="main-authorial">A G<hi rend="smallcaps">LIMPSE</hi>.</head>
                <l n="1">
                   A <hi rend="smallcaps">GLIMPSE</hi>, through an interstice caught,</l>
@@ -5163,9 +5211,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00518" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00094"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00094"></note>
                <head type="main-authorial">A P<hi rend="smallcaps">ROMISE TO</hi> C<hi rend="smallcaps">ALIFORNIA</hi>.</head>
                <l n="1">
                   A <hi rend="smallcaps">PROMISE</hi> to California,</l>
@@ -5176,9 +5225,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00519" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00042"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00042"></note>
                <head type="main-authorial">H<hi rend="smallcaps">ERE</hi>, S<hi rend="smallcaps">AILOR</hi>!</head>
                <l n="1">W<hi rend="smallcaps">HAT</hi> ship, puzzled at sea, cons for the true <choice><orig>reckon-<lb/>ing</orig><reg>reckoning</reg></choice>?</l>
                <l>Or, coming in, to avoid the bars, and follow the <choice><orig>chan-<lb/>nel</orig><reg>channel</reg></choice>, a perfect pilot needs?</l>
@@ -5189,9 +5239,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.140.jpg" xml:id="leaf072v" n="140" type="verso"/>
 
             <lg xml:id="ppp.00520" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00095"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00095"></note>
                <head type="main-authorial">H<hi rend="smallcaps">ERE THE</hi> F<hi rend="smallcaps">RAILEST</hi> L<hi rend="smallcaps">EAVES OF</hi> M<hi rend="smallcaps">E</hi>.</head>
                <l n="1">H<hi rend="smallcaps">ERE</hi> the frailest leaves of me, and yet my <choice><orig>strongest-<lb/>lasting</orig><reg>strongest-lasting</reg></choice>: </l>
                <l>Here I shade down and hide my thoughts—I do not <lb/>expose them,</l>
@@ -5199,9 +5250,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00521" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00101"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00101"></note>
                <head type="main-authorial">W<hi rend="smallcaps">HAT</hi> T<hi rend="smallcaps">HINK YOU</hi> I <hi rend="smallcaps">TAKE MY</hi> P<hi rend="smallcaps">EN IN</hi> H<hi rend="smallcaps">AND</hi>?</head>
                <l n="1">
                   W<hi rend="smallcaps">HAT</hi> think you I take my pen in hand to record?</l>
@@ -5214,9 +5266,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00522" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00096"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00096"></note>
                <head type="main-authorial">N<hi rend="smallcaps">O</hi> L<hi rend="smallcaps">ABOR</hi>-S<hi rend="smallcaps">AVING</hi> M<hi rend="smallcaps">ACHINE</hi>.</head>
                <l n="1"> N<hi rend="smallcaps">o</hi> labor-saving machine,</l>
                <l>Nor discovery have I made;</l>
@@ -5230,9 +5283,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.141.jpg" xml:id="leaf073r" n="141" type="recto"/>
 
             <lg xml:id="ppp.00523" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00100"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00100"></note>
                <head type="main-authorial">I D<hi rend="smallcaps">REAMED IN A</hi> D<hi rend="smallcaps">REAM</hi>.</head>
                <l n="1">I <hi rend="smallcaps">DREAM'D</hi> in a dream, I saw a city invincible to the <lb/>attacks of the whole of the rest of the earth; </l>
                <l>I dream'd that was the new City of Friends;</l>
@@ -5242,9 +5296,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00524" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00102"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00102"></note>
                <head type="main-authorial">T<hi rend="smallcaps">O THE</hi> E<hi rend="smallcaps">AST AND TO THE</hi> W<hi rend="smallcaps">EST</hi>.</head>
                <l n="1"> To the East and to the West;</l>
                <l>To the man of the Seaside State, and of Pennsylvania,</l>
@@ -5255,9 +5310,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00525" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00099"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00099"></note>
                <head type="main-authorial">E<hi rend="smallcaps">ARTH</hi>! M<hi rend="smallcaps">Y</hi> L<hi rend="smallcaps">IKENESS</hi>!</head>
                <l n="1">
                   E<hi rend="smallcaps">ARTH</hi>! my likeness!</l>
@@ -5272,9 +5328,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.142.jpg" xml:id="leaf073v" n="142" type="verso"/>
 
             <lg xml:id="ppp.00526" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00098"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00098"></note>
                <head type="main-authorial">A L<hi rend="smallcaps">EAF FOR</hi> H<hi rend="smallcaps">AND IN</hi> H<hi rend="smallcaps">AND</hi>.</head>
                <l n="1">
                   A <hi rend="smallcaps">LEAF</hi> for hand in hand!</l>
@@ -5286,9 +5343,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00527" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00105"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00105"></note>
                <head type="main-authorial">F<hi rend="smallcaps">AST</hi> A<hi rend="smallcaps">NCHOR'D</hi>, E<hi rend="smallcaps">TERNAL</hi>, O L<hi rend="smallcaps">OVE</hi>.</head>
                <l n="1">
                   F<hi rend="smallcaps">AST-ANCHOR'D</hi>, eternal, O love! O woman I love;</l>
@@ -5300,9 +5358,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00528" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00103"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00103"></note>
                <head type="main-authorial">S<hi rend="smallcaps">OMETIMES WITH</hi> O<hi rend="smallcaps">NE</hi> I L<hi rend="smallcaps">OVE</hi>.</head>
                <l n="1">S<hi rend="smallcaps">OMETIMES</hi> with one I love, I fill myself with rage, for <lb/>fear I effuse unreturn'd love; </l>
                <l>But now I think there is no unreturn'd love—the pay <lb/>is certain, one way or another; </l>
@@ -5313,9 +5372,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.143.jpg" xml:id="leaf074r" n="143" type="recto"/>
 
             <lg xml:id="ppp.00529" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00108"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00108"></note>
                <head type="main-authorial">T<hi rend="smallcaps">HAT</hi> S<hi rend="smallcaps">HADOW, MY</hi> L<hi rend="smallcaps">IKENESS</hi>.</head>
                <l n="1">T<hi rend="smallcaps">HAT</hi> shadow, my likeness, that goes to and fro, <choice><orig>seek-<lb/>ing</orig><reg>seeking</reg></choice> a livelihood, chattering, chaffering; </l>
                <l>How often I find myself standing and looking at it <lb/>where it flits; </l>
@@ -5327,9 +5387,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00530" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00106"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00106"></note>
                <head type="main-authorial">A<hi rend="smallcaps">MONG THE</hi> M<hi rend="smallcaps">ULTITUDE</hi>.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -5346,9 +5407,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00531" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00104"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00104"></note>
                <head type="main-authorial">T<hi rend="smallcaps">O A</hi> W<hi rend="smallcaps">ESTERN</hi> B<hi rend="smallcaps">OY</hi>.</head>
                <l n="1">
                   O <hi rend="smallcaps">BOY</hi> of the West!</l>
@@ -5361,9 +5423,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             <pb facs="ppp.00473.144.jpg" xml:id="leaf074v" n="144" type="verso"/>
 
             <lg xml:id="ppp.00532" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00107"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00107"></note>
                <head type="main-authorial">O <hi rend="smallcaps">YOU WHOM</hi> I O<hi rend="smallcaps">FTEN AND</hi> S<hi rend="smallcaps">ILENTLY</hi> C<hi rend="smallcaps">OME</hi>.</head>
                <l n="1">O <hi rend="smallcaps">YOU</hi> whom I often and silently come where you are, <lb/>that I may be with you; </l>
                <l>As I walk by your side, or sit near, or remain in the <lb/>same room with you,</l>
@@ -5373,9 +5436,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00533" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00109"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00109"></note>
                <head type="main-authorial">F<hi rend="smallcaps">ULL OF</hi> L<hi rend="smallcaps">IFE</hi>, N<hi rend="smallcaps">OW</hi>.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -5396,9 +5460,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.145.jpg" xml:id="leaf075r" n="145" type="recto"/>
 
          <lg xml:id="ppp.00534" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00110"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00110"></note>
             <head type="main-authorial">S<hi rend="smallcaps">ALUT AU</hi> M<hi rend="smallcaps">ONDE</hi>!</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -5828,9 +5893,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00535" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00042"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00042"></note>
             <head type="main-authorial">W<hi rend="smallcaps">HAT</hi> P<hi rend="smallcaps">LACE IS</hi> B<hi rend="smallcaps">ESIEGED</hi>?</head>
             <l n="1">W<hi rend="smallcaps">HAT</hi> place is besieged, and vainly tries to raise the <lb/>siege?</l>
             <l>Lo! I send to that place a commander, swift, brave, <lb/>immortal;</l>
@@ -5840,15 +5906,17 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
 
          <pb facs="ppp.00473.159.jpg" xml:id="leaf082r" n="159" type="recto"/>
          <lg type="cluster" xml:id="ppp.01148">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00438"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00438"></note>
             <head type="main-authorial">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00536" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00226"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00226"></note>
                <head type="main-authorial">1.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -5909,9 +5977,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00537" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00127"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00127"></note>
                <head type="main-authorial">
                   <hi rend="bold">2.</hi>
                </head>
@@ -5984,9 +6053,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00538" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00250"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00250"></note>
                <head type="main-authorial">
                   <hi rend="bold">3.</hi>
                </head>
@@ -6046,9 +6116,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00539" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00125"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00125"></note>
                <head type="main-authorial">
                   <hi rend="bold">4.</hi>
                </head>
@@ -6134,9 +6205,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.168.jpg" xml:id="leaf086v" n="168" type="verso"/>
 
          <lg xml:id="ppp.00540" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00034"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00034"></note>
             <head type="main-authorial">B<hi rend="smallcaps">EGINNERS</hi>.</head>
             <l n="1">H<hi rend="smallcaps">OW</hi> they are provided for upon the earth, (appearing <lb/>at intervals;)</l>
             <l>How dear and dreadful they are to the earth;</l>
@@ -6148,9 +6220,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00541" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00251"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00251"></note>
             <head type="main-authorial">TESTS.</head>
             <l n="1">A<hi rend="smallcaps">LL</hi> submit to them, where they sit, inner, secure, <lb/>unapproachable to analysis, in the Soul;</l>
             <l>Not traditions—not the outer authorities are the <lb/>judges—they are the judges of outer <choice><orig>authori-<lb/>ties</orig><reg>authorities</reg></choice>, and of all traditions;</l>
@@ -6159,9 +6232,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00542" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00150"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00150"></note>
             <head type="main-authorial">PERFECTIONS.</head>
             <l n="1">O<hi rend="smallcaps">NLY</hi> themselves understand themselves, and the like <lb/>of themselves,</l>
             <l>As Souls only understand Souls.</l>
@@ -6170,9 +6244,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.169.jpg" xml:id="leaf087r" n="169" type="recto"/>
 
          <lg xml:id="ppp.00543" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00116"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00116"></note>
             <head type="main-authorial">S<hi rend="smallcaps">ONG OF THE</hi> B<hi rend="smallcaps">ROAD</hi>-A<hi rend="smallcaps">XE</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -6578,9 +6653,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00544" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00129"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00129"></note>
             <head type="main-authorial">WITH ANTECEDENTS.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -6648,9 +6724,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00545" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00039"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00039"></note>
             <head type="main-authorial">S<hi rend="smallcaps">AVANTISM</hi>.</head>
             <l n="1">T<hi rend="smallcaps">HITHER,</hi> as I look, I see each result and glory <choice><orig>re-<lb/>tracing</orig><reg>retracing</reg></choice> itself and nestling close, always <choice><orig>obli-<lb/>gated</orig><reg>obligated</reg></choice>;</l>
             <l>Thither hours, months, years—thither trades, <choice><orig>com-<lb/>pacts</orig><reg>compacts</reg></choice>, establishments, even the most minute;</l>
@@ -6662,9 +6739,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.185.jpg" xml:id="leaf095r" n="185" type="recto"/>
 
          <lg xml:id="ppp.00546" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00112"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00112"></note>
             <head type="main-authorial">C<hi rend="smallcaps">ROSSING</hi> B<hi rend="smallcaps">ROOKLYN</hi> F<hi rend="smallcaps">ERRY</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -6894,9 +6972,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00547" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00230"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00230"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O A</hi> F<hi rend="smallcaps">OIL'D</hi> R<hi rend="smallcaps">EVOLTER OR</hi> R<hi rend="smallcaps">EVOLTRESS</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">
@@ -6956,9 +7035,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.195.jpg" xml:id="leaf100r" n="195" type="recto"/>
 
          <lg xml:id="ppp.00548" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00143"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00143"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> G<hi rend="smallcaps">ET</hi> B<hi rend="smallcaps">ETIMES IN</hi> B<hi rend="smallcaps">OSTON</hi> T<hi rend="smallcaps">OWN</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">T<hi rend="smallcaps">O</hi> get betimes in Boston town, I rose this morning <lb/>early; </l>
@@ -7047,9 +7127,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00549" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00261"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00261"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O A</hi> C<hi rend="smallcaps">OMMON</hi> P<hi rend="smallcaps">ROSTITUTE</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">B<hi rend="smallcaps">E</hi> composed—be at ease with me—I am Walt <lb/>Whitman, liberal and lusty as Nature; </l>
@@ -7068,9 +7149,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.198.jpg" xml:id="leaf101v" n="198" type="verso"/>
 
          <lg xml:id="ppp.00550" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00245"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00245"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O A</hi> P<hi rend="smallcaps">UPIL</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="first">I<hi rend="smallcaps">S</hi> reform needed? Is it through you?</l>
@@ -7088,9 +7170,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00551" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00154"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00154"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> R<hi rend="smallcaps">ICH</hi> G<hi rend="smallcaps">IVERS</hi>.</head>
             <l n="1">
                W<hi rend="smallcaps">HAT</hi> you give me, I cheerfully accept,</l>
@@ -7103,9 +7186,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.199.jpg" xml:id="leaf102r" n="199" type="recto"/>
 
          <lg xml:id="ppp.00552" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00131"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00131"></note>
             <head type="main-authorial">A WORD OUT OF THE SEA.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -7576,9 +7660,10 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
          <pb facs="ppp.00473.207.jpg" xml:id="leaf106r" n="207" type="recto"/>
 
          <lg xml:id="ppp.00553" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00271"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00271"></note>
             <head type="main-authorial">A L<hi rend="smallcaps">EAF OF</hi> F<hi rend="smallcaps">ACES</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -7765,9 +7850,10 @@ wait.</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00554" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00363"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00363"></note>
             <head type="main-authorial">S<hi rend="smallcaps">TRONGER</hi> L<hi rend="smallcaps">ESSONS</hi>.</head>
             <l n="1">H<hi rend="smallcaps">AVE</hi> you learned lessons only of those who admired <lb/>you, and were tender with you, and stood aside <lb/>for you?</l>
             <l>Have you not learned the great lessons of those who <lb/>rejected you, and braced themselves against <lb/>you? or who treated you with contempt, or <lb/>disputed the passage with you?</l>
@@ -7776,9 +7862,10 @@ wait.</l>
          <pb facs="ppp.00473.212.jpg" xml:id="leaf108v" n="212" type="verso"/>
 
          <lg xml:id="ppp.00555" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00144"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00144"></note>
             <head type="main-authorial">EUROPE,<lb/> The 72d and 73d Years of These States.</head>
             <lg n="1" type="linegroup">
                <l n="1">S<hi rend="smallcaps">UDDENLY,</hi> out of its stale and drowsy lair, the lair <lb/>of slaves,</l>
@@ -7850,9 +7937,10 @@ wait.</l>
          <pb facs="ppp.00473.214.jpg" xml:id="leaf109v" n="214" type="verso"/>
 
          <lg xml:id="ppp.00556" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00280"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00280"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HOUGHT</hi>.</head>
             <l n="1">
                O<hi rend="smallcaps">F</hi> Public Opinion;</l>
@@ -7870,9 +7958,10 @@ wait.</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00557" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00159"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00159"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HE</hi> R<hi rend="smallcaps">UNNER</hi>.</head>
             <l n="1">
                O<hi rend="smallcaps">N</hi> a flat road runs the well-train'd runner;</l>
@@ -7884,9 +7973,10 @@ wait.</l>
          <pb facs="ppp.00473.215.jpg" xml:id="leaf110r" n="215" type="recto"/>
 
          <lg xml:id="ppp.00558" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00120"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00120"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> T<hi rend="smallcaps">HE</hi> S<hi rend="smallcaps">AYERS OF</hi> W<hi rend="smallcaps">ORDS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -8134,9 +8224,10 @@ wait.</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00559" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00274"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00274"></note>
             <head type="main-authorial">L<hi rend="smallcaps">ONGINGS FOR</hi> H<hi rend="smallcaps">OME</hi>.</head>
             <l n="1">O <hi rend="smallcaps">MAGNET-</hi>S<hi rend="smallcaps">OUTH!</hi> O glistening, perfumed South! My <lb/>South!</l>
             <l>O quick mettle, rich blood, impulse, and love! Good <lb/>and evil! O all dear to me!</l>
@@ -8169,9 +8260,10 @@ wait.</l>
          <pb facs="ppp.00473.224.jpg" xml:id="leaf114v" n="224" type="verso"/>
 
          <lg xml:id="ppp.00560" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00152"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00152"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O A</hi> P<hi rend="smallcaps">RESIDENT</hi>.</head>
             <l n="1">A<hi rend="smallcaps">LL</hi> you are doing and saying is to America dangled <lb/>mirages;</l>
             <l>You have not learn'd of Nature—of the politics of <lb/>Nature, you have not learn'd the great <choice><orig>ampli-<lb/>tude</orig><reg>amplitude</reg></choice>, rectitude, impartiality;</l>
@@ -8180,9 +8272,10 @@ wait.</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00561" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00035"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00035"></note>
             <head type="main-authorial">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN'S</hi> C<hi rend="smallcaps">AUTION</hi>.</head>
             <l n="1"> T<hi rend="smallcaps">O</hi> The States, or any one of them, or any city of The <lb/>States, <hi rend="italic">Resist much, obey little;</hi> 
               </l>
@@ -8191,9 +8284,10 @@ wait.</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00562" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00027"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00027"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O OTHER</hi> L<hi rend="smallcaps">ANDS</hi>.</head>
             <l n="1">I <hi rend="smallcaps">HEAR</hi> you have been asking for something to <choice><orig>repre-<lb/>sent</orig><reg>represent</reg></choice> the new race, our self-poised Democracy,</l>
             <l>Therefore I send you my poems, that you behold in <lb/>them what you wanted.</l>
@@ -8202,9 +8296,10 @@ wait.</l>
          <pb facs="ppp.00473.225.jpg" xml:id="leaf115r" n="225" type="recto"/>
 
          <lg xml:id="ppp.00563" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00111"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00111"></note>
             <head type="main-authorial">S<hi rend="smallcaps">ONG OF THE</hi> O<hi rend="smallcaps">PEN</hi> R<hi rend="smallcaps">OAD</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="section">
@@ -8646,9 +8741,10 @@ wait.</l>
          <pb facs="ppp.00473.238.jpg" xml:id="leaf121v" n="238" type="verso"/>
 
          <lg xml:id="ppp.00564" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00171"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00171"></note>
             <head type="main-authorial">
                <hi rend="bold">TO THE STATES,</hi>
                <lb/> To Identify the 16th, 17th, or 18th Presidentiad.</head>
@@ -8663,9 +8759,10 @@ wait.</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00565" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00037"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00037"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O A CERTAIN</hi> C<hi rend="smallcaps">ANTATRICE</hi>.</head>
             <l n="1">
                H<hi rend="smallcaps">ERE,</hi> take this gift!</l>
@@ -8677,9 +8774,10 @@ wait.</l>
          <pb facs="ppp.00473.239.jpg" xml:id="leaf1122r" n="239" type="recto"/>
 
          <lg xml:id="ppp.00566" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00119"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00119"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> W<hi rend="smallcaps">ORKINGMEN</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -8959,39 +9057,44 @@ wait.</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00567" type="cluster">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00453"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00453"></note>
             <head type="main-authorial">D<hi rend="smallcaps">EBRIS</hi>.</head>
-            <lg type="poem">
-               <relations>
+            <lg type="poem" xml:id="ppp.01975">
+<!--               <relations>
                   <work ref="xxx.00418"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00418"></note>
                <l n="1">
 H<hi rend="smallcaps">E</hi> is wisest who has the most caution;</l>
                <l>He only wins who goes far enough.</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
-            <lg type="poem">
-               <relations>
+            <lg type="poem" xml:id="ppp.01976">
+<!--               <relations>
                   <work ref="xxx.00614"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00614"></note>
                <l>A<hi rend="smallcaps">NY</hi> thing is as good as established, when that is <choice><orig>estab-<lb/>lished</orig><reg>established</reg></choice> that will produce it and continue it.</l>
             </lg>
          </lg>
          <pb facs="ppp.00473.249.jpg" xml:id="leaf127r" n="249" type="recto"/>
 
          <lg type="cluster" xml:id="ppp.01149">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00439"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00439"></note>
             <head type="main-authorial">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
 
             <lg xml:id="ppp.00460" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00422"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00422"></note>
                <head type="main-authorial">1.</head>
                <l n="1">
 O <hi rend="smallcaps">HASTENING</hi> light!</l>
@@ -9010,9 +9113,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.01156" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00133"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00133"></note>
                <head type="main-authorial">2.</head>
                <l n="1">
                   T<hi rend="smallcaps">EARS!</hi> tears! tears!</l>
@@ -9034,9 +9138,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00568" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00135"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00135"></note>
                <head type="main-authorial">3.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -9066,9 +9171,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.251.jpg" xml:id="leaf128r" n="251" type="recto"/>
 
          <lg xml:id="ppp.00569" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00114"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00114"></note>
             <head type="main-authorial">A<hi rend="smallcaps">MERICAN</hi> F<hi rend="smallcaps">EUILLAGE</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -9174,9 +9280,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.257.jpg" xml:id="leaf131r" n="257" type="recto"/>
 
          <lg xml:id="ppp.00570" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00275"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00275"></note>
             <head type="main-authorial">MANNAHATTA.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -9213,9 +9320,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00571" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00498"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00498"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> Y<hi rend="smallcaps">OU</hi>.</head>
             <l n="1">
                L<hi rend="smallcaps">ET</hi> us twain walk aside from the rest;</l>
@@ -9227,9 +9335,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.259.jpg" xml:id="leaf132r" n="259" type="recto"/>
 
          <lg xml:id="ppp.00572" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00126"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00126"></note>
             <head type="main-authorial">FRANCE,<lb/> The 18th Year of These States.</head>
             <lg n="1" type="linegroup">
                <l n="1">
@@ -9276,9 +9385,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00573" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00145"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00145"></note>
             <head type="main-authorial">A H<hi rend="smallcaps">AND</hi>-M<hi rend="smallcaps">IRROR</hi>.</head>
             <l n="1">H<hi rend="smallcaps">OLD</hi> it up sternly! See this it sends back! (Who is <lb/>it? Is it you?)</l>
             <l>Outside fair costume—within ashes and filth,</l>
@@ -9297,16 +9407,18 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.261.jpg" xml:id="leaf133r" n="261" type="recto"/>
 
          <lg type="cluster" xml:id="ppp.01150">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00413"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00413"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HOUGHTS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
 
             <lg xml:id="ppp.00574" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00416"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00416"></note>
                <head type="main-authorial">1.</head>
                <l n="1">O<hi rend="smallcaps">F</hi> the visages of things—And of piercing through <lb/>to the accepted hells beneath; </l>
                <l>Of ugliness—To me there is just as much in it as <lb/>there is in beauty—And now the ugliness of <lb/>human beings is acceptable to me; </l>
@@ -9315,9 +9427,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00575" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00415"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00415"></note>
                <head type="main-authorial">2.</head>
                <l n="1">
                   O<hi rend="smallcaps">F</hi> waters, forests, hills;</l>
@@ -9331,9 +9444,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             <pb facs="ppp.00473.262.jpg" xml:id="leaf133v" n="262" type="verso"/>
 
             <lg xml:id="ppp.00576" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00242"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00242"></note>
                <head type="main-authorial">3.</head>
                <l n="1">O<hi rend="smallcaps">F</hi> persons arrived at high positions, ceremonies, <lb/>wealth, scholarships, and the like; </l>
                <l>To me, all that those persons have arrived at, sinks <lb/>away from them, except as it results to their <lb/>Bodies and Souls,</l>
@@ -9346,9 +9460,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="poem" xml:id="ppp.01151">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00414"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00414"></note>
                <head type="main-authorial">4.</head>
                <l n="1">O<hi rend="smallcaps">F</hi> ownership—As if one fit to own things could not <lb/>at pleasure enter upon all, and incorporate <lb/>them into himself or herself; </l>
                <l>Of Equality—As if it harm'd me, giving others the <lb/>same chances and rights as myself—As if it <lb/>were not indispensable to my own rights that <lb/>others possess the same; </l>
@@ -9356,9 +9471,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                <l>As if it might be this thing or that thing, according <lb/>to decisions.</l>
             </lg>
             <lg xml:id="ppp.00577" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00017"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00017"></note>
                <head type="main-authorial">5.</head>
                <l n="1">A<hi rend="smallcaps">S</hi> I sit with others, at a great feast, suddenly, while <lb/>the music is playing,</l>
 
@@ -9374,9 +9490,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00578" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00451"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00451"></note>
                <head type="main-authorial">6.</head>
                <l n="1">O<hi rend="smallcaps">F</hi> what I write from myself—As if that were not the <lb/>resumé; </l>
                <l>Of Histories—As if such, however complete, were not <lb/>less complete than my poems; </l>
@@ -9385,9 +9502,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00579" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00162"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00162"></note>
                <head type="main-authorial">7.</head>
                <l n="1">
                   O<hi rend="smallcaps">F</hi> obedience, faith, adhesiveness;</l>
@@ -9398,9 +9516,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.264.jpg" xml:id="leaf134v" n="264" type="verso"/>
 
          <lg xml:id="ppp.00580" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00238"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00238"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> H<hi rend="smallcaps">IM THAT WAS</hi> C<hi rend="smallcaps">RUCIFIED</hi>.</head>
             <l n="1">
                M<hi rend="smallcaps">Y</hi> spirit to yours, dear brother;</l>
@@ -9419,9 +9538,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00581" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00168"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00168"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> O<hi rend="smallcaps">LD</hi> A<hi rend="smallcaps">GE</hi>.</head>
             <l n="1">I <hi rend="smallcaps">SEE</hi> in you the estuary that enlarges and spreads <lb/>itself grandly as it pours in the great Sea.</l>
          </lg>
@@ -9429,9 +9549,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.265.jpg" xml:id="leaf135r" n="265" type="recto"/>
 
          <lg xml:id="ppp.00582" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00015"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00015"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> O<hi rend="smallcaps">NE</hi> S<hi rend="smallcaps">HORTLY TO</hi> D<hi rend="smallcaps">IE</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">F<hi rend="smallcaps">ROM</hi> all the rest I single out you, having a message <lb/>for you: </l>
@@ -9457,9 +9578,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00583" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00023"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00023"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O</hi> Y<hi rend="smallcaps">OU</hi>.</head>
             <l n="1">S<hi rend="smallcaps">TRANGER!</hi> if you, passing, meet me, and desire to <lb/>speak to me, why should you not speak to me?</l>
             <l>And why should I not speak to you?</l>
@@ -9468,9 +9590,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.266.jpg" xml:id="leaf135v" n="266" type="verso"/>
 
          <lg xml:id="ppp.00584" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00231"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00231"></note>
             <head type="main-authorial">UNNAMED LANDS.</head>
             <lg n="1" type="linegroup">
                <l n="1">N<hi rend="smallcaps">ATIONS</hi> ten thousand years before These States, <lb/>and many times ten thousand years before <lb/>These States; </l>
@@ -9517,9 +9640,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00585" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00248"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00248"></note>
             <head type="main-authorial">K<hi rend="smallcaps">OSMOS</hi>.</head>
             <l n="1">
                W<hi rend="smallcaps">HO</hi> includes diversity, and is Nature,</l>
@@ -9539,9 +9663,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00586" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00032"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00032"></note>
             <head type="main-authorial">W<hi rend="smallcaps">HEN</hi> I R<hi rend="smallcaps">EAD THE</hi> B<hi rend="smallcaps">OOK</hi>.</head>
             <l n="1">
                W<hi rend="smallcaps">HEN</hi> I read the book, the biography famous;</l>
@@ -9554,9 +9679,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.269.jpg" xml:id="leaf137r" n="269" type="recto"/>
 
          <lg xml:id="ppp.00587" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00417"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00417"></note>
             <head type="main-authorial">SAYS.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -9597,9 +9723,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00588" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00007"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00007"></note>
             <head type="main-authorial">D<hi rend="smallcaps">ESPAIRING</hi> C<hi rend="smallcaps">RIES</hi>.</head>
             <lg n="1" type="section">
                <head type="main-authorial">1</head>
@@ -9626,9 +9753,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00589" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00170"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00170"></note>
             <head type="main-authorial">P<hi rend="smallcaps">ICTURE</hi>.</head>
             <l n="1">
                A <hi rend="smallcaps">THOUSAND</hi> perfect men and women appear,</l>
@@ -9638,9 +9766,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.271.jpg" xml:id="leaf138r" n="271" type="recto"/>
 
          <lg xml:id="ppp.00590" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00115"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00115"></note>
             <head type="main-authorial">POEMS OF JOY.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -9961,9 +10090,12 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.280.jpg" xml:id="leaf142v" n="280" type="verso"/>
 
          <lg xml:id="ppp.00591" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00433"/>
-            </relations>
+               <work ref="xxx.00265"/>
+            </relations>-->
+            <note type="work_relations" target="xxx.00222"></note>
+            <note type="work_relations" target="xxx.00265"></note>
             <head type="main-authorial">R<hi rend="smallcaps">ESPONDEZ</hi>!</head>
             <l n="1">
                R<hi rend="smallcaps">ESPONDEZ!</hi> Respondez!</l>
@@ -10039,9 +10171,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.284.jpg" xml:id="leaf144v" n="284" type="verso"/>
 
          <lg xml:id="ppp.00592" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00228"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00228"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HE</hi> C<hi rend="smallcaps">ITY</hi> D<hi rend="smallcaps">EAD</hi>-H<hi rend="smallcaps">OUSE</hi>.</head>
             <l n="1">
                B<hi rend="smallcaps">Y</hi> the City Dead-House, by the gate,</l>
@@ -10064,9 +10197,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00593" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00450"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00450"></note>
             <head type="main-authorial">L<hi rend="smallcaps">EAFLETS</hi>.</head>
             <l>
                   W<hi rend="smallcaps">HAT</hi> General has a good army in himself, has a good <lb/>army;</l>
@@ -10076,15 +10210,17 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.285.jpg" xml:id="leaf145r" n="285" type="recto"/>
 
          <lg type="cluster" xml:id="ppp.01152">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00440"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00440"></note>
             <head type="main-authorial">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00594" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00432"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00432"></note>
                <head type="main-authorial">1.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -10134,9 +10270,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00595" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00246"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00246"></note>
                <head type="main-authorial">2.</head>
                <l n="1">U<hi rend="smallcaps">NFOLDED</hi> out of the folds of the woman, man comes <lb/>unfolded, and is always to come unfolded; </l>
                <l>Unfolded only out of the superbest woman of the <lb/>earth, is to come the superbest man of the <lb/>earth; </l>
@@ -10158,9 +10295,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00596" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00016"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00016"></note>
                <head type="main-authorial">3.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -10198,9 +10336,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00597" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00137"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00137"></note>
                <head type="main-authorial">4.</head>
                <l n="1">
                   T<hi rend="smallcaps">HE</hi> world below the brine;</l>
@@ -10219,9 +10358,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             <pb facs="ppp.00473.289.jpg" xml:id="leaf147r" n="289" type="recto"/>
 
             <lg xml:id="ppp.00598" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00153"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00153"></note>
                <head type="main-authorial">5.</head>
                <l n="1">I <hi rend="smallcaps">SIT</hi> and look out upon all the sorrows of the world, <lb/>and upon all oppression and shame; </l>
                <l>I hear secret convulsive sobs from young men, at <choice><orig>an-<lb/>guish</orig><reg>anguish</reg></choice> with themselves, remorseful after deeds <lb/>done; </l>
@@ -10237,9 +10377,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00599" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00163"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00163"></note>
             <head type="main-authorial">V<hi rend="smallcaps">ISOR'D</hi>.</head>
             <l n="1">
                A <hi rend="smallcaps">MASK</hi>—a perpetual natural disguiser of herself,</l>
@@ -10251,9 +10392,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.290.jpg" xml:id="leaf147v" n="290" type="verso"/>
 
          <lg xml:id="ppp.00600" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00191"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00191"></note>
             <head type="main-authorial">N<hi rend="smallcaps">OT THE</hi> P<hi rend="smallcaps">ILOT</hi>.</head>
             <l n="1">N<hi rend="smallcaps">OT</hi> the pilot has charged himself to bring his ship <lb/>into port, though beaten back, and many times <lb/>baffled;</l>
             <l>Not the path-finder, penetrating inland, weary and <lb/>long,</l>
@@ -10263,9 +10405,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00601" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00008"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00008"></note>
             <head type="main-authorial">A<hi rend="smallcaps">S IF A</hi> P<hi rend="smallcaps">HANTOM</hi> C<hi rend="smallcaps">ARESS'D</hi> M<hi rend="smallcaps">E</hi>.</head>
             <l n="1">
                A<hi rend="smallcaps">S</hi> if a phantom caress'd me,</l>
@@ -10276,9 +10419,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00602" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00160"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00160"></note>
             <head type="main-authorial">P<hi rend="smallcaps">ICTURE</hi>.</head>
             <l n="1">W<hi rend="smallcaps">OMEN</hi> sit, or move to and fro—some old, some <lb/>young;</l>
             <l>The young are beautiful—but the old are more <choice><orig>beauti-<lb/>ful</orig><reg>beautiful</reg></choice> than the young.</l>
@@ -10287,9 +10431,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.291.jpg" xml:id="leaf148r" n="291" type="recto"/>
 
          <lg xml:id="ppp.00603" type="poem">
-            <relations>
-               <work ref="xxx.00430"/>
-            </relations>
+<!--            <relations>
+               <work ref="xxx.00121"/>
+            </relations>-->
+            <note type="work_relations" target="xxx.00121"></note>
             <head type="main-authorial">G<hi rend="smallcaps">REAT ARE THE</hi> M<hi rend="smallcaps">YTHS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -10394,9 +10539,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00604" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00113"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00113"></note>
             <head type="main-authorial">N<hi rend="smallcaps">OW</hi> L<hi rend="smallcaps">IST TO MY</hi> M<hi rend="smallcaps">ORNING'S</hi> R<hi rend="smallcaps">OMANZA</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">N<hi rend="smallcaps">OW</hi> list to my morning's romanza;</l>
@@ -10503,9 +10649,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.298.jpg" xml:id="leaf151v" n="298" type="verso"/>
 
          <lg xml:id="ppp.00605" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00266"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00266"></note>
             <head type="main-authorial">B<hi rend="smallcaps">URIAL</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -10776,9 +10923,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.306.jpg" xml:id="leaf155v" n="306" type="verso"/>
 
          <lg xml:id="ppp.00606" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00229"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00229"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HIS</hi> C<hi rend="smallcaps">OMPOST</hi>!</head>
             <lg n="1" type="linegroup">
                <l n="1">S<hi rend="smallcaps">OMETHING</hi> startles me where I thought I was <lb/>safest; </l>
@@ -10848,9 +10996,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00607" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00041"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00041"></note>
             <head type="main-authorial">I <hi rend="smallcaps">HEAR</hi> A<hi rend="smallcaps">MERICA</hi> S<hi rend="smallcaps">INGING</hi>.</head>
             <l n="1">
                I <hi rend="smallcaps">HEAR</hi> America singing, the varied carols I hear;</l>
@@ -10868,9 +11017,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.309.jpg" xml:id="leaf157r" n="309" type="recto"/>
 
          <lg xml:id="ppp.00608" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00232"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00232"></note>
             <head type="main-authorial">Manhattan's Streets I Saunter'd, Pondering.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -10966,9 +11116,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00609" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00241"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00241"></note>
             <head type="main-authorial">I <hi rend="smallcaps">WAS</hi> L<hi rend="smallcaps">OOKING A</hi> L<hi rend="smallcaps">ONG</hi> W<hi rend="smallcaps">HILE</hi>.</head>
             <l n="1">I <hi rend="smallcaps">WAS</hi> looking a long while for the history of the past <lb/>for myself, and for these chants—and now I <lb/>have found it;</l>
             <l>It is not in those paged fables in the libraries, (them <lb/>I neither accept nor reject;)</l>
@@ -10984,9 +11135,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.313.jpg" xml:id="leaf159r" n="313" type="recto"/>
 
          <lg xml:id="ppp.00610" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00113"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00113"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HE</hi> I<hi rend="smallcaps">NDICATIONS</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">
@@ -11041,15 +11193,17 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.315.jpg" xml:id="leaf160r" n="315" type="recto"/>
 
          <lg type="cluster" xml:id="ppp.01153">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00441"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00441"></note>
             <head type="main-authorial">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00611" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00138"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00138"></note>
                <head type="main-authorial">1.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -11074,9 +11228,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00612" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00237"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00237"></note>
                <head type="main-authorial">2.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -11125,9 +11280,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00613" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00240"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00240"></note>
                <head type="main-authorial">3.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -11152,9 +11308,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00614" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00045"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00045"></note>
                <head type="main-authorial">4.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -11179,9 +11336,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00615" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00038"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00038"></note>
             <head type="main-authorial">M<hi rend="smallcaps">E</hi> I<hi rend="smallcaps">MPERTURBE</hi>.</head>
             <l n="1">
                M<hi rend="smallcaps">E</hi> imperturbe, standing at ease in Nature,</l>
@@ -11198,9 +11356,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.319.jpg" xml:id="leaf162r" n="319" type="recto"/>
 
          <lg xml:id="ppp.00616" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00264"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00264"></note>
             <head type="main-authorial">S<hi rend="smallcaps">LEEP</hi>-C<hi rend="smallcaps">HASINGS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -11605,9 +11764,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.331.jpg" xml:id="leaf168r" n="331" type="recto"/>
 
          <lg xml:id="ppp.00617" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00132"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00132"></note>
             <head type="main-authorial">E<hi rend="smallcaps">LEMENTAL</hi> D<hi rend="smallcaps">RIFTS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -11739,9 +11899,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.335.jpg" xml:id="leaf170r" n="335" type="recto"/>
 
          <lg xml:id="ppp.00618" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00243"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00243"></note>
             <head type="main-authorial">M<hi rend="smallcaps">IRACLES</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">
@@ -11797,9 +11958,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00619" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00239"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00239"></note>
             <head type="main-authorial">Y<hi rend="smallcaps">OU</hi> F<hi rend="smallcaps">ELONS ON</hi> T<hi rend="smallcaps">RIAL IN</hi> C<hi rend="smallcaps">OURTS</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">Y<hi rend="smallcaps">OU</hi> felons on trial in courts;</l>
@@ -11829,9 +11991,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00620" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00281"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00281"></note>
             <head type="main-authorial">M<hi rend="smallcaps">EDIUMS</hi>.</head>
             <l n="1">
                T<hi rend="smallcaps">HEY</hi> shall arise in the States;</l>
@@ -11893,7 +12056,7 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                <head type="main-authorial">CONTENTS.</head>
                <milestone unit="undeclared" rend="horbar-short-center"/>
                   <table>
-                     <row><cell></cell><cell>PAGE</cell></row>
+                     <row><cell/><cell>PAGE</cell></row>
                      <row role="data">      
                         <cell role="data" rows="1" cols="1">Drum-Taps . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
                         <cell role="data" rows="1" cols="1"> 5</cell>
@@ -12121,9 +12284,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.343.jpg" xml:id="leaf174r" n="5a" type="recto"/>
 
          <lg xml:id="ppp.00622" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00172"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00172"></note>
             <head type="main-authorial">DRUM-TAPS.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -12211,9 +12375,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.346.jpg" xml:id="leaf175v" n="8a" type="verso"/>
 
          <lg xml:id="ppp.00623" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00044"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00044"></note>
             <head type="main-authorial">S<hi rend="smallcaps">HUT NOT YOUR</hi> D<hi rend="smallcaps">OORS TO ME<lb/> PROUD</hi> L<hi rend="smallcaps">IBRARIES</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -12229,9 +12394,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00624" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00182"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00182"></note>
             <head type="main-authorial">C<hi rend="smallcaps">AVALRY</hi> C<hi rend="smallcaps">ROSSING A</hi> F<hi rend="smallcaps">ORD</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">A <hi rend="smallcaps">LINE</hi> in long array, where they wind betwixt green <lb/>islands;</l>
@@ -12245,9 +12411,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.347.jpg" xml:id="leaf176r" n="9a" type="recto"/>
 
          <lg xml:id="ppp.00625" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00177"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00177"></note>
             <head type="main-authorial">SONG<lb/> OF<lb/> T<hi rend="smallcaps">HE</hi> B<hi rend="smallcaps">ANNER AT</hi> D<hi rend="smallcaps">AY</hi>-B<hi rend="smallcaps">REAK</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="section">
@@ -12504,9 +12671,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00626" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00185"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00185"></note>
             <head type="main-authorial">B<hi rend="smallcaps">Y THE</hi> B<hi rend="smallcaps">IVOUAC'S FITFUL FLAME</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">B<hi rend="smallcaps">Y</hi> the bivouac's fitful flame,</l>
@@ -12524,9 +12692,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.355.jpg" xml:id="leaf180r" n="17a" type="recto"/>
 
          <lg xml:id="ppp.00627" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00174"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00174"></note>
             <head type="main-authorial">1861.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -12551,9 +12720,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.356.jpg" xml:id="leaf180v" n="18a" type="verso"/>
 
          <lg xml:id="ppp.00628" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00176"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00176"></note>
             <head type="main-authorial">F<hi rend="smallcaps">ROM</hi> P<hi rend="smallcaps">AUMANOK STARTING</hi> I <hi rend="smallcaps">FLY<lb/> LIKE A BIRD</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -12571,9 +12741,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00629" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00033"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00033"></note>
             <head type="main-authorial">B<hi rend="smallcaps">EGINNING MY STUDIES</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -12588,9 +12759,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.357.jpg" xml:id="leaf181r" n="19a" type="recto"/>
 
          <lg xml:id="ppp.00630" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00181"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00181"></note>
             <head type="main-authorial"><hi rend="smallcaps">THE</hi><lb/> CENTENARIAN'S STORY.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg type="section">
@@ -12803,9 +12975,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.363.jpg" xml:id="leaf184r" n="25a" type="recto"/>
 
          <lg xml:id="ppp.00631" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00124"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00124"></note>
             <head type="main-authorial">PIONEERS!<lb/> O PIONEERS!</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -12983,9 +13156,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00632" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00010"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00010"></note>
             <head type="main-authorial">Q<hi rend="smallcaps">UICKSAND YEARS THAT WHIRL ME</hi> <lb/>I <hi rend="smallcaps">KNOW NOT WHITHER</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -13000,9 +13174,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.369.jpg" xml:id="leaf187r" n="31a" type="recto"/>
 
          <lg xml:id="ppp.00633" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00193"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00193"></note>
             <head type="main-authorial">THE DRESSER.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -13102,9 +13277,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00634" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00149"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00149"></note>
             <head type="main-authorial">W<hi rend="smallcaps">HEN</hi> I <hi rend="smallcaps">HEARD THE LEARN'D</hi><lb/> A<hi rend="smallcaps">STRONOMER</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -13121,9 +13297,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.373.jpg" xml:id="leaf189r" n="35a" type="recto"/>
 
          <lg xml:id="ppp.00635" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00178"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00178"></note>
             <head type="main-authorial">R<hi rend="smallcaps">ISE</hi> O D<hi rend="smallcaps">AYS FROM YOUR FATHOM-<lb/>LESS</hi> D<hi rend="smallcaps">EEPS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -13192,9 +13369,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00636" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00158"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00158"></note>
             <head type="main-authorial">A <hi rend="smallcaps">CHILD'S AMAZE</hi>.</head>
             <l n="1">
                S<hi rend="smallcaps">ILENT</hi> and amazed, even when a little boy,</l>
@@ -13205,9 +13383,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.376.jpg" xml:id="leaf190v" n="38a" type="verso"/>
 
          <lg xml:id="ppp.00637" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00175"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00175"></note>
             <head type="main-authorial">B<hi rend="smallcaps">EAT</hi>! B<hi rend="smallcaps">EAT</hi>! D<hi rend="smallcaps">RUMS</hi>!</head>
             <lg n="1" type="section">
                <head type="main-authorial">1</head>
@@ -13245,9 +13424,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.377.jpg" xml:id="leaf191r" n="39a" type="recto"/>
 
          <lg xml:id="ppp.00638" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00186"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00186"></note>
             <head type="main-authorial">C<hi rend="smallcaps">OME UP FROM THE FIELDS<lb/> FATHER</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -13322,9 +13502,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.379.jpg" xml:id="leaf192r" n="41a" type="recto"/>
 
          <lg xml:id="ppp.00639" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00180"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00180"></note>
             <head type="main-authorial">C<hi rend="smallcaps">ITY OF</hi> S<hi rend="smallcaps">HIPS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -13348,9 +13529,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00640" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00161"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00161"></note>
             <head type="main-authorial">MOTHER AND BABE.</head>
             <l n="1">I <hi rend="smallcaps">SEE</hi> the sleeping babe, nestling the breast of its <lb/>mother;</l>
             <l>The sleeping mother and babe—hush'd, I study them <lb/>long and long.</l>
@@ -13359,9 +13541,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.380.jpg" xml:id="leaf192v" n="42a" type="verso"/>
 
          <lg xml:id="ppp.00641" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00187"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00187"></note>
             <head type="main-authorial">V<hi rend="smallcaps">IGIL STRANGE</hi> I <hi rend="smallcaps">KEPT ON THE<lb/> FIELD ONE NIGHT</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -13397,9 +13580,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00642" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00424"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00424"></note>
             <head type="main-authorial">BATHED IN WAR'S PERFUME.</head>
             <l n="1">
                B<hi rend="smallcaps">ATHED</hi> in war's perfume—delicate flag!</l>
@@ -13413,9 +13597,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.382.jpg" xml:id="leaf193v" n="44a" type="verso"/>
 
          <lg xml:id="ppp.00643" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00188"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00188"></note>
             <head type="main-authorial">A <hi rend="smallcaps">MARCH IN THE RANKS HARD-PREST,<lb/> AND THE ROAD UNKNOWN</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -13453,9 +13638,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00644" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00194"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00194"></note>
             <head type="main-authorial">L<hi rend="smallcaps">ONG, TOO LONG</hi>, O <hi rend="smallcaps">LAND</hi>.</head>
             <l n="1">
                L<hi rend="smallcaps">ONG,</hi> too long, O land,</l>
@@ -13468,9 +13654,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.384.jpg" xml:id="leaf194v" n="46a" type="verso"/>
 
          <lg xml:id="ppp.00645" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00189"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00189"></note>
             <head type="main-authorial">A <hi rend="smallcaps">SIGHT IN CAMP IN THE DAY-BREAK<lb/> GREY AND DIM</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -13500,9 +13687,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00646" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00157"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00157"></note>
             <head type="main-authorial">A FARM PICTURE.</head>
             <l n="1">T<hi rend="smallcaps">HROUGH</hi> the ample open door of the peaceful country <lb/>barn,</l>
             <l>A sun-lit pasture field, with cattle and horses feeding.</l>
@@ -13511,9 +13699,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.385.jpg" xml:id="leaf195r" n="47a" type="recto"/>
 
          <lg xml:id="ppp.00647" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00195"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00195"></note>
             <head type="main-authorial">GIVE ME THE SPLENDID SILENT<lb/> SUN.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -13571,9 +13760,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00648" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00197"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00197"></note>
             <head type="main-authorial">O<hi rend="smallcaps">VER THE CARNAGE ROSE PROPHETIC<lb/> A VOICE</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -13620,9 +13810,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00649" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00210"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00210"></note>
             <head type="main-authorial">D<hi rend="smallcaps">ID YOU ASK DULCET RHYMES FROM ME</hi>?</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -13637,9 +13828,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.389.jpg" xml:id="leaf197r" n="51a" type="recto"/>
 
          <lg xml:id="ppp.00650" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00128"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00128"></note>
             <head type="main-authorial">Y<hi rend="smallcaps">EAR OF</hi> M<hi rend="smallcaps">ETEORS</hi>.<lb/> (1859-60.)</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -13677,9 +13869,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00651" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00252"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00252"></note>
             <head type="main-authorial">THE TORCH.</head>
             <l n="1">O<hi rend="smallcaps">N</hi> my northwest coast in the midst of the night, a <lb/>fishermen's group stands watching;</l>
             <l>Out on the lake, expanding before them, others are <lb/>spearing salmon;</l>
@@ -13690,9 +13883,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.391.jpg" xml:id="leaf198r" n="53a" type="recto"/>
 
          <lg xml:id="ppp.00652" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00295"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00295"></note>
             <head type="main-authorial">Y<hi rend="smallcaps">EARS OF THE UNPERFORM'D</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">Y<hi rend="smallcaps">EARS</hi> of the unperform'd! your horizon rises—I see it <lb/>parting away for more august dramas;</l>
@@ -13729,9 +13923,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00653" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00192"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00192"></note>
             <head type="main-authorial">YEAR THAT TREMBLED AND REEL'D<lb/> BENEATH ME.</head>
             <l n="1">
                Y<hi rend="smallcaps">EAR</hi> that trembled and reel'd beneath me!</l>
@@ -13745,9 +13940,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.393.jpg" xml:id="leaf199r" n="55a" type="recto"/>
 
          <lg xml:id="ppp.00654" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00199"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00199"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HE</hi> V<hi rend="smallcaps">ETERAN'S</hi> V<hi rend="smallcaps">ISION</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">W<hi rend="smallcaps">HILE</hi> my wife at my side lies slumbering, and the wars <lb/>are over long,</l>
@@ -13782,9 +13978,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00655" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00204"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00204"></note>
             <head type="main-authorial">O TAN-FACED PRAIRIE-BOY.</head>
             <l n="1">
                O <hi rend="smallcaps">TAN-FACED</hi> prairie-boy!</l>
@@ -13797,9 +13994,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.395.jpg" xml:id="leaf200r" n="57a" type="recto"/>
 
          <lg xml:id="ppp.00656" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00301"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00301"></note>
             <head type="main-authorial">C<hi rend="smallcaps">AMPS OF</hi> G<hi rend="smallcaps">REEN</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -13841,9 +14039,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00657" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00190"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00190"></note>
             <head type="main-authorial">A<hi rend="smallcaps">S TOILSOME</hi> I <hi rend="smallcaps">WANDER'D</hi> V<hi rend="smallcaps">IRGINIA'S<lb/> WOODS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -13872,9 +14071,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.397.jpg" xml:id="leaf201r" n="59a" type="recto"/>
 
          <lg xml:id="ppp.00658" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00293"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00293"></note>
             <head type="main-authorial">H<hi rend="smallcaps">YMN OF</hi> D<hi rend="smallcaps">EAD</hi> S<hi rend="smallcaps">OLDIERS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -13937,9 +14137,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00659" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00040"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00040"></note>
             <head type="main-authorial">THE SHIP.</head>
             <l n="1"> L<hi rend="smallcaps">O</hi>! THE unbounded sea!</l>
             <l>On its breast a Ship, spreading all her sails—an ample <lb/>Ship, carrying even her moonsails;</l>
@@ -13950,9 +14151,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.399.jpg" xml:id="leaf202r" n="61a" type="recto"/>
 
          <lg xml:id="ppp.00660" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00021"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00021"></note>
             <head type="main-authorial">A B<hi rend="smallcaps">ROADWAY</hi> P<hi rend="smallcaps">AGEANT</hi>.<lb/> (R<hi rend="smallcaps">ECEPTION</hi> J<hi rend="smallcaps">APANESE</hi> E<hi rend="smallcaps">MBASSY</hi>, J<hi rend="smallcaps">UNE</hi> 16, 1860.)</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="linegroup">
@@ -14084,9 +14286,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00661" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00287"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00287"></note>
             <head type="main-authorial">FLAG OF STARS, THICK-SPRINKLED<lb/> BUNTING.</head>
             <l n="first">
                F<hi rend="smallcaps">LAG</hi> of stars! thick-sprinkled bunting!</l>
@@ -14102,9 +14305,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.404.jpg" xml:id="leaf204v" n="66a" type="verso"/>
 
          <lg xml:id="ppp.00662" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00227"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00227"></note>
             <head type="main-authorial">OLD IRELAND.</head>
             <lg n="1" type="linegroup">
                <l n="1">
@@ -14132,9 +14336,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00663" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00205"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00205"></note>
             <head type="main-authorial">LOOK DOWN FAIR MOON.</head>
             <l n="1">
                L<hi rend="smallcaps">OOK</hi> down, fair moon, and bathe this scene;</l>
@@ -14146,9 +14351,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.405.jpg" xml:id="leaf205r" n="67a" type="recto"/>
 
          <lg xml:id="ppp.00664" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00056"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00056"></note>
             <head type="main-authorial">O<hi rend="smallcaps">UT OF THE ROLLING OCEAN, THE<lb/> CROWD</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -14179,9 +14385,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00665" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00203"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00203"></note>
             <head type="main-authorial">WORLD, TAKE GOOD NOTICE.</head>
             <l n="1">
                W<hi rend="smallcaps">ORLD,</hi> take good notice, silver stars fading,</l>
@@ -14194,9 +14401,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.406.jpg" xml:id="leaf205v" n="68a" type="verso"/>
 
          <lg xml:id="ppp.00666" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00198"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00198"></note>
             <head type="main-authorial">I SAW OLD GENERAL AT BAY.</head>
             <l n="1">I <hi rend="smallcaps">SAW</hi> old General at bay;</l>
             <l>(Old as he was, his grey eyes yet shone out in battle <lb/>like stars;)</l>
@@ -14208,9 +14416,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00667" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00249"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00249"></note>
             <head type="main-authorial">OTHERS MAY PRAISE WHAT THEY LIKE.</head>
             <l n="1">
                O<hi rend="smallcaps">THERS</hi> may praise what they like;</l>
@@ -14220,9 +14429,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00668" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00447"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00447"></note>
             <head type="main-authorial">SOLID, IRONICAL, ROLLING ORB.</head>
             <l n="1">
                S<hi rend="smallcaps">OLID,</hi> ironical, rolling orb!</l>
@@ -14234,9 +14444,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.407.jpg" xml:id="leaf206r" n="69a" type="recto"/>
 
          <lg xml:id="ppp.00669" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00219"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00219"></note>
             <head type="main-authorial">HUSH'D BE THE CAMPS TO-DAY.<lb/> A. L. BURIED A<hi rend="smallcaps">PRIL</hi> 19, 1865.</head>
             <lg n="1" type="linegroup">
                <l n="1">H<hi rend="smallcaps">USH'D</hi> be the camps to-day;</l>
@@ -14261,9 +14472,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00670" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00282"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00282"></note>
             <head type="main-authorial">WEAVE IN, WEAVE IN, MY HARDY LIFE.</head>
             <l n="1">
                W<hi rend="smallcaps">EAVE</hi> in! weave in, my hardy life!</l>
@@ -14279,9 +14491,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.408.jpg" xml:id="leaf206v" n="70a" type="verso"/>
 
          <lg xml:id="ppp.00671" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00214"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00214"></note>
             <head type="main-authorial">TURN O LIBERTAD.</head>
             <l n="1">
                T<hi rend="smallcaps">URN,</hi> O Libertad, no more doubting;</l>
@@ -14298,9 +14511,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00672" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00183"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00183"></note>
             <head type="main-authorial">BIVOUAC ON A MOUNTAIN SIDE.</head>
             <l n="1">
                I <hi rend="smallcaps">SEE</hi> before me now, a traveling army halting;</l>
@@ -14315,9 +14529,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.409.jpg" xml:id="leaf207r" n="71a" type="recto"/>
 
          <lg xml:id="ppp.00673" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00300"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00300"></note>
             <head type="main-authorial">PENSIVE ON HER DEAD GAZING, I HEARD<lb/> THE MOTHER OF ALL.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -14342,9 +14557,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.410.jpg" xml:id="leaf207v" n="72a" type="verso"/>
 
          <lg xml:id="ppp.00674" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00201"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00201"></note>
             <head type="main-authorial">NOT YOUTH PERTAINS TO ME.</head>
             <l n="1">
                N<hi rend="smallcaps">OT</hi> youth pertains to me,</l>
@@ -14389,7 +14605,7 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                <milestone unit="undeclared" rend="horbar-short-center"/>
                   <p><table>
                      <row>
-                        <cell></cell><cell>PAGE.</cell>
+                        <cell/><cell>PAGE.</cell>
                      </row>
                      <row role="data">
                         <cell role="data" rows="1" cols="1">When Lilacs last in the door-yard bloom'd . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
@@ -14473,9 +14689,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.413.jpg" xml:id="leaf209r" n="3b" type="recto"/>
 
          <lg xml:id="ppp.00675" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00217"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00217"></note>
             <head type="main-authorial">W<hi rend="smallcaps">HEN</hi> L<hi rend="smallcaps">ILACS</hi> L<hi rend="smallcaps">AST IN THE</hi><lb/> D<hi rend="smallcaps">OOR</hi>-Y<hi rend="smallcaps">ARD</hi> B<hi rend="smallcaps">LOOM'D</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -14866,9 +15083,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00676" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00202"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00202"></note>
             <head type="main-authorial">RACE OF VETERANS.</head>
             <l n="1">
                R<hi rend="smallcaps">ACE</hi> of veterans!</l>
@@ -14881,9 +15099,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.423.jpg" xml:id="leaf214r" n="13b" type="recto"/>
 
          <lg xml:id="ppp.00677" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00218"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00218"></note>
             <head type="main-authorial">O CAPTAIN! MY CAPTAIN!</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -14924,9 +15143,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.424.jpg" xml:id="leaf214v" n="14b" type="verso"/>
 
          <lg xml:id="ppp.00678" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00212"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00212"></note>
             <head type="main-authorial">S<hi rend="smallcaps">PIRIT WHOSE</hi> W<hi rend="smallcaps">ORK IS</hi> D<hi rend="smallcaps">ONE</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <l n="1">
@@ -14953,9 +15173,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.425.jpg" xml:id="leaf215r" n="15b" type="recto"/>
 
          <lg xml:id="ppp.00679" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00005"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00005"></note>
             <head type="main-authorial">CHANTING THE SQUARE DEIFIC.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -15025,9 +15246,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00680" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00063"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00063"></note>
             <head type="main-authorial">I <hi rend="smallcaps">HEARD YOU</hi>, S<hi rend="smallcaps">OLEMN</hi>-S<hi rend="smallcaps">WEET</hi> P<hi rend="smallcaps">IPES OF THE</hi> O<hi rend="smallcaps">RGAN.</hi></head>
             <l n="1">I <hi rend="smallcaps">HEARD</hi> you, solemn-sweet pipes of the organ, as last <lb/>Sunday morn I pass'd the church;</l>
             <l>Winds of autumn!—as I walk'd the woods at dusk, I <lb/>heard your long-stretch'd sighs, up above, so <lb/>mournful;</l>
@@ -15037,9 +15259,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00681" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00457"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00457"></note>
             <head type="main-authorial">NOT MY ENEMIES EVER INVADE ME.</head>
             <l n="1">N<hi rend="smallcaps">OT</hi> my enemies ever invade me—no harm to my pride from <lb/>them I fear;</l>
             <l>But the lovers I recklessly love—lo! how they master me!</l>
@@ -15050,9 +15273,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.428.jpg" xml:id="leaf216v" n="18b" type="verso"/>
 
          <lg xml:id="ppp.00682" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00151"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00151"></note>
             <head type="main-authorial">O ME! O LIFE!</head>
             <lg type="section">
                <l n="1">
@@ -15073,9 +15297,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00683" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00279"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00279"></note>
             <head type="main-authorial">A<hi rend="smallcaps">H</hi> P<hi rend="smallcaps">OVERTIES</hi>, W<hi rend="smallcaps">INCINGS, AND</hi> S<hi rend="smallcaps">ULKY</hi> R<hi rend="smallcaps">ETREATS.</hi></head>
             <l n="first">
                A<hi rend="smallcaps">H</hi> poverties, wincings, and sulky retreats!</l>
@@ -15094,9 +15319,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.429.jpg" xml:id="leaf217r" n="19b" type="recto"/>
 
          <lg xml:id="ppp.00684" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00208"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00208"></note>
             <head type="main-authorial">AS I LAY WITH MY HEAD IN YOUR LAP,<lb/> CAMERADO.</head>
             <l n="1">A<hi rend="smallcaps">S</hi> I lay with my head in your lap, camerado,</l>
             <l>The confession I made I resume—what I said to you and <lb/>the open air I resume:</l>
@@ -15114,9 +15340,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00685" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00428"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00428"></note>
             <head type="main-authorial">THIS DAY, O SOUL.</head>
             <l n="1">
                T<hi rend="smallcaps">HIS</hi> day, O soul, I give you a wondrous mirror;</l>
@@ -15128,9 +15355,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.430.jpg" xml:id="leaf217v" n="20b" type="verso"/>
 
          <lg xml:id="ppp.00686" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00286"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00286"></note>
             <head type="main-authorial">I<hi rend="smallcaps">N</hi> C<hi rend="smallcaps">LOUDS</hi> D<hi rend="smallcaps">ESCENDING, IN</hi> M<hi rend="smallcaps">IDNIGHT</hi> S<hi rend="smallcaps">LEEP</hi>.</head>
             <lg n="1" type="section">
                <head type="main-authorial">1</head>
@@ -15156,9 +15384,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00687" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00184"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00184"></note>
             <head type="main-authorial">AN ARMY ON THE MARCH.</head>
             <l n="1">
                W<hi rend="smallcaps">ITH</hi> its cloud of skirmishers in advance,</l>
@@ -15173,9 +15402,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.431.jpg" xml:id="leaf218r" n="21b" type="recto"/>
 
          <lg xml:id="ppp.00688" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00196"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00196"></note>
             <head type="main-authorial">DIRGE FOR TWO VETERANS.</head>
             <lg n="1" type="section">
                <head type="main-authorial">1</head>
@@ -15254,9 +15484,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00689" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00207"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00207"></note>
             <head type="main-authorial">HOW SOLEMN, AS ONE BY ONE.</head>
             <l n="1"> H<hi rend="smallcaps">OW</hi> solemn, as one by one,</l>
             <l>As the ranks returning, all worn and sweaty—as the men <lb/>file by where I stand;</l>
@@ -15273,9 +15504,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.433.jpg" xml:id="leaf219r" n="23b" type="recto"/>
 
          <lg xml:id="ppp.00690" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00211"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00211"></note>
             <head type="main-authorial">LO! VICTRESS ON THE PEAKS!</head>
             <l n="1"> L<hi rend="smallcaps">O</hi>! Victress on the peaks!</l>
             <l>Where thou standest, with mighty brow, regarding the <lb/>world,</l>
@@ -15289,9 +15521,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00691" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00206"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00206"></note>
             <head type="main-authorial">RECONCILIATION.</head>
             <l>W<hi rend="smallcaps">ORD</hi> over all, beautiful as the sky!</l>
             <l>Beautiful that war, and all its deeds of carnage, must in <lb/>time be utterly lost;</l>
@@ -15304,9 +15537,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.434.jpg" xml:id="leaf219v" n="24b" type="verso"/>
 
          <lg xml:id="ppp.00692" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00215"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00215"></note>
             <head type="main-authorial">TO THE LEAVEN'D SOIL THEY TROD.</head>
             <l n="1">T<hi rend="smallcaps">O</hi> the leaven'd soil they trod, calling, I sing, for the last;</l>
             <l>(Not cities, nor man alone, nor war, nor the dead,</l>
@@ -15350,7 +15584,7 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                <p>
                   <table>
                      <row>
-                        <cell></cell>
+                        <cell/>
                         <cell>PAGE</cell>
                      </row>
                      <row role="data">
@@ -15373,15 +15607,15 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
                      </row>
                      <row role="data">
                         <cell role="data" rows="1" cols="1">"Now I make a leaf of Voices" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
-                        <cell role="data" rows="1" cols="1">&#8212;</cell>
+                        <cell role="data" rows="1" cols="1">—</cell>
                      </row>
                      <row role="data">
                         <cell role="data" rows="1" cols="1">"What am I, after all, but a child" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </cell>
                         <cell role="data" rows="1" cols="1"> 24</cell>
                      </row>
                      <row role="data">
-                        <cell role="data" rows="1" cols="1">"Locations and times&#8212;what is it in me that meets them" . . . . . . . . . . . . . . . . </cell>
-                        <cell role="data" rows="1" cols="1">&#8212;</cell>
+                        <cell role="data" rows="1" cols="1">"Locations and times—what is it in me that meets them" . . . . . . . . . . . . . . . . </cell>
+                        <cell role="data" rows="1" cols="1">—</cell>
                      </row></table></p>
                     <milestone unit="undeclared" rend="horbar-short-center"/>
                     <p><table><row role="data">
@@ -15430,9 +15664,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.437.jpg" xml:id="leaf221r" n="3c" type="recto"/>
 
          <lg xml:id="ppp.00693" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00221"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00221"></note>
             <head type="main-authorial">A<hi rend="smallcaps">S</hi> I <hi rend="smallcaps">SAT</hi> A<hi rend="smallcaps">LONE BY</hi> B<hi rend="smallcaps">LUE</hi> O<hi rend="smallcaps">NTARIO'S</hi> S<hi rend="smallcaps">HORE</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">
@@ -16048,15 +16283,17 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.456.jpg" xml:id="leaf230v" n="22c" type="verso"/>
 
          <lg type="cluster" xml:id="ppp.01154">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00001"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00001"></note>
             <head type="main-authorial">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00694" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00276"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00276"></note>
                <head type="main-authorial">
                   <hi rend="bold">1</hi>
                </head>
@@ -16092,9 +16329,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00695" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00147"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00147"></note>
                <head type="main-authorial">
                   <hi rend="bold">2.</hi>
                </head>
@@ -16109,9 +16347,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00696" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00237"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00237"></note>
                <head type="main-authorial">3.</head>
                <lg n="1" type="linegroup">
                   <l n="1">N<hi rend="smallcaps">OW</hi> I make a leaf of Voices—for I have found <lb/>nothing mightier than they are,</l>
@@ -16138,9 +16377,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00697" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00247"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00247"></note>
                <head type="main-authorial">4.</head>
                <lg n="1" type="linegroup">
                   <l n="1">
@@ -16154,9 +16394,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00698" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00169"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00169"></note>
                <head type="main-authorial">
                   <hi rend="bold">5</hi>
                </head>
@@ -16167,14 +16408,16 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
 
          <pb facs="ppp.00473.459.jpg" xml:id="leaf232r" n="25c" type="recto"/>
          <lg type="cluster" xml:id="ppp.01155">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00413"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00413"></note>
             <head type="main-authorial">T<hi rend="smallcaps">HOUGHTS</hi>.</head>
             <lg xml:id="ppp.00699" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00296"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00296"></note>
                <head type="main-authorial">
                   <hi rend="bold">1.</hi>
                </head>
@@ -16199,9 +16442,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
             </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg xml:id="ppp.00700" type="poem">
-               <relations>
+<!--               <relations>
                   <work ref="xxx.00413"/>
-               </relations>
+               </relations>-->
+            <note type="work_relations" target="xxx.00413"></note>
                <head type="main-authorial">
                   <hi rend="bold">2.</hi>
                </head>
@@ -16234,9 +16478,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00701" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00294"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00294"></note>
             <head type="main-authorial">A<hi rend="smallcaps">S</hi> N<hi rend="smallcaps">EARING</hi> D<hi rend="smallcaps">EPARTURE</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">
@@ -16259,9 +16504,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.462.jpg" xml:id="leaf233v" n="28c" type="verso"/>
 
          <lg xml:id="ppp.00702" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00290"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00290"></note>
             <head type="main-authorial">A<hi rend="smallcaps">S</hi> I W<hi rend="smallcaps">ALK</hi>, S<hi rend="smallcaps">OLITARY</hi>, U<hi rend="smallcaps">NATTENDED</hi>.</head>
             <lg n="1" type="linegroup">
                <l n="1">
@@ -16299,9 +16545,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.463.jpg" xml:id="leaf234r" n="29c" type="recto"/>
 
          <lg xml:id="ppp.00703" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00297"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00297"></note>
             <head type="main-authorial">SONG AT SUNSET.</head>
             <lg n="1" type="linegroup">
                <l n="first">
@@ -16394,9 +16641,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          </lg>
             <milestone unit="undeclared" rend="horbar-short-center"/>
          <lg xml:id="ppp.00704" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00028"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00028"></note>
             <head type="main-authorial">T<hi rend="smallcaps">O A</hi> H<hi rend="smallcaps">ISTORIAN</hi>.</head>
             <l n="1"> Y<hi rend="smallcaps">OU</hi> who celebrate bygones!</l>
             <l>Who have explored the outward, the surfaces of the <lb/>races—the life that has exhibited itself;</l>
@@ -16410,9 +16658,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.466.jpg" xml:id="leaf235v" n="32c" type="verso"/>
 
          <lg xml:id="ppp.00705" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00009"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00009"></note>
             <head type="main-authorial">A<hi rend="smallcaps">SSURANCES</hi>.</head>
             <l n="1">I <hi rend="smallcaps">NEED</hi> no assurances—I am a man who is <choice><orig>pre-<lb/>occupied</orig><reg>preoccupied</reg></choice>, of his own Soul;</l>
             <l>I do not doubt that from under the feet, and beside <lb/>the hands and face I am cognizant of, are now <lb/>looking faces I am not cognizant of—calm and <lb/>actual faces;</l>
@@ -16431,9 +16680,10 @@ O <hi rend="smallcaps">HASTENING</hi> light!</l>
          <pb facs="ppp.00473.467.jpg" xml:id="leaf236r" n="33c" type="recto"/>
 
          <lg xml:id="ppp.00706" type="poem">
-            <relations>
+<!--            <relations>
                <work ref="xxx.00309"/>
-            </relations>
+            </relations>-->
+            <note type="work_relations" target="xxx.00309"></note>
             <head type="main-authorial">SO LONG!</head>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <lg n="1" type="section">

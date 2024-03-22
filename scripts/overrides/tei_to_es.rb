@@ -1,3 +1,6 @@
+require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
+require_relative "../../../whitman-scripts/scripts/archive-wide/overrides.rb"
+
 class TeiToEs < XmlToEs
 
   # NOTE these overrides apply to all of the leaves of grass subclasses
@@ -21,7 +24,7 @@ class TeiToEs < XmlToEs
         "display" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date",
         "default" => "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date/@when"
       },
-      "image_id" => ["./preceding-sibling::pb/@facs", "./parent::node()/preceding-sibling::pb/@facs"],
+      "image_id" => "//pb/@facs",
       "publisher" => "//biblStruct/monogr/imprint/publisher",
       "rights_holder" => "//publicationStmt/distributor",
       "source" => {
@@ -30,12 +33,10 @@ class TeiToEs < XmlToEs
         "pubplace" => "//biblStruct/monogr/imprint/pubPlace",
         "title" => "//biblStruct/monogr/title",
       },
-      "title" => {
-        "main" => "head[@type='main-authorial']",
-        "edition" => "//sourceDesc/biblStruct/monogr/title",
-        "article" => "head/title",
-        "newspaper" => "head[@type='main-authorial']/bibl/publisher"
-      },
+      "title_main" => "//head[@type='main-authorial']",
+      "title_edition" => "//sourceDesc/biblStruct/monogr/title",
+      "title_article" => "//head/title",
+      "title_newspaper" => "//head[@type='main-authorial']/bibl/publisher",
       "text" => "."
     }
   end
@@ -44,10 +45,10 @@ class TeiToEs < XmlToEs
   end
 
   def category
-    "published works"
+    "Published Writings"
   end
 
-  def image_id
+  def cover_image
     # Note: don't pull full path because will be pulled by IIIF
     images = @xml.xpath(*@xpaths["image_id"])
     images.first if images
@@ -82,19 +83,15 @@ class TeiToEs < XmlToEs
     "en"
   end
 
-  def languages
-    ["en"]
-  end
-
   def person
     []
   end
 
-  def places
-  end
+  # def places
+  # end
 
-  def recipient
-  end
+  # def recipient
+  # end
 
   def source
     s_date = get_text(@xpaths["source"]["date"])
@@ -107,8 +104,8 @@ class TeiToEs < XmlToEs
     s = "#{s}, #{s_date}" if s_date && !s_date.empty?
   end
 
-  def subcategory
-    "Leaves of Grass"
+  def category2
+    "Published Writings / Leaves of Grass"
   end
 
   def text
@@ -123,12 +120,116 @@ class TeiToEs < XmlToEs
     section_xml = Nokogiri::XML.parse(@xml.at_xpath(".").to_xml)
     # need to remove "<hi rend='smallcaps'>" type tags to put back together words
     # like L<hi>EAVES OF</hi> G<hi>RASS</hi> => LEAVES OF GRASS
-    section_xml.xpath("//hi").each {|hi| hi.replace(hi.children)}
-    resulting_text << Datura::Helpers.normalize_space(section_xml.text)
-    Datura::Helpers.normalize_space(resulting_text.join(" "))
+    section_xml.xpath("//hi").each {|hi|
+      hi.replace(Nokogiri::XML::Text.new(hi.text, hi.document))
+    }
+    # make sure the rest of the text doesn't squish together
+    resulting_text << Datura::Helpers.normalize_space(section_xml.xpath("//text()").to_a.join(" "))
+    Datura::Helpers.normalize_space(resulting_text.join(" "))[0..900000]
   end
 
-  def works
+  # def works
+  # end
+
+  def citation
+    # WorksInfo is get_works_info.rb in whitman-scripts repo
+    @works_info = WorksInfo.new(xml, @id, @options["threads"])
+    ids, names = @works_info.get_works_info
+    citations = []
+    
+    if ids && ids.length > 0
+      ids.each_with_index do |id, idx|
+        name = names[idx]
+        citations << {
+          "id" => id,
+          "title" => name,
+          "role" => "whitman_id"
+        }
+      end
+    end
+    citations
   end
+
+  def extent
+    "entire work"
+
+  end
+
+  def has_part
+    poems = @xml.xpath("//lg[@type='poem' and @id and contains(@id, 'ppp')]")
+    clusters = @xml.xpath("//lg[@type='cluster']")
+    # getting all the xpaths that go to TeiToEsOther
+    other1 = @xml.xpath("//div1[@type='essay' or @type='preface']")
+    other2 = @xml.xpath("//titlePart[@type='imprimatur']")
+    other3 = @xml.xpath("//div3[@type='letter' or @type='article']")
+    parts = []
+    poems.each do |poem_xml|
+      poem = TeiToEsPoem.new(poem_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained poem",
+        "id" => poem.get_id,
+        "title" => poem.title
+      }
+    end
+    clusters.each do |cluster_xml|
+      cluster = TeiToEsCluster.new(cluster_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained cluster",
+        "id" => cluster.get_id,
+        "title" => cluster.title
+      }
+    end
+    other1.each do |other_xml|
+      other = TeiToEsOther.new(other_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained other section",
+        "id" => other.get_id,
+        "title" => other.title
+      }
+    end
+    other2.each do |other_xml|
+      other = TeiToEsOther.new(other_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained other section",
+        "id" => other.get_id,
+        "title" => other.title
+      }
+    end
+    other3.each do |other_xml|
+      other = TeiToEsOther.new(other_xml, {}, nil, @filename)
+      parts << {
+        "role" => "contained other section",
+        "id" => other.get_id,
+        "title" => other.title
+      }
+    end
+    parts
+
+  end
+
+  def fig_location
+    image = nil
+    # overriding in order to remove prefix
+    # Note: don't pull full path because will be pulled by IIIF
+    images = get_list(@xpaths["image_id"])
+    # Note: below code is specific to Nebraskaland. Will have to be modified for Leaves of Grass
+    # if images
+    #   issue = get_iiif_issue_dir(@id)
+    #   image = File.join(issue, "#{images.first}.jpg")
+    # end
+    images
+  end
+
+  private
+
+  def get_iiif_issue_dir(issue)
+    # will have to be modified for Leaves of Grass, specific to Nebraskaland
+    updated = issue
+      .sub("nela.", "")
+      .sub("se", "")
+    # the directory should only ever be 11 characters
+    updated[0,11]
+  end
+
 
 end
