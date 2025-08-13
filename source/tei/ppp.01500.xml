@@ -66,6 +66,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of Price's copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2025-04-17">corrected typo on p. 445 ("Thee" to "The")</change>
          <change who="#bb" when="2022-09-27">updated work associations for "Chants Democratic-6" ("You just maturing youth")," "Leaves of Grass-2" ("Great are the myths"), "Leaves of Grass-24" ("Lift me close to your face till I whisper"), and "Respondez!"</change>
          <change who="#bb" when="2022-03-29">revised relations/work encoding to conform to tei_all schema</change>
          <change who="#bb" when="2019-04-16">corrected spelling of "mediæval" on p. 135</change>
@@ -13442,7 +13443,7 @@ ceremonious?</l>
                <l>The law of the living cannot be eluded—it is <choice><orig>eter-<lb/>nal</orig><reg>eternal</reg></choice>,</l>
                <l>The law of promotion and transformation cannot be <lb/>eluded,</l>
                <l>The law of heroes and good-doers cannot be eluded,</l>
-               <l>Thee law of drunkards, informers, mean persons—<lb/>not one iota of it can be eluded.</l>
+               <l>The law of drunkards, informers, mean persons—<lb/>not one iota of it can be eluded.</l>
             </lg>
             <lg type="linegroup" n="28">
                <l>Slow-moving and black lines go ceaselessly over the <lb/>earth,</l>
