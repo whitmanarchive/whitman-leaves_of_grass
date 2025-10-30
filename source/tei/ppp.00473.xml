@@ -68,6 +68,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Iowa copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2025-10-17">corrected "beats" to "beasts" on p. 114</change>
          <change who="#bb" when="2022-11-08">added unique IDs for the two "Debris" poems</change>
          <change who="#bb" when="2022-09-27">updated work associations for "Great Are the Myths" and "Respondez!"</change>
          <change who="#bb" when="2022-04-07">revised relations/work encoding to conform to tei_all schema</change>
@@ -4405,7 +4406,7 @@ south-westerner, rais'd out-doors? Is <lb/>he Kanadian?</l>
                <l>We browse—we are two among the wild herds, <choice><orig>spon-<lb/>taneous</orig><reg>spontaneous</reg></choice> as any; </l>
                <l>We are two fishes swimming in the sea together;</l>
                <l>We are what the locust blossoms are—we drop scent <lb/>around the lanes, mornings and evenings; </l>
-               <l>We are also the coarse smut of beats, vegetables, <lb/>minerals; </l>
+               <l>We are also the coarse smut of beasts, vegetables, <lb/>minerals; </l>
                <l>We are two predatory hawks—we soar above, and look <lb/>down; </l>
                <l>We are two resplendent suns—we it is who balance <lb/>ourselves, orbic and stellar—we are as two <lb/>comets; </l>
                <l>We prowl fang'd and four-footed in the woods—we <lb/>spring on prey; </l>
