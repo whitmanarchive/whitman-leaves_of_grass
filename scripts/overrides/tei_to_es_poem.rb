@@ -42,7 +42,7 @@ class TeiToEsPoem < TeiToEs
       label = ""
     end
 
-    # for two editions, will need to do something fancier for title
+    # for three editions, will need to do something fancier for title
     if @filename == "ppp.00271"
       # need to get the opening lines for 1855 edition
       opening = get_first_line
@@ -50,6 +50,21 @@ class TeiToEsPoem < TeiToEs
         label = "Leaves of Grass, \"#{opening}\""
       else
         label = "Leaves of Grass, Untitled Poem"
+      end
+
+    elsif @filename == "ppp.00707" 
+      # need to strip out <reg> from title when there is a <choice>
+      label = @xml.at_xpath(".#{@xpaths["title_main"]}")
+      label_reg = @xml.at_xpath("./descendant::reg")
+      if label
+        label = label.text
+        if label_reg
+          label_reg = label_reg.text
+          label.gsub!(label_reg,'')
+        end
+        label.gsub!(/[0-9]+ — /, "")
+      else
+        label = ""
       end
 
     elsif @filename == "ppp.01500" || @filename == "ppp.00473"

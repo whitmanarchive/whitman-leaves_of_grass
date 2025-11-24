@@ -16,6 +16,8 @@ This repo also has works-related documents which require `post`-ing
 with `threads: 1` in `config/public.yml` or `config/private.yml` to not
 break writing to `../whitman-scripts/source/json/works_and_items.json`
 
+If you do not set threads to 1, then there will be a message `set threads to 1 in private.yml to modify works_and_items file`. See [works ingest documentation](https://github.com/whitmanarchive/whitman-scripts/blob/dev/docs/work-ingest.md).
+
 This repo has sub-documents so HTML generation also requires `threads: 1`
 
 For information about populating the CDRH API or generating HTML views, see [Datura's documentation](https://github.com/CDRH/datura).
