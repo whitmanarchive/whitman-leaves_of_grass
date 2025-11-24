@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="m" type="main">Democratic Vistas</title>
+        <title level="m" type="main">Leaves of Grass (1876)</title>
         <title level="m" type="sub">a machine readable transcription</title>
         <author>Walt Whitman</author>
         <editor>Kenneth M. Price</editor>
@@ -45,16 +45,16 @@
         </p>
         <p>Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
         </availability>
-        <idno>ppp.00005</idno>
+        <idno>ppp.00006</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>
             <author xml:id="ww">Walt Whitman</author>
-          <title level="m">Democratic Vistas</title>
-          <date xml:id="dat1" cert="high" when="1871">1871</date>
-            <publisher>J. S. Redfield</publisher>
-            <pubPlace>New York</pubPlace> 
-          <note type="project">Original transcription derived from our transcription of <hi rend="italic">Complete Prose Works</hi> and proofed against a copy of the original volume.</note>
+          <title level="m">Leaves of Grass (1876)</title>
+          <date xml:id="dat1" cert="high" when="1876">1876</date>
+            <publisher>n.p.</publisher><!-- Ask Brett about this. KM -->
+            <pubPlace>Camden, N.J.</pubPlace> 
+          <note type="project">Original transcription derived from our transcription of <hi rend="italic">Leaves of Grass</hi> (1871&#8211;72) and proofed against a copy of the original volume.</note>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -68,80 +68,90 @@
 
     <body>
 
-      <pb facs="ppp_km.00001.jpg" xml:id="leaf002r" n="3" type="recto"/>
-
-        <head type="main">DEMOCRATIC VISTAS.</head>
+      <pb facs="ppp_km.00003.jpg" xml:id="leaf001v" n="206" type="verso"/>
+      
+      <fw rend="left">206</fw> <fw rend="center">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</fw><!-- Talk about whether we're encoding smallcaps. KM -->
+      
+      <lg><!-- Included only for validation purposes. KM -->
+      <l>They balance ranks, colors, races, creeds, and the <lb/>sexes,</l>
+      <l>They do not seek beauty&#8212;they are sought,</l>
+      <l>Forever touching them, or close upon them, follows <lb/>beauty, longing, fain, love-sick.</l>
+      </lg>
+      
+      <lg type="linegroup" n="8">
+        <l>They prepare for death&#8212;yet are they not the finish, <lb/>but rather the outset,</l>
+        <l>They bring none to his or her terminus, or to be <choice><orig>con-<lb/>tent</orig><reg>content</reg></choice> and full;</l>
+        <l>Whom they take, they take into space, to behold the <lb/>birth of stars, to learn one of the meanings,</l>
+        <l>To launch off with absolute faith&#8212;to sweep through the <lb/>ceaseless rings, and never be quiet again.</l>
+      </lg>
+      
+      <milestone unit="undeclared" rend="horbar-short-center"/>
+      
+      <lg type="poem" xml:id="ppp.00359"><!-- Talk about whether we're doing these poem IDs. KM -->
+        
+        <note type="work_relations" target="xxx.00045"/>
+        
+        <head type="main">P<hi rend="smallcaps">OETS TO</hi> C<hi rend="smallcaps">OME</hi>.</head>
+        
+        <lg type="linegroup" n="1">
+          <l>P<hi rend="smallcaps">OETS</hi> to come! orators, singers, musicians to come!</l>
+          <l>Not to-day is to justify me, and answer what I am <lb/>for;</l>
+          <l>But you, a new brood, native, athletic, continental, <lb/>greater than before known,</l>
+          <l>Arouse! Arouse&#8212;for you must justify me&#8212;you must <lb/>answer.</l>
+        </lg>
+        
+        <lg type="linegroup" n="2">
+          <l>I myself but write one or two indicative words for the <lb/>future,</l>
+          <l>I but advance a moment, only to wheel and hurry back <lb/>in the darkness.</l>
+        </lg>
+        
+        <lg type="linegroup" n="3">
+          <l>I am a man who, sauntering along, without fully <choice><orig>stop-<lb/>ping</orig><reg>stopping</reg></choice>, turns a casual look upon you, and then <lb/>averts his face,</l>
+          <l>Leaving it to you to prove and define it,</l>
+          <l>Expecting the main things from you.</l>
+        </lg>
+      </lg>
+      
+      <pb facs="ppp_km.00004.jpg" xml:id="leaf002r" type="recto" n="207"/>
+      
+      <fw rend="center">T<hi rend="smallcaps">HE</hi> A<hi rend="smallcaps">NSWERER</hi>.</fw> <fw rend="right">207</fw>
+      
+      <lg type="poem" xml:id="ppp.00360"><!-- See comment in previous poem. KM -->
+  
+        <note type="work_relations" target="xxx.00041"/>
+        
+        <head type="main">I <hi rend="smallcaps">HEAR</hi> A<hi rend="smallcaps">MERICA</hi> S<hi rend="smallcaps">INGING</hi>.</head>
+        
+        <l>I <hi rend="smallcaps">HEAR</hi> America singing, the varied carols I hear;</l>
+        <l>Those of mechanics&#8212;each one singing his, as it should <lb/>be, blithe and strong;</l>
+        <l>The carpenter singing his, as he measures his plank or <lb/>beam,</l>
+        <l>The mason singing his, as he makes ready for work, or <lb/>leaves off work;</l>
+        <l>The boatman singing what belongs to him in his boat&#8212;<lb/>the deck-hand singing on the steamboat deck;</l>
+        <l>The shoemaker singing as he sits on his bench&#8212;the <lb/>hatter singing as he stands;</l>
+        <l>The wood-cutter's song&#8212;the ploughboy's, on his way in <lb/>the morning, or at the noon intermission, or at <lb/>sundown;</l>
+        <l>The delicious singing of the mother&#8212;or of the young <lb/>wife at work&#8212;or of the girl sewing or washing&#8212;<lb/>Each singing what belongs to her, and to none <lb/>else;</l>
+        <l>The day what belongs to the day&#8212;At night, the party <lb/>of young fellows, robust, friendly,</l>
+        <l>Singing, with open mouths, their strong melodious <lb/>songs.</l>
+      </lg>
+      
+      <addSpan rend="pasteon"/>
+      <lg type="poem" xml:id="ppp.00360"><!-- See comment in previous poem. KM -->
+        
+        <note type="work_relations" target="xxx.00567"/>
         
         <milestone unit="undeclared" rend="horbar-short-center"/>
-      
-      <p>AMERICA, filling the present with greatest deeds and problems, cheerfully accepting the
-        past, including Feudalism, (as, indeed, the present is but the legitimate birth of the
-        past, including feudalism,) counts, as I reckon, for her justification and success, (for
-        who, as yet, dare claim success?) almost entirely on the future. Nor is that hope
-        unwarranted. To-day, ahead, though dimly yet, we see, in vistas, a copious, sane,
-        gigantic offspring.</p>
-      
-      <p>For our New World I consider far less important for what it has
-        done, or what it is, than for results to come. Sole among nationalities, These States
-        have assumed the task to put in forms of lasting power and practicality, on areas of
-        amplitude rivaling the operations of the physical kosmos, the moral and political
-        speculations of ages, long, long deferred, the Democratic Republican principle, and the
-        theory of development and perfection by voluntary standards, and self-suppliance. Who
-        else, indeed, except the United States, in history, so far, have accepted in unwitting faith, and, as we now see,
-        stand, act upon, and go security for, these things?</p>
-      
-      <!-- How do we account for this extra space? KM -->
-      
-      <p>But let me strike at once the key-note of my purpose in the following strain. First
-        premising that, though the passages of it have been written at widely different times,
-        (it is, in fact, a collection of memoranda, perhaps for future designers,
-        comprehenders,) and though it may be open to the charge of one part contradicting
-        another&#8212;for there are opposite sides to the great question of Democracy, as to
-        every great question&#8212;I feel 
         
-        <pb facs="ppp_km.00002.jpg" xml:id="leaf002v" n="4" type="verso"/>
+        <head type="main">AS IN A SWOON.</head>
         
-        <fw rend="left">4</fw> <fw rend="center">DEMOCRATIC VISTAS.</fw>
-        
-        the parts harmoniously blended in my own
-        realization and convictions, and present them to be read only in such oneness, each page
-        modified and tempered by the others. Bear in mind, too,
-        that they are not the result of studying up in political economy, but of the ordinary
-        sense, observing, wandering among men, These States, these stirring years of war and
-        peace. I will not gloss over the appaling dangers of universal suffrage in the United
-        States. In fact, it is to admit and face these dangers I am writing. To him or her
-        within whose thought rages the battle, advancing, retreating, between Democracy's
-        convictions, aspirations, and the People's crudeness, vice, caprices, I mainly write
-        this book.</p> 
+        <l>As in a swoon, one instant.</l>
+        <l>Another sun, ineffable, full-dazzles me,</l>
+        <l>And all the orbs I knew&#8212;and brighter, unknown orbs;</l>
+        <l>One instant of the future land, Heaven's land.</l>
+      </lg>
       
-      <p>I shall use the words America and Democracy as convertible terms. Not an
-        ordinary one is the issue. The United States are destined either to surmount the
-        gorgeous history of Feudalism, or else prove the most tremendous failure of time. Not
-        the least doubtful am I on any prospects of their material success. The triumphant
-        future of their business, geographic, and productive departments, on larger scales and
-        in more varieties than ever, is certain. In those respects the Republic must soon (if
-        she does not already) outstrip all examples hitherto afforded, and dominate the
-        world.<ref xml:id="r1" target="#n1"><metamark function="link">*</metamark></ref></p>
+      <note type="authorial" place="bottom" rend="italic">Intercalation.</note><!-- Ask Brett about this. KM -->
       
-      <milestone unit="undeclared" rend="horbar-full"/>
-      
-      <note xml:id="n1" type="authorial" target="#r1" place="bottom" next="#n1.2">
-        <p><metamark function="link">*</metamark> "From a territorial area of
-          less than nine hundred thousand square miles, the Union has expanded into over
-          four millions and a half&#8212;fifteen times larger than that of Great
-          Britain and France combined&#8212;with a shore-line, including Alaska, equal
-          to the entire circumference of the earth, and with a domain within these lines
-          far wider than that of the Romans in their proudest days of conquest and renown.
-          With a river, lake, and coastwise commerce estimated at over two thousand
-          millions of dollars per year; with a railway traffic of four to six thousand
-          millions per year, and the annual domestic exchanges of the country running up
-          to nearly ten thousand millions per year; with over two thousand millions of
-          dollars invested in manufacturing, mechanical, and mining industry; with over
-          five hundred millions of acres of land in actual occupancy, valued, with their
-          appurtenances, at over seven thousand millions of dollars, and producing
-          annually crops valued at over three thousand millions of dollars; with a realm
-          which, if the density of Belgium's</p> 
-      </note>
+      <anchor xml:id="a001"/>
                 
     </body>
   </text>
