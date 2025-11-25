@@ -119,7 +119,7 @@
       
       <pb facs="ppp_km.00004.jpg" xml:id="leaf002r" type="recto" n="207"/>
       
-      <fw><seg rend="center">T<hi rend="smallcaps">HE</hi> A<hi rend="smallcaps">NSWERER</hi>.</seg><seg rend="right">207</seg></fw>
+      <fw><seg rend="center">T<hi rend="smallcaps">HE</hi> A<hi rend="smallcaps">NSWERER</hi>.</seg> <seg rend="right">207</seg></fw>
       
       <lg><!--  type="poem" xml:id="ppp.00360" See comment in previous poem. KM -->
   
