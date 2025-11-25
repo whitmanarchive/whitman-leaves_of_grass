@@ -75,7 +75,7 @@
 
       <pb facs="ppp_km.00003.jpg" xml:id="leaf001v" n="206" type="verso"/>
       
-      <fw rend="left">206</fw> <fw rend="center">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</fw><!-- Talk about whether we're encoding smallcaps. KM -->
+      <fw><seg rend="left">206</seg> <seg rend="center">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</seg></fw>
       
       <lg><!--  type="poem" xml:id="ppp.00358" Included only for validation purposes. KM -->
       <l>They balance ranks, colors, races, creeds, and the <lb/>sexes,</l>
@@ -119,7 +119,7 @@
       
       <pb facs="ppp_km.00004.jpg" xml:id="leaf002r" type="recto" n="207"/>
       
-      <fw rend="center">T<hi rend="smallcaps">HE</hi> A<hi rend="smallcaps">NSWERER</hi>.</fw> <fw rend="right">207</fw>
+      <fw><seg rend="center">T<hi rend="smallcaps">HE</hi> A<hi rend="smallcaps">NSWERER</hi>.</seg><seg rend="right">207</seg></fw>
       
       <lg><!--  type="poem" xml:id="ppp.00360" See comment in previous poem. KM -->
   
@@ -146,7 +146,7 @@
         
         <milestone unit="undeclared" rend="horbar-short-center"/>
         
-        <head type="main">AS IN A SWOON.</head>
+        <head type="main" rend="italic">AS IN A SWOON.</head>
         
         <l>As in a swoon, one instant.</l>
         <l>Another sun, ineffable, full-dazzles me,</l>
@@ -154,7 +154,7 @@
         <l>One instant of the future land, Heaven's land.</l>
       </lg>
       
-      <note type="authorial" place="bottom" rend="italic">Intercalation.</note><!-- Ask Brett about this. KM -->
+      <note type="authorial" place="bottom" rend="italic">Intercalation.</note>
       
       <anchor xml:id="a001"/>
                 
