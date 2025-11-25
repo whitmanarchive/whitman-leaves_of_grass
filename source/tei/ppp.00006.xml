@@ -72,7 +72,7 @@
       
       <fw rend="left">206</fw> <fw rend="center">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</fw><!-- Talk about whether we're encoding smallcaps. KM -->
       
-      <lg type="poem" xml:id="ppp.00358"><!-- Included only for validation purposes. KM -->
+      <lg><!--  type="poem" xml:id="ppp.00358" Included only for validation purposes. KM -->
       <l>They balance ranks, colors, races, creeds, and the <lb/>sexes,</l>
       <l>They do not seek beauty&#8212;they are sought,</l>
       <l>Forever touching them, or close upon them, follows <lb/>beauty, longing, fain, love-sick.</l>
@@ -87,7 +87,7 @@
       
       <milestone unit="undeclared" rend="horbar-short-center"/>
       
-      <lg type="poem" xml:id="ppp.00359"><!-- Talk about whether we're doing these poem IDs. KM -->
+      <lg><!--  type="poem" xml:id="ppp.00359" Talk about whether we're doing these poem IDs. KM -->
         
         <note type="work_relations" target="xxx.00045"/>
         
@@ -116,7 +116,7 @@
       
       <fw rend="center">T<hi rend="smallcaps">HE</hi> A<hi rend="smallcaps">NSWERER</hi>.</fw> <fw rend="right">207</fw>
       
-      <lg type="poem" xml:id="ppp.00360"><!-- See comment in previous poem. KM -->
+      <lg><!--  type="poem" xml:id="ppp.00360" See comment in previous poem. KM -->
   
         <note type="work_relations" target="xxx.00041"/>
         
@@ -135,7 +135,7 @@
       </lg>
       
       <addSpan rend="pasteon"/>
-      <lg type="poem" xml:id="ppp.00361"><!-- See comment in previous poem. KM -->
+      <lg><!--  type="poem" xml:id="ppp.00361" See comment in previous poem. KM -->
         
         <note type="work_relations" target="xxx.00567"/>
         
