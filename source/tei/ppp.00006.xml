@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="m" type="main">Leaves of Grass (1876)</title>
+        <title level="m" type="main"><hi rend="italic">Leaves of Grass</hi> (1876)</title>
         <title level="m" type="sub">a machine readable transcription</title>
         <author>Walt Whitman</author>
         <editor>Kenneth M. Price</editor>
@@ -48,16 +48,22 @@
         <idno>ppp.00006</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-            <author xml:id="ww">Walt Whitman</author>
-          <title level="m">Leaves of Grass (1876)</title>
-          <date xml:id="dat1" cert="high" when="1876">1876</date>
-            <publisher>n.p.</publisher><!-- Ask Brett about this. KM -->
-            <pubPlace>Camden, N.J.</pubPlace> 
+        <biblStruct>
+          <monogr>
+            <title>Leaves of Grass</title>
+            <author key="Whitman, Walt" xml:id="ww">Walt Whitman</author>
+            <imprint>
+              <pubPlace>Camden, N.J.</pubPlace>
+              <date xml:id="dat1" cert="high" when="1876">1876</date>
+            </imprint>
+          </monogr>
           <note type="project">Original transcription derived from our transcription of <hi rend="italic">Leaves of Grass</hi> (1871&#8211;72) and proofed against a copy of the original volume.</note>
-        </bibl>
+        </biblStruct>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <p>This text is derived from our transcription of <hi rend="italic">Leaves of Grass</hi> (1871&#8211;72) and proofed against a copy of the original volume at the University of Nebraska–Lincoln.</p>
+    </encodingDesc>
     <revisionDesc>
       <change when="2025-11-24" who="#km">created file, using transcription from Complete Prose Works; proofed</change>
     </revisionDesc>
