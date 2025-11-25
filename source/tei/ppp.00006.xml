@@ -72,7 +72,7 @@
       
       <fw rend="left">206</fw> <fw rend="center">L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>.</fw><!-- Talk about whether we're encoding smallcaps. KM -->
       
-      <lg><!-- Included only for validation purposes. KM -->
+      <lg type="poem" xml:id="ppp.XXXXX"><!-- Included only for validation purposes. KM -->
       <l>They balance ranks, colors, races, creeds, and the <lb/>sexes,</l>
       <l>They do not seek beauty&#8212;they are sought,</l>
       <l>Forever touching them, or close upon them, follows <lb/>beauty, longing, fain, love-sick.</l>
@@ -135,7 +135,7 @@
       </lg>
       
       <addSpan rend="pasteon"/>
-      <lg type="poem" xml:id="ppp.XXXXX"><!-- See comment in previous poem. KM -->
+      <lg type="poem" xml:id="ppp.XXXXXX"><!-- See comment in previous poem. KM -->
         
         <note type="work_relations" target="xxx.00567"/>
         
