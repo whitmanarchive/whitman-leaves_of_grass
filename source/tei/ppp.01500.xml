@@ -66,6 +66,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of Price's copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#bb" when="2026-02-11">corrected typo on p. 173 ("an" to "am")</change>
          <change who="#bb" when="2025-04-17">corrected typo on p. 445 ("Thee" to "The")</change>
          <change who="#bb" when="2022-09-27">updated work associations for "Chants Democratic-6" ("You just maturing youth")," "Leaves of Grass-2" ("Great are the myths"), "Leaves of Grass-24" ("Lift me close to your face till I whisper"), and "Respondez!"</change>
          <change who="#bb" when="2022-03-29">revised relations/work encoding to conform to tei_all schema</change>
@@ -5318,7 +5319,7 @@ ceremonious?</l>
 
                <lg type="linegroup" n="3">
                   <l>As for me,</l>
-                  <l>I have the idea of all, and an all, and believe in all;</l>
+                  <l>I have the idea of all, and am all, and believe in all;</l>
                   <l>I believe materialism is true, and spiritualism is true— <lb/>I reject no part.</l>
                </lg>
 
