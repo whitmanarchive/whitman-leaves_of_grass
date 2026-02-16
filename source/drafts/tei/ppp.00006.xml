@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng" type="xml"?>
+
+<!--
+=============================================
+NOTE: This file was created for a grant application submitted in fall 2025. We needed a mock-up of a display of the "Centennial/Author's Edition" of Leaves of Grass (1876). If we get the grant (an NEH Scholarly Editions grant about Whitman's Reconstruction-era published volumes), we can use this as the base file. We will leave it in the "drafts/tei" folder until then. KM, 2/16/26
+==============================================
+-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.00006">
   <teiHeader>
     <fileDesc>
