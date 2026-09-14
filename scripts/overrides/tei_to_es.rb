@@ -9,6 +9,8 @@ class TeiToEs < XmlToEs
 
   def preprocessing
     @year = date[/^\d{4}/] if date
+    xslt_location = "../whitman-scripts/scripts/archive-wide/internal_xslt.xslt"
+    @xslt = Nokogiri::XSLT(File.read(xslt_location))
   end
 
   def override_xpaths
@@ -218,6 +220,36 @@ class TeiToEs < XmlToEs
     #   image = File.join(issue, "#{images.first}.jpg")
     # end
     images
+  end
+
+  def title
+    title_set = get_elements(@xpaths["title"])
+    #turn nodeset into document so xslt scripts can be run
+    title_xml = Nokogiri::XML::Document.new
+    title_root = title_xml.create_element('root')
+
+    title_set.each do |node|
+      title_root.add_child(node.clone)
+    end
+
+    title_xml.add_child(title_root)
+    #run xslt script to transform it into valid html whose markup will display on front end
+    @xslt.transform(title_xml)
+  end
+
+  def title_sort
+    #need to override Datura because of the xslt transformation of title
+    if title
+      if title.class == Nokogiri::XML::Document
+        title_text = get_text(title)
+        if title_text
+          Datura::Helpers.normalize_name(title_text)
+        end
+      else
+        #normal behavior for poems, clusters, etc.
+        Datura::Helpers.normalize_name(title)
+      end
+    end
   end
 
   private
